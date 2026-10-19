@@ -222,6 +222,7 @@ def build_board(feat, model, season, week, odds_games, inj):
             "game_id": r["game_id"], "week": int(r["week"]), "gameday": r["gameday"].strftime("%Y-%m-%d"),
             "gametime": clean(r["gametime"]), "home": r["home"], "away": r["away"],
             "kickoff": o["commence"] if o else None,
+            "stadium": clean(r.get("stadium")),
             "home_qb": clean(r["h_qb_name"]), "away_qb": clean(r["a_qb_name"]),
             "qb_change": {"home": bool(r["h_qb_change"]), "away": bool(r["a_qb_change"])},
             "market": {"home_line": None if pd.isna(r["spread_line"]) else -float(r["spread_line"]),

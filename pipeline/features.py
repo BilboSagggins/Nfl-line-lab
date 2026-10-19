@@ -98,7 +98,7 @@ def build(games, team_games, qb_games):
             feat[f"{side}_qb_name"] = r.get(f"{'home' if side == 'h' else 'away'}_qb_name")
         for c in ["spread_line", "total_line", "home_moneyline", "away_moneyline", "result", "total",
                   "home_score", "away_score", "home_rest", "away_rest", "div_game", "roof", "wind", "temp",
-                  "location", "gametime", "home_spread_odds", "away_spread_odds", "over_odds", "under_odds"]:
+                  "location", "gametime", "home_spread_odds", "away_spread_odds", "over_odds", "under_odds", "stadium"]:
             feat[c] = r.get(c)
         rows.append(feat)
 

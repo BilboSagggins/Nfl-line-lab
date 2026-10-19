@@ -183,6 +183,27 @@ button.add svg,.sb-x svg{display:block}
 .sb-chev{display:grid;place-items:center;transform:rotate(-90deg)}.sb-chev.open{transform:rotate(90deg)}
 .dot{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:4px;vertical-align:middle}
 .sb-x{display:grid;place-items:center}
+.sc-group{font:700 16px/1 "Barlow Condensed",sans-serif;text-transform:uppercase;letter-spacing:.5px;color:var(--muted);margin:18px 2px 8px}
+.sc{padding:12px 14px}
+.sc.s-live{border-color:var(--c5)}.sc.s-delay{border-color:var(--warn)}
+.sc-top{display:flex;align-items:center;gap:10px;margin-bottom:8px}
+.sc-status{display:inline-flex;align-items:center;gap:6px;font-size:11.5px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;border-radius:999px;padding:3px 9px;background:var(--chip);color:var(--muted)}
+.sc-status.s-live{background:var(--c5);color:#fff}.sc-status.s-delay{background:var(--warn);color:#1a1205}.sc-status.s-final{background:var(--panel2);color:var(--ink);border:1px solid var(--line)}.sc-status.s-off{background:var(--c1);color:#fff}
+.sc-detail{font-family:"JetBrains Mono",monospace;font-size:13px;font-weight:600}
+.pulse{width:7px;height:7px;border-radius:50%;background:#fff;animation:pulse 1.4s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.25}}
+.sc-team{display:flex;align-items:center;gap:10px;padding:5px 0}
+.sc-chip{flex:none;width:40px;text-align:center;font:700 12px/1 "JetBrains Mono",monospace;color:#fff;border-radius:6px;padding:5px 0;text-shadow:0 1px 1px rgba(0,0,0,.35)}
+.sc-name{font-weight:600;font-size:16px}
+.sc-rec{font-size:12px;color:var(--muted)}
+.sc-ball{width:9px;height:9px;border-radius:50%;background:var(--warn);flex:none}
+.sc-pts{margin-left:auto;font:700 24px/1 "JetBrains Mono",monospace}
+.s-final .sc-team:not(.win) .sc-pts,.s-final .sc-team:not(.win) .sc-name{color:var(--muted)}
+.sc-sit{font-size:12.5px;color:var(--ink);background:var(--panel2);border-radius:8px;padding:5px 9px;margin-top:4px}
+.sc-sit.red{color:#fff;background:var(--c1)}
+.sc-meta{font-size:12.5px;color:var(--muted);margin-top:8px;line-height:1.5}
+.sc-line{display:flex;align-items:center;gap:10px;justify-content:space-between;border-top:1px solid var(--line);margin-top:10px;padding-top:9px;font-size:13px;color:var(--muted)}
+.sc-line b{color:var(--ink)}
 svg text{fill:var(--muted);font-family:"JetBrains Mono",monospace}
 footer{border-top:1px solid var(--line);padding:16px 0 30px;font-size:12.5px;color:var(--muted)}
 p{margin:6px 0}
@@ -197,7 +218,8 @@ p{margin:6px 0}
       <div class="meta" id="meta">Loading…</div>
     </div>
     <nav class="tabs">
-      <button class="tab on" data-tab="week">This week</button>
+      <button class="tab on" data-tab="scores">Scores</button>
+      <button class="tab" data-tab="week">Betting lines</button>
       <button class="tab" data-tab="props">Props</button>
       <button class="tab" data-tab="parlay">Parlay</button>
       <button class="tab" data-tab="record">Record</button>
@@ -208,7 +230,12 @@ p{margin:6px 0}
 </header>
 
 <main class="wrap">
-  <section id="week" class="on">
+  <section id="scores" class="on">
+    <div class="card" id="scoreHead"><h3>This week's games</h3><p class="muted small">Loading scores…</p></div>
+    <div id="scoreList"></div>
+  </section>
+
+  <section id="week">
     <div id="notes"></div>
     <div class="card">
       <h3>How to read this</h3>
@@ -326,7 +353,7 @@ async function load(){
   const when=new Date(L.generated).toLocaleString([], {weekday:'short',month:'short',day:'numeric',hour:'numeric',minute:'2-digit'});
   $('#meta').textContent=`${L.season} · Week ${L.week??'–'} · updated ${when}${L.credits_remaining!=null?` · ${L.credits_remaining} API credits left`:''}`;
   $('#notes').innerHTML=(L.notes||[]).map(n=>`<div class="note warn">${esc(n)}</div>`).join('');
-  registerAll();renderWeek();renderProps();renderBuilder();renderSlip();renderRecord();renderModel();renderLog();
+  registerAll();renderWeek();renderScores();loadScores();renderProps();renderBuilder();renderSlip();renderRecord();renderModel();renderLog();
 }
 
 /* ---------------- week ---------------- */
@@ -435,7 +462,7 @@ function gameCard(g){
   const books=bk.by_book?Object.entries(bk.by_book):[];
   const bookTbl=books.length?`<div class="tblwrap"><table><tr><th>Book</th><th class="n">${esc(g.home)} spread</th><th class="n">Total</th><th class="n">${esc(g.away)} / ${esc(g.home)} win</th></tr>${books.map(([b,x])=>`<tr><td>${esc(b)}</td><td class="n">${x.spread?fLine(x.spread.home)+' '+fOdds(x.spread.home_price):'–'}</td><td class="n">${x.total?x.total.line+' '+fOdds(x.total.over)+'/'+fOdds(x.total.under):'–'}</td><td class="n">${x.ml?fOdds(x.ml.away)+' / '+fOdds(x.ml.home):'–'}</td></tr>`).join('')}</table></div>`:'';
   const wx=ctx.roof&&/dome|closed/.test(ctx.roof)?'Indoors':[ctx.temp!=null?ctx.temp+'°F':null,ctx.wind!=null?ctx.wind+' mph wind':null].filter(Boolean).join(', ')||'Forecast not in yet';
-  return `<article class="card game">
+  return `<article class="card game" id="g-${esc(g.game_id)}">
     <div class="hdr"><div><div class="matchup">${esc(full(g.away))}<span class="at">at</span>${esc(full(g.home))}</div>
       <div class="qbs">QBs: ${qb(g.away_qb,g.qb_change&&g.qb_change.away)} vs ${qb(g.home_qb,g.qb_change&&g.qb_change.home)}</div></div>
       <div class="when">${when}${ctx.div_game?'<br>Division game':''}</div></div>
@@ -669,6 +696,87 @@ function renderBuilder(){
   $('#pbList').innerHTML=html||`<div class="empty">${t==='prop'?'No posted player props yet — they arrive with the Thursday update.':'Nothing to show.'}</div>`;
 }
 
+/* ---------------- live scores ---------------- */
+const ESPN_SB='https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard';
+const ESPN_FIX={LAR:'LA',WSH:'WAS'};
+const fixAb=a=>ESPN_FIX[a]||a;
+D.scoreTimer=null;
+function statusOf(c){
+  const st=c.status||{},t=st.type||{},n=t.name||'',d=t.shortDetail||t.detail||'';
+  if(/POSTPONED/.test(n))return{key:'post',cls:'s-off',label:'Postponed',detail:''};
+  if(/CANCEL/.test(n))return{key:'post',cls:'s-off',label:'Canceled',detail:''};
+  if(/DELAY|SUSPENDED/.test(n)){const q=st.period>4?'OT':st.period?'Q'+st.period:'';return{key:t.state==='pre'?'pre':'live',cls:'s-delay',label:/SUSPENDED/.test(n)?'Suspended':'Delayed',detail:q?`${q} · ${st.displayClock||''}`:''}}
+  if(t.state==='post'||t.completed)return{key:'final',cls:'s-final',label:/OT/i.test(d)?'Final / OT':'Final',detail:''};
+  if(/HALFTIME/.test(n))return{key:'live',cls:'s-live',label:'Halftime',detail:''};
+  if(t.state==='in'){const q=st.period>4?'OT':'Q'+st.period;
+    if(/END_PERIOD/.test(n))return{key:'live',cls:'s-live',label:'Live',detail:`End of ${q}`};
+    return{key:'live',cls:'s-live',label:'Live',detail:`${q} · ${st.displayClock||''}`.trim()}}
+  return{key:'pre',cls:'s-pre',label:'Upcoming',detail:''};
+}
+function parseEspn(ev){
+  const c=ev.competitions&&ev.competitions[0];if(!c)return null;
+  const side=ha=>{const x=c.competitors.find(y=>y.homeAway===ha)||{},t=x.team||{};
+    const rec=(x.records||[]).find(r=>r.type==='total')||(x.records||[])[0];
+    return{id:String(t.id||''),ab:fixAb(t.abbreviation),name:t.shortDisplayName||t.name||t.abbreviation,color:t.color?'#'+t.color:null,score:x.score!=null&&x.score!==''?x.score:null,rec:rec?rec.summary:''}};
+  const v=c.venue||{},addr=v.address||{};
+  const sit=c.situation||{};
+  return{id:String(ev.id),date:ev.date,home:side('home'),away:side('away'),status:statusOf(c),
+    venue:v.fullName||'',city:[addr.city,addr.state||addr.country].filter(Boolean).join(', '),indoor:!!v.indoor,
+    tv:((c.broadcasts||[])[0]||{}).names?c.broadcasts.flatMap(b=>b.names||[]).join(', '):'',
+    poss:sit.possession?String(sit.possession):null,down:sit.downDistanceText||sit.shortDownDistanceText||'',red:!!sit.isRedZone,
+    last:sit.lastPlay&&sit.lastPlay.text||''};
+}
+async function loadScores(){
+  const L=D.latest;let url=ESPN_SB;
+  if(L&&L.week&&L.season)url+=`?seasontype=2&week=${L.week}&dates=${L.season}`;
+  let games=null,err=null;
+  try{const r=await fetch(url,{cache:'no-store'});if(!r.ok)throw new Error(r.status);const d=await r.json();games=(d.events||[]).map(parseEspn).filter(Boolean)}
+  catch(e){err=e}
+  D.scores=games;D.scoresErr=!!err;D.scoresAt=new Date();
+  renderScores();
+  clearTimeout(D.scoreTimer);
+  const live=games&&games.some(g=>g.status.key==='live');
+  const soon=games&&games.some(g=>g.status.key==='pre'&&new Date(g.date)-Date.now()<15*60000);
+  D.scoreTimer=setTimeout(loadScores,live||soon?30000:300000);
+}
+function bettingFor(away,home){return (D.latest&&D.latest.games||[]).find(g=>g.away===away&&g.home===home)}
+function scoreCard(s){
+  const st=s.status,dt=new Date(s.date);
+  const day=dt.toLocaleDateString([], {weekday:'long',month:'short',day:'numeric'}),time=dt.toLocaleTimeString([], {hour:'numeric',minute:'2-digit'});
+  const showScore=st.key==='live'||st.key==='final';
+  const win=t=>st.key==='final'&&s.home.score!=null&&+t.score>+(t===s.home?s.away:s.home).score;
+  const row=t=>`<div class="sc-team${win(t)?' win':''}"><span class="sc-chip" style="background:${esc(t.color||'#3a3f48')}">${esc(t.ab)}</span><span class="sc-name">${esc(full(t.ab))}</span><span class="sc-rec">${esc(t.rec||'')}</span>${s.poss&&s.poss===t.id&&st.key==='live'?'<span class="sc-ball" title="Has the ball"></span>':''}<span class="sc-pts">${showScore&&t.score!=null?esc(t.score):''}</span></div>`;
+  const bet=bettingFor(s.away.ab,s.home.ab);
+  let line='';
+  if(bet&&bet.market){const m=bet.market,H=full(bet.home),A=full(bet.away);
+    const fav=m.home_line==null?'':m.home_line===0?'Pick\'em':m.home_line<0?`${H} by ${Math.abs(m.home_line)}`:`${A} by ${m.home_line}`;
+    line=`<div class="sc-line"><span>${fav?'Favored: <b>'+esc(fav)+'</b>':''}${m.total!=null?` · Total <b>${m.total}</b>`:''}</span><button class="sm" data-goto="${esc(bet.game_id)}">Betting lines</button></div>`}
+  return `<article class="card sc ${st.cls}">
+    <div class="sc-top"><span class="sc-status ${st.cls}">${st.key==='live'&&st.label==='Live'?'<i class="pulse"></i>':''}${esc(st.label)}</span><span class="sc-detail">${esc(st.detail)}</span></div>
+    ${row(s.away)}${row(s.home)}
+    ${st.key==='live'&&s.down?`<div class="sc-sit${s.red?' red':''}">${esc(s.down)}${s.red?' · Red zone':''}</div>`:''}
+    <div class="sc-meta">${esc(day)} · ${esc(time)}${s.tv?' · '+esc(s.tv):''}<br>${esc(s.venue)}${s.city?', '+esc(s.city):''}</div>
+    ${line}
+  </article>`;
+}
+function renderScores(){
+  const el=$('#scoreList');if(!el)return;
+  let S=D.scores;
+  if(!S){ // fallback: schedule from our weekly data
+    const G=(D.latest&&D.latest.games)||[];
+    S=G.map(g=>({id:g.game_id,date:g.kickoff||g.gameday+'T12:00:00',home:{ab:g.home,score:null,rec:''},away:{ab:g.away,score:null,rec:''},status:{key:'pre',cls:'s-pre',label:'Scheduled',detail:''},venue:g.stadium||'',city:'',tv:''}));
+  }
+  const order={live:0,pre:1,final:2,post:3};
+  S=[...S].sort((a,b)=>(order[a.status.key]-order[b.status.key])||(new Date(a.date)-new Date(b.date)));
+  const live=S.filter(s=>s.status.key==='live').length;
+  $('#scoreHead').innerHTML=`<h3>Week ${D.latest?D.latest.week:''} games</h3><p class="muted small" style="margin-top:-4px">${live?`<b>${live} game${live>1?'s':''} live</b> · `:''}${!D.scoresAt?'Loading live scores…':D.scoresErr?'Live scores unavailable right now; showing the schedule.':`Scores from ESPN · updated ${D.scoresAt.toLocaleTimeString([], {hour:'numeric',minute:'2-digit'})}${live?' · refreshes every 30 seconds':''}`}</p>`;
+  // group: live first, then by day
+  const groups=[];let cur=null;
+  S.forEach(s=>{const k=s.status.key==='live'?'Live now':s.status.key==='final'||s.status.key==='post'?'Final':new Date(s.date).toLocaleDateString([], {weekday:'long',month:'short',day:'numeric'});
+    if(!cur||cur.k!==k){cur={k,items:[]};groups.push(cur)}cur.items.push(s)});
+  el.innerHTML=groups.map(g=>`<div class="sc-group">${esc(g.k)}</div><div class="grid">${g.items.map(scoreCard).join('')}</div>`).join('')||'<div class="empty">No games this week.</div>';
+}
+
 /* ---------------- events ---------------- */
 document.querySelectorAll('.tab').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('on',x===b));document.querySelectorAll('main section').forEach(s=>s.classList.toggle('on',s.id===b.dataset.tab));D.barOpen=false;renderSlip()}));
 $('#gameFilter').addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;D.gf=b.dataset.f;$('#gameFilter').querySelectorAll('button').forEach(x=>x.classList.toggle('on',x===b));renderWeek()});
@@ -688,6 +796,10 @@ document.addEventListener('click',e=>{const t=e.target.closest('button');if(!t)r
 });
 document.addEventListener('toggle',e=>{const d=e.target;if(!d.classList||!d.classList.contains('pgame'))return;const id=d.dataset.gid;
   if(d.open){D.openGames.add(id);const body=d.querySelector('.pg-body');if(!body.innerHTML.trim()){const g=(D.latest.games||[]).find(x=>x.game_id===id);if(g)body.innerHTML=gameProps(g)}}else D.openGames.delete(id)},true);
+document.addEventListener('click',e=>{const b=e.target.closest('button[data-goto]');if(!b)return;
+  document.querySelector('.tab[data-tab=week]').click();D.gf='all';$('#gameFilter').querySelectorAll('button').forEach(x=>x.classList.toggle('on',x.dataset.f==='all'));renderWeek();
+  const el=document.getElementById('g-'+b.dataset.goto);if(el)setTimeout(()=>el.scrollIntoView({behavior:'smooth',block:'start'}),50)});
+document.addEventListener('visibilitychange',()=>{if(!document.hidden&&D.latest)loadScores()});
 document.addEventListener('click',e=>{if(e.target.closest('button'))return;const h=e.target.closest('[data-togglebar]');if(h){D.barOpen=!D.barOpen;renderSlip()}});
 load();
 </script>
