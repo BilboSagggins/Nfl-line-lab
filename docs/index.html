@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
@@ -177,6 +177,12 @@ footer{padding-bottom:90px}
 .logform{display:grid;gap:8px;grid-template-columns:2fr 1fr 1fr auto;align-items:end}
 @media (max-width:560px){.logform{grid-template-columns:1fr 1fr}.logform input:first-child{grid-column:1/-1}.logform button{grid-column:1/-1}}
 .logform input{min-width:0;width:100%}
+button.add{display:inline-grid;place-items:center}
+button.add svg,.sb-x svg{display:block}
+.chev{display:grid;place-items:center;transform:none}.pgame[open] .chev{transform:rotate(90deg)}
+.sb-chev{display:grid;place-items:center;transform:rotate(-90deg)}.sb-chev.open{transform:rotate(90deg)}
+.dot{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:4px;vertical-align:middle}
+.sb-x{display:grid;place-items:center}
 svg text{fill:var(--muted);font-family:"JetBrains Mono",monospace}
 footer{border-top:1px solid var(--line);padding:16px 0 30px;font-size:12.5px;color:var(--muted)}
 p{margin:6px 0}
@@ -213,7 +219,7 @@ p{margin:6px 0}
         <div class="c4"><b>Likely</b>55–65%</div>
         <div class="c5"><b>Very likely</b>65%+</div>
       </div>
-      <p class="muted small" style="margin-bottom:0">Color shows how likely each bet is to win, based on the betting market with the sportsbooks' cut removed. Likely bets pay less and long shots pay more, so a green bet isn't automatically a smart bet. <b>★ great price</b> marks a book paying more than the bet is worth. "$100 wins $91" means a $100 bet pays $91 profit if it hits.</p>
+      <p class="muted small" style="margin-bottom:0">Color shows how likely each bet is to win, based on the betting market with the sportsbooks' cut removed. Likely bets pay less and long shots pay more, so a green bet isn't automatically a smart bet. <b>Great price</b> marks a book paying more than the bet is worth. "$100 wins $91" means a $100 bet pays $91 profit if it hits.</p>
     </div>
     <div class="card">
       <h3>Great prices this week</h3>
@@ -299,6 +305,8 @@ p{margin:6px 0}
 
 <script>
 'use strict';
+const ICON={"plus": "<svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\" aria-hidden=\"true\"><path d=\"M12 5v14M5 12h14\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linecap=\"round\" fill=\"none\"/></svg>", "check": "<svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\" aria-hidden=\"true\"><path d=\"M5 12.5l4.5 4.5L19 7.5\" stroke=\"currentColor\" stroke-width=\"2.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"/></svg>", "x": "<svg viewBox=\"0 0 24 24\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"M6 6l12 12M18 6L6 18\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linecap=\"round\" fill=\"none\"/></svg>", "chev": "<svg viewBox=\"0 0 24 24\" width=\"20\" height=\"20\" aria-hidden=\"true\"><path d=\"M9 6l6 6-6 6\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"/></svg>"};
+
 const $=s=>document.querySelector(s);
 const esc=s=>String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const store={get(k,d){try{const v=localStorage.getItem(k);return v?JSON.parse(v):d}catch(e){return d}},set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}};
@@ -338,7 +346,7 @@ function renderWeek(){
   const goods=[];
   G.forEach(g=>{const o=gameOptions(g);['ml','spread','total'].forEach(k=>o[k].forEach(x=>{if(x.tier==='good')goods.push({g,x})}))});
   goods.sort((a,b)=>b.x.ev-a.x.ev);
-  $('#valueList').innerHTML=goods.length?goods.slice(0,8).map(({g,x})=>`<div class="opt ${chanceOf(x.p)}" style="margin:6px 0"><div class="opt-main"><div class="opt-title">${esc(x.title)} <span class="tag">★ great price</span></div><div class="opt-sub">${esc(full(g.away))} at ${esc(full(g.home))} · ${esc(x.payTxt)} at ${esc(x.book)}</div></div><div class="ch"><span class="pill ${chanceOf(x.p)}">${fPct(x.p)}</span><span class="chl">${CHANCE_LABEL[chanceOf(x.p)]}</span></div></div>`).join(''):
+  $('#valueList').innerHTML=goods.length?goods.slice(0,8).map(({g,x})=>`<div class="opt ${chanceOf(x.p)}" style="margin:6px 0"><div class="opt-main"><div class="opt-title">${esc(x.title)} <span class="tag">Great price</span></div><div class="opt-sub">${esc(full(g.away))} at ${esc(full(g.home))} · ${esc(x.payTxt)} at ${esc(x.book)}</div></div><div class="ch"><span class="pill ${chanceOf(x.p)}">${fPct(x.p)}</span><span class="chl">${CHANCE_LABEL[chanceOf(x.p)]}</span></div></div>`).join(''):
     '<div class="empty">No great prices right now — every book is close to fair. Check back after the Sunday morning update.</div>';
   let list=G;
   if(D.gf==='model')list=G.filter(g=>['spread','total'].some(k=>g.leans[k]&&['Medium','High'].includes(g.leans[k].conf)));
@@ -402,7 +410,7 @@ function optRow(x){
   return `<div class="opt ${ch}">
     <div class="opt-main"><div class="opt-title">${esc(x.title)}</div>
       <div class="opt-sub">${esc(x.sentence)}</div>
-      <div class="opt-sub"><b>${esc(x.payTxt)}</b> at ${esc(x.book)}${x.tier==='good'?' <span class="tag">★ great price</span>':''}${agree}</div></div>
+      <div class="opt-sub"><b>${esc(x.payTxt)}</b> at ${esc(x.book)}${x.tier==='good'?' <span class="tag">Great price</span>':''}${agree}</div></div>
     <div class="ch"><span class="pill ${ch}">${fPct(x.p)}</span><span class="chl">${CHANCE_LABEL[ch]}</span></div>${x.id?addBtn(x.id):''}</div>`;
 }
 function headline(g){
@@ -499,7 +507,7 @@ function renderProps(){
     const open=D.openGames.has(g.game_id);
     return `<details class="card pgame" data-gid="${esc(g.game_id)}"${open?' open':''}>
       <summary><div class="pg-row"><div><div class="matchup sm">${esc(full(g.away))}<span class="at">at</span>${esc(full(g.home))}</div>
-        <div class="muted small">${when} · ${ps.length?ps.length+' props':'no props posted yet'}${sig?` · <span class="badge sig">${sig} signal${sig>1?'s':''}</span>`:''}</div></div><span class="chev">›</span></div></summary>
+        <div class="muted small">${when} · ${ps.length?ps.length+' props':'no props posted yet'}${sig?` · <span class="badge sig">${sig} signal${sig>1?'s':''}</span>`:''}</div></div><span class="chev">${ICON.chev}</span></div></summary>
       <div class="pg-body">${open?gameProps(g):''}</div>
     </details>`;
   }).join('');
@@ -545,7 +553,7 @@ function bindChart(){
   const move=e=>{const r=svg.getBoundingClientRect();const sx=(e.clientX-r.left)*D.chart.W/r.width;const n=D.chart.xs.length;
     let i=Math.round((sx-D.chart.pl)/((D.chart.W-D.chart.pl-D.chart.pr)/Math.max(n-1,1)));i=Math.max(0,Math.min(n-1,i));
     cx.setAttribute('x1',D.chart.X(i));cx.setAttribute('x2',D.chart.X(i));cx.style.display='';
-    tip.innerHTML=`<b>Week ${+D.chart.xs[i].split('-')[1]}</b><br>`+D.chart.series.map(s=>`<span style="color:var(${s.c})">●</span> ${esc(s.l)}: <b class="mono">${s.pts[i]>=0?'+':''}${s.pts[i].toFixed(1)}u</b>`).join('<br>');
+    tip.innerHTML=`<b>Week ${+D.chart.xs[i].split('-')[1]}</b><br>`+D.chart.series.map(s=>`<i class="dot" style="background:var(${s.c})"></i> ${esc(s.l)}: <b class="mono">${s.pts[i]>=0?'+':''}${s.pts[i].toFixed(1)}u</b>`).join('<br>');
     tip.style.display='block';const px=D.chart.X(i)*r.width/D.chart.W;tip.style.left=Math.min(px+10,r.width-tip.offsetWidth)+'px';tip.style.top='10px'};
   hit.addEventListener('pointermove',move);hit.addEventListener('pointerleave',()=>{tip.style.display='none';cx.style.display='none'});
 }
@@ -572,7 +580,7 @@ function renderLog(){
   const risk=done.filter(x=>x.result!=='P').reduce((s,x)=>s+x.stake,0);
   const w=done.filter(x=>x.result==='W').length,lo=done.filter(x=>x.result==='L').length;
   $('#logSum').innerHTML=`<div class="chip">Record<b>${w}-${lo}</b></div><div class="chip">Units<b class="${u>=0?'up':'down'}">${u>=0?'+':''}${u.toFixed(2)}</b></div><div class="chip">ROI<b>${risk?(u/risk*100).toFixed(1)+'%':'–'}</b></div>`;
-  $('#logTbl').innerHTML=l.length?'<tr><th>Bet</th><th class="n">Odds</th><th class="n">Units</th><th>Result</th><th></th></tr>'+l.map(x=>`<tr><td>${esc(x.desc)}</td><td class="n">${fOdds(x.odds)}</td><td class="n">${x.stake}</td><td><div class="seg">${['W','L','P'].map(r=>`<button class="sm ${x.result===r?'on':''}" data-res="${r}" data-id="${x.id}">${r}</button>`).join('')}</div></td><td><button class="sm" data-del="${x.id}" aria-label="Delete">✕</button></td></tr>`).join(''):'<tr><td class="empty">No bets yet.</td></tr>';
+  $('#logTbl').innerHTML=l.length?'<tr><th>Bet</th><th class="n">Odds</th><th class="n">Units</th><th>Result</th><th></th></tr>'+l.map(x=>`<tr><td>${esc(x.desc)}</td><td class="n">${fOdds(x.odds)}</td><td class="n">${x.stake}</td><td><div class="seg">${['W','L','P'].map(r=>`<button class="sm ${x.result===r?'on':''}" data-res="${r}" data-id="${x.id}">${r}</button>`).join('')}</div></td><td><button class="sm" data-del="${x.id}" aria-label="Delete">${ICON.x}</button></td></tr>`).join(''):'<tr><td class="empty">No bets yet.</td></tr>';
 }
 
 /* ---------------- parlay ---------------- */
@@ -580,8 +588,8 @@ D.legs={};D.ptype='prop';
 function slip(){return store.get('nll.slip',[])}
 function saveSlip(s){store.set('nll.slip',s);renderSlip();refreshAddButtons()}
 function inSlip(id){return slip().some(l=>l.id===id)}
-function addBtn(id){return `<button class="add${inSlip(id)?' on':''}" data-leg="${esc(id)}" aria-label="Add to parlay">${inSlip(id)?'✓':'＋'}</button>`}
-function refreshAddButtons(){document.querySelectorAll('button.add').forEach(b=>{const on=inSlip(b.dataset.leg);b.classList.toggle('on',on);b.textContent=on?'✓':'＋'})}
+function addBtn(id){return `<button class="add${inSlip(id)?' on':''}" data-leg="${esc(id)}" aria-label="Add to parlay">${inSlip(id)?ICON.check:ICON.plus}</button>`}
+function refreshAddButtons(){document.querySelectorAll('button.add').forEach(b=>{const on=inSlip(b.dataset.leg);b.classList.toggle('on',on);b.innerHTML=on?ICON.check:ICON.plus})}
 function registerGameLegs(g,o){
   const typeName={ml:'Moneyline',spread:'Spread',total:'Over/under'};
   ['ml','spread','total'].forEach(k=>o[k].forEach((x,i)=>{
@@ -627,16 +635,16 @@ function renderSlip(){
     bar.style.display='block';
     bar.innerHTML=`<div class="sb-head" data-togglebar="1">
         <span class="sb-title"><b>Your parlay · ${s.length} leg${s.length>1?'s':''}</b><br><span class="muted">${money(stake)} wins ${money(m.win)}</span></span>
-        <span class="pill ${ch}">${fPct2(m.p)}</span><span class="sb-chev${open?' open':''}">⌃</span></div>
-      ${open?`<div class="sb-legs">${s.map(l=>`<div class="sb-leg ${chanceOf(l.p)}"><span class="sb-leg-t">${esc(l.title)}<br><span class="muted">${esc(l.typeName)} · ${fOdds(l.price)}</span></span><span class="pill ${chanceOf(l.p)}">${fPct(l.p)}</span><button class="sb-x" data-leg="${esc(l.id)}" aria-label="Remove">✕</button></div>`).join('')}</div>
+        <span class="pill ${ch}">${fPct2(m.p)}</span><span class="sb-chev${open?' open':''}">${ICON.chev}</span></div>
+      ${open?`<div class="sb-legs">${s.map(l=>`<div class="sb-leg ${chanceOf(l.p)}"><span class="sb-leg-t">${esc(l.title)}<br><span class="muted">${esc(l.typeName)} · ${fOdds(l.price)}</span></span><span class="pill ${chanceOf(l.p)}">${fPct(l.p)}</span><button class="sb-x" data-leg="${esc(l.id)}" aria-label="Remove">${ICON.x}</button></div>`).join('')}</div>
       <div class="sb-foot"><span class="muted small">Chance all hit: <b>${fPct2(m.p)}</b> · ${CHANCE_LABEL[ch]}</span><button class="primary sm" data-goparlay="1">Open parlay</button></div>`:''}`;
   }
   const el=$('#slipBox');if(!el)return;
-  if(!s.length){el.innerHTML='<div class="empty">Your parlay is empty. Tap ＋ next to any bet below, on the This week tab, or on Props.</div>';return}
+  if(!s.length){el.innerHTML='<div class="empty">Your parlay is empty. Tap the plus button next to any bet below, on the This week tab, or on Props.</div>';return}
   const m=parlayMath(s,stake),ch=chanceOf(m.p);
-  const verdict=m.edge>=0?'<span class="tag">★ great price</span> This parlay pays at least what it\'s worth.':`Sportsbooks keep about <b>${Math.round(-m.edge*100)}%</b> of what you bet on this parlay, on average.`;
+  const verdict=m.edge>=0?'<span class="tag">Great price</span> This parlay pays at least what it\'s worth.':`Sportsbooks keep about <b>${Math.round(-m.edge*100)}%</b> of what you bet on this parlay, on average.`;
   el.innerHTML=`
-    ${s.map(l=>`<div class="opt ${chanceOf(l.p)} leg"><div class="opt-main"><div class="opt-title">${esc(l.title)}</div><div class="opt-sub">${esc(l.typeName)} · ${esc(l.gameName)} · ${fOdds(l.price)} at ${esc(l.book)}</div></div><div class="ch"><span class="pill ${chanceOf(l.p)}">${fPct(l.p)}</span></div><button class="add on" data-leg="${esc(l.id)}" aria-label="Remove">✕</button></div>`).join('')}
+    ${s.map(l=>`<div class="opt ${chanceOf(l.p)} leg"><div class="opt-main"><div class="opt-title">${esc(l.title)}</div><div class="opt-sub">${esc(l.typeName)} · ${esc(l.gameName)} · ${fOdds(l.price)} at ${esc(l.book)}</div></div><div class="ch"><span class="pill ${chanceOf(l.p)}">${fPct(l.p)}</span></div><button class="add on" data-leg="${esc(l.id)}" aria-label="Remove">${ICON.x}</button></div>`).join('')}
     <div class="slipsum ${ch}">
       <div><div class="k">Chance all ${s.length} hit</div><div class="big">${fPct2(m.p)}</div><div class="chl">${CHANCE_LABEL[ch]}${m.p<0.35?` · about 1 in ${Math.round(1/m.p)}`:''}</div></div>
       <div><div class="k">Bet</div><div class="stake">$<input id="stake" type="number" min="1" step="1" value="${stake}" inputmode="decimal"></div></div>
@@ -676,7 +684,7 @@ document.addEventListener('click',e=>{const t=e.target.closest('button');if(!t)r
   if(t.dataset.leg){toggleLeg(t.dataset.leg);if($('#parlay').classList.contains('on'))renderBuilder()}
   if(t.dataset.goparlay){if(!$('#parlay').classList.contains('on'))document.querySelector('.tab[data-tab=parlay]').click();D.barOpen=false;renderSlip();window.scrollTo({top:0,behavior:'smooth'})}
   if(t.dataset.clearslip){saveSlip([]);renderBuilder()}
-  if(t.dataset.logparlay){const s=slip(),stake=parseFloat(store.get('nll.stake',10))||10,m=parlayMath(s,stake);const l=logList();l.unshift({id:Date.now()+'',desc:`${s.length}-leg parlay: `+s.map(x=>x.title).join(' + '),odds:Math.round(m.dec>=2?(m.dec-1)*100:-100/(m.dec-1)),stake:1,result:'open'});saveLog(l);t.textContent='Saved ✓'}
+  if(t.dataset.logparlay){const s=slip(),stake=parseFloat(store.get('nll.stake',10))||10,m=parlayMath(s,stake);const l=logList();l.unshift({id:Date.now()+'',desc:`${s.length}-leg parlay: `+s.map(x=>x.title).join(' + '),odds:Math.round(m.dec>=2?(m.dec-1)*100:-100/(m.dec-1)),stake:1,result:'open'});saveLog(l);t.textContent='Saved'}
 });
 document.addEventListener('toggle',e=>{const d=e.target;if(!d.classList||!d.classList.contains('pgame'))return;const id=d.dataset.gid;
   if(d.open){D.openGames.add(id);const body=d.querySelector('.pg-body');if(!body.innerHTML.trim()){const g=(D.latest.games||[]).find(x=>x.game_id===id);if(g)body.innerHTML=gameProps(g)}}else D.openGames.delete(id)},true);
