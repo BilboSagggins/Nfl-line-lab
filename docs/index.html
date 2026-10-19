@@ -12,21 +12,21 @@
   --bg:#f3f1ea;--panel:#ffffff;--panel2:#faf8f3;--ink:#15171b;--muted:#5f646e;--line:#e2ded4;
   --accent:#0a7a4a;--accent-ink:#fff;--warn:#a96a10;--neg:#bf3a2b;--pos:#0a7a4a;--chip:#eeebe2;
   --hi:#0a7a4a;--med:#2a6fb8;--lo:#80858f;
-  --s1:#2a78d6;--s2:#eb6834;--s3:#1baf7a;--s4:#eda100;
+  --c1:#b3261e;--c1-bg:#fbe9e7;--c2:#d9604f;--c2-bg:#fdf1ef;--c3:#2a6fb8;--c3-bg:#eaf1fa;--c4:#3f9a5d;--c4-bg:#eef7f1;--c5:#13723a;--c5-bg:#e3f2e8;--good:#14803c;--good-bg:#e9f6ee;--fair:#2a6fb8;--fair-bg:#eaf1fa;--bad:#c0392b;--bad-bg:#fbecea;--s1:#2a78d6;--s2:#eb6834;--s3:#1baf7a;--s4:#eda100;
 }
 @media (prefers-color-scheme: dark){
   :root:not([data-theme="light"]){
     --bg:#0e1013;--panel:#16191e;--panel2:#1b1f25;--ink:#e8e9ec;--muted:#9da2ad;--line:#272b33;
     --accent:#33c183;--accent-ink:#04130b;--warn:#e3aa4c;--neg:#ef6b5c;--pos:#33c183;--chip:#20242b;
     --hi:#33c183;--med:#6aa9e0;--lo:#8a8f99;
-    --s1:#3987e5;--s2:#d95926;--s3:#199e70;--s4:#c98500;
+    --c1:#d4453b;--c1-bg:#2e1614;--c2:#c46a5e;--c2-bg:#241917;--c3:#3d84d6;--c3-bg:#13202f;--c4:#4aa86a;--c4-bg:#16251b;--c5:#2c8f50;--c5-bg:#11281a;--good:#2fa862;--good-bg:#12261b;--fair:#3d84d6;--fair-bg:#13202f;--bad:#d9534a;--bad-bg:#2b1715;--s1:#3987e5;--s2:#d95926;--s3:#199e70;--s4:#c98500;
   }
 }
 :root[data-theme="dark"]{
   --bg:#0e1013;--panel:#16191e;--panel2:#1b1f25;--ink:#e8e9ec;--muted:#9da2ad;--line:#272b33;
   --accent:#33c183;--accent-ink:#04130b;--warn:#e3aa4c;--neg:#ef6b5c;--pos:#33c183;--chip:#20242b;
   --hi:#33c183;--med:#6aa9e0;--lo:#8a8f99;
-  --s1:#3987e5;--s2:#d95926;--s3:#199e70;--s4:#c98500;
+  --c1:#d4453b;--c1-bg:#2e1614;--c2:#c46a5e;--c2-bg:#241917;--c3:#3d84d6;--c3-bg:#13202f;--c4:#4aa86a;--c4-bg:#16251b;--c5:#2c8f50;--c5-bg:#11281a;--good:#2fa862;--good-bg:#12261b;--fair:#3d84d6;--fair-bg:#13202f;--bad:#d9534a;--bad-bg:#2b1715;--s1:#3987e5;--s2:#d95926;--s3:#199e70;--s4:#c98500;
 }
 *{box-sizing:border-box}
 html,body{margin:0}
@@ -112,6 +112,71 @@ td.n,th.n{text-align:right;font-family:"JetBrains Mono",monospace}
 .legend i{display:inline-block;width:14px;height:3px;border-radius:2px;vertical-align:middle;margin-right:5px}
 .chartbox{position:relative}
 .tip{position:absolute;pointer-events:none;background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:6px 9px;font-size:12px;box-shadow:0 4px 14px rgba(0,0,0,.12);display:none;white-space:nowrap;z-index:5}
+.opt{display:flex;align-items:center;gap:10px;padding:9px 10px;border-radius:10px;margin:6px 0;border:1px solid var(--line);border-left:5px solid var(--fair);background:var(--fair-bg)}
+.opt.good{border-left-color:var(--good);background:var(--good-bg)}
+.opt.bad{border-left-color:var(--bad);background:var(--bad-bg)}
+.opt-main{flex:1;min-width:0}
+.opt-title{font-weight:600;font-size:15px}
+.opt-sub{font-size:12.5px;color:var(--muted);margin-top:1px}
+.opt-sub b{color:var(--ink);font-weight:600}
+.pill{font-size:11.5px;font-weight:700;border-radius:999px;padding:4px 9px;white-space:nowrap;color:#fff;background:var(--fair)}
+.pill.good{background:var(--good)}.pill.bad{background:var(--bad)}
+.sec{margin-top:10px}.sec-h{font:700 15px/1.2 "Barlow Condensed",sans-serif;text-transform:uppercase;letter-spacing:.4px}
+.sec-h .muted{font:400 12px Inter,sans-serif;text-transform:none;letter-spacing:0}
+.plain{margin:2px 0;font-size:14px}.plain b{font-weight:600}
+.legend3{display:grid;gap:6px;grid-template-columns:repeat(3,1fr)}
+.legend3 div{border-radius:10px;padding:8px 10px;font-size:12.5px;border-left:5px solid}
+.legend3 b{display:block;font-size:13.5px}
+.opt.c1{border-left-color:var(--c1);background:var(--c1-bg)}.opt.c2{border-left-color:var(--c2);background:var(--c2-bg)}
+.opt.c3{border-left-color:var(--c3);background:var(--c3-bg)}.opt.c4{border-left-color:var(--c4);background:var(--c4-bg)}.opt.c5{border-left-color:var(--c5);background:var(--c5-bg)}
+.pill.c1{background:var(--c1)}.pill.c2{background:var(--c2)}.pill.c3{background:var(--c3)}.pill.c4{background:var(--c4)}.pill.c5{background:var(--c5)}
+.ch{display:flex;flex-direction:column;align-items:center;gap:2px;min-width:72px}
+.ch .pill{font-family:"JetBrains Mono",monospace;font-size:14px;padding:5px 10px}
+.chl{font-size:11px;color:var(--muted);white-space:nowrap}
+.tag{display:inline-block;font-size:11px;font-weight:700;color:var(--ink);background:var(--chip);border:1px solid var(--line);border-radius:999px;padding:1px 7px;margin-left:2px;white-space:nowrap}
+.scale{display:grid;grid-template-columns:repeat(5,1fr);gap:4px}
+.scale div{border-radius:8px;padding:6px 6px;font-size:11.5px;color:#fff;line-height:1.25}
+.scale b{display:block;font-size:12px}
+.scale .c1{background:var(--c1)}.scale .c2{background:var(--c2)}.scale .c3{background:var(--c3)}.scale .c4{background:var(--c4)}.scale .c5{background:var(--c5)}
+button.add{flex:none;width:36px;height:36px;border-radius:50%;padding:0;font-size:18px;font-weight:700;line-height:1;background:var(--panel);border:1.5px solid var(--line);color:var(--ink)}
+button.add.on{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.opt.leg{padding:7px 8px}
+.slipsum{display:grid;grid-template-columns:1fr auto 1fr;gap:10px;align-items:center;border-radius:12px;padding:12px;margin:10px 0;border-left:6px solid var(--c3);background:var(--c3-bg)}
+.slipsum.c1{border-left-color:var(--c1);background:var(--c1-bg)}.slipsum.c2{border-left-color:var(--c2);background:var(--c2-bg)}.slipsum.c4{border-left-color:var(--c4);background:var(--c4-bg)}.slipsum.c5{border-left-color:var(--c5);background:var(--c5-bg)}
+.slipsum .big{font:700 26px/1.1 "JetBrains Mono",monospace}
+.stake{display:flex;align-items:center;gap:2px;font-weight:600}.stake input{width:76px;text-align:right}
+.slipbar{position:fixed;left:50%;transform:translateX(-50%);bottom:12px;z-index:30;width:min(520px,calc(100% - 24px));display:flex;align-items:center;gap:12px;background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:10px 12px;box-shadow:0 8px 24px rgba(0,0,0,.18);font-size:13px}
+.slipbar>span:first-child{flex:1}
+.padd{grid-column:1/-1;display:flex;gap:8px;flex-wrap:wrap}
+.padd-i{display:inline-flex;align-items:center;gap:8px;border-radius:999px;padding:3px 3px 3px 12px;font-size:13px;font-weight:600;border:1px solid var(--line)}
+.padd-i.c1{background:var(--c1-bg)}.padd-i.c2{background:var(--c2-bg)}.padd-i.c3{background:var(--c3-bg)}.padd-i.c4{background:var(--c4-bg)}.padd-i.c5{background:var(--c5-bg)}
+.padd-i button.add{width:30px;height:30px;font-size:16px}
+footer{padding-bottom:90px}
+@media (max-width:560px){.slipsum{grid-template-columns:1fr 1fr}.slipsum>div:nth-child(2){grid-column:1/-1;order:3}}
+.pgame{padding:0}
+.pgame>summary{list-style:none;padding:14px;cursor:pointer;color:var(--ink);font-weight:400}
+.pgame>summary::-webkit-details-marker{display:none}
+.pg-row{display:flex;align-items:center;gap:10px}.pg-row>div{flex:1}
+.matchup.sm{font-size:20px}
+.chev{font-size:26px;color:var(--muted);transition:transform .15s}
+.pgame[open] .chev{transform:rotate(90deg)}
+.pg-body{padding:0 14px 8px;border-top:1px solid var(--line)}
+.team-h{margin-top:14px}
+.slipbar{padding:0;overflow:hidden}
+.sb-head{display:flex;align-items:center;gap:12px;padding:10px 12px;cursor:pointer}
+.sb-title{flex:1}
+.sb-chev{font-size:18px;color:var(--muted);transform:rotate(180deg);transition:transform .15s}
+.sb-chev.open{transform:none}
+.sb-legs{max-height:42vh;overflow-y:auto;border-top:1px solid var(--line);padding:4px 10px}
+.sb-leg{display:flex;align-items:center;gap:8px;padding:7px 4px 7px 8px;border-left:4px solid var(--c3);margin:5px 0;border-radius:6px;background:var(--c3-bg);font-size:13px}
+.sb-leg.c1{border-left-color:var(--c1);background:var(--c1-bg)}.sb-leg.c2{border-left-color:var(--c2);background:var(--c2-bg)}.sb-leg.c4{border-left-color:var(--c4);background:var(--c4-bg)}.sb-leg.c5{border-left-color:var(--c5);background:var(--c5-bg)}
+.sb-leg-t{flex:1;min-width:0;font-weight:600;line-height:1.3}.sb-leg-t .muted{font-weight:400;font-size:12px}
+.sb-leg .pill{font-size:12px;padding:3px 8px}
+.sb-x{border:none;background:none;font-size:15px;padding:6px 8px;color:var(--muted)}
+.sb-foot{display:flex;align-items:center;gap:10px;justify-content:space-between;padding:8px 12px 10px;border-top:1px solid var(--line)}
+.logform{display:grid;gap:8px;grid-template-columns:2fr 1fr 1fr auto;align-items:end}
+@media (max-width:560px){.logform{grid-template-columns:1fr 1fr}.logform input:first-child{grid-column:1/-1}.logform button{grid-column:1/-1}}
+.logform input{min-width:0;width:100%}
 svg text{fill:var(--muted);font-family:"JetBrains Mono",monospace}
 footer{border-top:1px solid var(--line);padding:16px 0 30px;font-size:12.5px;color:var(--muted)}
 p{margin:6px 0}
@@ -128,6 +193,7 @@ p{margin:6px 0}
     <nav class="tabs">
       <button class="tab on" data-tab="week">This week</button>
       <button class="tab" data-tab="props">Props</button>
+      <button class="tab" data-tab="parlay">Parlay</button>
       <button class="tab" data-tab="record">Record</button>
       <button class="tab" data-tab="model">Model</button>
       <button class="tab" data-tab="log">My bets</button>
@@ -139,15 +205,26 @@ p{margin:6px 0}
   <section id="week" class="on">
     <div id="notes"></div>
     <div class="card">
-      <h3>Best prices right now</h3>
-      <p class="muted small" style="margin-top:-4px">Sportsbooks offering a number better than the market's fair price (median of all books, vig removed). This is the most reliable edge the tool finds — it's about getting the best number, not predicting the game.</p>
-      <div id="valueList" class="vlist"></div>
+      <h3>How to read this</h3>
+      <div class="scale">
+        <div class="c1"><b>Long shot</b>under 35%</div>
+        <div class="c2"><b>Unlikely</b>35–45%</div>
+        <div class="c3"><b>Toss-up</b>45–55%</div>
+        <div class="c4"><b>Likely</b>55–65%</div>
+        <div class="c5"><b>Very likely</b>65%+</div>
+      </div>
+      <p class="muted small" style="margin-bottom:0">Color shows how likely each bet is to win, based on the betting market with the sportsbooks' cut removed. Likely bets pay less and long shots pay more, so a green bet isn't automatically a smart bet. <b>★ great price</b> marks a book paying more than the bet is worth. "$100 wins $91" means a $100 bet pays $91 profit if it hits.</p>
+    </div>
+    <div class="card">
+      <h3>Great prices this week</h3>
+      <p class="muted small" style="margin-top:-4px">Bets where one sportsbook is paying more than the bet is worth. Color still shows how likely it is.</p>
+      <div id="valueList"></div>
     </div>
     <div class="filters">
       <div class="seg" id="gameFilter">
         <button data-f="all" class="on">All games</button>
         <button data-f="model">Model disagrees</button>
-        <button data-f="value">Has value</button>
+        <button data-f="value">Has a great price</button>
       </div>
     </div>
     <div class="grid" id="games"></div>
@@ -156,14 +233,26 @@ p{margin:6px 0}
   <section id="props">
     <div class="card">
       <h3>Player props</h3>
-      <p class="muted small" style="margin-top:-4px">Projection = recent production × usage × the market's implied team total, tested on 2025–26 games. "Signal" means the model and the market's fair price together beat the best available price by 3%+.</p>
+      <p class="muted small" style="margin-top:-4px">Tap a game to see its player props. Percentages are how likely each side is to hit. "Signal" means our projection and the market together beat the best available price by 3%+.</p>
       <div class="filters" style="margin:10px 0 0">
-        <select id="pfGame"><option value="">All games</option></select>
         <select id="pfStat"><option value="">All props</option></select>
         <div class="seg" id="pfSig"><button data-s="all" class="on">All</button><button data-s="sig">Signals</button></div>
       </div>
     </div>
-    <div class="card"><div id="propList"></div></div>
+    <div id="propList"></div>
+  </section>
+
+  <section id="parlay">
+    <div class="card"><h3>Your parlay</h3><div id="slipBox"></div></div>
+    <div class="card">
+      <h3>Add legs</h3>
+      <div class="filters" style="margin:0">
+        <div class="seg" id="pbType"><button data-t="prop" class="on">Player props</button><button data-t="spread">Spreads</button><button data-t="total">Over/under</button><button data-t="ml">Moneylines</button></div>
+        <select id="pbGame"><option value="">All games</option></select>
+        <input id="pbSearch" placeholder="Search a player" style="min-width:160px">
+      </div>
+      <div id="pbList"></div>
+    </div>
   </section>
 
   <section id="record">
@@ -194,7 +283,7 @@ p{margin:6px 0}
       <h3>My bets</h3>
       <p class="muted small" style="margin-top:-4px">Saved in this browser only.</p>
       <div class="chips" id="logSum"></div>
-      <div style="display:grid;gap:8px;grid-template-columns:2fr 1fr 1fr auto;align-items:end">
+      <div class="logform">
         <input id="lDesc" placeholder="e.g. KC -2.5 @ SEA">
         <input id="lOdds" value="-110" inputmode="numeric" aria-label="Odds">
         <input id="lStake" type="number" step="0.25" value="1" aria-label="Units">
@@ -205,6 +294,7 @@ p{margin:6px 0}
   </section>
 </main>
 
+<div id="slipBar" class="slipbar" style="display:none"></div>
 <footer class="wrap">For research and entertainment. No model or tool guarantees profit; sportsbooks build a margin into every line. Bet only what you can afford to lose. Problem gambling help: call or text 1-800-GAMBLER.</footer>
 
 <script>
@@ -228,7 +318,7 @@ async function load(){
   const when=new Date(L.generated).toLocaleString([], {weekday:'short',month:'short',day:'numeric',hour:'numeric',minute:'2-digit'});
   $('#meta').textContent=`${L.season} · Week ${L.week??'–'} · updated ${when}${L.credits_remaining!=null?` · ${L.credits_remaining} API credits left`:''}`;
   $('#notes').innerHTML=(L.notes||[]).map(n=>`<div class="note warn">${esc(n)}</div>`).join('');
-  renderWeek();renderProps();renderRecord();renderModel();renderLog();
+  registerAll();renderWeek();renderProps();renderBuilder();renderSlip();renderRecord();renderModel();renderLog();
 }
 
 /* ---------------- week ---------------- */
@@ -245,60 +335,117 @@ function valueDesc(g,v){
 }
 function renderWeek(){
   const G=D.latest.games||[];
-  const vals=[];G.forEach(g=>(g.value||[]).forEach(v=>vals.push({g,v})));
-  vals.sort((a,b)=>b.v.ev-a.v.ev);
-  $('#valueList').innerHTML=vals.length?vals.slice(0,10).map(({g,v})=>`<div class="item"><span class="what"><span class="muted small">${esc(g.away)} @ ${esc(g.home)} · ${esc(v.book)}</span><br><b>${valueDesc(g,v)}</b></span><span class="badge val">${fEv(v.ev)}</span></div>`).join(''):
-    `<div class="empty">${D.latest.games&&D.latest.games[0]&&D.latest.games[0].books&&D.latest.games[0].books.by_book?'No book is beating the market by 2%+ right now.':'Needs the Odds API key to compare sportsbooks.'}</div>`;
+  const goods=[];
+  G.forEach(g=>{const o=gameOptions(g);['ml','spread','total'].forEach(k=>o[k].forEach(x=>{if(x.tier==='good')goods.push({g,x})}))});
+  goods.sort((a,b)=>b.x.ev-a.x.ev);
+  $('#valueList').innerHTML=goods.length?goods.slice(0,8).map(({g,x})=>`<div class="opt ${chanceOf(x.p)}" style="margin:6px 0"><div class="opt-main"><div class="opt-title">${esc(x.title)} <span class="tag">★ great price</span></div><div class="opt-sub">${esc(full(g.away))} at ${esc(full(g.home))} · ${esc(x.payTxt)} at ${esc(x.book)}</div></div><div class="ch"><span class="pill ${chanceOf(x.p)}">${fPct(x.p)}</span><span class="chl">${CHANCE_LABEL[chanceOf(x.p)]}</span></div></div>`).join(''):
+    '<div class="empty">No great prices right now — every book is close to fair. Check back after the Sunday morning update.</div>';
   let list=G;
   if(D.gf==='model')list=G.filter(g=>['spread','total'].some(k=>g.leans[k]&&['Medium','High'].includes(g.leans[k].conf)));
-  if(D.gf==='value')list=G.filter(g=>(g.value||[]).length);
+  if(D.gf==='value')list=G.filter(g=>{const o=gameOptions(g);return ['ml','spread','total'].some(k=>o[k].some(x=>x.tier==='good'))});
   $('#games').innerHTML=list.length?list.map(gameCard).join(''):'<div class="empty">No games match.</div>';
 }
-function bestTxt(b,label){return b?`${label} <b>${b.line!=null?fLine(b.line)+' ':''}${fOdds(b.price)}</b> ${esc(b.book)}`:''}
+const full=t=>TEAMS[t]||t;
+const phiJ=x=>{const t=1/(1+0.3275911*Math.abs(x/Math.SQRT2));const y=1-(((((1.061405429*t-1.453152027)*t)+1.421413741)*t-0.284496736)*t+0.254829592)*t*Math.exp(-(x*x)/2);return 0.5*(1+(x>=0?y:-y))};
+function halfPts(a,b,spread){const lo=Math.min(a,b),hi=Math.max(a,b);let v=0;for(let x=lo;x<hi-1e-9;x+=0.5){if(!spread){v+=0.015;continue}const k=Math.abs(Math.round(x*2)/2),n=Math.abs(Math.round((x+0.5)*2)/2);v+=(k===3||n===3)?0.045:(k===7||n===7)?0.02:0.012}return b>=a?v:-v}
+const toWin=o=>o>0?o:Math.round(10000/(-o));
+function tierOf(ev){return ev>=0?'good':ev<=-0.05?'bad':'fair'}
+function chanceOf(p){return p>=0.65?'c5':p>=0.55?'c4':p>0.45?'c3':p>0.35?'c2':'c1'}
+const CHANCE_LABEL={c5:'Very likely',c4:'Likely',c3:'Toss-up',c2:'Unlikely',c1:'Long shot'};
+const TIER_LABEL={good:'Good deal',fair:'Fair price',bad:'Poor value'};
+function opt(title,sentence,line,price,book,pMarket,pModel){
+  const p=pMarket;
+  const ev=p*payout(price)-(1-p);
+  return{title,sentence,line,price,book:book||'most books',p,ev,tier:tierOf(ev),pModel,payTxt:`$100 wins $${toWin(price)}`};
+}
+function spreadWords(team,line){
+  const a=Math.abs(line);
+  if(line===0)return `${team} just need to win (tie = refund)`;
+  if(line<0)return Number.isInteger(a)?`${team} must win by ${a+1}+ (win by exactly ${a} = refund)`:`${team} must win by ${Math.ceil(a)} or more`;
+  return Number.isInteger(a)?`${team} win, or lose by ${a-1} or less (lose by exactly ${a} = refund)`:`${team} win, or lose by ${Math.floor(a)} or less`;
+}
+function gameOptions(g){
+  if(g._opts)return g._opts;
+  const bk=g.books||{},m=g.market,mo=g.model,H=full(g.home),A=full(g.away),SD=13.2,TSD=12.8;
+  const o={ml:[],spread:[],total:[]};
+  // who wins
+  if(bk.ml||(m.ml_home!=null&&m.ml_away!=null)){
+    let fh=bk.ml?bk.ml.fair_home:null;
+    if(fh==null){const ih=1/(1+payout(m.ml_home)),ia=1/(1+payout(m.ml_away));fh=ih/(ih+ia)}
+    const bh=bk.ml?bk.ml.best_home:{price:m.ml_home},ba=bk.ml?bk.ml.best_away:{price:m.ml_away};
+    o.ml.push(opt(`${A} win`,`${A} win the game outright`,null,ba.price,ba.book,1-fh,1-mo.p_home));
+    o.ml.push(opt(`${H} win`,`${H} win the game outright`,null,bh.price,bh.book,fh,mo.p_home));
+  }
+  // spread
+  if(m.home_line!=null){
+    const sp=bk.spread,cons=sp?sp.home_line:m.home_line,fh=sp&&sp.fair_home!=null?sp.fair_home:0.5;
+    const bh=sp&&sp.best_home?sp.best_home:{line:cons,price:-110},ba=sp&&sp.best_away?sp.best_away:{line:-cons,price:-110};
+    const pa=(1-fh)+halfPts(-cons,ba.line,true),ph=fh+halfPts(cons,bh.line,true);
+    o.spread.push(opt(`${A} ${fLine(ba.line)}`,spreadWords(A,ba.line),ba.line,ba.price,ba.book,pa,1-phiJ((mo.margin-ba.line)/SD)));
+    o.spread.push(opt(`${H} ${fLine(bh.line)}`,spreadWords(H,bh.line),bh.line,bh.price,bh.book,ph,phiJ((mo.margin+bh.line)/SD)));
+  }
+  // total
+  if(m.total!=null){
+    const tt=bk.total,cons=tt?tt.line:m.total,fo=tt&&tt.fair_over!=null?tt.fair_over:0.5;
+    const bo=tt&&tt.best_over?tt.best_over:{line:cons,price:-110},bu=tt&&tt.best_under?tt.best_under:{line:cons,price:-110};
+    const po=fo+(bo.line<cons?1:-1)*Math.abs(halfPts(cons,bo.line,false)),pu=(1-fo)+(bu.line>cons?1:-1)*Math.abs(halfPts(cons,bu.line,false));
+    const ptsWords=(l,over)=>{const n=over?Math.floor(l)+1:Math.ceil(l)-1;return Number.isInteger(l)?(over?`${l+1}+ total points (exactly ${l} = refund)`:`${l-1} or fewer total points (exactly ${l} = refund)`):(over?`${n}+ total points`:`${n} or fewer total points`)};
+    o.total.push(opt(`Over ${bo.line}`,`Both teams combine for ${ptsWords(bo.line,true)}`,bo.line,bo.price,bo.book,po,1-phiJ((bo.line-mo.total)/TSD)));
+    o.total.push(opt(`Under ${bu.line}`,`Both teams combine for ${ptsWords(bu.line,false)}`,bu.line,bu.price,bu.book,pu,phiJ((bu.line-mo.total)/TSD)));
+  }
+  g._opts=o;registerGameLegs(g,o);return o;
+}
+function optRow(x){
+  const d=x.pModel==null?0:x.pModel-x.p;
+  const agree=d>=0.04?' · our model likes this more than the books':d<=-0.04?' · our model likes this less than the books':'';
+  const ch=chanceOf(x.p);
+  return `<div class="opt ${ch}">
+    <div class="opt-main"><div class="opt-title">${esc(x.title)}</div>
+      <div class="opt-sub">${esc(x.sentence)}</div>
+      <div class="opt-sub"><b>${esc(x.payTxt)}</b> at ${esc(x.book)}${x.tier==='good'?' <span class="tag">★ great price</span>':''}${agree}</div></div>
+    <div class="ch"><span class="pill ${ch}">${fPct(x.p)}</span><span class="chl">${CHANCE_LABEL[ch]}</span></div>${x.id?addBtn(x.id):''}</div>`;
+}
+function headline(g){
+  const m=g.market,mo=g.model,H=full(g.home),A=full(g.away);
+  let fav='';
+  if(m.home_line!=null){const l=m.home_line;fav=l===0?'This one is a coin flip.':l<0?`${H} are favored by ${Math.abs(l)}.`:`${A} are favored by ${l}.`}
+  const tot=m.total!=null?` Books expect about ${m.total} total points.`:'';
+  const mm=mo.margin;const mw=Math.abs(mm)<1?'basically even':(mm>0?`${H} by ${Math.abs(mm).toFixed(0)}`:`${A} by ${Math.abs(mm).toFixed(0)}`);
+  let gap='';if(m.home_line!=null){const d=mm+m.home_line;gap=Math.abs(d)<1.5?' — about the same as the books.':(d>0?` — likes ${H} more than the books do.`:` — likes ${A} more than the books do.`)}
+  return `<p class="plain">${esc(fav)}${esc(tot)}</p><p class="plain muted">Our model: <b>${esc(A)} ${Math.round(mo.away_pts)}, ${esc(H)} ${Math.round(mo.home_pts)}</b> (${esc(mw)})${esc(gap)}</p>`;
+}
 function gameCard(g){
-  const m=g.market,mo=g.model,L=g.leans,bk=g.books||{};
+  const ctx=g.context||{},bk=g.books||{},o=gameOptions(g);
   const kick=g.kickoff?new Date(g.kickoff):new Date(g.gameday+'T12:00:00');
   const when=g.kickoff?kick.toLocaleString([], {weekday:'short',hour:'numeric',minute:'2-digit'}):kick.toLocaleDateString([], {weekday:'short',month:'short',day:'numeric'});
   const qb=(n,c)=>`${esc(n||'?')}${c?' <span class="chg">new starter</span>':''}`;
-  const sp=bk.spread,tt=bk.total,ml=bk.ml;
-  const rows=[];
-  if(L.spread){const s=L.spread;rows.push(`<div class="row"><span class="lbl">Spread</span><span class="what"><b>${esc(sideTeam(g,s.side))} ${fLine(s.line)}</b> <span class="muted">· model off by ${s.edge.toFixed(1)} pts</span><br><span class="muted small">${s.conf!=='Pass'?'Tier record '+tierRec('spread',s.conf):''}</span></span><span class="badge ${s.conf}">${s.conf}</span></div>`)}
-  if(L.total){const s=L.total;rows.push(`<div class="row"><span class="lbl">Total</span><span class="what"><b>${s.side==='over'?'Over':'Under'} ${s.line}</b> <span class="muted">· model off by ${s.edge.toFixed(1)} pts</span><br><span class="muted small">${s.conf!=='Pass'?'Tier record '+tierRec('total',s.conf):''}</span></span><span class="badge ${s.conf}">${s.conf}</span></div>`)}
-  if(L.ml){const s=L.ml;rows.push(`<div class="row"><span class="lbl">Win prob</span><span class="what">Model ${esc(sideTeam(g,s.side))} <b class="mono">${fPct(s.p)}</b> <span class="muted">vs market ${fPct(s.market_p)}</span></span></div>`)}
-  const vals=(g.value||[]).map(v=>`<span class="badge val" title="${esc(v.book)}">${valueDesc(g,v).replace(/<[^>]+>/g,'')} ${esc(v.book)} ${fEv(v.ev)}</span>`).join(' ');
-  const ctx=g.context||{};
+  const sec=(title,help,arr)=>arr.length?`<div class="sec"><div class="sec-h">${title} <span class="muted">${help}</span></div>${arr.map(optRow).join('')}</div>`:'';
   const form=f=>(f||[]).map(x=>`<span class="${x.res}">${x.res}</span>`).join('')||'–';
   const ats=f=>(f||[]).map(x=>`<span class="${x.ats||'P'}">${x.ats||'-'}</span>`).join('')||'–';
   const ou=f=>(f||[]).map(x=>`<span class="${x.ou==='O'?'W':x.ou==='U'?'L':'P'}">${x.ou||'-'}</span>`).join('')||'–';
   const inj=t=>{const l=(ctx.injuries||{})[t]||[];return l.length?l.map(i=>`${esc(i.pos)} ${esc(i.name)} <span class="st-${esc(i.status)}">${esc(i.status)}</span>`).join(' · '):'<span class="muted">none reported yet</span>'};
   const books=bk.by_book?Object.entries(bk.by_book):[];
-  const bookTbl=books.length?`<div class="tblwrap"><table><tr><th>Book</th><th class="n">${esc(g.home)} spread</th><th class="n">Total</th><th class="n">${esc(g.away)} / ${esc(g.home)} ML</th></tr>${books.map(([b,x])=>`<tr><td>${esc(b)}</td><td class="n">${x.spread?fLine(x.spread.home)+' '+fOdds(x.spread.home_price):'–'}</td><td class="n">${x.total?x.total.line+' '+fOdds(x.total.over)+'/'+fOdds(x.total.under):'–'}</td><td class="n">${x.ml?fOdds(x.ml.away)+' / '+fOdds(x.ml.home):'–'}</td></tr>`).join('')}</table></div>`:'';
+  const bookTbl=books.length?`<div class="tblwrap"><table><tr><th>Book</th><th class="n">${esc(g.home)} spread</th><th class="n">Total</th><th class="n">${esc(g.away)} / ${esc(g.home)} win</th></tr>${books.map(([b,x])=>`<tr><td>${esc(b)}</td><td class="n">${x.spread?fLine(x.spread.home)+' '+fOdds(x.spread.home_price):'–'}</td><td class="n">${x.total?x.total.line+' '+fOdds(x.total.over)+'/'+fOdds(x.total.under):'–'}</td><td class="n">${x.ml?fOdds(x.ml.away)+' / '+fOdds(x.ml.home):'–'}</td></tr>`).join('')}</table></div>`:'';
   const wx=ctx.roof&&/dome|closed/.test(ctx.roof)?'Indoors':[ctx.temp!=null?ctx.temp+'°F':null,ctx.wind!=null?ctx.wind+' mph wind':null].filter(Boolean).join(', ')||'Forecast not in yet';
   return `<article class="card game">
-    <div class="hdr"><div><div class="matchup">${esc(g.away)}<span class="at">@</span>${esc(g.home)}</div>
-      <div class="qbs">${qb(g.away_qb,g.qb_change&&g.qb_change.away)} vs ${qb(g.home_qb,g.qb_change&&g.qb_change.home)}</div></div>
-      <div class="when">${when}${ctx.div_game?'<br>Division':''}</div></div>
-    <div class="mkt">
-      <div><div class="k">${esc(g.home)} spread</div><div class="v">${fLine(m.home_line)}</div>${sp?`<div class="best">${bestTxt(sp.best_away,g.away)}<br>${bestTxt(sp.best_home,g.home)}</div>`:''}</div>
-      <div><div class="k">Total</div><div class="v">${m.total??'–'}</div>${tt?`<div class="best">${bestTxt(tt.best_over,'O')}<br>${bestTxt(tt.best_under,'U')}</div>`:''}</div>
-      <div><div class="k">ML ${esc(g.away)} / ${esc(g.home)}</div><div class="v">${fOdds(m.ml_away)} / ${fOdds(m.ml_home)}</div>${ml?`<div class="best">${bestTxt(ml.best_away,g.away)}<br>${bestTxt(ml.best_home,g.home)}</div>`:''}</div>
-    </div>
-    <div class="proj">Model: <b>${esc(g.away)} ${mo.away_pts} – ${esc(g.home)} ${mo.home_pts}</b> · total <b>${mo.total}</b></div>
-    ${rows.join('')}
-    ${vals?`<div style="margin-top:6px;display:flex;flex-wrap:wrap;gap:6px">${vals}</div>`:''}
-    <div class="muted small" style="margin-top:6px">Lines: ${esc(m.source)}</div>
-    <details><summary>Form, injuries &amp; every book</summary><div class="det">
+    <div class="hdr"><div><div class="matchup">${esc(full(g.away))}<span class="at">at</span>${esc(full(g.home))}</div>
+      <div class="qbs">QBs: ${qb(g.away_qb,g.qb_change&&g.qb_change.away)} vs ${qb(g.home_qb,g.qb_change&&g.qb_change.home)}</div></div>
+      <div class="when">${when}${ctx.div_game?'<br>Division game':''}</div></div>
+    ${headline(g)}
+    ${sec('Who wins?','pick the winner',o.ml)}
+    ${sec('Win by how much?','the spread',o.spread)}
+    ${sec('Total points','both teams combined',o.total)}
+    <details><summary>Recent form, injuries &amp; every sportsbook</summary><div class="det">
       <table><tr><th></th><th>${esc(g.away)}</th><th>${esc(g.home)}</th></tr>
-      <tr><td>Last 5</td><td class="form">${form(ctx.form&&ctx.form.away)}</td><td class="form">${form(ctx.form&&ctx.form.home)}</td></tr>
-      <tr><td>Last 5 ATS</td><td class="form">${ats(ctx.form&&ctx.form.away)}</td><td class="form">${ats(ctx.form&&ctx.form.home)}</td></tr>
-      <tr><td>Last 5 O/U</td><td class="form">${ou(ctx.form&&ctx.form.away)}</td><td class="form">${ou(ctx.form&&ctx.form.home)}</td></tr>
-      <tr><td>Net EPA/play</td><td class="mono">${ctx.net_epa?ctx.net_epa.away.toFixed(3):'–'}</td><td class="mono">${ctx.net_epa?ctx.net_epa.home.toFixed(3):'–'}</td></tr>
-      <tr><td>QB EPA/dropback</td><td class="mono">${ctx.qb_epa?ctx.qb_epa.away.toFixed(3):'–'}</td><td class="mono">${ctx.qb_epa?ctx.qb_epa.home.toFixed(3):'–'}</td></tr>
-      <tr><td>Rest (days)</td><td>${ctx.rest?ctx.rest.away??'–':'–'}</td><td>${ctx.rest?ctx.rest.home??'–':'–'}</td></tr></table>
+      <tr><td>Last 5 games</td><td class="form">${form(ctx.form&&ctx.form.away)}</td><td class="form">${form(ctx.form&&ctx.form.home)}</td></tr>
+      <tr><td>Covered spread</td><td class="form">${ats(ctx.form&&ctx.form.away)}</td><td class="form">${ats(ctx.form&&ctx.form.home)}</td></tr>
+      <tr><td>Over / under</td><td class="form">${ou(ctx.form&&ctx.form.away)}</td><td class="form">${ou(ctx.form&&ctx.form.home)}</td></tr>
+      <tr><td>Days of rest</td><td>${ctx.rest?ctx.rest.away??'–':'–'}</td><td>${ctx.rest?ctx.rest.home??'–':'–'}</td></tr></table>
       <p><b>Weather:</b> ${esc(wx)}</p>
-      <p class="inj"><b>${esc(g.away)}:</b> ${inj('away')}</p>
-      <p class="inj"><b>${esc(g.home)}:</b> ${inj('home')}</p>
+      <p class="inj"><b>${esc(full(g.away))}:</b> ${inj('away')}</p>
+      <p class="inj"><b>${esc(full(g.home))}:</b> ${inj('home')}</p>
       ${bookTbl}
+      <p class="muted small">Lines: ${esc(g.market.source)}</p>
     </div></details>
   </article>`;
 }
@@ -313,33 +460,53 @@ function spark(vals,line){
   s+=`<line x1="0" x2="${W}" y1="${y(line)}" y2="${y(line)}" stroke="var(--ink)" stroke-dasharray="4 3" stroke-width="1.2"/></svg>`;
   return s;
 }
-function renderProps(){
-  const P=D.latest.props||[];const G=D.latest.games||[];
-  const gsel=$('#pfGame'),ssel=$('#pfStat');
-  if(gsel.options.length<=1){G.forEach(g=>gsel.insertAdjacentHTML('beforeend',`<option value="${esc(g.game_id)}">${esc(g.away)} @ ${esc(g.home)}</option>`));
-    [...new Set(P.map(p=>p.label))].forEach(l=>ssel.insertAdjacentHTML('beforeend',`<option>${esc(l)}</option>`))}
-  let list=P.filter(p=>(!gsel.value||p.game_id===gsel.value)&&(!ssel.value||p.label===ssel.value));
-  const hasLines=P.some(p=>p.line!=null);
-  if(!hasLines){
-    $('#pfSig').style.display='none';
-    list=list.filter(p=>p.proj!=null).sort((a,b)=>b.proj-a.proj);
-    $('#propList').innerHTML=`<p class="note">No posted prop lines yet (they arrive with the Thursday run once the Odds API key is set). Here are this week's projections.</p><div class="tblwrap"><table><tr><th>Player</th><th>Game</th><th>Prop</th><th class="n">Projection</th></tr>${list.slice(0,300).map(p=>`<tr><td>${esc(p.player)} <span class="muted">${esc(p.pos)}</span></td><td>${esc(p.team)} vs ${esc(p.opp)}</td><td>${esc(p.label)}</td><td class="n">${p.stat==='anytime_td'?fPct(1-Math.exp(-p.proj)):p.proj.toFixed(1)}</td></tr>`).join('')}</table></div>`;
-    return;
-  }
-  list=list.filter(p=>p.matched!==false);
-  if(D.psig==='sig')list=list.filter(p=>p.signal);
-  $('#propList').innerHTML=list.length?list.slice(0,200).map(p=>{
-    const ev=p.side==='over'?p.ev_over:p.ev_under,b=p.side==='over'?p.best_over:p.best_under;
-    const td=p.stat==='anytime_td';
+D.openGames=D.openGames||new Set();
+function propCard(p){
+    const td=p.stat==='anytime_td',sd=td?'over':p.side;
+    const ev=sd==='over'?p.ev_over:p.ev_under,b=sd==='over'?p.best_over:p.best_under;
     return `<div class="prop">
       <div><div class="who">${esc(p.player)} <span class="muted small">${esc(p.pos)} · ${esc(p.team)} vs ${esc(p.opp)}</span></div>
       <div>${esc(p.label)} ${td?'':'<b class="mono">'+p.line+'</b>'}</div></div>
-      <div style="text-align:right">${p.signal?'<span class="badge sig">Signal</span><br>':''}<span class="small muted">${td?'Yes':p.side==='over'?'Over':'Under'}</span> <b class="mono">${b?fOdds(b.price):'–'}</b><br><span class="small muted">${b?esc(b.book):''}</span></div>
+      <div style="text-align:right">${p.signal?'<span class="badge sig">Signal</span><br>':''}<span class="small muted">${td?'Yes':sd==='over'?'Over':'Under'}</span> <b class="mono">${b?fOdds(b.price):'–'}</b><br><span class="small muted">${b?esc(b.book):''}</span></div>
       <div class="stats"><span>Proj <b>${td?fPct(1-Math.exp(-p.proj)):(+p.proj).toFixed(1)}</b></span><span>Model P(${td?'TD':'over'}) <b>${fPct(p.p_over_model)}</b></span><span>Market fair <b>${fPct(p.fair_over)}</b></span><span>EV <b class="${ev>0?'up':'down'}">${fEv(ev)}</b></span>${p.hit_rate!=null?`<span>Hit rate L${p.recent.length} <b>${fPct(p.hit_rate)}</b></span>`:''}<span>Books <b>${p.books}</b></span></div>
       <div class="spark">${td?'':spark(p.recent,p.line)}</div>
-    </div>`}).join(''):'<div class="empty">No props match. Signals are rare by design.</div>';
+      <div class="padd">${propLegs(p).map(l=>`<span class="padd-i ${chanceOf(l.p)}"><span>${l.id.endsWith(':over')?(td?'Scores':'Over'):'Under'} ${fPct(l.p)}</span>${addBtn(l.id)}</span>`).join('')}</div>
+    </div>`}
+function gameProps(g){
+  const ps=D.propsByGame[g.game_id]||[],hasLines=D.propsHasLines;
+    const teamBlock=t=>{const tp=ps.filter(p=>p.team===t).sort((a,b)=>(a.pos||'').localeCompare(b.pos||'')||a.player.localeCompare(b.player)||a.label.localeCompare(b.label));
+      if(!tp.length)return '';
+      const body=hasLines?tp.map(propCard).join(''):`<div class="tblwrap"><table>${tp.sort((a,b)=>b.proj-a.proj).map(p=>`<tr><td>${esc(p.player)} <span class="muted">${esc(p.pos)}</span></td><td>${esc(p.label)}</td><td class="n">${p.stat==='anytime_td'?fPct(1-Math.exp(-p.proj)):p.proj.toFixed(1)}</td></tr>`).join('')}</table></div>`;
+      return `<div class="sec-h team-h">${esc(full(t))} <span class="muted">${tp.length} prop${tp.length>1?'s':''}</span></div>${body}`};
+  return teamBlock(g.away)+teamBlock(g.home)||'<div class="empty">No props for this game yet.</div>';
 }
-
+function renderProps(){
+  const P=D.latest.props||[];const G=D.latest.games||[];
+  const ssel=$('#pfStat');
+  if(ssel.options.length<=1)[...new Set(P.map(p=>p.label))].forEach(l=>ssel.insertAdjacentHTML('beforeend',`<option>${esc(l)}</option>`));
+  const hasLines=P.some(p=>p.line!=null);
+  if(!hasLines)$('#pfSig').style.display='none';
+  let list=P.filter(p=>!ssel.value||p.label===ssel.value);
+  if(hasLines){list=list.filter(p=>p.matched!==false);if(D.psig==='sig')list=list.filter(p=>p.signal)}
+  else list=list.filter(p=>p.proj!=null);
+  const byGame={};list.forEach(p=>(byGame[p.game_id]=byGame[p.game_id]||[]).push(p));
+  D.propsByGame=byGame;D.propsHasLines=hasLines;
+  const html=G.map(g=>{
+    const ps=byGame[g.game_id]||[];
+    const kick=g.kickoff?new Date(g.kickoff):new Date(g.gameday+'T12:00:00');
+    const when=g.kickoff?kick.toLocaleString([], {weekday:'short',hour:'numeric',minute:'2-digit'}):kick.toLocaleDateString([], {weekday:'short',month:'short',day:'numeric'});
+    const sig=ps.filter(p=>p.signal).length;
+    const open=D.openGames.has(g.game_id);
+    return `<details class="card pgame" data-gid="${esc(g.game_id)}"${open?' open':''}>
+      <summary><div class="pg-row"><div><div class="matchup sm">${esc(full(g.away))}<span class="at">at</span>${esc(full(g.home))}</div>
+        <div class="muted small">${when} · ${ps.length?ps.length+' props':'no props posted yet'}${sig?` · <span class="badge sig">${sig} signal${sig>1?'s':''}</span>`:''}</div></div><span class="chev">›</span></div></summary>
+      <div class="pg-body">${open?gameProps(g):''}</div>
+    </details>`;
+  }).join('');
+  $('#propList').innerHTML=html||'<div class="empty">No games this week.</div>';
+  if(!hasLines&&!document.querySelector('#propList .note'))$('#propList').insertAdjacentHTML('afterbegin','<p class="note">No posted prop lines yet (they arrive with the Thursday update). Showing projections.</p>');
+  D._teamBlock=null;
+}
 /* ---------------- record ---------------- */
 const KINDS=[['model:spread','Model spreads','--s1'],['model:total','Model totals','--s2'],['value','Best-price bets','--s3'],['prop','Player props','--s4']];
 function kindOf(p){return p.kind==='model'?'model:'+p.market:p.kind}
@@ -408,15 +575,112 @@ function renderLog(){
   $('#logTbl').innerHTML=l.length?'<tr><th>Bet</th><th class="n">Odds</th><th class="n">Units</th><th>Result</th><th></th></tr>'+l.map(x=>`<tr><td>${esc(x.desc)}</td><td class="n">${fOdds(x.odds)}</td><td class="n">${x.stake}</td><td><div class="seg">${['W','L','P'].map(r=>`<button class="sm ${x.result===r?'on':''}" data-res="${r}" data-id="${x.id}">${r}</button>`).join('')}</div></td><td><button class="sm" data-del="${x.id}" aria-label="Delete">✕</button></td></tr>`).join(''):'<tr><td class="empty">No bets yet.</td></tr>';
 }
 
+/* ---------------- parlay ---------------- */
+D.legs={};D.ptype='prop';
+function slip(){return store.get('nll.slip',[])}
+function saveSlip(s){store.set('nll.slip',s);renderSlip();refreshAddButtons()}
+function inSlip(id){return slip().some(l=>l.id===id)}
+function addBtn(id){return `<button class="add${inSlip(id)?' on':''}" data-leg="${esc(id)}" aria-label="Add to parlay">${inSlip(id)?'✓':'＋'}</button>`}
+function refreshAddButtons(){document.querySelectorAll('button.add').forEach(b=>{const on=inSlip(b.dataset.leg);b.classList.toggle('on',on);b.textContent=on?'✓':'＋'})}
+function registerGameLegs(g,o){
+  const typeName={ml:'Moneyline',spread:'Spread',total:'Over/under'};
+  ['ml','spread','total'].forEach(k=>o[k].forEach((x,i)=>{
+    x.id=`${g.game_id}:${k}:${i}`;
+    D.legs[x.id]={id:x.id,group:`${g.game_id}:${k}`,type:k,typeName:typeName[k],game:g.game_id,gameName:`${full(g.away)} at ${full(g.home)}`,title:x.title,sub:x.sentence,price:x.price,book:x.book,p:x.p};
+  }));
+}
+function propLegs(p){
+  if(p.line==null||p.matched===false)return [];
+  const pf=p.fair_over!=null?p.fair_over:p.p_over_model;if(pf==null)return [];
+  const td=p.stat==='anytime_td',base=`${p.game_id}:prop:${p.player}:${p.stat}`,out=[];
+  const mk=(side,b,prob)=>{if(!b)return;const id=`${base}:${side}`;const title=td?`${p.player} scores a TD`:`${p.player} ${side==='over'?'over':'under'} ${p.line} ${p.label.charAt(0).toLowerCase()+p.label.slice(1)}`;
+    const leg={id,group:base,type:'prop',typeName:'Player prop',game:p.game_id,gameName:`${full(p.team)} vs ${full(p.opp)}`,title,sub:`${p.pos} · ${p.team}`,price:b.price,book:b.book,p:prob};
+    D.legs[id]=leg;out.push(leg)};
+  mk('over',p.best_over,pf);if(!td)mk('under',p.best_under,1-pf);
+  return out;
+}
+function registerAll(){
+  (D.latest.games||[]).forEach(g=>registerGameLegs(g,gameOptions(g)));
+  (D.latest.props||[]).forEach(propLegs);
+}
+function toggleLeg(id){
+  const leg=D.legs[id];if(!leg)return;
+  let s=slip();
+  if(s.some(l=>l.id===id))s=s.filter(l=>l.id!==id);
+  else{s=s.filter(l=>l.group!==leg.group);s.push(leg);D.barOpen=true}  // only one side of the same bet
+  saveSlip(s);
+}
+function parlayMath(s,stake){
+  const p=s.reduce((a,l)=>a*l.p,1),dec=s.reduce((a,l)=>a*(1+payout(l.price)),1);
+  const win=stake*(dec-1),fair=stake*(1/p-1),edge=p*dec-1;
+  const games=new Set(s.map(l=>l.game));
+  return{p,dec,win,fair,edge,sameGame:games.size<s.length};
+}
+const money=v=>'$'+(v>=1000?Math.round(v).toLocaleString():v.toFixed(2).replace(/\.00$/,''));
+function renderSlip(){
+  const s=slip(),stake=Math.max(1,parseFloat(store.get('nll.stake',10))||10);
+  // bottom pop-up
+  const bar=$('#slipBar');
+  const onParlay=$('#parlay')&&$('#parlay').classList.contains('on');
+  if(!s.length||onParlay){bar.style.display='none'}else{
+    const m=parlayMath(s,stake),ch=chanceOf(m.p),open=!!D.barOpen;
+    bar.style.display='block';
+    bar.innerHTML=`<div class="sb-head" data-togglebar="1">
+        <span class="sb-title"><b>Your parlay · ${s.length} leg${s.length>1?'s':''}</b><br><span class="muted">${money(stake)} wins ${money(m.win)}</span></span>
+        <span class="pill ${ch}">${fPct2(m.p)}</span><span class="sb-chev${open?' open':''}">⌃</span></div>
+      ${open?`<div class="sb-legs">${s.map(l=>`<div class="sb-leg ${chanceOf(l.p)}"><span class="sb-leg-t">${esc(l.title)}<br><span class="muted">${esc(l.typeName)} · ${fOdds(l.price)}</span></span><span class="pill ${chanceOf(l.p)}">${fPct(l.p)}</span><button class="sb-x" data-leg="${esc(l.id)}" aria-label="Remove">✕</button></div>`).join('')}</div>
+      <div class="sb-foot"><span class="muted small">Chance all hit: <b>${fPct2(m.p)}</b> · ${CHANCE_LABEL[ch]}</span><button class="primary sm" data-goparlay="1">Open parlay</button></div>`:''}`;
+  }
+  const el=$('#slipBox');if(!el)return;
+  if(!s.length){el.innerHTML='<div class="empty">Your parlay is empty. Tap ＋ next to any bet below, on the This week tab, or on Props.</div>';return}
+  const m=parlayMath(s,stake),ch=chanceOf(m.p);
+  const verdict=m.edge>=0?'<span class="tag">★ great price</span> This parlay pays at least what it\'s worth.':`Sportsbooks keep about <b>${Math.round(-m.edge*100)}%</b> of what you bet on this parlay, on average.`;
+  el.innerHTML=`
+    ${s.map(l=>`<div class="opt ${chanceOf(l.p)} leg"><div class="opt-main"><div class="opt-title">${esc(l.title)}</div><div class="opt-sub">${esc(l.typeName)} · ${esc(l.gameName)} · ${fOdds(l.price)} at ${esc(l.book)}</div></div><div class="ch"><span class="pill ${chanceOf(l.p)}">${fPct(l.p)}</span></div><button class="add on" data-leg="${esc(l.id)}" aria-label="Remove">✕</button></div>`).join('')}
+    <div class="slipsum ${ch}">
+      <div><div class="k">Chance all ${s.length} hit</div><div class="big">${fPct2(m.p)}</div><div class="chl">${CHANCE_LABEL[ch]}${m.p<0.35?` · about 1 in ${Math.round(1/m.p)}`:''}</div></div>
+      <div><div class="k">Bet</div><div class="stake">$<input id="stake" type="number" min="1" step="1" value="${stake}" inputmode="decimal"></div></div>
+      <div><div class="k">Pays if all hit</div><div class="big">${money(m.win)}</div><div class="chl">fair payout ${money(m.fair)}</div></div>
+    </div>
+    <p class="small">${verdict}</p>
+    ${m.sameGame?'<p class="note small">Some legs are from the same game. Those results tend to move together (for example, a QB over and his team covering), so the real chance can be higher or lower than shown, and sportsbooks price same-game parlays differently.</p>':''}
+    <p class="muted small">Chance multiplies each leg's market probability (sportsbook cut removed). Payout uses the best price for each leg; your book's parlay price may differ.</p>
+    <div style="display:flex;gap:8px;flex-wrap:wrap"><button class="sm" data-logparlay="1">Save to My bets</button><button class="sm" data-clearslip="1">Clear parlay</button></div>`;
+  const st=$('#stake');if(st)st.addEventListener('change',()=>{store.set('nll.stake',parseFloat(st.value)||10);renderSlip()});
+}
+const fPct2=p=>p==null?'–':(p<0.01?(p*100).toFixed(2):p<0.1?(p*100).toFixed(1):Math.round(p*100))+'%';
+function renderBuilder(){
+  const t=D.ptype,gsel=$('#pbGame'),q=($('#pbSearch').value||'').toLowerCase();
+  if(gsel.options.length<=1)(D.latest.games||[]).forEach(g=>gsel.insertAdjacentHTML('beforeend',`<option value="${esc(g.game_id)}">${esc(full(g.away))} at ${esc(full(g.home))}</option>`));
+  $('#pbSearch').style.display=t==='prop'?'':'none';
+  let legs=Object.values(D.legs).filter(l=>l.type===t&&(!gsel.value||l.game===gsel.value));
+  if(t==='prop'&&q)legs=legs.filter(l=>l.title.toLowerCase().includes(q)||l.sub.toLowerCase().includes(q));
+  if(t==='prop')legs.sort((a,b)=>a.title.localeCompare(b.title));
+  const byGame={};legs.forEach(l=>(byGame[l.gameName]=byGame[l.gameName]||[]).push(l));
+  const html=Object.entries(byGame).map(([gn,ls])=>`<div class="sec-h" style="margin-top:12px">${esc(gn)}</div>${ls.slice(0,t==='prop'?60:10).map(l=>`<div class="opt ${chanceOf(l.p)} leg"><div class="opt-main"><div class="opt-title">${esc(l.title)}</div><div class="opt-sub">${fOdds(l.price)} at ${esc(l.book)}</div></div><div class="ch"><span class="pill ${chanceOf(l.p)}">${fPct(l.p)}</span></div>${addBtn(l.id)}</div>`).join('')}`).join('');
+  $('#pbList').innerHTML=html||`<div class="empty">${t==='prop'?'No posted player props yet — they arrive with the Thursday update.':'Nothing to show.'}</div>`;
+}
+
 /* ---------------- events ---------------- */
-document.querySelectorAll('.tab').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('on',x===b));document.querySelectorAll('main section').forEach(s=>s.classList.toggle('on',s.id===b.dataset.tab))}));
+document.querySelectorAll('.tab').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('on',x===b));document.querySelectorAll('main section').forEach(s=>s.classList.toggle('on',s.id===b.dataset.tab));D.barOpen=false;renderSlip()}));
 $('#gameFilter').addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;D.gf=b.dataset.f;$('#gameFilter').querySelectorAll('button').forEach(x=>x.classList.toggle('on',x===b));renderWeek()});
 $('#pfSig').addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;D.psig=b.dataset.s;$('#pfSig').querySelectorAll('button').forEach(x=>x.classList.toggle('on',x===b));renderProps()});
-$('#pfGame').addEventListener('change',renderProps);$('#pfStat').addEventListener('change',renderProps);
+$('#pfStat').addEventListener('change',renderProps);
 $('#lAdd').addEventListener('click',()=>{const d=$('#lDesc').value.trim();if(!d)return;const l=logList();l.unshift({id:Date.now()+'',desc:d,odds:parseFloat($('#lOdds').value)||-110,stake:parseFloat($('#lStake').value)||1,result:'open'});saveLog(l);$('#lDesc').value=''});
 document.addEventListener('click',e=>{const t=e.target.closest('button');if(!t)return;
   if(t.dataset.res){const l=logList(),x=l.find(y=>y.id===t.dataset.id);if(x){x.result=x.result===t.dataset.res?'open':t.dataset.res;saveLog(l)}}
   if(t.dataset.del)saveLog(logList().filter(y=>y.id!==t.dataset.del))});
+$('#pbType').addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;D.ptype=b.dataset.t;$('#pbType').querySelectorAll('button').forEach(x=>x.classList.toggle('on',x===b));renderBuilder()});
+$('#pbGame').addEventListener('change',renderBuilder);$('#pbSearch').addEventListener('input',renderBuilder);
+document.addEventListener('click',e=>{const t=e.target.closest('button');if(!t)return;
+  if(t.dataset.leg){toggleLeg(t.dataset.leg);if($('#parlay').classList.contains('on'))renderBuilder()}
+  if(t.dataset.goparlay){document.querySelector('.tab[data-tab=parlay]').click();window.scrollTo({top:0})}
+  if(t.dataset.clearslip){saveSlip([]);renderBuilder()}
+  if(t.dataset.logparlay){const s=slip(),stake=parseFloat(store.get('nll.stake',10))||10,m=parlayMath(s,stake);const l=logList();l.unshift({id:Date.now()+'',desc:`${s.length}-leg parlay: `+s.map(x=>x.title).join(' + '),odds:Math.round(m.dec>=2?(m.dec-1)*100:-100/(m.dec-1)),stake:1,result:'open'});saveLog(l);t.textContent='Saved ✓'}
+});
+document.addEventListener('toggle',e=>{const d=e.target;if(!d.classList||!d.classList.contains('pgame'))return;const id=d.dataset.gid;
+  if(d.open){D.openGames.add(id);const body=d.querySelector('.pg-body');if(!body.innerHTML.trim()){const g=(D.latest.games||[]).find(x=>x.game_id===id);if(g)body.innerHTML=gameProps(g)}}else D.openGames.delete(id)},true);
+document.addEventListener('click',e=>{if(e.target.closest('button'))return;const h=e.target.closest('[data-togglebar]');if(h){D.barOpen=!D.barOpen;renderSlip()}});
 load();
 </script>
 </body>
