@@ -1,0 +1,9696 @@
+{
+ "generated": "2026-10-19T20:40:20.541460+00:00",
+ "mode": "local",
+ "season": 2026,
+ "week": 7,
+ "credits_remaining": null,
+ "games": [
+  {
+   "game_id": "2026_07_NE_CHI",
+   "week": 7,
+   "gameday": "2026-10-22",
+   "gametime": "20:15",
+   "home": "CHI",
+   "away": "NE",
+   "kickoff": null,
+   "home_qb": "Caleb Williams",
+   "away_qb": "Drake Maye",
+   "qb_change": {
+    "home": false,
+    "away": false
+   },
+   "market": {
+    "home_line": -3.0,
+    "total": 50.5,
+    "ml_home": -155.0,
+    "ml_away": 130.0,
+    "source": "nflverse consensus"
+   },
+   "model": {
+    "home_pts": 23.0,
+    "away_pts": 23.6,
+    "margin": -0.6,
+    "total": 46.6,
+    "p_home": 0.481
+   },
+   "leans": {
+    "spread": {
+     "side": "away",
+     "line": 3.0,
+     "edge": 3.63,
+     "p": 0.608,
+     "conf": "Medium"
+    },
+    "total": {
+     "side": "under",
+     "line": 50.5,
+     "edge": 3.93,
+     "p": 0.621,
+     "conf": "Medium"
+    },
+    "ml": {
+     "side": "away",
+     "price": 130.0,
+     "p": 0.519,
+     "market_p": 0.417,
+     "diff": 0.102,
+     "ev": 0.194,
+     "conf": "High"
+    }
+   },
+   "books": {},
+   "value": [],
+   "context": {
+    "rest": {
+     "home": 4,
+     "away": 4
+    },
+    "roof": "outdoors",
+    "wind": null,
+    "temp": null,
+    "div_game": false,
+    "net_epa": {
+     "home": 0.035,
+     "away": 0.086
+    },
+    "qb_epa": {
+     "home": 0.045,
+     "away": 0.049
+    },
+    "form": {
+     "home": [
+      {
+       "opp": "MIN",
+       "home": true,
+       "pf": 3,
+       "pa": 9,
+       "res": "L",
+       "ats": "L",
+       "ou": "U"
+      },
+      {
+       "opp": "PHI",
+       "home": true,
+       "pf": 27,
+       "pa": 7,
+       "res": "W",
+       "ats": "W",
+       "ou": "U"
+      },
+      {
+       "opp": "NYJ",
+       "home": true,
+       "pf": 23,
+       "pa": 12,
+       "res": "W",
+       "ats": "W",
+       "ou": "U"
+      },
+      {
+       "opp": "GB",
+       "home": false,
+       "pf": 7,
+       "pa": 31,
+       "res": "L",
+       "ats": "L",
+       "ou": "U"
+      },
+      {
+       "opp": "ATL",
+       "home": false,
+       "pf": 31,
+       "pa": 23,
+       "res": "W",
+       "ats": "W",
+       "ou": "O"
+      }
+     ],
+     "away": [
+      {
+       "opp": "PIT",
+       "home": true,
+       "pf": 20,
+       "pa": 3,
+       "res": "W",
+       "ats": "W",
+       "ou": "U"
+      },
+      {
+       "opp": "JAX",
+       "home": false,
+       "pf": 6,
+       "pa": 35,
+       "res": "L",
+       "ats": "L",
+       "ou": "U"
+      },
+      {
+       "opp": "BUF",
+       "home": false,
+       "pf": 29,
+       "pa": 26,
+       "res": "W",
+       "ats": "W",
+       "ou": "O"
+      },
+      {
+       "opp": "LV",
+       "home": true,
+       "pf": 45,
+       "pa": 17,
+       "res": "W",
+       "ats": "W",
+       "ou": "O"
+      },
+      {
+       "opp": "NYJ",
+       "home": true,
+       "pf": 26,
+       "pa": 19,
+       "res": "W",
+       "ats": "L",
+       "ou": "O"
+      }
+     ]
+    },
+    "injuries": {
+     "home": [],
+     "away": []
+    }
+   }
+  },
+  {
+   "game_id": "2026_07_PIT_NO",
+   "week": 7,
+   "gameday": "2026-10-25",
+   "gametime": "09:30",
+   "home": "NO",
+   "away": "PIT",
+   "kickoff": null,
+   "home_qb": "Tyler Shough",
+   "away_qb": "Aaron Rodgers",
+   "qb_change": {
+    "home": false,
+    "away": false
+   },
+   "market": {
+    "home_line": 3.0,
+    "total": 44.5,
+    "ml_home": 130.0,
+    "ml_away": -155.0,
+    "source": "nflverse consensus"
+   },
+   "model": {
+    "home_pts": 22.7,
+    "away_pts": 25.0,
+    "margin": -2.2,
+    "total": 47.7,
+    "p_home": 0.433
+   },
+   "leans": {
+    "spread": {
+     "side": "home",
+     "line": 3.0,
+     "edge": 0.76,
+     "p": 0.523,
+     "conf": "Pass"
+    },
+    "total": {
+     "side": "over",
+     "line": 44.5,
+     "edge": 3.19,
+     "p": 0.598,
+     "conf": "Low"
+    },
+    "ml": {
+     "side": "home",
+     "price": 130.0,
+     "p": 0.433,
+     "market_p": 0.417,
+     "diff": 0.016,
+     "ev": -0.005,
+     "conf": "Pass"
+    }
+   },
+   "books": {},
+   "value": [],
+   "context": {
+    "rest": {
+     "home": 7,
+     "away": 7
+    },
+    "roof": "dome",
+    "wind": null,
+    "temp": null,
+    "div_game": false,
+    "net_epa": {
+     "home": -0.09,
+     "away": -0.009
+    },
+    "qb_epa": {
+     "home": -0.037,
+     "away": -0.068
+    },
+    "form": {
+     "home": [
+      {
+       "opp": "BAL",
+       "home": false,
+       "pf": 24,
+       "pa": 17,
+       "res": "W",
+       "ats": "W",
+       "ou": "U"
+      },
+      {
+       "opp": "LV",
+       "home": true,
+       "pf": 27,
+       "pa": 35,
+       "res": "L",
+       "ats": "L",
+       "ou": "O"
+      },
+      {
+       "opp": "ATL",
+       "home": true,
+       "pf": 24,
+       "pa": 45,
+       "res": "L",
+       "ats": "L",
+       "ou": "O"
+      },
+      {
+       "opp": "MIN",
+       "home": true,
+       "pf": 13,
+       "pa": 23,
+       "res": "L",
+       "ats": "L",
+       "ou": "U"
+      },
+      {
+       "opp": "NYG",
+       "home": false,
+       "pf": 34,
+       "pa": 27,
+       "res": "W",
+       "ats": "W",
+       "ou": "O"
+      }
+     ],
+     "away": [
+      {
+       "opp": "NE",
+       "home": false,
+       "pf": 3,
+       "pa": 20,
+       "res": "L",
+       "ats": "L",
+       "ou": "U"
+      },
+      {
+       "opp": "CIN",
+       "home": true,
+       "pf": 30,
+       "pa": 27,
+       "res": "W",
+       "ats": "W",
+       "ou": "O"
+      },
+      {
+       "opp": "CLE",
+       "home": false,
+       "pf": 24,
+       "pa": 27,
+       "res": "L",
+       "ats": "L",
+       "ou": "O"
+      },
+      {
+       "opp": "IND",
+       "home": true,
+       "pf": 34,
+       "pa": 22,
+       "res": "W",
+       "ats": "W",
+       "ou": "O"
+      },
+      {
+       "opp": "TB",
+       "home": false,
+       "pf": 26,
+       "pa": 19,
+       "res": "W",
+       "ats": "W",
+       "ou": "O"
+      }
+     ]
+    },
+    "injuries": {
+     "home": [],
+     "away": []
+    }
+   }
+  },
+  {
+   "game_id": "2026_07_CIN_BAL",
+   "week": 7,
+   "gameday": "2026-10-25",
+   "gametime": "13:00",
+   "home": "BAL",
+   "away": "CIN",
+   "kickoff": null,
+   "home_qb": "Tyler Huntley",
+   "away_qb": "Joe Burrow",
+   "qb_change": {
+    "home": false,
+    "away": false
+   },
+   "market": {
+    "home_line": -3.0,
+    "total": 51.5,
+    "ml_home": -155.0,
+    "ml_away": 130.0,
+    "source": "nflverse consensus"
+   },
+   "model": {
+    "home_pts": 23.0,
+    "away_pts": 24.3,
+    "margin": -1.3,
+    "total": 47.3,
+    "p_home": 0.461
+   },
+   "leans": {
+    "spread": {
+     "side": "away",
+     "line": 3.0,
+     "edge": 4.3,
+     "p": 0.628,
+     "conf": "Medium"
+    },
+    "total": {
+     "side": "under",
+     "line": 51.5,
+     "edge": 4.15,
+     "p": 0.627,
+     "conf": "Medium"
+    },
+    "ml": {
+     "side": "away",
+     "price": 130.0,
+     "p": 0.539,
+     "market_p": 0.417,
+     "diff": 0.122,
+     "ev": 0.241,
+     "conf": "High"
+    }
+   },
+   "books": {},
+   "value": [],
+   "context": {
+    "rest": {
+     "home": 7,
+     "away": 14
+    },
+    "roof": "outdoors",
+    "wind": null,
+    "temp": null,
+    "div_game": true,
+    "net_epa": {
+     "home": 0.066,
+     "away": 0.026
+    },
+    "qb_epa": {
+     "home": -0.036,
+     "away": 0.061
+    },
+    "form": {
+     "home": [
+      {
+       "opp": "NO",
+       "home": true,
+       "pf": 17,
+       "pa": 24,
+       "res": "L",
+       "ats": "L",
+       "ou": "U"
+      },
+      {
+       "opp": "DAL",
+       "home": false,
+       "pf": 34,
+       "pa": 31,
+       "res": "W",
+       "ats": "P",
+       "ou": "O"
+      },
+      {
+       "opp": "TEN",
+       "home": true,
+       "pf": 24,
+       "pa": 18,
+       "res": "W",
+       "ats": "L",
+       "ou": "U"
+      },
+      {
+       "opp": "ATL",
+       "home": false,
+       "pf": 30,
+       "pa": 23,
+       "res": "W",
+       "ats": "W",
+       "ou": "O"
+      },
+      {
+       "opp": "CLE",
+       "home": false,
+       "pf": 10,
+       "pa": 13,
+       "res": "L",
+       "ats": "L",
+       "ou": "U"
+      }
+     ],
+     "away": [
+      {
+       "opp": "TB",
+       "home": true,
+       "pf": 33,
+       "pa": 27,
+       "res": "W",
+       "ats": "W",
+       "ou": "O"
+      },
+      {
+       "opp": "HOU",
+       "home": false,
+       "pf": 20,
+       "pa": 6,
+       "res": "W",
+       "ats": "W",
+       "ou": "U"
+      },
+      {
+       "opp": "PIT",
+       "home": false,
+       "pf": 27,
+       "pa": 30,
+       "res": "L",
+       "ats": "L",
+       "ou": "O"
+      },
+      {
+       "opp": "JAX",
+       "home": true,
+       "pf": 17,
+       "pa": 22,
+       "res": "L",
+       "ats": "L",
+       "ou": "U"
+      },
+      {
+       "opp": "MIA",
+       "home": false,
+       "pf": 31,
+       "pa": 24,
+       "res": "W",
+       "ats": "P",
+       "ou": "O"
+      }
+     ]
+    },
+    "injuries": {
+     "home": [],
+     "away": []
+    }
+   }
+  },
+  {
+   "game_id": "2026_07_CLE_TEN",
+   "week": 7,
+   "gameday": "2026-10-25",
+   "gametime": "13:00",
+   "home": "TEN",
+   "away": "CLE",
+   "kickoff": null,
+   "home_qb": "Cam Ward",
+   "away_qb": "Deshaun Watson",
+   "qb_change": {
+    "home": false,
+    "away": false
+   },
+   "market": {
+    "home_line": 1.5,
+    "total": 38.5,
+    "ml_home": 105.0,
+    "ml_away": -125.0,
+    "source": "nflverse consensus"
+   },
+   "model": {
+    "home_pts": 17.8,
+    "away_pts": 19.4,
+    "margin": -1.6,
+    "total": 37.2,
+    "p_home": 0.452
+   },
+   "leans": {
+    "spread": {
+     "side": "away",
+     "line": -1.5,
+     "edge": 0.08,
+     "p": 0.502,
+     "conf": "Pass"
+    },
+    "total": {
+     "side": "under",
+     "line": 38.5,
+     "edge": 1.29,
+     "p": 0.54,
+     "conf": "Pass"
+    },
+    "ml": {
+     "side": "away",
+     "price": -125.0,
+     "p": 0.548,
+     "market_p": 0.532,
+     "diff": 0.015,
+     "ev": -0.014,
+     "conf": "Pass"
+    }
+   },
+   "books": {},
+   "value": [],
+   "context": {
+    "rest": {
+     "home": 7,
+     "away": 7
+    },
+    "roof": "outdoors",
+    "wind": null,
+    "temp": null,
+    "div_game": false,
+    "net_epa": {
+     "home": -0.174,
+     "away": -0.056
+    },
+    "qb_epa": {
+     "home": -0.128,
+     "away": -0.072
+    },
+    "form": {
+     "home": [
+      {
+       "opp": "PHI",
+       "home": true,
+       "pf": 20,
+       "pa": 24,
+       "res": "L",
+       "ats": "W",
+       "ou": "O"
+      },
+      {
+       "opp": "NYG",
+       "home": false,
+       "pf": 7,
+       "pa": 12,
+       "res": "L",
+       "ats": "L",
+       "ou": "U"
+      },
+      {
+       "opp": "BAL",
+       "home": false,
+       "pf": 18,
+       "pa": 24,
+       "res": "L",
+       "ats": "W",
+       "ou": "U"
+      },
+      {
+       "opp": "HOU",
+       "home": true,
+       "pf": 3,
+       "pa": 26,
+       "res": "L",
+       "ats": "L",
+       "ou": "U"
+      },
+      {
+       "opp": "IND",
+       "home": false,
+       "pf": 26,
+       "pa": 20,
+       "res": "W",
+       "ats": "W",
+       "ou": "O"
+      }
+     ],
+     "away": [
+      {
+       "opp": "TB",
+       "home": false,
+       "pf": 23,
+       "pa": 19,
+       "res": "W",
+       "ats": "W",
+       "ou": "O"
+      },
+      {
+       "opp": "CAR",
+       "home": true,
+       "pf": 21,
+       "pa": 18,
+       "res": "W",
+       "ats": "W",
+       "ou": "U"
+      },
+      {
+       "opp": "PIT",
+       "home": true,
+       "pf": 27,
+       "pa": 24,
+       "res": "W",
+       "ats": "W",
+       "ou": "O"
+      },
+      {
+       "opp": "NYJ",
+       "home": false,
+       "pf": 12,
+       "pa": 17,
+       "res": "L",
+       "ats": "L",
+       "ou": "U"
+      },
+      {
+       "opp": "BAL",
+       "home": true,
+       "pf": 13,
+       "pa": 10,
+       "res": "W",
+       "ats": "W",
+       "ou": "U"
+      }
+     ]
+    },
+    "injuries": {
+     "home": [],
+     "away": []
+    }
+   }
+  },
+  {
+   "game_id": "2026_07_IND_MIN",
+   "week": 7,
+   "gameday": "2026-10-25",
+   "gametime": "13:00",
+   "home": "MIN",
+   "away": "IND",
+   "kickoff": null,
+   "home_qb": "Kyler Murray",
+   "away_qb": "Daniel Jones",
+   "qb_change": {
+    "home": false,
+    "away": false
+   },
+   "market": {
+    "home_line": -5.5,
+    "total": 41.5,
+    "ml_home": -250.0,
+    "ml_away": 205.0,
+    "source": "nflverse consensus"
+   },
+   "model": {
+    "home_pts": 25.7,
+    "away_pts": 17.8,
+    "margin": 7.9,
+    "total": 43.6,
+    "p_home": 0.725
+   },
+   "leans": {
+    "spread": {
+     "side": "home",
+     "line": -5.5,
+     "edge": 2.39,
+     "p": 0.572,
+     "conf": "Low"
+    },
+    "total": {
+     "side": "over",
+     "line": 41.5,
+     "edge": 2.06,
+     "p": 0.564,
+     "conf": "Low"
+    },
+    "ml": {
+     "side": "home",
+     "price": -250.0,
+     "p": 0.725,
+     "market_p": 0.685,
+     "diff": 0.039,
+     "ev": 0.015,
+     "conf": "Low"
+    }
+   },
+   "books": {},
+   "value": [],
+   "context": {
+    "rest": {
+     "home": 14,
+     "away": 7
+    },
+    "roof": "dome",
+    "wind": null,
+    "temp": null,
+    "div_game": false,
+    "net_epa": {
+     "home": 0.046,
+     "away": -0.071
+    },
+    "qb_epa": {
+     "home": -0.035,
+     "away": -0.051
+    },
+    "form": {
+     "home": [
+      {
+       "opp": "GB",
+       "home": true,
+       "pf": 39,
+       "pa": 22,
+       "res": "W",
+       "ats": "W",
+       "ou": "O"
+      },
+      {
+       "opp": "CHI",
+       "home": false,
+       "pf": 9,
+       "pa": 3,
+       "res": "W",
+       "ats": "W",
+       "ou": "U"
+      },
+      {
+       "opp": "TB",
+       "home": false,
+       "pf": 23,
+       "pa": 16,
+       "res": "W",
+       "ats": "W",
+       "ou": "U"
+      },
+      {
+       "opp": "MIA",
+       "home": true,
+       "pf": 15,
+       "pa": 10,
+       "res": "W",
+       "ats": "L",
+       "ou": "U"
+      },
+      {
+       "opp": "NO",
+       "home": false,
+       "pf": 23,
+       "pa": 13,
+       "res": "W",
+       "ats": "W",
+       "ou": "U"
+      }
+     ],
+     "away": [
+      {
+       "opp": "KC",
+       "home": false,
+       "pf": 30,
+       "pa": 33,
+       "res": "L",
+       "ats": "W",
+       "ou": "O"
+      },
+      {
+       "opp": "HOU",
+       "home": true,
+       "pf": 19,
+       "pa": 17,
+       "res": "W",
+       "ats": "W",
+       "ou": "U"
+      },
+      {
+       "opp": "WAS",
+       "home": false,
+       "pf": 30,
+       "pa": 13,
+       "res": "W",
+       "ats": "W",
+       "ou": "U"
+      },
+      {
+       "opp": "PIT",
+       "home": false,
+       "pf": 22,
+       "pa": 34,
+       "res": "L",
+       "ats": "L",
+       "ou": "O"
+      },
+      {
+       "opp": "TEN",
+       "home": true,
+       "pf": 20,
+       "pa": 26,
+       "res": "L",
+       "ats": "L",
+       "ou": "O"
+      }
+     ]
+    },
+    "injuries": {
+     "home": [],
+     "away": []
+    }
+   }
+  },
+  {
+   "game_id": "2026_07_MIA_NYJ",
+   "week": 7,
+   "gameday": "2026-10-25",
+   "gametime": "13:00",
+   "home": "NYJ",
+   "away": "MIA",
+   "kickoff": null,
+   "home_qb": "Geno Smith",
+   "away_qb": "Malik Willis",
+   "qb_change": {
+    "home": false,
+    "away": false
+   },
+   "market": {
+    "home_line": -4.5,
+    "total": 38.5,
+    "ml_home": -230.0,
+    "ml_away": 190.0,
+    "source": "nflverse consensus"
+   },
+   "model": {
+    "home_pts": 21.7,
+    "away_pts": 19.4,
+    "margin": 2.3,
+    "total": 41.0,
+    "p_home": 0.568
+   },
+   "leans": {
+    "spread": {
+     "side": "away",
+     "line": 4.5,
+     "edge": 2.24,
+     "p": 0.567,
+     "conf": "Low"
+    },
+    "total": {
+     "side": "over",
+     "line": 38.5,
+     "edge": 2.54,
+     "p": 0.579,
+     "conf": "Low"
+    },
+    "ml": {
+     "side": "away",
+     "price": 190.0,
+     "p": 0.432,
+     "market_p": 0.331,
+     "diff": 0.101,
+     "ev": 0.253,
+     "conf": "High"
+    }
+   },
+   "books": {},
+   "value": [],
+   "context": {
+    "rest": {
+     "home": 7,
+     "away": 14
+    },
+    "roof": "outdoors",
+    "wind": null,
+    "temp": null,
+    "div_game": true,
+    "net_epa": {
+     "home": -0.054,
+     "away": -0.152
+    },
+    "qb_epa": {
+     "home": -0.043,
+     "away": -0.072
+    },
+    "form": {
+     "home": [
+      {
+       "opp": "GB",
+       "home": true,
+       "pf": 17,
+       "pa": 20,
+       "res": "L",
+       "ats": "W",
+       "ou": "U"
+      },
+      {
+       "opp": "DET",
+       "home": false,
+       "pf": 24,
+       "pa": 31,
+       "res": "L",
+       "ats": "P",
+       "ou": "O"
+      },
+      {
+       "opp": "CHI",
+       "home": false,
+       "pf": 12,
+       "pa": 23,
+       "res": "L",
+       "ats": "L",
+       "ou": "U"
+      },
+      {
+       "opp": "CLE",
+       "home": true,
+       "pf": 17,
+       "pa": 12,
+       "res": "W",
+       "ats": "W",
+       "ou": "U"
+      },
+      {
+       "opp": "NE",
+       "home": false,
+       "pf": 19,
+       "pa": 26,
+       "res": "L",
+       "ats": "W",
+       "ou": "O"
+      }
+     ],
+     "away": [
+      {
+       "opp": "LV",
+       "home": false,
+       "pf": 13,
+       "pa": 27,
+       "res": "L",
+       "ats": "L",
+       "ou": "U"
+      },
+      {
+       "opp": "SF",
+       "home": false,
+       "pf": 13,
+       "pa": 35,
+       "res": "L",
+       "ats": "L",
+       "ou": "O"
+      },
+      {
+       "opp": "KC",
+       "home": true,
+       "pf": 10,
+       "pa": 24,
+       "res": "L",
+       "ats": "L",
+       "ou": "U"
+      },
+      {
+       "opp": "MIN",
+       "home": false,
+       "pf": 10,
+       "pa": 15,
+       "res": "L",
+       "ats": "W",
+       "ou": "U"
+      },
+      {
+       "opp": "CIN",
+       "home": true,
+       "pf": 24,
+       "pa": 31,
+       "res": "L",
+       "ats": "P",
+       "ou": "O"
+      }
+     ]
+    },
+    "injuries": {
+     "home": [],
+     "away": []
+    }
+   }
+  },
+  {
+   "game_id": "2026_07_NYG_HOU",
+   "week": 7,
+   "gameday": "2026-10-25",
+   "gametime": "13:00",
+   "home": "HOU",
+   "away": "NYG",
+   "kickoff": null,
+   "home_qb": "C.J. Stroud",
+   "away_qb": "Jameis Winston",
+   "qb_change": {
+    "home": false,
+    "away": false
+   },
+   "market": {
+    "home_line": -10.0,
+    "total": 42.5,
+    "ml_home": -500.0,
+    "ml_away": 380.0,
+    "source": "nflverse consensus"
+   },
+   "model": {
+    "home_pts": 25.6,
+    "away_pts": 18.5,
+    "margin": 7.0,
+    "total": 44.1,
+    "p_home": 0.703
+   },
+   "leans": {
+    "spread": {
+     "side": "away",
+     "line": 10.0,
+     "edge": 2.96,
+     "p": 0.589,
+     "conf": "Low"
+    },
+    "total": {
+     "side": "over",
+     "line": 42.5,
+     "edge": 1.62,
+     "p": 0.55,
+     "conf": "Pass"
+    },
+    "ml": {
+     "side": "away",
+     "price": 380.0,
+     "p": 0.297,
+     "market_p": 0.2,
+     "diff": 0.097,
+     "ev": 0.425,
+     "conf": "High"
+    }
+   },
+   "books": {},
+   "value": [],
+   "context": {
+    "rest": {
+     "home": 7,
+     "away": 7
+    },
+    "roof": null,
+    "wind": null,
+    "temp": null,
+    "div_game": false,
+    "net_epa": {
+     "home": 0.082,
+     "away": -0.081
+    },
+    "qb_epa": {
+     "home": 0.031,
+     "away": -0.059
+    },
+    "form": {
+     "home": [
+      {
+       "opp": "CIN",
+       "home": true,
+       "pf": 6,
+       "pa": 20,
+       "res": "L",
+       "ats": "L",
+       "ou": "U"
+      },
+      {
+       "opp": "IND",
+       "home": false,
+       "pf": 17,
+       "pa": 19,
+       "res": "L",
+       "ats": "L",
+       "ou": "U"
+      },
+      {
+       "opp": "DAL",
+       "home": true,
+       "pf": 30,
+       "pa": 34,
+       "res": "L",
+       "ats": "L",
+       "ou": "O"
+      },
+      {
+       "opp": "TEN",
+       "home": false,
+       "pf": 26,
+       "pa": 3,
+       "res": "W",
+       "ats": "W",
+       "ou": "U"
+      },
+      {
+       "opp": "JAX",
+       "home": false,
+       "pf": 34,
+       "pa": 31,
+       "res": "W",
+       "ats": "W",
+       "ou": "O"
+      }
+     ],
+     "away": [
+      {
+       "opp": "LA",
+       "home": false,
+       "pf": 6,
+       "pa": 28,
+       "res": "L",
+       "ats": "L",
+       "ou": "U"
+      },
+      {
+       "opp": "TEN",
+       "home": true,
+       "pf": 12,
+       "pa": 7,
+       "res": "W",
+       "ats": "W",
+       "ou": "U"
+      },
+      {
+       "opp": "ARI",
+       "home": true,
+       "pf": 36,
+       "pa": 24,
+       "res": "W",
+       "ats": "W",
+       "ou": "O"
+      },
+      {
+       "opp": "WAS",
+       "home": false,
+       "pf": 27,
+       "pa": 27,
+       "res": "T",
+       "ats": "W",
+       "ou": "O"
+      },
+      {
+       "opp": "NO",
+       "home": true,
+       "pf": 27,
+       "pa": 34,
+       "res": "L",
+       "ats": "L",
+       "ou": "O"
+      }
+     ]
+    },
+    "injuries": {
+     "home": [],
+     "away": []
+    }
+   }
+  },
+  {
+   "game_id": "2026_07_SF_ATL",
+   "week": 7,
+   "gameday": "2026-10-25",
+   "gametime": "13:00",
+   "home": "ATL",
+   "away": "SF",
+   "kickoff": null,
+   "home_qb": "Michael Penix Jr.",
+   "away_qb": "Brock Purdy",
+   "qb_change": {
+    "home": false,
+    "away": false
+   },
+   "market": {
+    "home_line": 4.5,
+    "total": 50.5,
+    "ml_home": 180.0,
+    "ml_away": -218.0,
+    "source": "nflverse consensus"
+   },
+   "model": {
+    "home_pts": 21.8,
+    "away_pts": 26.4,
+    "margin": -4.6,
+    "total": 48.2,
+    "p_home": 0.363
+   },
+   "leans": {
+    "spread": {
+     "side": "away",
+     "line": -4.5,
+     "edge": 0.11,
+     "p": 0.503,
+     "conf": "Pass"
+    },
+    "total": {
+     "side": "under",
+     "line": 50.5,
+     "edge": 2.33,
+     "p": 0.572,
+     "conf": "Low"
+    },
+    "ml": {
+     "side": "home",
+     "price": 180.0,
+     "p": 0.363,
+     "market_p": 0.343,
+     "diff": 0.021,
+     "ev": 0.018,
+     "conf": "Pass"
+    }
+   },
+   "books": {},
+   "value": [],
+   "context": {
+    "rest": {
+     "home": 7,
+     "away": 6
+    },
+    "roof": null,
+    "wind": null,
+    "temp": null,
+    "div_game": false,
+    "net_epa": {
+     "home": -0.03,
+     "away": 0.157
+    },
+    "qb_epa": {
+     "home": 0.003,
+     "away": 0.107
+    },
+    "form": {
+     "home": [
+      {
+       "opp": "CAR",
+       "home": true,
+       "pf": 3,
+       "pa": 34,
+       "res": "L",
+       "ats": "L",
+       "ou": "U"
+      },
+      {
+       "opp": "GB",
+       "home": false,
+       "pf": 35,
+       "pa": 14,
+       "res": "W",
+       "ats": "W",
+       "ou": "O"
+      },
+      {
+       "opp": "NO",
+       "home": false,
+       "pf": 45,
+       "pa": 24,
+       "res": "W",
+       "ats": "W",
+       "ou": "O"
+      },
+      {
+       "opp": "BAL",
+       "home": true,
+       "pf": 23,
+       "pa": 30,
+       "res": "L",
+       "ats": "L",
+       "ou": "O"
+      },
+      {
+       "opp": "CHI",
+       "home": true,
+       "pf": 23,
+       "pa": 31,
+       "res": "L",
+       "ats": "L",
+       "ou": "O"
+      }
+     ],
+     "away": [
+      {
+       "opp": "LA",
+       "home": false,
+       "pf": 27,
+       "pa": 7,
+       "res": "W",
+       "ats": "W",
+       "ou": "U"
+      },
+      {
+       "opp": "MIA",
+       "home": true,
+       "pf": 35,
+       "pa": 13,
+       "res": "W",
+       "ats": "W",
+       "ou": "O"
+      },
+      {
+       "opp": "ARI",
+       "home": true,
+       "pf": 36,
+       "pa": 30,
+       "res": "W",
+       "ats": "L",
+       "ou": "O"
+      },
+      {
+       "opp": "DEN",
+       "home": true,
+       "pf": 24,
+       "pa": 14,
+       "res": "W",
+       "ats": "W",
+       "ou": "U"
+      },
+      {
+       "opp": "SEA",
+       "home": false,
+       "pf": 32,
+       "pa": 29,
+       "res": "W",
+       "ats": "W",
+       "ou": "O"
+      }
+     ]
+    },
+    "injuries": {
+     "home": [],
+     "away": []
+    }
+   }
+  },
+  {
+   "game_id": "2026_07_TB_CAR",
+   "week": 7,
+   "gameday": "2026-10-25",
+   "gametime": "13:00",
+   "home": "CAR",
+   "away": "TB",
+   "kickoff": null,
+   "home_qb": "Bryce Young",
+   "away_qb": "Jalon Daniels",
+   "qb_change": {
+    "home": false,
+    "away": false
+   },
+   "market": {
+    "home_line": -3.0,
+    "total": 44.5,
+    "ml_home": -175.0,
+    "ml_away": 145.0,
+    "source": "nflverse consensus"
+   },
+   "model": {
+    "home_pts": 25.1,
+    "away_pts": 18.9,
+    "margin": 6.2,
+    "total": 44.0,
+    "p_home": 0.681
+   },
+   "leans": {
+    "spread": {
+     "side": "home",
+     "line": -3.0,
+     "edge": 3.22,
+     "p": 0.596,
+     "conf": "Medium"
+    },
+    "total": {
+     "side": "under",
+     "line": 44.5,
+     "edge": 0.46,
+     "p": 0.514,
+     "conf": "Pass"
+    },
+    "ml": {
+     "side": "home",
+     "price": -175.0,
+     "p": 0.681,
+     "market_p": 0.609,
+     "diff": 0.072,
+     "ev": 0.07,
+     "conf": "Medium"
+    }
+   },
+   "books": {},
+   "value": [],
+   "context": {
+    "rest": {
+     "home": 7,
+     "away": 7
+    },
+    "roof": "outdoors",
+    "wind": null,
+    "temp": null,
+    "div_game": true,
+    "net_epa": {
+     "home": 0.035,
+     "away": -0.056
+    },
+    "qb_epa": {
+     "home": 0.019,
+     "away": -0.094
+    },
+    "form": {
+     "home": [
+      {
+       "opp": "CHI",
+       "home": true,
+       "pf": 37,
+       "pa": 59,
+       "res": "L",
+       "ats": "L",
+       "ou": "O"
+      },
+      {
+       "opp": "ATL",
+       "home": false,
+       "pf": 34,
+       "pa": 3,
+       "res": "W",
+       "ats": "W",
+       "ou": "U"
+      },
+      {
+       "opp": "CLE",
+       "home": false,
+       "pf": 18,
+       "pa": 21,
+       "res": "L",
+       "ats": "L",
+       "ou": "U"
+      },
+      {
+       "opp": "DET",
+       "home": true,
+       "pf": 32,
+       "pa": 26,
+       "res": "W",
+       "ats": "W",
+       "ou": "O"
+      },
+      {
+       "opp": "PHI",
+       "home": false,
+       "pf": 25,
+       "pa": 14,
+       "res": "W",
+       "ats": "W",
+       "ou": "U"
+      }
+     ],
+     "away": [
+      {
+       "opp": "CLE",
+       "home": true,
+       "pf": 19,
+       "pa": 23,
+       "res": "L",
+       "ats": "L",
+       "ou": "O"
+      },
+      {
+       "opp": "MIN",
+       "home": true,
+       "pf": 16,
+       "pa": 23,
+       "res": "L",
+       "ats": "L",
+       "ou": "U"
+      },
+      {
+       "opp": "GB",
+       "home": true,
+       "pf": 14,
+       "pa": 17,
+       "res": "L",
+       "ats": "P",
+       "ou": "U"
+      },
+      {
+       "opp": "DAL",
+       "home": false,
+       "pf": 24,
+       "pa": 16,
+       "res": "W",
+       "ats": "W",
+       "ou": "U"
+      },
+      {
+       "opp": "PIT",
+       "home": true,
+       "pf": 19,
+       "pa": 26,
+       "res": "L",
+       "ats": "L",
+       "ou": "O"
+      }
+     ]
+    },
+    "injuries": {
+     "home": [],
+     "away": []
+    }
+   }
+  },
+  {
+   "game_id": "2026_07_DEN_ARI",
+   "week": 7,
+   "gameday": "2026-10-25",
+   "gametime": "16:05",
+   "home": "ARI",
+   "away": "DEN",
+   "kickoff": null,
+   "home_qb": "Jacoby Brissett",
+   "away_qb": "Bo Nix",
+   "qb_change": {
+    "home": false,
+    "away": false
+   },
+   "market": {
+    "home_line": 4.5,
+    "total": 43.5,
+    "ml_home": 190.0,
+    "ml_away": -230.0,
+    "source": "nflverse consensus"
+   },
+   "model": {
+    "home_pts": 19.9,
+    "away_pts": 24.1,
+    "margin": -4.1,
+    "total": 44.0,
+    "p_home": 0.378
+   },
+   "leans": {
+    "spread": {
+     "side": "home",
+     "line": 4.5,
+     "edge": 0.38,
+     "p": 0.512,
+     "conf": "Pass"
+    },
+    "total": {
+     "side": "over",
+     "line": 43.5,
+     "edge": 0.5,
+     "p": 0.516,
+     "conf": "Pass"
+    },
+    "ml": {
+     "side": "home",
+     "price": 190.0,
+     "p": 0.378,
+     "market_p": 0.331,
+     "diff": 0.047,
+     "ev": 0.095,
+     "conf": "Low"
+    }
+   },
+   "books": {},
+   "value": [],
+   "context": {
+    "rest": {
+     "home": 7,
+     "away": 10
+    },
+    "roof": null,
+    "wind": null,
+    "temp": null,
+    "div_game": false,
+    "net_epa": {
+     "home": -0.066,
+     "away": 0.047
+    },
+    "qb_epa": {
+     "home": -0.031,
+     "away": -0.012
+    },
+    "form": {
+     "home": [
+      {
+       "opp": "SEA",
+       "home": true,
+       "pf": 7,
+       "pa": 31,
+       "res": "L",
+       "ats": "L",
+       "ou": "U"
+      },
+      {
+       "opp": "SF",
+       "home": false,
+       "pf": 30,
+       "pa": 36,
+       "res": "L",
+       "ats": "W",
+       "ou": "O"
+      },
+      {
+       "opp": "NYG",
+       "home": false,
+       "pf": 24,
+       "pa": 36,
+       "res": "L",
+       "ats": "L",
+       "ou": "O"
+      },
+      {
+       "opp": "DET",
+       "home": true,
+       "pf": 21,
+       "pa": 45,
+       "res": "L",
+       "ats": "L",
+       "ou": "O"
+      },
+      {
+       "opp": "LA",
+       "home": false,
+       "pf": 18,
+       "pa": 16,
+       "res": "W",
+       "ats": "W",
+       "ou": "U"
+      }
+     ],
+     "away": [
+      {
+       "opp": "JAX",
+       "home": true,
+       "pf": 20,
+       "pa": 13,
+       "res": "W",
+       "ats": "W",
+       "ou": "U"
+      },
+      {
+       "opp": "LA",
+       "home": true,
+       "pf": 30,
+       "pa": 26,
+       "res": "W",
+       "ats": "W",
+       "ou": "O"
+      },
+      {
+       "opp": "SF",
+       "home": false,
+       "pf": 14,
+       "pa": 24,
+       "res": "L",
+       "ats": "L",
+       "ou": "U"
+      },
+      {
+       "opp": "LAC",
+       "home": false,
+       "pf": 23,
+       "pa": 17,
+       "res": "W",
+       "ats": "W",
+       "ou": "U"
+      },
+      {
+       "opp": "SEA",
+       "home": true,
+       "pf": 17,
+       "pa": 14,
+       "res": "W",
+       "ats": "W",
+       "ou": "U"
+      }
+     ]
+    },
+    "injuries": {
+     "home": [],
+     "away": []
+    }
+   }
+  },
+  {
+   "game_id": "2026_07_GB_DET",
+   "week": 7,
+   "gameday": "2026-10-25",
+   "gametime": "16:25",
+   "home": "DET",
+   "away": "GB",
+   "kickoff": null,
+   "home_qb": "Jared Goff",
+   "away_qb": "Jordan Love",
+   "qb_change": {
+    "home": false,
+    "away": false
+   },
+   "market": {
+    "home_line": -3.0,
+    "total": 52.5,
+    "ml_home": -166.0,
+    "ml_away": 140.0,
+    "source": "nflverse consensus"
+   },
+   "model": {
+    "home_pts": 29.1,
+    "away_pts": 24.0,
+    "margin": 5.1,
+    "total": 53.1,
+    "p_home": 0.649
+   },
+   "leans": {
+    "spread": {
+     "side": "home",
+     "line": -3.0,
+     "edge": 2.06,
+     "p": 0.562,
+     "conf": "Low"
+    },
+    "total": {
+     "side": "over",
+     "line": 52.5,
+     "edge": 0.61,
+     "p": 0.519,
+     "conf": "Pass"
+    },
+    "ml": {
+     "side": "home",
+     "price": -166.0,
+     "p": 0.649,
+     "market_p": 0.6,
+     "diff": 0.05,
+     "ev": 0.04,
+     "conf": "Low"
+    }
+   },
+   "books": {},
+   "value": [],
+   "context": {
+    "rest": {
+     "home": 14,
+     "away": 7
+    },
+    "roof": "dome",
+    "wind": null,
+    "temp": null,
+    "div_game": true,
+    "net_epa": {
+     "home": 0.029,
+     "away": 0.03
+    },
+    "qb_epa": {
+     "home": 0.128,
+     "away": 0.085
+    },
+    "form": {
+     "home": [
+      {
+       "opp": "NO",
+       "home": true,
+       "pf": 31,
+       "pa": 30,
+       "res": "W",
+       "ats": "L",
+       "ou": "O"
+      },
+      {
+       "opp": "BUF",
+       "home": false,
+       "pf": 31,
+       "pa": 41,
+       "res": "L",
+       "ats": "L",
+       "ou": "O"
+      },
+      {
+       "opp": "NYJ",
+       "home": true,
+       "pf": 31,
+       "pa": 24,
+       "res": "W",
+       "ats": "P",
+       "ou": "O"
+      },
+      {
+       "opp": "CAR",
+       "home": false,
+       "pf": 26,
+       "pa": 32,
+       "res": "L",
+       "ats": "L",
+       "ou": "O"
+      },
+      {
+       "opp": "ARI",
+       "home": false,
+       "pf": 45,
+       "pa": 21,
+       "res": "W",
+       "ats": "W",
+       "ou": "O"
+      }
+     ],
+     "away": [
+      {
+       "opp": "NYJ",
+       "home": false,
+       "pf": 20,
+       "pa": 17,
+       "res": "W",
+       "ats": "L",
+       "ou": "U"
+      },
+      {
+       "opp": "ATL",
+       "home": true,
+       "pf": 14,
+       "pa": 35,
+       "res": "L",
+       "ats": "L",
+       "ou": "O"
+      },
+      {
+       "opp": "TB",
+       "home": false,
+       "pf": 17,
+       "pa": 14,
+       "res": "W",
+       "ats": "P",
+       "ou": "U"
+      },
+      {
+       "opp": "CHI",
+       "home": true,
+       "pf": 31,
+       "pa": 7,
+       "res": "W",
+       "ats": "W",
+       "ou": "U"
+      },
+      {
+       "opp": "DAL",
+       "home": true,
+       "pf": 23,
+       "pa": 13,
+       "res": "W",
+       "ats": "W",
+       "ou": "U"
+      }
+     ]
+    },
+    "injuries": {
+     "home": [],
+     "away": []
+    }
+   }
+  },
+  {
+   "game_id": "2026_07_LA_LV",
+   "week": 7,
+   "gameday": "2026-10-25",
+   "gametime": "16:25",
+   "home": "LV",
+   "away": "LA",
+   "kickoff": null,
+   "home_qb": "Kirk Cousins",
+   "away_qb": "Matthew Stafford",
+   "qb_change": {
+    "home": false,
+    "away": false
+   },
+   "market": {
+    "home_line": 5.5,
+    "total": 47.5,
+    "ml_home": 210.0,
+    "ml_away": -258.0,
+    "source": "nflverse consensus"
+   },
+   "model": {
+    "home_pts": 25.0,
+    "away_pts": 26.0,
+    "margin": -1.1,
+    "total": 51.0,
+    "p_home": 0.467
+   },
+   "leans": {
+    "spread": {
+     "side": "home",
+     "line": 5.5,
+     "edge": 4.41,
+     "p": 0.631,
+     "conf": "Medium"
+    },
+    "total": {
+     "side": "over",
+     "line": 47.5,
+     "edge": 3.5,
+     "p": 0.608,
+     "conf": "Medium"
+    },
+    "ml": {
+     "side": "home",
+     "price": 210.0,
+     "p": 0.467,
+     "market_p": 0.309,
+     "diff": 0.158,
+     "ev": 0.448,
+     "conf": "High"
+    }
+   },
+   "books": {},
+   "value": [],
+   "context": {
+    "rest": {
+     "home": 7,
+     "away": 7
+    },
+    "roof": "dome",
+    "wind": null,
+    "temp": null,
+    "div_game": false,
+    "net_epa": {
+     "home": -0.054,
+     "away": 0.071
+    },
+    "qb_epa": {
+     "home": 0.043,
+     "away": 0.078
+    },
+    "form": {
+     "home": [
+      {
+       "opp": "LAC",
+       "home": false,
+       "pf": 26,
+       "pa": 14,
+       "res": "W",
+       "ats": "W",
+       "ou": "U"
+      },
+      {
+       "opp": "NO",
+       "home": false,
+       "pf": 35,
+       "pa": 27,
+       "res": "W",
+       "ats": "W",
+       "ou": "O"
+      },
+      {
+       "opp": "KC",
+       "home": true,
+       "pf": 27,
+       "pa": 30,
+       "res": "L",
+       "ats": "W",
+       "ou": "O"
+      },
+      {
+       "opp": "NE",
+       "home": false,
+       "pf": 17,
+       "pa": 45,
+       "res": "L",
+       "ats": "L",
+       "ou": "O"
+      },
+      {
+       "opp": "BUF",
+       "home": true,
+       "pf": 30,
+       "pa": 33,
+       "res": "L",
+       "ats": "W",
+       "ou": "O"
+      }
+     ],
+     "away": [
+      {
+       "opp": "NYG",
+       "home": true,
+       "pf": 28,
+       "pa": 6,
+       "res": "W",
+       "ats": "W",
+       "ou": "U"
+      },
+      {
+       "opp": "DEN",
+       "home": false,
+       "pf": 26,
+       "pa": 30,
+       "res": "L",
+       "ats": "L",
+       "ou": "O"
+      },
+      {
+       "opp": "PHI",
+       "home": false,
+       "pf": 24,
+       "pa": 20,
+       "res": "W",
+       "ats": "W",
+       "ou": "O"
+      },
+      {
+       "opp": "BUF",
+       "home": true,
+       "pf": 34,
+       "pa": 37,
+       "res": "L",
+       "ats": "L",
+       "ou": "O"
+      },
+      {
+       "opp": "ARI",
+       "home": true,
+       "pf": 16,
+       "pa": 18,
+       "res": "L",
+       "ats": "L",
+       "ou": "U"
+      }
+     ]
+    },
+    "injuries": {
+     "home": [],
+     "away": []
+    }
+   }
+  },
+  {
+   "game_id": "2026_07_KC_SEA",
+   "week": 7,
+   "gameday": "2026-10-25",
+   "gametime": "20:20",
+   "home": "SEA",
+   "away": "KC",
+   "kickoff": null,
+   "home_qb": "Drew Lock",
+   "away_qb": "Patrick Mahomes",
+   "qb_change": {
+    "home": true,
+    "away": false
+   },
+   "market": {
+    "home_line": -2.5,
+    "total": 42.5,
+    "ml_home": -135.0,
+    "ml_away": 114.0,
+    "source": "nflverse consensus"
+   },
+   "model": {
+    "home_pts": 22.9,
+    "away_pts": 21.7,
+    "margin": 1.2,
+    "total": 44.7,
+    "p_home": 0.537
+   },
+   "leans": {
+    "spread": {
+     "side": "away",
+     "line": 2.5,
+     "edge": 1.29,
+     "p": 0.539,
+     "conf": "Pass"
+    },
+    "total": {
+     "side": "over",
+     "line": 42.5,
+     "edge": 2.15,
+     "p": 0.567,
+     "conf": "Low"
+    },
+    "ml": {
+     "side": "away",
+     "price": 114.0,
+     "p": 0.463,
+     "market_p": 0.449,
+     "diff": 0.015,
+     "ev": -0.008,
+     "conf": "Pass"
+    }
+   },
+   "books": {},
+   "value": [],
+   "context": {
+    "rest": {
+     "home": 10,
+     "away": 7
+    },
+    "roof": "outdoors",
+    "wind": null,
+    "temp": null,
+    "div_game": false,
+    "net_epa": {
+     "home": 0.094,
+     "away": 0.107
+    },
+    "qb_epa": {
+     "home": -0.008,
+     "away": 0.06
+    },
+    "form": {
+     "home": [
+      {
+       "opp": "ARI",
+       "home": false,
+       "pf": 31,
+       "pa": 7,
+       "res": "W",
+       "ats": "W",
+       "ou": "U"
+      },
+      {
+       "opp": "WAS",
+       "home": false,
+       "pf": 31,
+       "pa": 33,
+       "res": "L",
+       "ats": "L",
+       "ou": "O"
+      },
+      {
+       "opp": "LAC",
+       "home": true,
+       "pf": 30,
+       "pa": 23,
+       "res": "W",
+       "ats": "P",
+       "ou": "O"
+      },
+      {
+       "opp": "SF",
+       "home": true,
+       "pf": 29,
+       "pa": 32,
+       "res": "L",
+       "ats": "L",
+       "ou": "O"
+      },
+      {
+       "opp": "DEN",
+       "home": false,
+       "pf": 14,
+       "pa": 17,
+       "res": "L",
+       "ats": "L",
+       "ou": "U"
+      }
+     ],
+     "away": [
+      {
+       "opp": "DEN",
+       "home": true,
+       "pf": 31,
+       "pa": 10,
+       "res": "W",
+       "ats": "W",
+       "ou": "U"
+      },
+      {
+       "opp": "IND",
+       "home": true,
+       "pf": 33,
+       "pa": 30,
+       "res": "W",
+       "ats": "L",
+       "ou": "O"
+      },
+      {
+       "opp": "MIA",
+       "home": false,
+       "pf": 24,
+       "pa": 10,
+       "res": "W",
+       "ats": "W",
+       "ou": "U"
+      },
+      {
+       "opp": "LV",
+       "home": false,
+       "pf": 30,
+       "pa": 27,
+       "res": "W",
+       "ats": "L",
+       "ou": "O"
+      },
+      {
+       "opp": "LAC",
+       "home": true,
+       "pf": 22,
+       "pa": 6,
+       "res": "W",
+       "ats": "W",
+       "ou": "U"
+      }
+     ]
+    },
+    "injuries": {
+     "home": [],
+     "away": []
+    }
+   }
+  },
+  {
+   "game_id": "2026_07_DAL_PHI",
+   "week": 7,
+   "gameday": "2026-10-26",
+   "gametime": "20:15",
+   "home": "PHI",
+   "away": "DAL",
+   "kickoff": null,
+   "home_qb": "Jalen Hurts",
+   "away_qb": "Dak Prescott",
+   "qb_change": {
+    "home": true,
+    "away": false
+   },
+   "market": {
+    "home_line": 4.5,
+    "total": 44.5,
+    "ml_home": 185.0,
+    "ml_away": -225.0,
+    "source": "nflverse consensus"
+   },
+   "model": {
+    "home_pts": 22.6,
+    "away_pts": 22.9,
+    "margin": -0.3,
+    "total": 45.5,
+    "p_home": 0.491
+   },
+   "leans": {
+    "spread": {
+     "side": "home",
+     "line": 4.5,
+     "edge": 4.21,
+     "p": 0.625,
+     "conf": "Medium"
+    },
+    "total": {
+     "side": "over",
+     "line": 44.5,
+     "edge": 0.99,
+     "p": 0.531,
+     "conf": "Pass"
+    },
+    "ml": {
+     "side": "home",
+     "price": 185.0,
+     "p": 0.491,
+     "market_p": 0.336,
+     "diff": 0.155,
+     "ev": 0.4,
+     "conf": "High"
+    }
+   },
+   "books": {},
+   "value": [],
+   "context": {
+    "rest": {
+     "home": 8,
+     "away": 8
+    },
+    "roof": "outdoors",
+    "wind": null,
+    "temp": null,
+    "div_game": true,
+    "net_epa": {
+     "home": -0.106,
+     "away": -0.078
+    },
+    "qb_epa": {
+     "home": -0.021,
+     "away": 0.06
+    },
+    "form": {
+     "home": [
+      {
+       "opp": "TEN",
+       "home": false,
+       "pf": 24,
+       "pa": 20,
+       "res": "W",
+       "ats": "L",
+       "ou": "O"
+      },
+      {
+       "opp": "CHI",
+       "home": false,
+       "pf": 7,
+       "pa": 27,
+       "res": "L",
+       "ats": "L",
+       "ou": "U"
+      },
+      {
+       "opp": "LA",
+       "home": true,
+       "pf": 20,
+       "pa": 24,
+       "res": "L",
+       "ats": "L",
+       "ou": "O"
+      },
+      {
+       "opp": "JAX",
+       "home": false,
+       "pf": 17,
+       "pa": 19,
+       "res": "L",
+       "ats": "W",
+       "ou": "U"
+      },
+      {
+       "opp": "CAR",
+       "home": true,
+       "pf": 14,
+       "pa": 25,
+       "res": "L",
+       "ats": "L",
+       "ou": "U"
+      }
+     ],
+     "away": [
+      {
+       "opp": "WAS",
+       "home": true,
+       "pf": 37,
+       "pa": 20,
+       "res": "W",
+       "ats": "W",
+       "ou": "O"
+      },
+      {
+       "opp": "BAL",
+       "home": true,
+       "pf": 31,
+       "pa": 34,
+       "res": "L",
+       "ats": "P",
+       "ou": "O"
+      },
+      {
+       "opp": "HOU",
+       "home": false,
+       "pf": 34,
+       "pa": 30,
+       "res": "W",
+       "ats": "W",
+       "ou": "O"
+      },
+      {
+       "opp": "TB",
+       "home": true,
+       "pf": 16,
+       "pa": 24,
+       "res": "L",
+       "ats": "L",
+       "ou": "U"
+      },
+      {
+       "opp": "GB",
+       "home": false,
+       "pf": 13,
+       "pa": 23,
+       "res": "L",
+       "ats": "L",
+       "ou": "U"
+      }
+     ]
+    },
+    "injuries": {
+     "home": [],
+     "away": []
+    }
+   }
+  }
+ ],
+ "props": [
+  {
+   "player": "Aaron Rodgers",
+   "team": "PIT",
+   "opp": "NO",
+   "pos": "QB",
+   "stat": "pass_yds",
+   "label": "Passing yards",
+   "proj": 235.1,
+   "line": null,
+   "game_id": "2026_07_PIT_NO"
+  },
+  {
+   "player": "Aaron Rodgers",
+   "team": "PIT",
+   "opp": "NO",
+   "pos": "QB",
+   "stat": "pass_tds",
+   "label": "Passing TDs",
+   "proj": 1.73,
+   "line": null,
+   "game_id": "2026_07_PIT_NO"
+  },
+  {
+   "player": "Matthew Stafford",
+   "team": "LA",
+   "opp": "LV",
+   "pos": "QB",
+   "stat": "pass_yds",
+   "label": "Passing yards",
+   "proj": 290.59,
+   "line": null,
+   "game_id": "2026_07_LA_LV"
+  },
+  {
+   "player": "Matthew Stafford",
+   "team": "LA",
+   "opp": "LV",
+   "pos": "QB",
+   "stat": "pass_tds",
+   "label": "Passing TDs",
+   "proj": 1.85,
+   "line": null,
+   "game_id": "2026_07_LA_LV"
+  },
+  {
+   "player": "Case Keenum",
+   "team": "CHI",
+   "opp": "NE",
+   "pos": "QB",
+   "stat": "pass_yds",
+   "label": "Passing yards",
+   "proj": 155.93,
+   "line": null,
+   "game_id": "2026_07_NE_CHI"
+  },
+  {
+   "player": "Kirk Cousins",
+   "team": "LV",
+   "opp": "LA",
+   "pos": "QB",
+   "stat": "pass_yds",
+   "label": "Passing yards",
+   "proj": 244.9,
+   "line": null,
+   "game_id": "2026_07_LA_LV"
+  },
+  {
+   "player": "Kirk Cousins",
+   "team": "LV",
+   "opp": "LA",
+   "pos": "QB",
+   "stat": "pass_tds",
+   "label": "Passing TDs",
+   "proj": 1.41,
+   "line": null,
+   "game_id": "2026_07_LA_LV"
+  },
+  {
+   "player": "Zach Ertz",
+   "team": "PHI",
+   "opp": "DAL",
+   "pos": "TE",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.16,
+   "line": null,
+   "game_id": "2026_07_DAL_PHI"
+  },
+  {
+   "player": "Keenan Allen",
+   "team": "IND",
+   "opp": "MIN",
+   "pos": "WR",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 4.67,
+   "line": null,
+   "game_id": "2026_07_IND_MIN"
+  },
+  {
+   "player": "Keenan Allen",
+   "team": "IND",
+   "opp": "MIN",
+   "pos": "WR",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 51.08,
+   "line": null,
+   "game_id": "2026_07_IND_MIN"
+  },
+  {
+   "player": "Keenan Allen",
+   "team": "IND",
+   "opp": "MIN",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.28,
+   "line": null,
+   "game_id": "2026_07_IND_MIN"
+  },
+  {
+   "player": "Travis Kelce",
+   "team": "KC",
+   "opp": "SEA",
+   "pos": "TE",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 3.39,
+   "line": null,
+   "game_id": "2026_07_KC_SEA"
+  },
+  {
+   "player": "Travis Kelce",
+   "team": "KC",
+   "opp": "SEA",
+   "pos": "TE",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 41.73,
+   "line": null,
+   "game_id": "2026_07_KC_SEA"
+  },
+  {
+   "player": "Travis Kelce",
+   "team": "KC",
+   "opp": "SEA",
+   "pos": "TE",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.23,
+   "line": null,
+   "game_id": "2026_07_KC_SEA"
+  },
+  {
+   "player": "Geno Smith",
+   "team": "NYJ",
+   "opp": "MIA",
+   "pos": "QB",
+   "stat": "pass_yds",
+   "label": "Passing yards",
+   "proj": 205.62,
+   "line": null,
+   "game_id": "2026_07_MIA_NYJ"
+  },
+  {
+   "player": "Geno Smith",
+   "team": "NYJ",
+   "opp": "MIA",
+   "pos": "QB",
+   "stat": "pass_tds",
+   "label": "Passing TDs",
+   "proj": 1.22,
+   "line": null,
+   "game_id": "2026_07_MIA_NYJ"
+  },
+  {
+   "player": "Odell Beckham Jr.",
+   "team": "NYG",
+   "opp": "HOU",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.06,
+   "line": null,
+   "game_id": "2026_07_NYG_HOU"
+  },
+  {
+   "player": "Brandin Cooks",
+   "team": "SF",
+   "opp": "ATL",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.25,
+   "line": null,
+   "game_id": "2026_07_SF_ATL"
+  },
+  {
+   "player": "Davante Adams",
+   "team": "LA",
+   "opp": "LV",
+   "pos": "WR",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 3.97,
+   "line": null,
+   "game_id": "2026_07_LA_LV"
+  },
+  {
+   "player": "Davante Adams",
+   "team": "LA",
+   "opp": "LV",
+   "pos": "WR",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 51.53,
+   "line": null,
+   "game_id": "2026_07_LA_LV"
+  },
+  {
+   "player": "Davante Adams",
+   "team": "LA",
+   "opp": "LV",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.42,
+   "line": null,
+   "game_id": "2026_07_LA_LV"
+  },
+  {
+   "player": "Mike Evans",
+   "team": "SF",
+   "opp": "ATL",
+   "pos": "WR",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 5.06,
+   "line": null,
+   "game_id": "2026_07_SF_ATL"
+  },
+  {
+   "player": "Mike Evans",
+   "team": "SF",
+   "opp": "ATL",
+   "pos": "WR",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 69.93,
+   "line": null,
+   "game_id": "2026_07_SF_ATL"
+  },
+  {
+   "player": "Mike Evans",
+   "team": "SF",
+   "opp": "ATL",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.56,
+   "line": null,
+   "game_id": "2026_07_SF_ATL"
+  },
+  {
+   "player": "Chris Manhertz",
+   "team": "NYG",
+   "opp": "HOU",
+   "pos": "TE",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.0,
+   "line": null,
+   "game_id": "2026_07_NYG_HOU"
+  },
+  {
+   "player": "Jameis Winston",
+   "team": "NYG",
+   "opp": "HOU",
+   "pos": "QB",
+   "stat": "pass_yds",
+   "label": "Passing yards",
+   "proj": 193.96,
+   "line": null,
+   "game_id": "2026_07_NYG_HOU"
+  },
+  {
+   "player": "Jameis Winston",
+   "team": "NYG",
+   "opp": "HOU",
+   "pos": "QB",
+   "stat": "pass_tds",
+   "label": "Passing TDs",
+   "proj": 1.03,
+   "line": null,
+   "game_id": "2026_07_NYG_HOU"
+  },
+  {
+   "player": "Darren Waller",
+   "team": "CAR",
+   "opp": "TB",
+   "pos": "TE",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 27.93,
+   "line": null,
+   "game_id": "2026_07_TB_CAR"
+  },
+  {
+   "player": "Darren Waller",
+   "team": "CAR",
+   "opp": "TB",
+   "pos": "TE",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.22,
+   "line": null,
+   "game_id": "2026_07_TB_CAR"
+  },
+  {
+   "player": "Sterling Shepard",
+   "team": "NYJ",
+   "opp": "MIA",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.1,
+   "line": null,
+   "game_id": "2026_07_MIA_NYJ"
+  },
+  {
+   "player": "Austin Hooper",
+   "team": "ATL",
+   "opp": "SF",
+   "pos": "TE",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.12,
+   "line": null,
+   "game_id": "2026_07_SF_ATL"
+  },
+  {
+   "player": "Chris Moore",
+   "team": "BAL",
+   "opp": "CIN",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.23,
+   "line": null,
+   "game_id": "2026_07_CIN_BAL"
+  },
+  {
+   "player": "Kalif Raymond",
+   "team": "CHI",
+   "opp": "NE",
+   "pos": "WR",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 2.71,
+   "line": null,
+   "game_id": "2026_07_NE_CHI"
+  },
+  {
+   "player": "Kalif Raymond",
+   "team": "CHI",
+   "opp": "NE",
+   "pos": "WR",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 28.19,
+   "line": null,
+   "game_id": "2026_07_NE_CHI"
+  },
+  {
+   "player": "Kalif Raymond",
+   "team": "CHI",
+   "opp": "NE",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.21,
+   "line": null,
+   "game_id": "2026_07_NE_CHI"
+  },
+  {
+   "player": "Derrick Henry",
+   "team": "BAL",
+   "opp": "CIN",
+   "pos": "RB",
+   "stat": "rush_yds",
+   "label": "Rushing yards",
+   "proj": 89.43,
+   "line": null,
+   "game_id": "2026_07_CIN_BAL"
+  },
+  {
+   "player": "Derrick Henry",
+   "team": "BAL",
+   "opp": "CIN",
+   "pos": "RB",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.82,
+   "line": null,
+   "game_id": "2026_07_CIN_BAL"
+  },
+  {
+   "player": "Demarcus Robinson",
+   "team": "SF",
+   "opp": "ATL",
+   "pos": "WR",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 2.56,
+   "line": null,
+   "game_id": "2026_07_SF_ATL"
+  },
+  {
+   "player": "Demarcus Robinson",
+   "team": "SF",
+   "opp": "ATL",
+   "pos": "WR",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 34.58,
+   "line": null,
+   "game_id": "2026_07_SF_ATL"
+  },
+  {
+   "player": "Demarcus Robinson",
+   "team": "SF",
+   "opp": "ATL",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.3,
+   "line": null,
+   "game_id": "2026_07_SF_ATL"
+  },
+  {
+   "player": "Carson Wentz",
+   "team": "MIN",
+   "opp": "IND",
+   "pos": "QB",
+   "stat": "pass_yds",
+   "label": "Passing yards",
+   "proj": 176.98,
+   "line": null,
+   "game_id": "2026_07_IND_MIN"
+  },
+  {
+   "player": "Carson Wentz",
+   "team": "MIN",
+   "opp": "IND",
+   "pos": "QB",
+   "stat": "pass_tds",
+   "label": "Passing TDs",
+   "proj": 1.19,
+   "line": null,
+   "game_id": "2026_07_IND_MIN"
+  },
+  {
+   "player": "Laquon Treadwell",
+   "team": "IND",
+   "opp": "MIN",
+   "pos": "WR",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 27.0,
+   "line": null,
+   "game_id": "2026_07_IND_MIN"
+  },
+  {
+   "player": "Dak Prescott",
+   "team": "DAL",
+   "opp": "PHI",
+   "pos": "QB",
+   "stat": "pass_yds",
+   "label": "Passing yards",
+   "proj": 260.62,
+   "line": null,
+   "game_id": "2026_07_DAL_PHI"
+  },
+  {
+   "player": "Dak Prescott",
+   "team": "DAL",
+   "opp": "PHI",
+   "pos": "QB",
+   "stat": "pass_tds",
+   "label": "Passing TDs",
+   "proj": 1.32,
+   "line": null,
+   "game_id": "2026_07_DAL_PHI"
+  },
+  {
+   "player": "Hunter Henry",
+   "team": "NE",
+   "opp": "CHI",
+   "pos": "TE",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 3.07,
+   "line": null,
+   "game_id": "2026_07_NE_CHI"
+  },
+  {
+   "player": "Hunter Henry",
+   "team": "NE",
+   "opp": "CHI",
+   "pos": "TE",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 36.9,
+   "line": null,
+   "game_id": "2026_07_NE_CHI"
+  },
+  {
+   "player": "Hunter Henry",
+   "team": "NE",
+   "opp": "CHI",
+   "pos": "TE",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.29,
+   "line": null,
+   "game_id": "2026_07_NE_CHI"
+  },
+  {
+   "player": "Jared Goff",
+   "team": "DET",
+   "opp": "GB",
+   "pos": "QB",
+   "stat": "pass_yds",
+   "label": "Passing yards",
+   "proj": 299.89,
+   "line": null,
+   "game_id": "2026_07_GB_DET"
+  },
+  {
+   "player": "Jared Goff",
+   "team": "DET",
+   "opp": "GB",
+   "pos": "QB",
+   "stat": "pass_tds",
+   "label": "Passing TDs",
+   "proj": 2.07,
+   "line": null,
+   "game_id": "2026_07_GB_DET"
+  },
+  {
+   "player": "Tyler Higbee",
+   "team": "LA",
+   "opp": "LV",
+   "pos": "TE",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 3.38,
+   "line": null,
+   "game_id": "2026_07_LA_LV"
+  },
+  {
+   "player": "Tyler Higbee",
+   "team": "LA",
+   "opp": "LV",
+   "pos": "TE",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 36.61,
+   "line": null,
+   "game_id": "2026_07_LA_LV"
+  },
+  {
+   "player": "Tyler Higbee",
+   "team": "LA",
+   "opp": "LV",
+   "pos": "TE",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.21,
+   "line": null,
+   "game_id": "2026_07_LA_LV"
+  },
+  {
+   "player": "Jacoby Brissett",
+   "team": "ARI",
+   "opp": "DEN",
+   "pos": "QB",
+   "stat": "pass_yds",
+   "label": "Passing yards",
+   "proj": 212.68,
+   "line": null,
+   "game_id": "2026_07_DEN_ARI"
+  },
+  {
+   "player": "Jacoby Brissett",
+   "team": "ARI",
+   "opp": "DEN",
+   "pos": "QB",
+   "stat": "pass_tds",
+   "label": "Passing TDs",
+   "proj": 1.15,
+   "line": null,
+   "game_id": "2026_07_DEN_ARI"
+  },
+  {
+   "player": "Mo Alie-Cox",
+   "team": "IND",
+   "opp": "MIN",
+   "pos": "TE",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.05,
+   "line": null,
+   "game_id": "2026_07_IND_MIN"
+  },
+  {
+   "player": "Johnny Mundt",
+   "team": "PHI",
+   "opp": "DAL",
+   "pos": "TE",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.05,
+   "line": null,
+   "game_id": "2026_07_DAL_PHI"
+  },
+  {
+   "player": "Christian McCaffrey",
+   "team": "SF",
+   "opp": "ATL",
+   "pos": "RB",
+   "stat": "rush_yds",
+   "label": "Rushing yards",
+   "proj": 59.32,
+   "line": null,
+   "game_id": "2026_07_SF_ATL"
+  },
+  {
+   "player": "Christian McCaffrey",
+   "team": "SF",
+   "opp": "ATL",
+   "pos": "RB",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 3.78,
+   "line": null,
+   "game_id": "2026_07_SF_ATL"
+  },
+  {
+   "player": "Christian McCaffrey",
+   "team": "SF",
+   "opp": "ATL",
+   "pos": "RB",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 34.72,
+   "line": null,
+   "game_id": "2026_07_SF_ATL"
+  },
+  {
+   "player": "Christian McCaffrey",
+   "team": "SF",
+   "opp": "ATL",
+   "pos": "RB",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.87,
+   "line": null,
+   "game_id": "2026_07_SF_ATL"
+  },
+  {
+   "player": "George Kittle",
+   "team": "SF",
+   "opp": "ATL",
+   "pos": "TE",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 4.41,
+   "line": null,
+   "game_id": "2026_07_SF_ATL"
+  },
+  {
+   "player": "George Kittle",
+   "team": "SF",
+   "opp": "ATL",
+   "pos": "TE",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 54.44,
+   "line": null,
+   "game_id": "2026_07_SF_ATL"
+  },
+  {
+   "player": "George Kittle",
+   "team": "SF",
+   "opp": "ATL",
+   "pos": "TE",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.52,
+   "line": null,
+   "game_id": "2026_07_SF_ATL"
+  },
+  {
+   "player": "Aaron Jones",
+   "team": "MIN",
+   "opp": "IND",
+   "pos": "RB",
+   "stat": "rush_yds",
+   "label": "Rushing yards",
+   "proj": 80.78,
+   "line": null,
+   "game_id": "2026_07_IND_MIN"
+  },
+  {
+   "player": "Aaron Jones",
+   "team": "MIN",
+   "opp": "IND",
+   "pos": "RB",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 3.07,
+   "line": null,
+   "game_id": "2026_07_IND_MIN"
+  },
+  {
+   "player": "Aaron Jones",
+   "team": "MIN",
+   "opp": "IND",
+   "pos": "RB",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.68,
+   "line": null,
+   "game_id": "2026_07_IND_MIN"
+  },
+  {
+   "player": "Kendrick Bourne",
+   "team": "ARI",
+   "opp": "DEN",
+   "pos": "WR",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 3.27,
+   "line": null,
+   "game_id": "2026_07_DEN_ARI"
+  },
+  {
+   "player": "Kendrick Bourne",
+   "team": "ARI",
+   "opp": "DEN",
+   "pos": "WR",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 36.46,
+   "line": null,
+   "game_id": "2026_07_DEN_ARI"
+  },
+  {
+   "player": "Kendrick Bourne",
+   "team": "ARI",
+   "opp": "DEN",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.19,
+   "line": null,
+   "game_id": "2026_07_DEN_ARI"
+  },
+  {
+   "player": "Tim Patrick",
+   "team": "NYJ",
+   "opp": "MIA",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.11,
+   "line": null,
+   "game_id": "2026_07_MIA_NYJ"
+  },
+  {
+   "player": "Patrick Ricard",
+   "team": "NYG",
+   "opp": "HOU",
+   "pos": "RB",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.04,
+   "line": null,
+   "game_id": "2026_07_NYG_HOU"
+  },
+  {
+   "player": "Pharaoh Brown",
+   "team": "IND",
+   "opp": "MIN",
+   "pos": "TE",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.02,
+   "line": null,
+   "game_id": "2026_07_IND_MIN"
+  },
+  {
+   "player": "Samaje Perine",
+   "team": "CIN",
+   "opp": "BAL",
+   "pos": "RB",
+   "stat": "rush_yds",
+   "label": "Rushing yards",
+   "proj": 30.89,
+   "line": null,
+   "game_id": "2026_07_CIN_BAL"
+  },
+  {
+   "player": "Samaje Perine",
+   "team": "CIN",
+   "opp": "BAL",
+   "pos": "RB",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.33,
+   "line": null,
+   "game_id": "2026_07_CIN_BAL"
+  },
+  {
+   "player": "Deshaun Watson",
+   "team": "CLE",
+   "opp": "TEN",
+   "pos": "QB",
+   "stat": "pass_yds",
+   "label": "Passing yards",
+   "proj": 182.25,
+   "line": null,
+   "game_id": "2026_07_CLE_TEN"
+  },
+  {
+   "player": "Deshaun Watson",
+   "team": "CLE",
+   "opp": "TEN",
+   "pos": "QB",
+   "stat": "pass_tds",
+   "label": "Passing TDs",
+   "proj": 1.09,
+   "line": null,
+   "game_id": "2026_07_CLE_TEN"
+  },
+  {
+   "player": "Deshaun Watson",
+   "team": "CLE",
+   "opp": "TEN",
+   "pos": "QB",
+   "stat": "rush_yds",
+   "label": "Rushing yards",
+   "proj": 29.28,
+   "line": null,
+   "game_id": "2026_07_CLE_TEN"
+  },
+  {
+   "player": "Mack Hollins",
+   "team": "NE",
+   "opp": "CHI",
+   "pos": "WR",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 3.52,
+   "line": null,
+   "game_id": "2026_07_NE_CHI"
+  },
+  {
+   "player": "Mack Hollins",
+   "team": "NE",
+   "opp": "CHI",
+   "pos": "WR",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 46.22,
+   "line": null,
+   "game_id": "2026_07_NE_CHI"
+  },
+  {
+   "player": "Mack Hollins",
+   "team": "NE",
+   "opp": "CHI",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.24,
+   "line": null,
+   "game_id": "2026_07_NE_CHI"
+  },
+  {
+   "player": "Eric Saubert",
+   "team": "SEA",
+   "opp": "KC",
+   "pos": "TE",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.06,
+   "line": null,
+   "game_id": "2026_07_KC_SEA"
+  },
+  {
+   "player": "David Moore",
+   "team": "CAR",
+   "opp": "TB",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.08,
+   "line": null,
+   "game_id": "2026_07_TB_CAR"
+  },
+  {
+   "player": "Dare Ogunbowale",
+   "team": "HOU",
+   "opp": "NYG",
+   "pos": "RB",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.12,
+   "line": null,
+   "game_id": "2026_07_NYG_HOU"
+  },
+  {
+   "player": "Jonnu Smith",
+   "team": "GB",
+   "opp": "DET",
+   "pos": "TE",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.11,
+   "line": null,
+   "game_id": "2026_07_GB_DET"
+  },
+  {
+   "player": "Patrick Mahomes",
+   "team": "KC",
+   "opp": "SEA",
+   "pos": "QB",
+   "stat": "pass_yds",
+   "label": "Passing yards",
+   "proj": 230.69,
+   "line": null,
+   "game_id": "2026_07_KC_SEA"
+  },
+  {
+   "player": "Patrick Mahomes",
+   "team": "KC",
+   "opp": "SEA",
+   "pos": "QB",
+   "stat": "pass_tds",
+   "label": "Passing TDs",
+   "proj": 1.13,
+   "line": null,
+   "game_id": "2026_07_KC_SEA"
+  },
+  {
+   "player": "Evan Engram",
+   "team": "DEN",
+   "opp": "ARI",
+   "pos": "TE",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.17,
+   "line": null,
+   "game_id": "2026_07_DEN_ARI"
+  },
+  {
+   "player": "Alvin Kamara",
+   "team": "NO",
+   "opp": "PIT",
+   "pos": "RB",
+   "stat": "rush_yds",
+   "label": "Rushing yards",
+   "proj": 27.46,
+   "line": null,
+   "game_id": "2026_07_PIT_NO"
+  },
+  {
+   "player": "Alvin Kamara",
+   "team": "NO",
+   "opp": "PIT",
+   "pos": "RB",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 2.5,
+   "line": null,
+   "game_id": "2026_07_PIT_NO"
+  },
+  {
+   "player": "Alvin Kamara",
+   "team": "NO",
+   "opp": "PIT",
+   "pos": "RB",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.35,
+   "line": null,
+   "game_id": "2026_07_PIT_NO"
+  },
+  {
+   "player": "Cooper Kupp",
+   "team": "SEA",
+   "opp": "KC",
+   "pos": "WR",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 3.07,
+   "line": null,
+   "game_id": "2026_07_KC_SEA"
+  },
+  {
+   "player": "Cooper Kupp",
+   "team": "SEA",
+   "opp": "KC",
+   "pos": "WR",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 35.07,
+   "line": null,
+   "game_id": "2026_07_KC_SEA"
+  },
+  {
+   "player": "Cooper Kupp",
+   "team": "SEA",
+   "opp": "KC",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.22,
+   "line": null,
+   "game_id": "2026_07_KC_SEA"
+  },
+  {
+   "player": "Chris Godwin Jr.",
+   "team": "TB",
+   "opp": "CAR",
+   "pos": "WR",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 3.49,
+   "line": null,
+   "game_id": "2026_07_TB_CAR"
+  },
+  {
+   "player": "Chris Godwin Jr.",
+   "team": "TB",
+   "opp": "CAR",
+   "pos": "WR",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 37.08,
+   "line": null,
+   "game_id": "2026_07_TB_CAR"
+  },
+  {
+   "player": "Chris Godwin Jr.",
+   "team": "TB",
+   "opp": "CAR",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.22,
+   "line": null,
+   "game_id": "2026_07_TB_CAR"
+  },
+  {
+   "player": "Courtland Sutton",
+   "team": "DEN",
+   "opp": "ARI",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.26,
+   "line": null,
+   "game_id": "2026_07_DEN_ARI"
+  },
+  {
+   "player": "Dallas Goedert",
+   "team": "PHI",
+   "opp": "DAL",
+   "pos": "TE",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 4.03,
+   "line": null,
+   "game_id": "2026_07_DAL_PHI"
+  },
+  {
+   "player": "Dallas Goedert",
+   "team": "PHI",
+   "opp": "DAL",
+   "pos": "TE",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 41.41,
+   "line": null,
+   "game_id": "2026_07_DAL_PHI"
+  },
+  {
+   "player": "Dallas Goedert",
+   "team": "PHI",
+   "opp": "DAL",
+   "pos": "TE",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.26,
+   "line": null,
+   "game_id": "2026_07_DAL_PHI"
+  },
+  {
+   "player": "Ian Thomas",
+   "team": "LV",
+   "opp": "LA",
+   "pos": "TE",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.08,
+   "line": null,
+   "game_id": "2026_07_LA_LV"
+  },
+  {
+   "player": "Dalton Schultz",
+   "team": "HOU",
+   "opp": "NYG",
+   "pos": "TE",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 3.45,
+   "line": null,
+   "game_id": "2026_07_NYG_HOU"
+  },
+  {
+   "player": "Dalton Schultz",
+   "team": "HOU",
+   "opp": "NYG",
+   "pos": "TE",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 37.79,
+   "line": null,
+   "game_id": "2026_07_NYG_HOU"
+  },
+  {
+   "player": "Dalton Schultz",
+   "team": "HOU",
+   "opp": "NYG",
+   "pos": "TE",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.22,
+   "line": null,
+   "game_id": "2026_07_NYG_HOU"
+  },
+  {
+   "player": "Braxton Berrios",
+   "team": "NYG",
+   "opp": "HOU",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.01,
+   "line": null,
+   "game_id": "2026_07_NYG_HOU"
+  },
+  {
+   "player": "Tanner Hudson",
+   "team": "CIN",
+   "opp": "BAL",
+   "pos": "TE",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.16,
+   "line": null,
+   "game_id": "2026_07_CIN_BAL"
+  },
+  {
+   "player": "Mark Andrews",
+   "team": "BAL",
+   "opp": "CIN",
+   "pos": "TE",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 3.31,
+   "line": null,
+   "game_id": "2026_07_CIN_BAL"
+  },
+  {
+   "player": "Mark Andrews",
+   "team": "BAL",
+   "opp": "CIN",
+   "pos": "TE",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.3,
+   "line": null,
+   "game_id": "2026_07_CIN_BAL"
+  },
+  {
+   "player": "Lamar Jackson",
+   "team": "BAL",
+   "opp": "CIN",
+   "pos": "QB",
+   "stat": "pass_yds",
+   "label": "Passing yards",
+   "proj": 215.67,
+   "line": null,
+   "game_id": "2026_07_CIN_BAL"
+  },
+  {
+   "player": "Lamar Jackson",
+   "team": "BAL",
+   "opp": "CIN",
+   "pos": "QB",
+   "stat": "pass_tds",
+   "label": "Passing TDs",
+   "proj": 1.68,
+   "line": null,
+   "game_id": "2026_07_CIN_BAL"
+  },
+  {
+   "player": "Lamar Jackson",
+   "team": "BAL",
+   "opp": "CIN",
+   "pos": "QB",
+   "stat": "rush_yds",
+   "label": "Rushing yards",
+   "proj": 24.75,
+   "line": null,
+   "game_id": "2026_07_CIN_BAL"
+  },
+  {
+   "player": "Mike Gesicki",
+   "team": "CIN",
+   "opp": "BAL",
+   "pos": "TE",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 26.08,
+   "line": null,
+   "game_id": "2026_07_CIN_BAL"
+  },
+  {
+   "player": "Mike Gesicki",
+   "team": "CIN",
+   "opp": "BAL",
+   "pos": "TE",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.3,
+   "line": null,
+   "game_id": "2026_07_CIN_BAL"
+  },
+  {
+   "player": "Calvin Ridley",
+   "team": "TEN",
+   "opp": "CLE",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.1,
+   "line": null,
+   "game_id": "2026_07_CLE_TEN"
+  },
+  {
+   "player": "Saquon Barkley",
+   "team": "PHI",
+   "opp": "DAL",
+   "pos": "RB",
+   "stat": "rush_yds",
+   "label": "Rushing yards",
+   "proj": 47.84,
+   "line": null,
+   "game_id": "2026_07_DAL_PHI"
+  },
+  {
+   "player": "Saquon Barkley",
+   "team": "PHI",
+   "opp": "DAL",
+   "pos": "RB",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.36,
+   "line": null,
+   "game_id": "2026_07_DAL_PHI"
+  },
+  {
+   "player": "KhaDarel Hodge",
+   "team": "SF",
+   "opp": "ATL",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.07,
+   "line": null,
+   "game_id": "2026_07_SF_ATL"
+  },
+  {
+   "player": "Baker Mayfield",
+   "team": "TB",
+   "opp": "CAR",
+   "pos": "QB",
+   "stat": "pass_yds",
+   "label": "Passing yards",
+   "proj": 202.43,
+   "line": null,
+   "game_id": "2026_07_TB_CAR"
+  },
+  {
+   "player": "Baker Mayfield",
+   "team": "TB",
+   "opp": "CAR",
+   "pos": "QB",
+   "stat": "pass_tds",
+   "label": "Passing TDs",
+   "proj": 1.08,
+   "line": null,
+   "game_id": "2026_07_TB_CAR"
+  },
+  {
+   "player": "Sam Darnold",
+   "team": "SEA",
+   "opp": "KC",
+   "pos": "QB",
+   "stat": "pass_yds",
+   "label": "Passing yards",
+   "proj": 216.13,
+   "line": null,
+   "game_id": "2026_07_KC_SEA"
+  },
+  {
+   "player": "Sam Darnold",
+   "team": "SEA",
+   "opp": "KC",
+   "pos": "QB",
+   "stat": "pass_tds",
+   "label": "Passing TDs",
+   "proj": 1.15,
+   "line": null,
+   "game_id": "2026_07_KC_SEA"
+  },
+  {
+   "player": "Justice Hill",
+   "team": "BAL",
+   "opp": "CIN",
+   "pos": "RB",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.19,
+   "line": null,
+   "game_id": "2026_07_CIN_BAL"
+  },
+  {
+   "player": "Foster Moreau",
+   "team": "HOU",
+   "opp": "NYG",
+   "pos": "TE",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.31,
+   "line": null,
+   "game_id": "2026_07_NYG_HOU"
+  },
+  {
+   "player": "Ashton Dulin",
+   "team": "IND",
+   "opp": "MIN",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.1,
+   "line": null,
+   "game_id": "2026_07_IND_MIN"
+  },
+  {
+   "player": "Olamide Zaccheaus",
+   "team": "ATL",
+   "opp": "SF",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.11,
+   "line": null,
+   "game_id": "2026_07_SF_ATL"
+  },
+  {
+   "player": "Kyler Murray",
+   "team": "MIN",
+   "opp": "IND",
+   "pos": "QB",
+   "stat": "pass_yds",
+   "label": "Passing yards",
+   "proj": 194.08,
+   "line": null,
+   "game_id": "2026_07_IND_MIN"
+  },
+  {
+   "player": "Kyler Murray",
+   "team": "MIN",
+   "opp": "IND",
+   "pos": "QB",
+   "stat": "rush_yds",
+   "label": "Rushing yards",
+   "proj": 26.96,
+   "line": null,
+   "game_id": "2026_07_IND_MIN"
+  },
+  {
+   "player": "T.J. Hockenson",
+   "team": "MIN",
+   "opp": "IND",
+   "pos": "TE",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 3.86,
+   "line": null,
+   "game_id": "2026_07_IND_MIN"
+  },
+  {
+   "player": "T.J. Hockenson",
+   "team": "MIN",
+   "opp": "IND",
+   "pos": "TE",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 40.66,
+   "line": null,
+   "game_id": "2026_07_IND_MIN"
+  },
+  {
+   "player": "T.J. Hockenson",
+   "team": "MIN",
+   "opp": "IND",
+   "pos": "TE",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.25,
+   "line": null,
+   "game_id": "2026_07_IND_MIN"
+  },
+  {
+   "player": "Josh Oliver",
+   "team": "MIN",
+   "opp": "IND",
+   "pos": "TE",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.11,
+   "line": null,
+   "game_id": "2026_07_IND_MIN"
+  },
+  {
+   "player": "Devin Singletary",
+   "team": "NYG",
+   "opp": "HOU",
+   "pos": "RB",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.16,
+   "line": null,
+   "game_id": "2026_07_NYG_HOU"
+  },
+  {
+   "player": "Tony Pollard",
+   "team": "TEN",
+   "opp": "CLE",
+   "pos": "RB",
+   "stat": "rush_yds",
+   "label": "Rushing yards",
+   "proj": 67.17,
+   "line": null,
+   "game_id": "2026_07_CLE_TEN"
+  },
+  {
+   "player": "Tony Pollard",
+   "team": "TEN",
+   "opp": "CLE",
+   "pos": "RB",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.52,
+   "line": null,
+   "game_id": "2026_07_CLE_TEN"
+  },
+  {
+   "player": "Lil'Jordan Humphrey",
+   "team": "DEN",
+   "opp": "ARI",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.16,
+   "line": null,
+   "game_id": "2026_07_DEN_ARI"
+  },
+  {
+   "player": "Drew Sample",
+   "team": "CIN",
+   "opp": "BAL",
+   "pos": "TE",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.09,
+   "line": null,
+   "game_id": "2026_07_CIN_BAL"
+  },
+  {
+   "player": "DK Metcalf",
+   "team": "PIT",
+   "opp": "NO",
+   "pos": "WR",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 5.1,
+   "line": null,
+   "game_id": "2026_07_PIT_NO"
+  },
+  {
+   "player": "DK Metcalf",
+   "team": "PIT",
+   "opp": "NO",
+   "pos": "WR",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 56.45,
+   "line": null,
+   "game_id": "2026_07_PIT_NO"
+  },
+  {
+   "player": "DK Metcalf",
+   "team": "PIT",
+   "opp": "NO",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.33,
+   "line": null,
+   "game_id": "2026_07_PIT_NO"
+  },
+  {
+   "player": "Noah Fant",
+   "team": "NO",
+   "opp": "PIT",
+   "pos": "TE",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.1,
+   "line": null,
+   "game_id": "2026_07_PIT_NO"
+  },
+  {
+   "player": "Marquise Brown",
+   "team": "PHI",
+   "opp": "DAL",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.14,
+   "line": null,
+   "game_id": "2026_07_DAL_PHI"
+  },
+  {
+   "player": "A.J. Brown",
+   "team": "NE",
+   "opp": "CHI",
+   "pos": "WR",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 4.42,
+   "line": null,
+   "game_id": "2026_07_NE_CHI"
+  },
+  {
+   "player": "A.J. Brown",
+   "team": "NE",
+   "opp": "CHI",
+   "pos": "WR",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 55.13,
+   "line": null,
+   "game_id": "2026_07_NE_CHI"
+  },
+  {
+   "player": "A.J. Brown",
+   "team": "NE",
+   "opp": "CHI",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.36,
+   "line": null,
+   "game_id": "2026_07_NE_CHI"
+  },
+  {
+   "player": "David Montgomery",
+   "team": "HOU",
+   "opp": "NYG",
+   "pos": "RB",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.37,
+   "line": null,
+   "game_id": "2026_07_NYG_HOU"
+  },
+  {
+   "player": "Drew Lock",
+   "team": "SEA",
+   "opp": "KC",
+   "pos": "QB",
+   "stat": "pass_tds",
+   "label": "Passing TDs",
+   "proj": 1.24,
+   "line": null,
+   "game_id": "2026_07_KC_SEA"
+  },
+  {
+   "player": "Daniel Jones",
+   "team": "IND",
+   "opp": "MIN",
+   "pos": "QB",
+   "stat": "pass_yds",
+   "label": "Passing yards",
+   "proj": 208.72,
+   "line": null,
+   "game_id": "2026_07_IND_MIN"
+  },
+  {
+   "player": "Deebo Samuel Sr.",
+   "team": "SF",
+   "opp": "ATL",
+   "pos": "WR",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 3.03,
+   "line": null,
+   "game_id": "2026_07_SF_ATL"
+  },
+  {
+   "player": "Deebo Samuel Sr.",
+   "team": "SF",
+   "opp": "ATL",
+   "pos": "WR",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 38.63,
+   "line": null,
+   "game_id": "2026_07_SF_ATL"
+  },
+  {
+   "player": "Deebo Samuel Sr.",
+   "team": "SF",
+   "opp": "ATL",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.41,
+   "line": null,
+   "game_id": "2026_07_SF_ATL"
+  },
+  {
+   "player": "Cody White",
+   "team": "LV",
+   "opp": "LA",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.12,
+   "line": null,
+   "game_id": "2026_07_LA_LV"
+  },
+  {
+   "player": "Tyler Huntley",
+   "team": "BAL",
+   "opp": "CIN",
+   "pos": "QB",
+   "stat": "pass_tds",
+   "label": "Passing TDs",
+   "proj": 1.22,
+   "line": null,
+   "game_id": "2026_07_CIN_BAL"
+  },
+  {
+   "player": "Tyler Huntley",
+   "team": "BAL",
+   "opp": "CIN",
+   "pos": "QB",
+   "stat": "rush_yds",
+   "label": "Rushing yards",
+   "proj": 24.24,
+   "line": null,
+   "game_id": "2026_07_CIN_BAL"
+  },
+  {
+   "player": "Juwan Johnson",
+   "team": "NO",
+   "opp": "PIT",
+   "pos": "TE",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 3.1,
+   "line": null,
+   "game_id": "2026_07_PIT_NO"
+  },
+  {
+   "player": "Juwan Johnson",
+   "team": "NO",
+   "opp": "PIT",
+   "pos": "TE",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 32.76,
+   "line": null,
+   "game_id": "2026_07_PIT_NO"
+  },
+  {
+   "player": "Juwan Johnson",
+   "team": "NO",
+   "opp": "PIT",
+   "pos": "TE",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.2,
+   "line": null,
+   "game_id": "2026_07_PIT_NO"
+  },
+  {
+   "player": "Rico Dowdle",
+   "team": "PIT",
+   "opp": "NO",
+   "pos": "RB",
+   "stat": "rush_yds",
+   "label": "Rushing yards",
+   "proj": 36.09,
+   "line": null,
+   "game_id": "2026_07_PIT_NO"
+  },
+  {
+   "player": "Rico Dowdle",
+   "team": "PIT",
+   "opp": "NO",
+   "pos": "RB",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.37,
+   "line": null,
+   "game_id": "2026_07_PIT_NO"
+  },
+  {
+   "player": "J.K. Dobbins",
+   "team": "DEN",
+   "opp": "ARI",
+   "pos": "RB",
+   "stat": "rush_yds",
+   "label": "Rushing yards",
+   "proj": 58.95,
+   "line": null,
+   "game_id": "2026_07_DEN_ARI"
+  },
+  {
+   "player": "J.K. Dobbins",
+   "team": "DEN",
+   "opp": "ARI",
+   "pos": "RB",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.58,
+   "line": null,
+   "game_id": "2026_07_DEN_ARI"
+  },
+  {
+   "player": "Nick Westbrook-Ikhine",
+   "team": "IND",
+   "opp": "MIN",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.02,
+   "line": null,
+   "game_id": "2026_07_IND_MIN"
+  },
+  {
+   "player": "Tua Tagovailoa",
+   "team": "ATL",
+   "opp": "SF",
+   "pos": "QB",
+   "stat": "pass_tds",
+   "label": "Passing TDs",
+   "proj": 1.01,
+   "line": null,
+   "game_id": "2026_07_SF_ATL"
+  },
+  {
+   "player": "Jonathan Taylor",
+   "team": "IND",
+   "opp": "MIN",
+   "pos": "RB",
+   "stat": "rush_yds",
+   "label": "Rushing yards",
+   "proj": 69.07,
+   "line": null,
+   "game_id": "2026_07_IND_MIN"
+  },
+  {
+   "player": "Jonathan Taylor",
+   "team": "IND",
+   "opp": "MIN",
+   "pos": "RB",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 20.33,
+   "line": null,
+   "game_id": "2026_07_IND_MIN"
+  },
+  {
+   "player": "Jonathan Taylor",
+   "team": "IND",
+   "opp": "MIN",
+   "pos": "RB",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.55,
+   "line": null,
+   "game_id": "2026_07_IND_MIN"
+  },
+  {
+   "player": "Colby Parkinson",
+   "team": "LA",
+   "opp": "LV",
+   "pos": "TE",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 2.37,
+   "line": null,
+   "game_id": "2026_07_LA_LV"
+  },
+  {
+   "player": "Colby Parkinson",
+   "team": "LA",
+   "opp": "LV",
+   "pos": "TE",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.26,
+   "line": null,
+   "game_id": "2026_07_LA_LV"
+  },
+  {
+   "player": "Michael Pittman",
+   "team": "PIT",
+   "opp": "NO",
+   "pos": "WR",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 2.61,
+   "line": null,
+   "game_id": "2026_07_PIT_NO"
+  },
+  {
+   "player": "Michael Pittman",
+   "team": "PIT",
+   "opp": "NO",
+   "pos": "WR",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 29.39,
+   "line": null,
+   "game_id": "2026_07_PIT_NO"
+  },
+  {
+   "player": "Michael Pittman",
+   "team": "PIT",
+   "opp": "NO",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.18,
+   "line": null,
+   "game_id": "2026_07_PIT_NO"
+  },
+  {
+   "player": "Jauan Jennings",
+   "team": "MIN",
+   "opp": "IND",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.13,
+   "line": null,
+   "game_id": "2026_07_IND_MIN"
+  },
+  {
+   "player": "Jordan Love",
+   "team": "GB",
+   "opp": "DET",
+   "pos": "QB",
+   "stat": "pass_yds",
+   "label": "Passing yards",
+   "proj": 261.83,
+   "line": null,
+   "game_id": "2026_07_GB_DET"
+  },
+  {
+   "player": "Jordan Love",
+   "team": "GB",
+   "opp": "DET",
+   "pos": "QB",
+   "stat": "pass_tds",
+   "label": "Passing TDs",
+   "proj": 1.61,
+   "line": null,
+   "game_id": "2026_07_GB_DET"
+  },
+  {
+   "player": "AJ Dillon",
+   "team": "CAR",
+   "opp": "TB",
+   "pos": "RB",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.15,
+   "line": null,
+   "game_id": "2026_07_TB_CAR"
+  },
+  {
+   "player": "D'Andre Swift",
+   "team": "CHI",
+   "opp": "NE",
+   "pos": "RB",
+   "stat": "rush_yds",
+   "label": "Rushing yards",
+   "proj": 56.0,
+   "line": null,
+   "game_id": "2026_07_NE_CHI"
+  },
+  {
+   "player": "D'Andre Swift",
+   "team": "CHI",
+   "opp": "NE",
+   "pos": "RB",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 2.8,
+   "line": null,
+   "game_id": "2026_07_NE_CHI"
+  },
+  {
+   "player": "D'Andre Swift",
+   "team": "CHI",
+   "opp": "NE",
+   "pos": "RB",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.73,
+   "line": null,
+   "game_id": "2026_07_NE_CHI"
+  },
+  {
+   "player": "Cole Kmet",
+   "team": "CHI",
+   "opp": "NE",
+   "pos": "TE",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.13,
+   "line": null,
+   "game_id": "2026_07_NE_CHI"
+  },
+  {
+   "player": "Darnell Mooney",
+   "team": "NYG",
+   "opp": "HOU",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.12,
+   "line": null,
+   "game_id": "2026_07_NYG_HOU"
+  },
+  {
+   "player": "Justin Jefferson",
+   "team": "MIN",
+   "opp": "IND",
+   "pos": "WR",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 4.7,
+   "line": null,
+   "game_id": "2026_07_IND_MIN"
+  },
+  {
+   "player": "Justin Jefferson",
+   "team": "MIN",
+   "opp": "IND",
+   "pos": "WR",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 59.7,
+   "line": null,
+   "game_id": "2026_07_IND_MIN"
+  },
+  {
+   "player": "Justin Jefferson",
+   "team": "MIN",
+   "opp": "IND",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.42,
+   "line": null,
+   "game_id": "2026_07_IND_MIN"
+  },
+  {
+   "player": "CeeDee Lamb",
+   "team": "DAL",
+   "opp": "PHI",
+   "pos": "WR",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 6.27,
+   "line": null,
+   "game_id": "2026_07_DAL_PHI"
+  },
+  {
+   "player": "CeeDee Lamb",
+   "team": "DAL",
+   "opp": "PHI",
+   "pos": "WR",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 70.19,
+   "line": null,
+   "game_id": "2026_07_DAL_PHI"
+  },
+  {
+   "player": "CeeDee Lamb",
+   "team": "DAL",
+   "opp": "PHI",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.43,
+   "line": null,
+   "game_id": "2026_07_DAL_PHI"
+  },
+  {
+   "player": "Jalen Hurts",
+   "team": "PHI",
+   "opp": "DAL",
+   "pos": "QB",
+   "stat": "pass_yds",
+   "label": "Passing yards",
+   "proj": 180.95,
+   "line": null,
+   "game_id": "2026_07_DAL_PHI"
+  },
+  {
+   "player": "Jalen Hurts",
+   "team": "PHI",
+   "opp": "DAL",
+   "pos": "QB",
+   "stat": "pass_tds",
+   "label": "Passing TDs",
+   "proj": 1.28,
+   "line": null,
+   "game_id": "2026_07_DAL_PHI"
+  },
+  {
+   "player": "Jerry Jeudy",
+   "team": "CLE",
+   "opp": "TEN",
+   "pos": "WR",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 3.03,
+   "line": null,
+   "game_id": "2026_07_CLE_TEN"
+  },
+  {
+   "player": "Jerry Jeudy",
+   "team": "CLE",
+   "opp": "TEN",
+   "pos": "WR",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 36.32,
+   "line": null,
+   "game_id": "2026_07_CLE_TEN"
+  },
+  {
+   "player": "Jerry Jeudy",
+   "team": "CLE",
+   "opp": "TEN",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.2,
+   "line": null,
+   "game_id": "2026_07_CLE_TEN"
+  },
+  {
+   "player": "Tee Higgins",
+   "team": "CIN",
+   "opp": "BAL",
+   "pos": "WR",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 4.57,
+   "line": null,
+   "game_id": "2026_07_CIN_BAL"
+  },
+  {
+   "player": "Tee Higgins",
+   "team": "CIN",
+   "opp": "BAL",
+   "pos": "WR",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 59.1,
+   "line": null,
+   "game_id": "2026_07_CIN_BAL"
+  },
+  {
+   "player": "Tee Higgins",
+   "team": "CIN",
+   "opp": "BAL",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.33,
+   "line": null,
+   "game_id": "2026_07_CIN_BAL"
+  },
+  {
+   "player": "Adam Trautman",
+   "team": "DEN",
+   "opp": "ARI",
+   "pos": "TE",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.1,
+   "line": null,
+   "game_id": "2026_07_DEN_ARI"
+  },
+  {
+   "player": "DeeJay Dallas",
+   "team": "MIN",
+   "opp": "IND",
+   "pos": "RB",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.07,
+   "line": null,
+   "game_id": "2026_07_IND_MIN"
+  },
+  {
+   "player": "Joe Burrow",
+   "team": "CIN",
+   "opp": "BAL",
+   "pos": "QB",
+   "stat": "pass_yds",
+   "label": "Passing yards",
+   "proj": 255.16,
+   "line": null,
+   "game_id": "2026_07_CIN_BAL"
+  },
+  {
+   "player": "Joe Burrow",
+   "team": "CIN",
+   "opp": "BAL",
+   "pos": "QB",
+   "stat": "pass_tds",
+   "label": "Passing TDs",
+   "proj": 2.0,
+   "line": null,
+   "game_id": "2026_07_CIN_BAL"
+  },
+  {
+   "player": "Rashod Bateman",
+   "team": "BAL",
+   "opp": "CIN",
+   "pos": "WR",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 30.05,
+   "line": null,
+   "game_id": "2026_07_CIN_BAL"
+  },
+  {
+   "player": "Rashod Bateman",
+   "team": "BAL",
+   "opp": "CIN",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.2,
+   "line": null,
+   "game_id": "2026_07_CIN_BAL"
+  },
+  {
+   "player": "Nico Collins",
+   "team": "HOU",
+   "opp": "NYG",
+   "pos": "WR",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 4.35,
+   "line": null,
+   "game_id": "2026_07_NYG_HOU"
+  },
+  {
+   "player": "Nico Collins",
+   "team": "HOU",
+   "opp": "NYG",
+   "pos": "WR",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 60.32,
+   "line": null,
+   "game_id": "2026_07_NYG_HOU"
+  },
+  {
+   "player": "Nico Collins",
+   "team": "HOU",
+   "opp": "NYG",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.43,
+   "line": null,
+   "game_id": "2026_07_NYG_HOU"
+  },
+  {
+   "player": "Chuba Hubbard",
+   "team": "CAR",
+   "opp": "TB",
+   "pos": "RB",
+   "stat": "rush_yds",
+   "label": "Rushing yards",
+   "proj": 79.84,
+   "line": null,
+   "game_id": "2026_07_TB_CAR"
+  },
+  {
+   "player": "Chuba Hubbard",
+   "team": "CAR",
+   "opp": "TB",
+   "pos": "RB",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.72,
+   "line": null,
+   "game_id": "2026_07_TB_CAR"
+  },
+  {
+   "player": "Brevin Jordan",
+   "team": "HOU",
+   "opp": "NYG",
+   "pos": "TE",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.09,
+   "line": null,
+   "game_id": "2026_07_NYG_HOU"
+  },
+  {
+   "player": "Jaylen Waddle",
+   "team": "DEN",
+   "opp": "ARI",
+   "pos": "WR",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 4.0,
+   "line": null,
+   "game_id": "2026_07_DEN_ARI"
+  },
+  {
+   "player": "Jaylen Waddle",
+   "team": "DEN",
+   "opp": "ARI",
+   "pos": "WR",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 46.86,
+   "line": null,
+   "game_id": "2026_07_DEN_ARI"
+  },
+  {
+   "player": "Jaylen Waddle",
+   "team": "DEN",
+   "opp": "ARI",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.35,
+   "line": null,
+   "game_id": "2026_07_DEN_ARI"
+  },
+  {
+   "player": "Tylan Wallace",
+   "team": "CLE",
+   "opp": "TEN",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.04,
+   "line": null,
+   "game_id": "2026_07_CLE_TEN"
+  },
+  {
+   "player": "Noah Gray",
+   "team": "KC",
+   "opp": "SEA",
+   "pos": "TE",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 24.1,
+   "line": null,
+   "game_id": "2026_07_KC_SEA"
+  },
+  {
+   "player": "Noah Gray",
+   "team": "KC",
+   "opp": "SEA",
+   "pos": "TE",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.12,
+   "line": null,
+   "game_id": "2026_07_KC_SEA"
+  },
+  {
+   "player": "Simi Fehoko",
+   "team": "ARI",
+   "opp": "DEN",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.01,
+   "line": null,
+   "game_id": "2026_07_DEN_ARI"
+  },
+  {
+   "player": "Brock Wright",
+   "team": "DET",
+   "opp": "GB",
+   "pos": "TE",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.1,
+   "line": null,
+   "game_id": "2026_07_GB_DET"
+  },
+  {
+   "player": "Tutu Atwell",
+   "team": "LA",
+   "opp": "LV",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.09,
+   "line": null,
+   "game_id": "2026_07_LA_LV"
+  },
+  {
+   "player": "Ben Skowronek",
+   "team": "PIT",
+   "opp": "NO",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.1,
+   "line": null,
+   "game_id": "2026_07_PIT_NO"
+  },
+  {
+   "player": "Rhamondre Stevenson",
+   "team": "NE",
+   "opp": "CHI",
+   "pos": "RB",
+   "stat": "rush_yds",
+   "label": "Rushing yards",
+   "proj": 45.45,
+   "line": null,
+   "game_id": "2026_07_NE_CHI"
+  },
+  {
+   "player": "Rhamondre Stevenson",
+   "team": "NE",
+   "opp": "CHI",
+   "pos": "RB",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.44,
+   "line": null,
+   "game_id": "2026_07_NE_CHI"
+  },
+  {
+   "player": "Kylen Granson",
+   "team": "TEN",
+   "opp": "CLE",
+   "pos": "TE",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.05,
+   "line": null,
+   "game_id": "2026_07_CLE_TEN"
+  },
+  {
+   "player": "Luke Farrell",
+   "team": "SF",
+   "opp": "ATL",
+   "pos": "TE",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.08,
+   "line": null,
+   "game_id": "2026_07_SF_ATL"
+  },
+  {
+   "player": "Najee Harris",
+   "team": "NYG",
+   "opp": "HOU",
+   "pos": "RB",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.15,
+   "line": null,
+   "game_id": "2026_07_NYG_HOU"
+  },
+  {
+   "player": "Pat Freiermuth",
+   "team": "PIT",
+   "opp": "NO",
+   "pos": "TE",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 2.88,
+   "line": null,
+   "game_id": "2026_07_PIT_NO"
+  },
+  {
+   "player": "Pat Freiermuth",
+   "team": "PIT",
+   "opp": "NO",
+   "pos": "TE",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 29.91,
+   "line": null,
+   "game_id": "2026_07_PIT_NO"
+  },
+  {
+   "player": "Pat Freiermuth",
+   "team": "PIT",
+   "opp": "NO",
+   "pos": "TE",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.3,
+   "line": null,
+   "game_id": "2026_07_PIT_NO"
+  },
+  {
+   "player": "Ja'Marr Chase",
+   "team": "CIN",
+   "opp": "BAL",
+   "pos": "WR",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 5.19,
+   "line": null,
+   "game_id": "2026_07_CIN_BAL"
+  },
+  {
+   "player": "Ja'Marr Chase",
+   "team": "CIN",
+   "opp": "BAL",
+   "pos": "WR",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 60.75,
+   "line": null,
+   "game_id": "2026_07_CIN_BAL"
+  },
+  {
+   "player": "Ja'Marr Chase",
+   "team": "CIN",
+   "opp": "BAL",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.47,
+   "line": null,
+   "game_id": "2026_07_CIN_BAL"
+  },
+  {
+   "player": "DeVonta Smith",
+   "team": "PHI",
+   "opp": "DAL",
+   "pos": "WR",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 5.8,
+   "line": null,
+   "game_id": "2026_07_DAL_PHI"
+  },
+  {
+   "player": "DeVonta Smith",
+   "team": "PHI",
+   "opp": "DAL",
+   "pos": "WR",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 65.63,
+   "line": null,
+   "game_id": "2026_07_DAL_PHI"
+  },
+  {
+   "player": "DeVonta Smith",
+   "team": "PHI",
+   "opp": "DAL",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.39,
+   "line": null,
+   "game_id": "2026_07_DAL_PHI"
+  },
+  {
+   "player": "Kenny Gainwell",
+   "team": "TB",
+   "opp": "CAR",
+   "pos": "RB",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.22,
+   "line": null,
+   "game_id": "2026_07_TB_CAR"
+  },
+  {
+   "player": "Amon-Ra St. Brown",
+   "team": "DET",
+   "opp": "GB",
+   "pos": "WR",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 6.5,
+   "line": null,
+   "game_id": "2026_07_GB_DET"
+  },
+  {
+   "player": "Amon-Ra St. Brown",
+   "team": "DET",
+   "opp": "GB",
+   "pos": "WR",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 77.4,
+   "line": null,
+   "game_id": "2026_07_GB_DET"
+  },
+  {
+   "player": "Amon-Ra St. Brown",
+   "team": "DET",
+   "opp": "GB",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.59,
+   "line": null,
+   "game_id": "2026_07_GB_DET"
+  },
+  {
+   "player": "Kyle Pitts",
+   "team": "ATL",
+   "opp": "SF",
+   "pos": "TE",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 3.52,
+   "line": null,
+   "game_id": "2026_07_SF_ATL"
+  },
+  {
+   "player": "Kyle Pitts",
+   "team": "ATL",
+   "opp": "SF",
+   "pos": "TE",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 41.03,
+   "line": null,
+   "game_id": "2026_07_SF_ATL"
+  },
+  {
+   "player": "Kyle Pitts",
+   "team": "ATL",
+   "opp": "SF",
+   "pos": "TE",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.36,
+   "line": null,
+   "game_id": "2026_07_SF_ATL"
+  },
+  {
+   "player": "Travis Etienne",
+   "team": "NO",
+   "opp": "PIT",
+   "pos": "RB",
+   "stat": "rush_yds",
+   "label": "Rushing yards",
+   "proj": 46.04,
+   "line": null,
+   "game_id": "2026_07_PIT_NO"
+  },
+  {
+   "player": "Travis Etienne",
+   "team": "NO",
+   "opp": "PIT",
+   "pos": "RB",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 2.54,
+   "line": null,
+   "game_id": "2026_07_PIT_NO"
+  },
+  {
+   "player": "Travis Etienne",
+   "team": "NO",
+   "opp": "PIT",
+   "pos": "RB",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.41,
+   "line": null,
+   "game_id": "2026_07_PIT_NO"
+  },
+  {
+   "player": "Elijah Moore",
+   "team": "PHI",
+   "opp": "DAL",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.08,
+   "line": null,
+   "game_id": "2026_07_DAL_PHI"
+  },
+  {
+   "player": "Javonte Williams",
+   "team": "DAL",
+   "opp": "PHI",
+   "pos": "RB",
+   "stat": "rush_yds",
+   "label": "Rushing yards",
+   "proj": 69.39,
+   "line": null,
+   "game_id": "2026_07_DAL_PHI"
+  },
+  {
+   "player": "Javonte Williams",
+   "team": "DAL",
+   "opp": "PHI",
+   "pos": "RB",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 2.3,
+   "line": null,
+   "game_id": "2026_07_DAL_PHI"
+  },
+  {
+   "player": "Javonte Williams",
+   "team": "DAL",
+   "opp": "PHI",
+   "pos": "RB",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.82,
+   "line": null,
+   "game_id": "2026_07_DAL_PHI"
+  },
+  {
+   "player": "Hunter Long",
+   "team": "ARI",
+   "opp": "DEN",
+   "pos": "TE",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.04,
+   "line": null,
+   "game_id": "2026_07_DEN_ARI"
+  },
+  {
+   "player": "Tommy Tremble",
+   "team": "CAR",
+   "opp": "TB",
+   "pos": "TE",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 2.62,
+   "line": null,
+   "game_id": "2026_07_TB_CAR"
+  },
+  {
+   "player": "Tommy Tremble",
+   "team": "CAR",
+   "opp": "TB",
+   "pos": "TE",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 26.36,
+   "line": null,
+   "game_id": "2026_07_TB_CAR"
+  },
+  {
+   "player": "Tommy Tremble",
+   "team": "CAR",
+   "opp": "TB",
+   "pos": "TE",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.26,
+   "line": null,
+   "game_id": "2026_07_TB_CAR"
+  },
+  {
+   "player": "Bo Melton",
+   "team": "GB",
+   "opp": "DET",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.09,
+   "line": null,
+   "game_id": "2026_07_GB_DET"
+  },
+  {
+   "player": "Tyler Goodson",
+   "team": "DAL",
+   "opp": "PHI",
+   "pos": "RB",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.13,
+   "line": null,
+   "game_id": "2026_07_DAL_PHI"
+  },
+  {
+   "player": "Bam Knight",
+   "team": "ARI",
+   "opp": "DEN",
+   "pos": "RB",
+   "stat": "rush_yds",
+   "label": "Rushing yards",
+   "proj": 31.87,
+   "line": null,
+   "game_id": "2026_07_DEN_ARI"
+  },
+  {
+   "player": "Bam Knight",
+   "team": "ARI",
+   "opp": "DEN",
+   "pos": "RB",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.23,
+   "line": null,
+   "game_id": "2026_07_DEN_ARI"
+  },
+  {
+   "player": "Jaylen Warren",
+   "team": "PIT",
+   "opp": "NO",
+   "pos": "RB",
+   "stat": "rush_yds",
+   "label": "Rushing yards",
+   "proj": 76.9,
+   "line": null,
+   "game_id": "2026_07_PIT_NO"
+  },
+  {
+   "player": "Jaylen Warren",
+   "team": "PIT",
+   "opp": "NO",
+   "pos": "RB",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 3.08,
+   "line": null,
+   "game_id": "2026_07_PIT_NO"
+  },
+  {
+   "player": "Jaylen Warren",
+   "team": "PIT",
+   "opp": "NO",
+   "pos": "RB",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 28.64,
+   "line": null,
+   "game_id": "2026_07_PIT_NO"
+  },
+  {
+   "player": "Jaylen Warren",
+   "team": "PIT",
+   "opp": "NO",
+   "pos": "RB",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.67,
+   "line": null,
+   "game_id": "2026_07_PIT_NO"
+  },
+  {
+   "player": "Kevin Austin Jr.",
+   "team": "NO",
+   "opp": "PIT",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.17,
+   "line": null,
+   "game_id": "2026_07_PIT_NO"
+  },
+  {
+   "player": "Drake London",
+   "team": "ATL",
+   "opp": "SF",
+   "pos": "WR",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 5.29,
+   "line": null,
+   "game_id": "2026_07_SF_ATL"
+  },
+  {
+   "player": "Drake London",
+   "team": "ATL",
+   "opp": "SF",
+   "pos": "WR",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 75.41,
+   "line": null,
+   "game_id": "2026_07_SF_ATL"
+  },
+  {
+   "player": "Drake London",
+   "team": "ATL",
+   "opp": "SF",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.39,
+   "line": null,
+   "game_id": "2026_07_SF_ATL"
+  },
+  {
+   "player": "Chris Olave",
+   "team": "NO",
+   "opp": "PIT",
+   "pos": "WR",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 5.3,
+   "line": null,
+   "game_id": "2026_07_PIT_NO"
+  },
+  {
+   "player": "Chris Olave",
+   "team": "NO",
+   "opp": "PIT",
+   "pos": "WR",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 63.88,
+   "line": null,
+   "game_id": "2026_07_PIT_NO"
+  },
+  {
+   "player": "Chris Olave",
+   "team": "NO",
+   "opp": "PIT",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.36,
+   "line": null,
+   "game_id": "2026_07_PIT_NO"
+  },
+  {
+   "player": "Jameson Williams",
+   "team": "DET",
+   "opp": "GB",
+   "pos": "WR",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 3.43,
+   "line": null,
+   "game_id": "2026_07_GB_DET"
+  },
+  {
+   "player": "Jameson Williams",
+   "team": "DET",
+   "opp": "GB",
+   "pos": "WR",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 48.72,
+   "line": null,
+   "game_id": "2026_07_GB_DET"
+  },
+  {
+   "player": "Jameson Williams",
+   "team": "DET",
+   "opp": "GB",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.43,
+   "line": null,
+   "game_id": "2026_07_GB_DET"
+  },
+  {
+   "player": "George Pickens",
+   "team": "DAL",
+   "opp": "PHI",
+   "pos": "WR",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 4.85,
+   "line": null,
+   "game_id": "2026_07_DAL_PHI"
+  },
+  {
+   "player": "George Pickens",
+   "team": "DAL",
+   "opp": "PHI",
+   "pos": "WR",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 61.38,
+   "line": null,
+   "game_id": "2026_07_DAL_PHI"
+  },
+  {
+   "player": "George Pickens",
+   "team": "DAL",
+   "opp": "PHI",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.33,
+   "line": null,
+   "game_id": "2026_07_DAL_PHI"
+  },
+  {
+   "player": "Greg Dulcich",
+   "team": "MIA",
+   "opp": "NYJ",
+   "pos": "TE",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 3.26,
+   "line": null,
+   "game_id": "2026_07_MIA_NYJ"
+  },
+  {
+   "player": "Greg Dulcich",
+   "team": "MIA",
+   "opp": "NYJ",
+   "pos": "TE",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 35.18,
+   "line": null,
+   "game_id": "2026_07_MIA_NYJ"
+  },
+  {
+   "player": "Greg Dulcich",
+   "team": "MIA",
+   "opp": "NYJ",
+   "pos": "TE",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.19,
+   "line": null,
+   "game_id": "2026_07_MIA_NYJ"
+  },
+  {
+   "player": "Dameon Pierce",
+   "team": "PHI",
+   "opp": "DAL",
+   "pos": "RB",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.38,
+   "line": null,
+   "game_id": "2026_07_DAL_PHI"
+  },
+  {
+   "player": "Tyler Allgeier",
+   "team": "ARI",
+   "opp": "DEN",
+   "pos": "RB",
+   "stat": "rush_yds",
+   "label": "Rushing yards",
+   "proj": 30.88,
+   "line": null,
+   "game_id": "2026_07_DEN_ARI"
+  },
+  {
+   "player": "Tyler Allgeier",
+   "team": "ARI",
+   "opp": "DEN",
+   "pos": "RB",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.28,
+   "line": null,
+   "game_id": "2026_07_DEN_ARI"
+  },
+  {
+   "player": "Teagan Quitoriano",
+   "team": "ARI",
+   "opp": "DEN",
+   "pos": "TE",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.04,
+   "line": null,
+   "game_id": "2026_07_DEN_ARI"
+  },
+  {
+   "player": "Jalen Nailor",
+   "team": "LV",
+   "opp": "LA",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.15,
+   "line": null,
+   "game_id": "2026_07_LA_LV"
+  },
+  {
+   "player": "Andrew Ogletree",
+   "team": "IND",
+   "opp": "MIN",
+   "pos": "TE",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.02,
+   "line": null,
+   "game_id": "2026_07_IND_MIN"
+  },
+  {
+   "player": "Ko Kieft",
+   "team": "TB",
+   "opp": "CAR",
+   "pos": "TE",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.01,
+   "line": null,
+   "game_id": "2026_07_TB_CAR"
+  },
+  {
+   "player": "Deven Thompkins",
+   "team": "LV",
+   "opp": "LA",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.03,
+   "line": null,
+   "game_id": "2026_07_LA_LV"
+  },
+  {
+   "player": "Tay Martin",
+   "team": "DET",
+   "opp": "GB",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.07,
+   "line": null,
+   "game_id": "2026_07_GB_DET"
+  },
+  {
+   "player": "Jordan Mason",
+   "team": "MIN",
+   "opp": "IND",
+   "pos": "RB",
+   "stat": "rush_yds",
+   "label": "Rushing yards",
+   "proj": 47.72,
+   "line": null,
+   "game_id": "2026_07_IND_MIN"
+  },
+  {
+   "player": "Jordan Mason",
+   "team": "MIN",
+   "opp": "IND",
+   "pos": "RB",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.33,
+   "line": null,
+   "game_id": "2026_07_IND_MIN"
+  },
+  {
+   "player": "Rashid Shaheed",
+   "team": "SEA",
+   "opp": "KC",
+   "pos": "WR",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 2.79,
+   "line": null,
+   "game_id": "2026_07_KC_SEA"
+  },
+  {
+   "player": "Rashid Shaheed",
+   "team": "SEA",
+   "opp": "KC",
+   "pos": "WR",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 34.49,
+   "line": null,
+   "game_id": "2026_07_KC_SEA"
+  },
+  {
+   "player": "Rashid Shaheed",
+   "team": "SEA",
+   "opp": "KC",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.23,
+   "line": null,
+   "game_id": "2026_07_KC_SEA"
+  },
+  {
+   "player": "John Metchie III",
+   "team": "CAR",
+   "opp": "TB",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.19,
+   "line": null,
+   "game_id": "2026_07_TB_CAR"
+  },
+  {
+   "player": "Alec Pierce",
+   "team": "IND",
+   "opp": "MIN",
+   "pos": "WR",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 2.52,
+   "line": null,
+   "game_id": "2026_07_IND_MIN"
+  },
+  {
+   "player": "Alec Pierce",
+   "team": "IND",
+   "opp": "MIN",
+   "pos": "WR",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 35.96,
+   "line": null,
+   "game_id": "2026_07_IND_MIN"
+  },
+  {
+   "player": "Alec Pierce",
+   "team": "IND",
+   "opp": "MIN",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.15,
+   "line": null,
+   "game_id": "2026_07_IND_MIN"
+  },
+  {
+   "player": "Jalen Tolbert",
+   "team": "MIA",
+   "opp": "NYJ",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.08,
+   "line": null,
+   "game_id": "2026_07_MIA_NYJ"
+  },
+  {
+   "player": "Garrett Wilson",
+   "team": "NYJ",
+   "opp": "MIA",
+   "pos": "WR",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 5.21,
+   "line": null,
+   "game_id": "2026_07_MIA_NYJ"
+  },
+  {
+   "player": "Garrett Wilson",
+   "team": "NYJ",
+   "opp": "MIA",
+   "pos": "WR",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 62.09,
+   "line": null,
+   "game_id": "2026_07_MIA_NYJ"
+  },
+  {
+   "player": "Garrett Wilson",
+   "team": "NYJ",
+   "opp": "MIA",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.4,
+   "line": null,
+   "game_id": "2026_07_MIA_NYJ"
+  },
+  {
+   "player": "Jahan Dotson",
+   "team": "ATL",
+   "opp": "SF",
+   "pos": "WR",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 38.07,
+   "line": null,
+   "game_id": "2026_07_SF_ATL"
+  },
+  {
+   "player": "Jahan Dotson",
+   "team": "ATL",
+   "opp": "SF",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.25,
+   "line": null,
+   "game_id": "2026_07_SF_ATL"
+  },
+  {
+   "player": "Trey McBride",
+   "team": "ARI",
+   "opp": "DEN",
+   "pos": "TE",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 6.09,
+   "line": null,
+   "game_id": "2026_07_DEN_ARI"
+  },
+  {
+   "player": "Trey McBride",
+   "team": "ARI",
+   "opp": "DEN",
+   "pos": "TE",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 59.17,
+   "line": null,
+   "game_id": "2026_07_DEN_ARI"
+  },
+  {
+   "player": "Trey McBride",
+   "team": "ARI",
+   "opp": "DEN",
+   "pos": "TE",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.35,
+   "line": null,
+   "game_id": "2026_07_DEN_ARI"
+  },
+  {
+   "player": "Brian Robinson",
+   "team": "ATL",
+   "opp": "SF",
+   "pos": "RB",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.3,
+   "line": null,
+   "game_id": "2026_07_SF_ATL"
+  },
+  {
+   "player": "KaVontae Turpin",
+   "team": "DAL",
+   "opp": "PHI",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.1,
+   "line": null,
+   "game_id": "2026_07_DAL_PHI"
+  },
+  {
+   "player": "Jeremy Ruckert",
+   "team": "NYJ",
+   "opp": "MIA",
+   "pos": "TE",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 2.3,
+   "line": null,
+   "game_id": "2026_07_MIA_NYJ"
+  },
+  {
+   "player": "Jeremy Ruckert",
+   "team": "NYJ",
+   "opp": "MIA",
+   "pos": "TE",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.15,
+   "line": null,
+   "game_id": "2026_07_MIA_NYJ"
+  },
+  {
+   "player": "Romeo Doubs",
+   "team": "NE",
+   "opp": "CHI",
+   "pos": "WR",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 35.26,
+   "line": null,
+   "game_id": "2026_07_NE_CHI"
+  },
+  {
+   "player": "Romeo Doubs",
+   "team": "NE",
+   "opp": "CHI",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.29,
+   "line": null,
+   "game_id": "2026_07_NE_CHI"
+  },
+  {
+   "player": "Brock Purdy",
+   "team": "SF",
+   "opp": "ATL",
+   "pos": "QB",
+   "stat": "pass_yds",
+   "label": "Passing yards",
+   "proj": 222.68,
+   "line": null,
+   "game_id": "2026_07_SF_ATL"
+  },
+  {
+   "player": "Brock Purdy",
+   "team": "SF",
+   "opp": "ATL",
+   "pos": "QB",
+   "stat": "pass_tds",
+   "label": "Passing TDs",
+   "proj": 2.13,
+   "line": null,
+   "game_id": "2026_07_SF_ATL"
+  },
+  {
+   "player": "Isaiah Likely",
+   "team": "NYG",
+   "opp": "HOU",
+   "pos": "TE",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 5.24,
+   "line": null,
+   "game_id": "2026_07_NYG_HOU"
+  },
+  {
+   "player": "Isaiah Likely",
+   "team": "NYG",
+   "opp": "HOU",
+   "pos": "TE",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 57.49,
+   "line": null,
+   "game_id": "2026_07_NYG_HOU"
+  },
+  {
+   "player": "Isaiah Likely",
+   "team": "NYG",
+   "opp": "HOU",
+   "pos": "TE",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.24,
+   "line": null,
+   "game_id": "2026_07_NYG_HOU"
+  },
+  {
+   "player": "Kyren Williams",
+   "team": "LA",
+   "opp": "LV",
+   "pos": "RB",
+   "stat": "rush_yds",
+   "label": "Rushing yards",
+   "proj": 65.5,
+   "line": null,
+   "game_id": "2026_07_LA_LV"
+  },
+  {
+   "player": "Kyren Williams",
+   "team": "LA",
+   "opp": "LV",
+   "pos": "RB",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 4.16,
+   "line": null,
+   "game_id": "2026_07_LA_LV"
+  },
+  {
+   "player": "Kyren Williams",
+   "team": "LA",
+   "opp": "LV",
+   "pos": "RB",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 32.15,
+   "line": null,
+   "game_id": "2026_07_LA_LV"
+  },
+  {
+   "player": "Kyren Williams",
+   "team": "LA",
+   "opp": "LV",
+   "pos": "RB",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.78,
+   "line": null,
+   "game_id": "2026_07_LA_LV"
+  },
+  {
+   "player": "Jake Ferguson",
+   "team": "DAL",
+   "opp": "PHI",
+   "pos": "TE",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 2.36,
+   "line": null,
+   "game_id": "2026_07_DAL_PHI"
+  },
+  {
+   "player": "Jake Ferguson",
+   "team": "DAL",
+   "opp": "PHI",
+   "pos": "TE",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.2,
+   "line": null,
+   "game_id": "2026_07_DAL_PHI"
+  },
+  {
+   "player": "Skyy Moore",
+   "team": "GB",
+   "opp": "DET",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.1,
+   "line": null,
+   "game_id": "2026_07_GB_DET"
+  },
+  {
+   "player": "Pierre Strong",
+   "team": "GB",
+   "opp": "DET",
+   "pos": "RB",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 2.58,
+   "line": null,
+   "game_id": "2026_07_GB_DET"
+  },
+  {
+   "player": "Pierre Strong",
+   "team": "GB",
+   "opp": "DET",
+   "pos": "RB",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.28,
+   "line": null,
+   "game_id": "2026_07_GB_DET"
+  },
+  {
+   "player": "Tyquan Thornton",
+   "team": "KC",
+   "opp": "SEA",
+   "pos": "WR",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 2.74,
+   "line": null,
+   "game_id": "2026_07_KC_SEA"
+  },
+  {
+   "player": "Tyquan Thornton",
+   "team": "KC",
+   "opp": "SEA",
+   "pos": "WR",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 39.88,
+   "line": null,
+   "game_id": "2026_07_KC_SEA"
+  },
+  {
+   "player": "Tyquan Thornton",
+   "team": "KC",
+   "opp": "SEA",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.21,
+   "line": null,
+   "game_id": "2026_07_KC_SEA"
+  },
+  {
+   "player": "Daniel Bellinger",
+   "team": "TEN",
+   "opp": "CLE",
+   "pos": "TE",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.08,
+   "line": null,
+   "game_id": "2026_07_CLE_TEN"
+  },
+  {
+   "player": "Wan'Dale Robinson",
+   "team": "TEN",
+   "opp": "CLE",
+   "pos": "WR",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 4.45,
+   "line": null,
+   "game_id": "2026_07_CLE_TEN"
+  },
+  {
+   "player": "Wan'Dale Robinson",
+   "team": "TEN",
+   "opp": "CLE",
+   "pos": "WR",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 49.25,
+   "line": null,
+   "game_id": "2026_07_CLE_TEN"
+  },
+  {
+   "player": "Wan'Dale Robinson",
+   "team": "TEN",
+   "opp": "CLE",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.31,
+   "line": null,
+   "game_id": "2026_07_CLE_TEN"
+  },
+  {
+   "player": "Breece Hall",
+   "team": "NYJ",
+   "opp": "MIA",
+   "pos": "RB",
+   "stat": "rush_yds",
+   "label": "Rushing yards",
+   "proj": 60.15,
+   "line": null,
+   "game_id": "2026_07_MIA_NYJ"
+  },
+  {
+   "player": "Breece Hall",
+   "team": "NYJ",
+   "opp": "MIA",
+   "pos": "RB",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 2.61,
+   "line": null,
+   "game_id": "2026_07_MIA_NYJ"
+  },
+  {
+   "player": "Breece Hall",
+   "team": "NYJ",
+   "opp": "MIA",
+   "pos": "RB",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 18.6,
+   "line": null,
+   "game_id": "2026_07_MIA_NYJ"
+  },
+  {
+   "player": "Breece Hall",
+   "team": "NYJ",
+   "opp": "MIA",
+   "pos": "RB",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.54,
+   "line": null,
+   "game_id": "2026_07_MIA_NYJ"
+  },
+  {
+   "player": "Christian Watson",
+   "team": "GB",
+   "opp": "DET",
+   "pos": "WR",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 4.17,
+   "line": null,
+   "game_id": "2026_07_GB_DET"
+  },
+  {
+   "player": "Christian Watson",
+   "team": "GB",
+   "opp": "DET",
+   "pos": "WR",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 61.45,
+   "line": null,
+   "game_id": "2026_07_GB_DET"
+  },
+  {
+   "player": "Christian Watson",
+   "team": "GB",
+   "opp": "DET",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.45,
+   "line": null,
+   "game_id": "2026_07_GB_DET"
+  },
+  {
+   "player": "Malik Willis",
+   "team": "MIA",
+   "opp": "NYJ",
+   "pos": "QB",
+   "stat": "rush_yds",
+   "label": "Rushing yards",
+   "proj": 27.14,
+   "line": null,
+   "game_id": "2026_07_MIA_NYJ"
+  },
+  {
+   "player": "Cade Otton",
+   "team": "TB",
+   "opp": "CAR",
+   "pos": "TE",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 2.84,
+   "line": null,
+   "game_id": "2026_07_TB_CAR"
+  },
+  {
+   "player": "Cade Otton",
+   "team": "TB",
+   "opp": "CAR",
+   "pos": "TE",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 31.41,
+   "line": null,
+   "game_id": "2026_07_TB_CAR"
+  },
+  {
+   "player": "Cade Otton",
+   "team": "TB",
+   "opp": "CAR",
+   "pos": "TE",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.19,
+   "line": null,
+   "game_id": "2026_07_TB_CAR"
+  },
+  {
+   "player": "Kenneth Walker III",
+   "team": "KC",
+   "opp": "SEA",
+   "pos": "RB",
+   "stat": "rush_yds",
+   "label": "Rushing yards",
+   "proj": 90.71,
+   "line": null,
+   "game_id": "2026_07_KC_SEA"
+  },
+  {
+   "player": "Kenneth Walker III",
+   "team": "KC",
+   "opp": "SEA",
+   "pos": "RB",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.68,
+   "line": null,
+   "game_id": "2026_07_KC_SEA"
+  },
+  {
+   "player": "Dontayvion Wicks",
+   "team": "PHI",
+   "opp": "DAL",
+   "pos": "WR",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 3.01,
+   "line": null,
+   "game_id": "2026_07_DAL_PHI"
+  },
+  {
+   "player": "Dontayvion Wicks",
+   "team": "PHI",
+   "opp": "DAL",
+   "pos": "WR",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 35.1,
+   "line": null,
+   "game_id": "2026_07_DAL_PHI"
+  },
+  {
+   "player": "Dontayvion Wicks",
+   "team": "PHI",
+   "opp": "DAL",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.2,
+   "line": null,
+   "game_id": "2026_07_DAL_PHI"
+  },
+  {
+   "player": "Zavier Scott",
+   "team": "CHI",
+   "opp": "NE",
+   "pos": "RB",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.08,
+   "line": null,
+   "game_id": "2026_07_NE_CHI"
+  },
+  {
+   "player": "E.J. Jenkins",
+   "team": "PHI",
+   "opp": "DAL",
+   "pos": "TE",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.02,
+   "line": null,
+   "game_id": "2026_07_DAL_PHI"
+  },
+  {
+   "player": "Bijan Robinson",
+   "team": "ATL",
+   "opp": "SF",
+   "pos": "RB",
+   "stat": "rush_yds",
+   "label": "Rushing yards",
+   "proj": 82.88,
+   "line": null,
+   "game_id": "2026_07_SF_ATL"
+  },
+  {
+   "player": "Bijan Robinson",
+   "team": "ATL",
+   "opp": "SF",
+   "pos": "RB",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 3.08,
+   "line": null,
+   "game_id": "2026_07_SF_ATL"
+  },
+  {
+   "player": "Bijan Robinson",
+   "team": "ATL",
+   "opp": "SF",
+   "pos": "RB",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.7,
+   "line": null,
+   "game_id": "2026_07_SF_ATL"
+  },
+  {
+   "player": "Jaxon Smith-Njigba",
+   "team": "SEA",
+   "opp": "KC",
+   "pos": "WR",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 6.91,
+   "line": null,
+   "game_id": "2026_07_KC_SEA"
+  },
+  {
+   "player": "Jaxon Smith-Njigba",
+   "team": "SEA",
+   "opp": "KC",
+   "pos": "WR",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 86.58,
+   "line": null,
+   "game_id": "2026_07_KC_SEA"
+  },
+  {
+   "player": "Jaxon Smith-Njigba",
+   "team": "SEA",
+   "opp": "KC",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.52,
+   "line": null,
+   "game_id": "2026_07_KC_SEA"
+  },
+  {
+   "player": "Luke Schoonmaker",
+   "team": "DAL",
+   "opp": "PHI",
+   "pos": "TE",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.07,
+   "line": null,
+   "game_id": "2026_07_DAL_PHI"
+  },
+  {
+   "player": "Kendre Miller",
+   "team": "NO",
+   "opp": "PIT",
+   "pos": "RB",
+   "stat": "rush_yds",
+   "label": "Rushing yards",
+   "proj": 39.86,
+   "line": null,
+   "game_id": "2026_07_PIT_NO"
+  },
+  {
+   "player": "Kendre Miller",
+   "team": "NO",
+   "opp": "PIT",
+   "pos": "RB",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.33,
+   "line": null,
+   "game_id": "2026_07_PIT_NO"
+  },
+  {
+   "player": "Tank Bigsby",
+   "team": "PHI",
+   "opp": "DAL",
+   "pos": "RB",
+   "stat": "rush_yds",
+   "label": "Rushing yards",
+   "proj": 30.27,
+   "line": null,
+   "game_id": "2026_07_DAL_PHI"
+  },
+  {
+   "player": "Tank Bigsby",
+   "team": "PHI",
+   "opp": "DAL",
+   "pos": "RB",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.23,
+   "line": null,
+   "game_id": "2026_07_DAL_PHI"
+  },
+  {
+   "player": "Darnell Washington",
+   "team": "PIT",
+   "opp": "NO",
+   "pos": "TE",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 2.57,
+   "line": null,
+   "game_id": "2026_07_PIT_NO"
+  },
+  {
+   "player": "Darnell Washington",
+   "team": "PIT",
+   "opp": "NO",
+   "pos": "TE",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 26.75,
+   "line": null,
+   "game_id": "2026_07_PIT_NO"
+  },
+  {
+   "player": "Darnell Washington",
+   "team": "PIT",
+   "opp": "NO",
+   "pos": "TE",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.24,
+   "line": null,
+   "game_id": "2026_07_PIT_NO"
+  },
+  {
+   "player": "Michael Wilson",
+   "team": "ARI",
+   "opp": "DEN",
+   "pos": "WR",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 4.63,
+   "line": null,
+   "game_id": "2026_07_DEN_ARI"
+  },
+  {
+   "player": "Michael Wilson",
+   "team": "ARI",
+   "opp": "DEN",
+   "pos": "WR",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 52.46,
+   "line": null,
+   "game_id": "2026_07_DEN_ARI"
+  },
+  {
+   "player": "Michael Wilson",
+   "team": "ARI",
+   "opp": "DEN",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.3,
+   "line": null,
+   "game_id": "2026_07_DEN_ARI"
+  },
+  {
+   "player": "Tre Tucker",
+   "team": "LV",
+   "opp": "LA",
+   "pos": "WR",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 3.63,
+   "line": null,
+   "game_id": "2026_07_LA_LV"
+  },
+  {
+   "player": "Tre Tucker",
+   "team": "LV",
+   "opp": "LA",
+   "pos": "WR",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 45.36,
+   "line": null,
+   "game_id": "2026_07_LA_LV"
+  },
+  {
+   "player": "Tre Tucker",
+   "team": "LV",
+   "opp": "LA",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.29,
+   "line": null,
+   "game_id": "2026_07_LA_LV"
+  },
+  {
+   "player": "Chase Brown",
+   "team": "CIN",
+   "opp": "BAL",
+   "pos": "RB",
+   "stat": "rush_yds",
+   "label": "Rushing yards",
+   "proj": 57.31,
+   "line": null,
+   "game_id": "2026_07_CIN_BAL"
+  },
+  {
+   "player": "Chase Brown",
+   "team": "CIN",
+   "opp": "BAL",
+   "pos": "RB",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 3.94,
+   "line": null,
+   "game_id": "2026_07_CIN_BAL"
+  },
+  {
+   "player": "Chase Brown",
+   "team": "CIN",
+   "opp": "BAL",
+   "pos": "RB",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 27.58,
+   "line": null,
+   "game_id": "2026_07_CIN_BAL"
+  },
+  {
+   "player": "Chase Brown",
+   "team": "CIN",
+   "opp": "BAL",
+   "pos": "RB",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.61,
+   "line": null,
+   "game_id": "2026_07_CIN_BAL"
+  },
+  {
+   "player": "Kayshon Boutte",
+   "team": "HOU",
+   "opp": "NYG",
+   "pos": "WR",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 29.92,
+   "line": null,
+   "game_id": "2026_07_NYG_HOU"
+  },
+  {
+   "player": "Kayshon Boutte",
+   "team": "HOU",
+   "opp": "NYG",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.19,
+   "line": null,
+   "game_id": "2026_07_NYG_HOU"
+  },
+  {
+   "player": "Xavier Hutchinson",
+   "team": "HOU",
+   "opp": "NYG",
+   "pos": "WR",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 3.01,
+   "line": null,
+   "game_id": "2026_07_NYG_HOU"
+  },
+  {
+   "player": "Xavier Hutchinson",
+   "team": "HOU",
+   "opp": "NYG",
+   "pos": "WR",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 38.43,
+   "line": null,
+   "game_id": "2026_07_NYG_HOU"
+  },
+  {
+   "player": "Xavier Hutchinson",
+   "team": "HOU",
+   "opp": "NYG",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.23,
+   "line": null,
+   "game_id": "2026_07_NYG_HOU"
+  },
+  {
+   "player": "Andrei Iosivas",
+   "team": "CIN",
+   "opp": "BAL",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.12,
+   "line": null,
+   "game_id": "2026_07_CIN_BAL"
+  },
+  {
+   "player": "DeMario Douglas",
+   "team": "NE",
+   "opp": "CHI",
+   "pos": "WR",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 3.59,
+   "line": null,
+   "game_id": "2026_07_NE_CHI"
+  },
+  {
+   "player": "DeMario Douglas",
+   "team": "NE",
+   "opp": "CHI",
+   "pos": "WR",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 44.32,
+   "line": null,
+   "game_id": "2026_07_NE_CHI"
+  },
+  {
+   "player": "DeMario Douglas",
+   "team": "NE",
+   "opp": "CHI",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.36,
+   "line": null,
+   "game_id": "2026_07_NE_CHI"
+  },
+  {
+   "player": "Jalen Brooks",
+   "team": "ARI",
+   "opp": "DEN",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.08,
+   "line": null,
+   "game_id": "2026_07_DEN_ARI"
+  },
+  {
+   "player": "Chris Brooks",
+   "team": "GB",
+   "opp": "DET",
+   "pos": "RB",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.16,
+   "line": null,
+   "game_id": "2026_07_GB_DET"
+  },
+  {
+   "player": "Emari Demercado",
+   "team": "DAL",
+   "opp": "PHI",
+   "pos": "RB",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.17,
+   "line": null,
+   "game_id": "2026_07_DAL_PHI"
+  },
+  {
+   "player": "Blake Whiteheart",
+   "team": "CLE",
+   "opp": "TEN",
+   "pos": "TE",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.06,
+   "line": null,
+   "game_id": "2026_07_CLE_TEN"
+  },
+  {
+   "player": "Hunter Luepke",
+   "team": "DAL",
+   "opp": "PHI",
+   "pos": "RB",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.08,
+   "line": null,
+   "game_id": "2026_07_DAL_PHI"
+  },
+  {
+   "player": "Nate Adkins",
+   "team": "DEN",
+   "opp": "ARI",
+   "pos": "TE",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.2,
+   "line": null,
+   "game_id": "2026_07_DEN_ARI"
+  },
+  {
+   "player": "Jaleel McLaughlin",
+   "team": "CLE",
+   "opp": "TEN",
+   "pos": "RB",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.19,
+   "line": null,
+   "game_id": "2026_07_CLE_TEN"
+  },
+  {
+   "player": "Emanuel Wilson",
+   "team": "SEA",
+   "opp": "KC",
+   "pos": "RB",
+   "stat": "rush_yds",
+   "label": "Rushing yards",
+   "proj": 54.79,
+   "line": null,
+   "game_id": "2026_07_KC_SEA"
+  },
+  {
+   "player": "Emanuel Wilson",
+   "team": "SEA",
+   "opp": "KC",
+   "pos": "RB",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.49,
+   "line": null,
+   "game_id": "2026_07_KC_SEA"
+  },
+  {
+   "player": "Ryan Miller",
+   "team": "MIA",
+   "opp": "NYJ",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.02,
+   "line": null,
+   "game_id": "2026_07_MIA_NYJ"
+  },
+  {
+   "player": "Mitchell Tinsley",
+   "team": "CIN",
+   "opp": "BAL",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.16,
+   "line": null,
+   "game_id": "2026_07_CIN_BAL"
+  },
+  {
+   "player": "Sean Tucker",
+   "team": "TB",
+   "opp": "CAR",
+   "pos": "RB",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.13,
+   "line": null,
+   "game_id": "2026_07_TB_CAR"
+  },
+  {
+   "player": "Marvin Mims Jr.",
+   "team": "DEN",
+   "opp": "ARI",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.18,
+   "line": null,
+   "game_id": "2026_07_DEN_ARI"
+  },
+  {
+   "player": "Jordan Addison",
+   "team": "MIN",
+   "opp": "IND",
+   "pos": "WR",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 3.46,
+   "line": null,
+   "game_id": "2026_07_IND_MIN"
+  },
+  {
+   "player": "Jordan Addison",
+   "team": "MIN",
+   "opp": "IND",
+   "pos": "WR",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 46.6,
+   "line": null,
+   "game_id": "2026_07_IND_MIN"
+  },
+  {
+   "player": "Jordan Addison",
+   "team": "MIN",
+   "opp": "IND",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.33,
+   "line": null,
+   "game_id": "2026_07_IND_MIN"
+  },
+  {
+   "player": "Tucker Kraft",
+   "team": "GB",
+   "opp": "DET",
+   "pos": "TE",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 4.05,
+   "line": null,
+   "game_id": "2026_07_GB_DET"
+  },
+  {
+   "player": "Tucker Kraft",
+   "team": "GB",
+   "opp": "DET",
+   "pos": "TE",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 43.66,
+   "line": null,
+   "game_id": "2026_07_GB_DET"
+  },
+  {
+   "player": "Tucker Kraft",
+   "team": "GB",
+   "opp": "DET",
+   "pos": "TE",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.3,
+   "line": null,
+   "game_id": "2026_07_GB_DET"
+  },
+  {
+   "player": "Josh Downs",
+   "team": "IND",
+   "opp": "MIN",
+   "pos": "WR",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 3.55,
+   "line": null,
+   "game_id": "2026_07_IND_MIN"
+  },
+  {
+   "player": "Josh Downs",
+   "team": "IND",
+   "opp": "MIN",
+   "pos": "WR",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 42.25,
+   "line": null,
+   "game_id": "2026_07_IND_MIN"
+  },
+  {
+   "player": "Josh Downs",
+   "team": "IND",
+   "opp": "MIN",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.23,
+   "line": null,
+   "game_id": "2026_07_IND_MIN"
+  },
+  {
+   "player": "Roschon Johnson",
+   "team": "CHI",
+   "opp": "NE",
+   "pos": "RB",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.31,
+   "line": null,
+   "game_id": "2026_07_NE_CHI"
+  },
+  {
+   "player": "Tyjae Spears",
+   "team": "TEN",
+   "opp": "CLE",
+   "pos": "RB",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 2.56,
+   "line": null,
+   "game_id": "2026_07_CLE_TEN"
+  },
+  {
+   "player": "Tyjae Spears",
+   "team": "TEN",
+   "opp": "CLE",
+   "pos": "RB",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.2,
+   "line": null,
+   "game_id": "2026_07_CLE_TEN"
+  },
+  {
+   "player": "De'Von Achane",
+   "team": "MIA",
+   "opp": "NYJ",
+   "pos": "RB",
+   "stat": "rush_yds",
+   "label": "Rushing yards",
+   "proj": 46.74,
+   "line": null,
+   "game_id": "2026_07_MIA_NYJ"
+  },
+  {
+   "player": "De'Von Achane",
+   "team": "MIA",
+   "opp": "NYJ",
+   "pos": "RB",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.44,
+   "line": null,
+   "game_id": "2026_07_MIA_NYJ"
+  },
+  {
+   "player": "Elijah Higgins",
+   "team": "ARI",
+   "opp": "DEN",
+   "pos": "TE",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 2.0,
+   "line": null,
+   "game_id": "2026_07_DEN_ARI"
+  },
+  {
+   "player": "Elijah Higgins",
+   "team": "ARI",
+   "opp": "DEN",
+   "pos": "TE",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 20.89,
+   "line": null,
+   "game_id": "2026_07_DEN_ARI"
+  },
+  {
+   "player": "Elijah Higgins",
+   "team": "ARI",
+   "opp": "DEN",
+   "pos": "TE",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.09,
+   "line": null,
+   "game_id": "2026_07_DEN_ARI"
+  },
+  {
+   "player": "Payne Durham",
+   "team": "TB",
+   "opp": "CAR",
+   "pos": "TE",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.05,
+   "line": null,
+   "game_id": "2026_07_TB_CAR"
+  },
+  {
+   "player": "Zay Flowers",
+   "team": "BAL",
+   "opp": "CIN",
+   "pos": "WR",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 6.14,
+   "line": null,
+   "game_id": "2026_07_CIN_BAL"
+  },
+  {
+   "player": "Zay Flowers",
+   "team": "BAL",
+   "opp": "CIN",
+   "pos": "WR",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 79.53,
+   "line": null,
+   "game_id": "2026_07_CIN_BAL"
+  },
+  {
+   "player": "Zay Flowers",
+   "team": "BAL",
+   "opp": "CIN",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.56,
+   "line": null,
+   "game_id": "2026_07_CIN_BAL"
+  },
+  {
+   "player": "Sam LaPorta",
+   "team": "DET",
+   "opp": "GB",
+   "pos": "TE",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 4.54,
+   "line": null,
+   "game_id": "2026_07_GB_DET"
+  },
+  {
+   "player": "Sam LaPorta",
+   "team": "DET",
+   "opp": "GB",
+   "pos": "TE",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 56.49,
+   "line": null,
+   "game_id": "2026_07_GB_DET"
+  },
+  {
+   "player": "Sam LaPorta",
+   "team": "DET",
+   "opp": "GB",
+   "pos": "TE",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.49,
+   "line": null,
+   "game_id": "2026_07_GB_DET"
+  },
+  {
+   "player": "Michael Mayer",
+   "team": "LV",
+   "opp": "LA",
+   "pos": "TE",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 3.79,
+   "line": null,
+   "game_id": "2026_07_LA_LV"
+  },
+  {
+   "player": "Michael Mayer",
+   "team": "LV",
+   "opp": "LA",
+   "pos": "TE",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 40.97,
+   "line": null,
+   "game_id": "2026_07_LA_LV"
+  },
+  {
+   "player": "Michael Mayer",
+   "team": "LV",
+   "opp": "LA",
+   "pos": "TE",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.21,
+   "line": null,
+   "game_id": "2026_07_LA_LV"
+  },
+  {
+   "player": "Rashee Rice",
+   "team": "KC",
+   "opp": "SEA",
+   "pos": "WR",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 4.92,
+   "line": null,
+   "game_id": "2026_07_KC_SEA"
+  },
+  {
+   "player": "Rashee Rice",
+   "team": "KC",
+   "opp": "SEA",
+   "pos": "WR",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 60.82,
+   "line": null,
+   "game_id": "2026_07_KC_SEA"
+  },
+  {
+   "player": "Rashee Rice",
+   "team": "KC",
+   "opp": "SEA",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.34,
+   "line": null,
+   "game_id": "2026_07_KC_SEA"
+  },
+  {
+   "player": "Davis Allen",
+   "team": "LA",
+   "opp": "LV",
+   "pos": "TE",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.09,
+   "line": null,
+   "game_id": "2026_07_LA_LV"
+  },
+  {
+   "player": "Puka Nacua",
+   "team": "LA",
+   "opp": "LV",
+   "pos": "WR",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 7.47,
+   "line": null,
+   "game_id": "2026_07_LA_LV"
+  },
+  {
+   "player": "Puka Nacua",
+   "team": "LA",
+   "opp": "LV",
+   "pos": "WR",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 86.22,
+   "line": null,
+   "game_id": "2026_07_LA_LV"
+  },
+  {
+   "player": "Puka Nacua",
+   "team": "LA",
+   "opp": "LV",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.59,
+   "line": null,
+   "game_id": "2026_07_LA_LV"
+  },
+  {
+   "player": "Jahmyr Gibbs",
+   "team": "DET",
+   "opp": "GB",
+   "pos": "RB",
+   "stat": "rush_yds",
+   "label": "Rushing yards",
+   "proj": 99.1,
+   "line": null,
+   "game_id": "2026_07_GB_DET"
+  },
+  {
+   "player": "Jahmyr Gibbs",
+   "team": "DET",
+   "opp": "GB",
+   "pos": "RB",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 4.58,
+   "line": null,
+   "game_id": "2026_07_GB_DET"
+  },
+  {
+   "player": "Jahmyr Gibbs",
+   "team": "DET",
+   "opp": "GB",
+   "pos": "RB",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 40.73,
+   "line": null,
+   "game_id": "2026_07_GB_DET"
+  },
+  {
+   "player": "Jahmyr Gibbs",
+   "team": "DET",
+   "opp": "GB",
+   "pos": "RB",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 1.28,
+   "line": null,
+   "game_id": "2026_07_GB_DET"
+  },
+  {
+   "player": "Jayden Reed",
+   "team": "GB",
+   "opp": "DET",
+   "pos": "WR",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 2.7,
+   "line": null,
+   "game_id": "2026_07_GB_DET"
+  },
+  {
+   "player": "Jayden Reed",
+   "team": "GB",
+   "opp": "DET",
+   "pos": "WR",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 29.4,
+   "line": null,
+   "game_id": "2026_07_GB_DET"
+  },
+  {
+   "player": "Jayden Reed",
+   "team": "GB",
+   "opp": "DET",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.23,
+   "line": null,
+   "game_id": "2026_07_GB_DET"
+  },
+  {
+   "player": "Bryce Young",
+   "team": "CAR",
+   "opp": "TB",
+   "pos": "QB",
+   "stat": "pass_yds",
+   "label": "Passing yards",
+   "proj": 265.66,
+   "line": null,
+   "game_id": "2026_07_TB_CAR"
+  },
+  {
+   "player": "Bryce Young",
+   "team": "CAR",
+   "opp": "TB",
+   "pos": "QB",
+   "stat": "pass_tds",
+   "label": "Passing TDs",
+   "proj": 1.61,
+   "line": null,
+   "game_id": "2026_07_TB_CAR"
+  },
+  {
+   "player": "C.J. Stroud",
+   "team": "HOU",
+   "opp": "NYG",
+   "pos": "QB",
+   "stat": "pass_yds",
+   "label": "Passing yards",
+   "proj": 270.89,
+   "line": null,
+   "game_id": "2026_07_NYG_HOU"
+  },
+  {
+   "player": "C.J. Stroud",
+   "team": "HOU",
+   "opp": "NYG",
+   "pos": "QB",
+   "stat": "pass_tds",
+   "label": "Passing TDs",
+   "proj": 1.69,
+   "line": null,
+   "game_id": "2026_07_NYG_HOU"
+  },
+  {
+   "player": "George Holani",
+   "team": "SEA",
+   "opp": "KC",
+   "pos": "RB",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.24,
+   "line": null,
+   "game_id": "2026_07_KC_SEA"
+  },
+  {
+   "player": "Malik Nabers",
+   "team": "NYG",
+   "opp": "HOU",
+   "pos": "WR",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 6.33,
+   "line": null,
+   "game_id": "2026_07_NYG_HOU"
+  },
+  {
+   "player": "Malik Nabers",
+   "team": "NYG",
+   "opp": "HOU",
+   "pos": "WR",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 71.9,
+   "line": null,
+   "game_id": "2026_07_NYG_HOU"
+  },
+  {
+   "player": "Malik Nabers",
+   "team": "NYG",
+   "opp": "HOU",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.32,
+   "line": null,
+   "game_id": "2026_07_NYG_HOU"
+  },
+  {
+   "player": "Brock Bowers",
+   "team": "LV",
+   "opp": "LA",
+   "pos": "TE",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 5.28,
+   "line": null,
+   "game_id": "2026_07_LA_LV"
+  },
+  {
+   "player": "Brock Bowers",
+   "team": "LV",
+   "opp": "LA",
+   "pos": "TE",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 64.16,
+   "line": null,
+   "game_id": "2026_07_LA_LV"
+  },
+  {
+   "player": "Brock Bowers",
+   "team": "LV",
+   "opp": "LA",
+   "pos": "TE",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.38,
+   "line": null,
+   "game_id": "2026_07_LA_LV"
+  },
+  {
+   "player": "Xavier Legette",
+   "team": "CAR",
+   "opp": "TB",
+   "pos": "WR",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 26.41,
+   "line": null,
+   "game_id": "2026_07_TB_CAR"
+  },
+  {
+   "player": "Xavier Legette",
+   "team": "CAR",
+   "opp": "TB",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.15,
+   "line": null,
+   "game_id": "2026_07_TB_CAR"
+  },
+  {
+   "player": "Cade Stover",
+   "team": "HOU",
+   "opp": "NYG",
+   "pos": "TE",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.09,
+   "line": null,
+   "game_id": "2026_07_NYG_HOU"
+  },
+  {
+   "player": "Bucky Irving",
+   "team": "TB",
+   "opp": "CAR",
+   "pos": "RB",
+   "stat": "rush_yds",
+   "label": "Rushing yards",
+   "proj": 71.5,
+   "line": null,
+   "game_id": "2026_07_TB_CAR"
+  },
+  {
+   "player": "Bucky Irving",
+   "team": "TB",
+   "opp": "CAR",
+   "pos": "RB",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.54,
+   "line": null,
+   "game_id": "2026_07_TB_CAR"
+  },
+  {
+   "player": "Audric Estim\u00e9",
+   "team": "CLE",
+   "opp": "TEN",
+   "pos": "RB",
+   "stat": "rush_yds",
+   "label": "Rushing yards",
+   "proj": 41.76,
+   "line": null,
+   "game_id": "2026_07_CLE_TEN"
+  },
+  {
+   "player": "Audric Estim\u00e9",
+   "team": "CLE",
+   "opp": "TEN",
+   "pos": "RB",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.36,
+   "line": null,
+   "game_id": "2026_07_CLE_TEN"
+  },
+  {
+   "player": "Tyrone Tracy Jr.",
+   "team": "NYG",
+   "opp": "HOU",
+   "pos": "RB",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.11,
+   "line": null,
+   "game_id": "2026_07_NYG_HOU"
+  },
+  {
+   "player": "Jawhar Jordan",
+   "team": "HOU",
+   "opp": "NYG",
+   "pos": "RB",
+   "stat": "rush_yds",
+   "label": "Rushing yards",
+   "proj": 36.27,
+   "line": null,
+   "game_id": "2026_07_NYG_HOU"
+  },
+  {
+   "player": "Jawhar Jordan",
+   "team": "HOU",
+   "opp": "NYG",
+   "pos": "RB",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.33,
+   "line": null,
+   "game_id": "2026_07_NYG_HOU"
+  },
+  {
+   "player": "Dylan Laube",
+   "team": "LV",
+   "opp": "LA",
+   "pos": "RB",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.1,
+   "line": null,
+   "game_id": "2026_07_LA_LV"
+  },
+  {
+   "player": "Ryan Flournoy",
+   "team": "DAL",
+   "opp": "PHI",
+   "pos": "WR",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 3.64,
+   "line": null,
+   "game_id": "2026_07_DAL_PHI"
+  },
+  {
+   "player": "Ryan Flournoy",
+   "team": "DAL",
+   "opp": "PHI",
+   "pos": "WR",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 39.91,
+   "line": null,
+   "game_id": "2026_07_DAL_PHI"
+  },
+  {
+   "player": "Ryan Flournoy",
+   "team": "DAL",
+   "opp": "PHI",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.28,
+   "line": null,
+   "game_id": "2026_07_DAL_PHI"
+  },
+  {
+   "player": "Devaughn Vele",
+   "team": "NO",
+   "opp": "PIT",
+   "pos": "WR",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 3.87,
+   "line": null,
+   "game_id": "2026_07_PIT_NO"
+  },
+  {
+   "player": "Devaughn Vele",
+   "team": "NO",
+   "opp": "PIT",
+   "pos": "WR",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 44.45,
+   "line": null,
+   "game_id": "2026_07_PIT_NO"
+  },
+  {
+   "player": "Devaughn Vele",
+   "team": "NO",
+   "opp": "PIT",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.27,
+   "line": null,
+   "game_id": "2026_07_PIT_NO"
+  },
+  {
+   "player": "Isaiah Williams",
+   "team": "NYJ",
+   "opp": "MIA",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.15,
+   "line": null,
+   "game_id": "2026_07_MIA_NYJ"
+  },
+  {
+   "player": "Jalen Coker",
+   "team": "CAR",
+   "opp": "TB",
+   "pos": "WR",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 5.04,
+   "line": null,
+   "game_id": "2026_07_TB_CAR"
+  },
+  {
+   "player": "Jalen Coker",
+   "team": "CAR",
+   "opp": "TB",
+   "pos": "WR",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 63.59,
+   "line": null,
+   "game_id": "2026_07_TB_CAR"
+  },
+  {
+   "player": "Jalen Coker",
+   "team": "CAR",
+   "opp": "TB",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.39,
+   "line": null,
+   "game_id": "2026_07_TB_CAR"
+  },
+  {
+   "player": "Brevyn Spann-Ford",
+   "team": "DAL",
+   "opp": "PHI",
+   "pos": "TE",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.09,
+   "line": null,
+   "game_id": "2026_07_DAL_PHI"
+  },
+  {
+   "player": "Kameron Johnson",
+   "team": "TB",
+   "opp": "CAR",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.02,
+   "line": null,
+   "game_id": "2026_07_TB_CAR"
+  },
+  {
+   "player": "Bo Nix",
+   "team": "DEN",
+   "opp": "ARI",
+   "pos": "QB",
+   "stat": "pass_yds",
+   "label": "Passing yards",
+   "proj": 167.9,
+   "line": null,
+   "game_id": "2026_07_DEN_ARI"
+  },
+  {
+   "player": "Bo Nix",
+   "team": "DEN",
+   "opp": "ARI",
+   "pos": "QB",
+   "stat": "pass_tds",
+   "label": "Passing TDs",
+   "proj": 1.15,
+   "line": null,
+   "game_id": "2026_07_DEN_ARI"
+  },
+  {
+   "player": "Blake Corum",
+   "team": "LA",
+   "opp": "LV",
+   "pos": "RB",
+   "stat": "rush_yds",
+   "label": "Rushing yards",
+   "proj": 37.14,
+   "line": null,
+   "game_id": "2026_07_LA_LV"
+  },
+  {
+   "player": "Blake Corum",
+   "team": "LA",
+   "opp": "LV",
+   "pos": "RB",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.45,
+   "line": null,
+   "game_id": "2026_07_LA_LV"
+  },
+  {
+   "player": "Roman Wilson",
+   "team": "PIT",
+   "opp": "NO",
+   "pos": "WR",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 28.76,
+   "line": null,
+   "game_id": "2026_07_PIT_NO"
+  },
+  {
+   "player": "Roman Wilson",
+   "team": "PIT",
+   "opp": "NO",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.23,
+   "line": null,
+   "game_id": "2026_07_PIT_NO"
+  },
+  {
+   "player": "Will Shipley",
+   "team": "PHI",
+   "opp": "DAL",
+   "pos": "RB",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.18,
+   "line": null,
+   "game_id": "2026_07_DAL_PHI"
+  },
+  {
+   "player": "Devontez Walker",
+   "team": "BAL",
+   "opp": "CIN",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.2,
+   "line": null,
+   "game_id": "2026_07_CIN_BAL"
+  },
+  {
+   "player": "AJ Barner",
+   "team": "SEA",
+   "opp": "KC",
+   "pos": "TE",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 2.59,
+   "line": null,
+   "game_id": "2026_07_KC_SEA"
+  },
+  {
+   "player": "AJ Barner",
+   "team": "SEA",
+   "opp": "KC",
+   "pos": "TE",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.19,
+   "line": null,
+   "game_id": "2026_07_KC_SEA"
+  },
+  {
+   "player": "Braelon Allen",
+   "team": "NYJ",
+   "opp": "MIA",
+   "pos": "RB",
+   "stat": "rush_yds",
+   "label": "Rushing yards",
+   "proj": 60.35,
+   "line": null,
+   "game_id": "2026_07_MIA_NYJ"
+  },
+  {
+   "player": "Braelon Allen",
+   "team": "NYJ",
+   "opp": "MIA",
+   "pos": "RB",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.49,
+   "line": null,
+   "game_id": "2026_07_MIA_NYJ"
+  },
+  {
+   "player": "Rasheen Ali",
+   "team": "BAL",
+   "opp": "CIN",
+   "pos": "RB",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.06,
+   "line": null,
+   "game_id": "2026_07_CIN_BAL"
+  },
+  {
+   "player": "Isaiah Davis",
+   "team": "NYJ",
+   "opp": "MIA",
+   "pos": "RB",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.13,
+   "line": null,
+   "game_id": "2026_07_MIA_NYJ"
+  },
+  {
+   "player": "MarShawn Lloyd",
+   "team": "GB",
+   "opp": "DET",
+   "pos": "RB",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.43,
+   "line": null,
+   "game_id": "2026_07_GB_DET"
+  },
+  {
+   "player": "Theo Johnson",
+   "team": "NYG",
+   "opp": "HOU",
+   "pos": "TE",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.08,
+   "line": null,
+   "game_id": "2026_07_NYG_HOU"
+  },
+  {
+   "player": "Marvin Harrison Jr.",
+   "team": "HOU",
+   "opp": "NYG",
+   "pos": "WR",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 27.79,
+   "line": null,
+   "game_id": "2026_07_NYG_HOU"
+  },
+  {
+   "player": "Marvin Harrison Jr.",
+   "team": "HOU",
+   "opp": "NYG",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.23,
+   "line": null,
+   "game_id": "2026_07_NYG_HOU"
+  },
+  {
+   "player": "Drake Maye",
+   "team": "NE",
+   "opp": "CHI",
+   "pos": "QB",
+   "stat": "pass_yds",
+   "label": "Passing yards",
+   "proj": 243.11,
+   "line": null,
+   "game_id": "2026_07_NE_CHI"
+  },
+  {
+   "player": "Drake Maye",
+   "team": "NE",
+   "opp": "CHI",
+   "pos": "QB",
+   "stat": "pass_tds",
+   "label": "Passing TDs",
+   "proj": 1.9,
+   "line": null,
+   "game_id": "2026_07_NE_CHI"
+  },
+  {
+   "player": "Drake Maye",
+   "team": "NE",
+   "opp": "CHI",
+   "pos": "QB",
+   "stat": "rush_yds",
+   "label": "Rushing yards",
+   "proj": 26.41,
+   "line": null,
+   "game_id": "2026_07_NE_CHI"
+  },
+  {
+   "player": "Jalen McMillan",
+   "team": "TB",
+   "opp": "CAR",
+   "pos": "WR",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 25.74,
+   "line": null,
+   "game_id": "2026_07_TB_CAR"
+  },
+  {
+   "player": "Jalen McMillan",
+   "team": "TB",
+   "opp": "CAR",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.14,
+   "line": null,
+   "game_id": "2026_07_TB_CAR"
+  },
+  {
+   "player": "Troy Franklin",
+   "team": "DEN",
+   "opp": "ARI",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.11,
+   "line": null,
+   "game_id": "2026_07_DEN_ARI"
+  },
+  {
+   "player": "Jaylen Wright",
+   "team": "MIA",
+   "opp": "NYJ",
+   "pos": "RB",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.13,
+   "line": null,
+   "game_id": "2026_07_MIA_NYJ"
+  },
+  {
+   "player": "Malik Washington",
+   "team": "MIA",
+   "opp": "NYJ",
+   "pos": "WR",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 4.54,
+   "line": null,
+   "game_id": "2026_07_MIA_NYJ"
+  },
+  {
+   "player": "Malik Washington",
+   "team": "MIA",
+   "opp": "NYJ",
+   "pos": "WR",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 50.7,
+   "line": null,
+   "game_id": "2026_07_MIA_NYJ"
+  },
+  {
+   "player": "Malik Washington",
+   "team": "MIA",
+   "opp": "NYJ",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.33,
+   "line": null,
+   "game_id": "2026_07_MIA_NYJ"
+  },
+  {
+   "player": "Adonai Mitchell",
+   "team": "NYJ",
+   "opp": "MIA",
+   "pos": "WR",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 3.95,
+   "line": null,
+   "game_id": "2026_07_MIA_NYJ"
+  },
+  {
+   "player": "Adonai Mitchell",
+   "team": "NYJ",
+   "opp": "MIA",
+   "pos": "WR",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 48.66,
+   "line": null,
+   "game_id": "2026_07_MIA_NYJ"
+  },
+  {
+   "player": "Adonai Mitchell",
+   "team": "NYJ",
+   "opp": "MIA",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.3,
+   "line": null,
+   "game_id": "2026_07_MIA_NYJ"
+  },
+  {
+   "player": "Xavier Worthy",
+   "team": "KC",
+   "opp": "SEA",
+   "pos": "WR",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 3.87,
+   "line": null,
+   "game_id": "2026_07_KC_SEA"
+  },
+  {
+   "player": "Xavier Worthy",
+   "team": "KC",
+   "opp": "SEA",
+   "pos": "WR",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 45.32,
+   "line": null,
+   "game_id": "2026_07_KC_SEA"
+  },
+  {
+   "player": "Xavier Worthy",
+   "team": "KC",
+   "opp": "SEA",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.25,
+   "line": null,
+   "game_id": "2026_07_KC_SEA"
+  },
+  {
+   "player": "Michael Penix Jr.",
+   "team": "ATL",
+   "opp": "SF",
+   "pos": "QB",
+   "stat": "pass_yds",
+   "label": "Passing yards",
+   "proj": 216.38,
+   "line": null,
+   "game_id": "2026_07_SF_ATL"
+  },
+  {
+   "player": "Michael Penix Jr.",
+   "team": "ATL",
+   "opp": "SF",
+   "pos": "QB",
+   "stat": "pass_tds",
+   "label": "Passing TDs",
+   "proj": 1.39,
+   "line": null,
+   "game_id": "2026_07_SF_ATL"
+  },
+  {
+   "player": "Caleb Williams",
+   "team": "CHI",
+   "opp": "NE",
+   "pos": "QB",
+   "stat": "pass_yds",
+   "label": "Passing yards",
+   "proj": 246.96,
+   "line": null,
+   "game_id": "2026_07_NE_CHI"
+  },
+  {
+   "player": "Caleb Williams",
+   "team": "CHI",
+   "opp": "NE",
+   "pos": "QB",
+   "stat": "pass_tds",
+   "label": "Passing TDs",
+   "proj": 1.41,
+   "line": null,
+   "game_id": "2026_07_NE_CHI"
+  },
+  {
+   "player": "Caleb Williams",
+   "team": "CHI",
+   "opp": "NE",
+   "pos": "QB",
+   "stat": "rush_yds",
+   "label": "Rushing yards",
+   "proj": 23.98,
+   "line": null,
+   "game_id": "2026_07_NE_CHI"
+  },
+  {
+   "player": "Rome Odunze",
+   "team": "CHI",
+   "opp": "NE",
+   "pos": "WR",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 3.34,
+   "line": null,
+   "game_id": "2026_07_NE_CHI"
+  },
+  {
+   "player": "Rome Odunze",
+   "team": "CHI",
+   "opp": "NE",
+   "pos": "WR",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 45.66,
+   "line": null,
+   "game_id": "2026_07_NE_CHI"
+  },
+  {
+   "player": "Rome Odunze",
+   "team": "CHI",
+   "opp": "NE",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.24,
+   "line": null,
+   "game_id": "2026_07_NE_CHI"
+  },
+  {
+   "player": "J.J. McCarthy",
+   "team": "NYG",
+   "opp": "HOU",
+   "pos": "QB",
+   "stat": "pass_yds",
+   "label": "Passing yards",
+   "proj": 170.49,
+   "line": null,
+   "game_id": "2026_07_NYG_HOU"
+  },
+  {
+   "player": "Savion Williams",
+   "team": "GB",
+   "opp": "DET",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.11,
+   "line": null,
+   "game_id": "2026_07_GB_DET"
+  },
+  {
+   "player": "Darius Cooper",
+   "team": "PHI",
+   "opp": "DAL",
+   "pos": "WR",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 21.92,
+   "line": null,
+   "game_id": "2026_07_DAL_PHI"
+  },
+  {
+   "player": "Darius Cooper",
+   "team": "PHI",
+   "opp": "DAL",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.14,
+   "line": null,
+   "game_id": "2026_07_DAL_PHI"
+  },
+  {
+   "player": "Brashard Smith",
+   "team": "KC",
+   "opp": "SEA",
+   "pos": "RB",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.14,
+   "line": null,
+   "game_id": "2026_07_KC_SEA"
+  },
+  {
+   "player": "Ashton Jeanty",
+   "team": "LV",
+   "opp": "LA",
+   "pos": "RB",
+   "stat": "rush_yds",
+   "label": "Rushing yards",
+   "proj": 54.07,
+   "line": null,
+   "game_id": "2026_07_LA_LV"
+  },
+  {
+   "player": "Ashton Jeanty",
+   "team": "LV",
+   "opp": "LA",
+   "pos": "RB",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 3.62,
+   "line": null,
+   "game_id": "2026_07_LA_LV"
+  },
+  {
+   "player": "Ashton Jeanty",
+   "team": "LV",
+   "opp": "LA",
+   "pos": "RB",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 32.41,
+   "line": null,
+   "game_id": "2026_07_LA_LV"
+  },
+  {
+   "player": "Ashton Jeanty",
+   "team": "LV",
+   "opp": "LA",
+   "pos": "RB",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.62,
+   "line": null,
+   "game_id": "2026_07_LA_LV"
+  },
+  {
+   "player": "Tetairoa McMillan",
+   "team": "CAR",
+   "opp": "TB",
+   "pos": "WR",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 5.64,
+   "line": null,
+   "game_id": "2026_07_TB_CAR"
+  },
+  {
+   "player": "Tetairoa McMillan",
+   "team": "CAR",
+   "opp": "TB",
+   "pos": "WR",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 72.73,
+   "line": null,
+   "game_id": "2026_07_TB_CAR"
+  },
+  {
+   "player": "Tetairoa McMillan",
+   "team": "CAR",
+   "opp": "TB",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.42,
+   "line": null,
+   "game_id": "2026_07_TB_CAR"
+  },
+  {
+   "player": "Colston Loveland",
+   "team": "CHI",
+   "opp": "NE",
+   "pos": "TE",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 3.95,
+   "line": null,
+   "game_id": "2026_07_NE_CHI"
+  },
+  {
+   "player": "Colston Loveland",
+   "team": "CHI",
+   "opp": "NE",
+   "pos": "TE",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 46.24,
+   "line": null,
+   "game_id": "2026_07_NE_CHI"
+  },
+  {
+   "player": "Colston Loveland",
+   "team": "CHI",
+   "opp": "NE",
+   "pos": "TE",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.36,
+   "line": null,
+   "game_id": "2026_07_NE_CHI"
+  },
+  {
+   "player": "Tyler Warren",
+   "team": "IND",
+   "opp": "MIN",
+   "pos": "TE",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 4.64,
+   "line": null,
+   "game_id": "2026_07_IND_MIN"
+  },
+  {
+   "player": "Tyler Warren",
+   "team": "IND",
+   "opp": "MIN",
+   "pos": "TE",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 46.71,
+   "line": null,
+   "game_id": "2026_07_IND_MIN"
+  },
+  {
+   "player": "Tyler Warren",
+   "team": "IND",
+   "opp": "MIN",
+   "pos": "TE",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.26,
+   "line": null,
+   "game_id": "2026_07_IND_MIN"
+  },
+  {
+   "player": "Emeka Egbuka",
+   "team": "TB",
+   "opp": "CAR",
+   "pos": "WR",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 4.95,
+   "line": null,
+   "game_id": "2026_07_TB_CAR"
+  },
+  {
+   "player": "Emeka Egbuka",
+   "team": "TB",
+   "opp": "CAR",
+   "pos": "WR",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 54.35,
+   "line": null,
+   "game_id": "2026_07_TB_CAR"
+  },
+  {
+   "player": "Emeka Egbuka",
+   "team": "TB",
+   "opp": "CAR",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.4,
+   "line": null,
+   "game_id": "2026_07_TB_CAR"
+  },
+  {
+   "player": "Kyle Williams",
+   "team": "NE",
+   "opp": "CHI",
+   "pos": "WR",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 20.94,
+   "line": null,
+   "game_id": "2026_07_NE_CHI"
+  },
+  {
+   "player": "Kyle Williams",
+   "team": "NE",
+   "opp": "CHI",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.14,
+   "line": null,
+   "game_id": "2026_07_NE_CHI"
+  },
+  {
+   "player": "Pat Bryant",
+   "team": "DEN",
+   "opp": "ARI",
+   "pos": "WR",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 26.59,
+   "line": null,
+   "game_id": "2026_07_DEN_ARI"
+  },
+  {
+   "player": "Pat Bryant",
+   "team": "DEN",
+   "opp": "ARI",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.18,
+   "line": null,
+   "game_id": "2026_07_DEN_ARI"
+  },
+  {
+   "player": "Jaylin Noel",
+   "team": "HOU",
+   "opp": "NYG",
+   "pos": "WR",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 2.72,
+   "line": null,
+   "game_id": "2026_07_NYG_HOU"
+  },
+  {
+   "player": "Jaylin Noel",
+   "team": "HOU",
+   "opp": "NYG",
+   "pos": "WR",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 40.42,
+   "line": null,
+   "game_id": "2026_07_NYG_HOU"
+  },
+  {
+   "player": "Jaylin Noel",
+   "team": "HOU",
+   "opp": "NYG",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.32,
+   "line": null,
+   "game_id": "2026_07_NYG_HOU"
+  },
+  {
+   "player": "Dylan Sampson",
+   "team": "CLE",
+   "opp": "TEN",
+   "pos": "RB",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.23,
+   "line": null,
+   "game_id": "2026_07_CLE_TEN"
+  },
+  {
+   "player": "Elic Ayomanor",
+   "team": "TEN",
+   "opp": "CLE",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.11,
+   "line": null,
+   "game_id": "2026_07_CLE_TEN"
+  },
+  {
+   "player": "Jordan Watkins",
+   "team": "SF",
+   "opp": "ATL",
+   "pos": "WR",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 25.59,
+   "line": null,
+   "game_id": "2026_07_SF_ATL"
+  },
+  {
+   "player": "Mitchell Evans",
+   "team": "CAR",
+   "opp": "TB",
+   "pos": "TE",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.08,
+   "line": null,
+   "game_id": "2026_07_TB_CAR"
+  },
+  {
+   "player": "Ollie Gordon II",
+   "team": "MIA",
+   "opp": "NYJ",
+   "pos": "RB",
+   "stat": "rush_yds",
+   "label": "Rushing yards",
+   "proj": 42.55,
+   "line": null,
+   "game_id": "2026_07_MIA_NYJ"
+  },
+  {
+   "player": "Ollie Gordon II",
+   "team": "MIA",
+   "opp": "NYJ",
+   "pos": "RB",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.25,
+   "line": null,
+   "game_id": "2026_07_MIA_NYJ"
+  },
+  {
+   "player": "Gavin Bartholomew",
+   "team": "MIN",
+   "opp": "IND",
+   "pos": "TE",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 2.87,
+   "line": null,
+   "game_id": "2026_07_IND_MIN"
+  },
+  {
+   "player": "Kyle Monangai",
+   "team": "CHI",
+   "opp": "NE",
+   "pos": "RB",
+   "stat": "rush_yds",
+   "label": "Rushing yards",
+   "proj": 62.99,
+   "line": null,
+   "game_id": "2026_07_NE_CHI"
+  },
+  {
+   "player": "Kyle Monangai",
+   "team": "CHI",
+   "opp": "NE",
+   "pos": "RB",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.53,
+   "line": null,
+   "game_id": "2026_07_NE_CHI"
+  },
+  {
+   "player": "Tez Johnson",
+   "team": "TB",
+   "opp": "CAR",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.09,
+   "line": null,
+   "game_id": "2026_07_TB_CAR"
+  },
+  {
+   "player": "Jahdae Walker",
+   "team": "CHI",
+   "opp": "NE",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.17,
+   "line": null,
+   "game_id": "2026_07_NE_CHI"
+  },
+  {
+   "player": "Raheim Sanders",
+   "team": "CLE",
+   "opp": "TEN",
+   "pos": "RB",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.16,
+   "line": null,
+   "game_id": "2026_07_CLE_TEN"
+  },
+  {
+   "player": "Corey Kiner",
+   "team": "NE",
+   "opp": "CHI",
+   "pos": "RB",
+   "stat": "rush_yds",
+   "label": "Rushing yards",
+   "proj": 27.99,
+   "line": null,
+   "game_id": "2026_07_NE_CHI"
+  },
+  {
+   "player": "Efton Chism III",
+   "team": "NE",
+   "opp": "CHI",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.16,
+   "line": null,
+   "game_id": "2026_07_NE_CHI"
+  },
+  {
+   "player": "Woody Marks",
+   "team": "HOU",
+   "opp": "NYG",
+   "pos": "RB",
+   "stat": "rush_yds",
+   "label": "Rushing yards",
+   "proj": 52.21,
+   "line": null,
+   "game_id": "2026_07_NYG_HOU"
+  },
+  {
+   "player": "Woody Marks",
+   "team": "HOU",
+   "opp": "NYG",
+   "pos": "RB",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.5,
+   "line": null,
+   "game_id": "2026_07_NYG_HOU"
+  },
+  {
+   "player": "Gunnar Helm",
+   "team": "TEN",
+   "opp": "CLE",
+   "pos": "TE",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.09,
+   "line": null,
+   "game_id": "2026_07_CLE_TEN"
+  },
+  {
+   "player": "Konata Mumpfield",
+   "team": "LA",
+   "opp": "LV",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.18,
+   "line": null,
+   "game_id": "2026_07_LA_LV"
+  },
+  {
+   "player": "Mark Redman",
+   "team": "GB",
+   "opp": "DET",
+   "pos": "TE",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 21.61,
+   "line": null,
+   "game_id": "2026_07_GB_DET"
+  },
+  {
+   "player": "Jalen Royals",
+   "team": "KC",
+   "opp": "SEA",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.11,
+   "line": null,
+   "game_id": "2026_07_KC_SEA"
+  },
+  {
+   "player": "Tory Horton",
+   "team": "SEA",
+   "opp": "KC",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.2,
+   "line": null,
+   "game_id": "2026_07_KC_SEA"
+  },
+  {
+   "player": "Harold Fannin Jr.",
+   "team": "CLE",
+   "opp": "TEN",
+   "pos": "TE",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 2.91,
+   "line": null,
+   "game_id": "2026_07_CLE_TEN"
+  },
+  {
+   "player": "Harold Fannin Jr.",
+   "team": "CLE",
+   "opp": "TEN",
+   "pos": "TE",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.23,
+   "line": null,
+   "game_id": "2026_07_CLE_TEN"
+  },
+  {
+   "player": "Matthew Golden",
+   "team": "GB",
+   "opp": "DET",
+   "pos": "WR",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 4.77,
+   "line": null,
+   "game_id": "2026_07_GB_DET"
+  },
+  {
+   "player": "Matthew Golden",
+   "team": "GB",
+   "opp": "DET",
+   "pos": "WR",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 67.29,
+   "line": null,
+   "game_id": "2026_07_GB_DET"
+  },
+  {
+   "player": "Matthew Golden",
+   "team": "GB",
+   "opp": "DET",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.46,
+   "line": null,
+   "game_id": "2026_07_GB_DET"
+  },
+  {
+   "player": "Isaac TeSlaa",
+   "team": "DET",
+   "opp": "GB",
+   "pos": "WR",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 30.56,
+   "line": null,
+   "game_id": "2026_07_GB_DET"
+  },
+  {
+   "player": "Isaac TeSlaa",
+   "team": "DET",
+   "opp": "GB",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.18,
+   "line": null,
+   "game_id": "2026_07_GB_DET"
+  },
+  {
+   "player": "Cam Ward",
+   "team": "TEN",
+   "opp": "CLE",
+   "pos": "QB",
+   "stat": "pass_yds",
+   "label": "Passing yards",
+   "proj": 168.98,
+   "line": null,
+   "game_id": "2026_07_CLE_TEN"
+  },
+  {
+   "player": "Jaxson Dart",
+   "team": "NYG",
+   "opp": "HOU",
+   "pos": "QB",
+   "stat": "pass_tds",
+   "label": "Passing TDs",
+   "proj": 0.99,
+   "line": null,
+   "game_id": "2026_07_NYG_HOU"
+  },
+  {
+   "player": "Jaxson Dart",
+   "team": "NYG",
+   "opp": "HOU",
+   "pos": "QB",
+   "stat": "rush_yds",
+   "label": "Rushing yards",
+   "proj": 19.73,
+   "line": null,
+   "game_id": "2026_07_NYG_HOU"
+  },
+  {
+   "player": "Chimere Dike",
+   "team": "TEN",
+   "opp": "CLE",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.06,
+   "line": null,
+   "game_id": "2026_07_CLE_TEN"
+  },
+  {
+   "player": "Cam Skattebo",
+   "team": "NYG",
+   "opp": "HOU",
+   "pos": "RB",
+   "stat": "rush_yds",
+   "label": "Rushing yards",
+   "proj": 49.02,
+   "line": null,
+   "game_id": "2026_07_NYG_HOU"
+  },
+  {
+   "player": "Cam Skattebo",
+   "team": "NYG",
+   "opp": "HOU",
+   "pos": "RB",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.39,
+   "line": null,
+   "game_id": "2026_07_NYG_HOU"
+  },
+  {
+   "player": "Jack Bech",
+   "team": "LV",
+   "opp": "LA",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.15,
+   "line": null,
+   "game_id": "2026_07_LA_LV"
+  },
+  {
+   "player": "RJ Harvey",
+   "team": "DEN",
+   "opp": "ARI",
+   "pos": "RB",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 3.56,
+   "line": null,
+   "game_id": "2026_07_DEN_ARI"
+  },
+  {
+   "player": "RJ Harvey",
+   "team": "DEN",
+   "opp": "ARI",
+   "pos": "RB",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 33.03,
+   "line": null,
+   "game_id": "2026_07_DEN_ARI"
+  },
+  {
+   "player": "RJ Harvey",
+   "team": "DEN",
+   "opp": "ARI",
+   "pos": "RB",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.43,
+   "line": null,
+   "game_id": "2026_07_DEN_ARI"
+  },
+  {
+   "player": "TreVeyon Henderson",
+   "team": "NE",
+   "opp": "CHI",
+   "pos": "RB",
+   "stat": "rush_yds",
+   "label": "Rushing yards",
+   "proj": 32.66,
+   "line": null,
+   "game_id": "2026_07_NE_CHI"
+  },
+  {
+   "player": "TreVeyon Henderson",
+   "team": "NE",
+   "opp": "CHI",
+   "pos": "RB",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.25,
+   "line": null,
+   "game_id": "2026_07_NE_CHI"
+  },
+  {
+   "player": "Luther Burden III",
+   "team": "CHI",
+   "opp": "NE",
+   "pos": "WR",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 4.76,
+   "line": null,
+   "game_id": "2026_07_NE_CHI"
+  },
+  {
+   "player": "Luther Burden III",
+   "team": "CHI",
+   "opp": "NE",
+   "pos": "WR",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 57.27,
+   "line": null,
+   "game_id": "2026_07_NE_CHI"
+  },
+  {
+   "player": "Luther Burden III",
+   "team": "CHI",
+   "opp": "NE",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.35,
+   "line": null,
+   "game_id": "2026_07_NE_CHI"
+  },
+  {
+   "player": "Mason Taylor",
+   "team": "NYJ",
+   "opp": "MIA",
+   "pos": "TE",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 3.31,
+   "line": null,
+   "game_id": "2026_07_MIA_NYJ"
+  },
+  {
+   "player": "Mason Taylor",
+   "team": "NYJ",
+   "opp": "MIA",
+   "pos": "TE",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 34.13,
+   "line": null,
+   "game_id": "2026_07_MIA_NYJ"
+  },
+  {
+   "player": "Mason Taylor",
+   "team": "NYJ",
+   "opp": "MIA",
+   "pos": "TE",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.22,
+   "line": null,
+   "game_id": "2026_07_MIA_NYJ"
+  },
+  {
+   "player": "Terrance Ferguson",
+   "team": "LA",
+   "opp": "LV",
+   "pos": "TE",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.25,
+   "line": null,
+   "game_id": "2026_07_LA_LV"
+  },
+  {
+   "player": "Elijah Arroyo",
+   "team": "SEA",
+   "opp": "KC",
+   "pos": "TE",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.08,
+   "line": null,
+   "game_id": "2026_07_KC_SEA"
+  },
+  {
+   "player": "Tyler Shough",
+   "team": "NO",
+   "opp": "PIT",
+   "pos": "QB",
+   "stat": "pass_yds",
+   "label": "Passing yards",
+   "proj": 196.49,
+   "line": null,
+   "game_id": "2026_07_PIT_NO"
+  },
+  {
+   "player": "Tyler Shough",
+   "team": "NO",
+   "opp": "PIT",
+   "pos": "QB",
+   "stat": "pass_tds",
+   "label": "Passing TDs",
+   "proj": 1.39,
+   "line": null,
+   "game_id": "2026_07_PIT_NO"
+  },
+  {
+   "player": "Isaiah Bond",
+   "team": "CLE",
+   "opp": "TEN",
+   "pos": "WR",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 25.84,
+   "line": null,
+   "game_id": "2026_07_CLE_TEN"
+  },
+  {
+   "player": "Quinshon Judkins",
+   "team": "CLE",
+   "opp": "TEN",
+   "pos": "RB",
+   "stat": "rush_yds",
+   "label": "Rushing yards",
+   "proj": 53.96,
+   "line": null,
+   "game_id": "2026_07_CLE_TEN"
+  },
+  {
+   "player": "Quinshon Judkins",
+   "team": "CLE",
+   "opp": "TEN",
+   "pos": "RB",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 3.24,
+   "line": null,
+   "game_id": "2026_07_CLE_TEN"
+  },
+  {
+   "player": "Quinshon Judkins",
+   "team": "CLE",
+   "opp": "TEN",
+   "pos": "RB",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.55,
+   "line": null,
+   "game_id": "2026_07_CLE_TEN"
+  },
+  {
+   "player": "Dohnte Meyers",
+   "team": "CIN",
+   "opp": "BAL",
+   "pos": "WR",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 2.5,
+   "line": null,
+   "game_id": "2026_07_CIN_BAL"
+  },
+  {
+   "player": "Dohnte Meyers",
+   "team": "CIN",
+   "opp": "BAL",
+   "pos": "WR",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 26.95,
+   "line": null,
+   "game_id": "2026_07_CIN_BAL"
+  },
+  {
+   "player": "Makai Lemon",
+   "team": "PHI",
+   "opp": "DAL",
+   "pos": "WR",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 3.18,
+   "line": null,
+   "game_id": "2026_07_DAL_PHI"
+  },
+  {
+   "player": "Makai Lemon",
+   "team": "PHI",
+   "opp": "DAL",
+   "pos": "WR",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 32.5,
+   "line": null,
+   "game_id": "2026_07_DAL_PHI"
+  },
+  {
+   "player": "Ja'Kobi Lane",
+   "team": "BAL",
+   "opp": "CIN",
+   "pos": "WR",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 2.76,
+   "line": null,
+   "game_id": "2026_07_CIN_BAL"
+  },
+  {
+   "player": "Ja'Kobi Lane",
+   "team": "BAL",
+   "opp": "CIN",
+   "pos": "WR",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 33.81,
+   "line": null,
+   "game_id": "2026_07_CIN_BAL"
+  },
+  {
+   "player": "Mike Washington Jr.",
+   "team": "LV",
+   "opp": "LA",
+   "pos": "RB",
+   "stat": "rush_yds",
+   "label": "Rushing yards",
+   "proj": 27.61,
+   "line": null,
+   "game_id": "2026_07_LA_LV"
+  },
+  {
+   "player": "Mike Washington Jr.",
+   "team": "LV",
+   "opp": "LA",
+   "pos": "RB",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.21,
+   "line": null,
+   "game_id": "2026_07_LA_LV"
+  },
+  {
+   "player": "Matthew Hibner",
+   "team": "BAL",
+   "opp": "CIN",
+   "pos": "TE",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 22.46,
+   "line": null,
+   "game_id": "2026_07_CIN_BAL"
+  },
+  {
+   "player": "Matthew Hibner",
+   "team": "BAL",
+   "opp": "CIN",
+   "pos": "TE",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.2,
+   "line": null,
+   "game_id": "2026_07_CIN_BAL"
+  },
+  {
+   "player": "Josh Cuevas",
+   "team": "BAL",
+   "opp": "CIN",
+   "pos": "TE",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 24.97,
+   "line": null,
+   "game_id": "2026_07_CIN_BAL"
+  },
+  {
+   "player": "Josh Cuevas",
+   "team": "BAL",
+   "opp": "CIN",
+   "pos": "TE",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.25,
+   "line": null,
+   "game_id": "2026_07_CIN_BAL"
+  },
+  {
+   "player": "Jeremiyah Love",
+   "team": "ARI",
+   "opp": "DEN",
+   "pos": "RB",
+   "stat": "rush_yds",
+   "label": "Rushing yards",
+   "proj": 54.84,
+   "line": null,
+   "game_id": "2026_07_DEN_ARI"
+  },
+  {
+   "player": "Jeremiyah Love",
+   "team": "ARI",
+   "opp": "DEN",
+   "pos": "RB",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.44,
+   "line": null,
+   "game_id": "2026_07_DEN_ARI"
+  },
+  {
+   "player": "Kenyon Sadiq",
+   "team": "NYJ",
+   "opp": "MIA",
+   "pos": "TE",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.2,
+   "line": null,
+   "game_id": "2026_07_MIA_NYJ"
+  },
+  {
+   "player": "Denzel Boston",
+   "team": "CLE",
+   "opp": "TEN",
+   "pos": "WR",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 44.61,
+   "line": null,
+   "game_id": "2026_07_CLE_TEN"
+  },
+  {
+   "player": "Denzel Boston",
+   "team": "CLE",
+   "opp": "TEN",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.26,
+   "line": null,
+   "game_id": "2026_07_CLE_TEN"
+  },
+  {
+   "player": "Malachi Fields",
+   "team": "NYG",
+   "opp": "HOU",
+   "pos": "WR",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 26.23,
+   "line": null,
+   "game_id": "2026_07_NYG_HOU"
+  },
+  {
+   "player": "Malachi Fields",
+   "team": "NYG",
+   "opp": "HOU",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.12,
+   "line": null,
+   "game_id": "2026_07_NYG_HOU"
+  },
+  {
+   "player": "Ted Hurst III",
+   "team": "TB",
+   "opp": "CAR",
+   "pos": "WR",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 31.4,
+   "line": null,
+   "game_id": "2026_07_TB_CAR"
+  },
+  {
+   "player": "Ted Hurst III",
+   "team": "TB",
+   "opp": "CAR",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.17,
+   "line": null,
+   "game_id": "2026_07_TB_CAR"
+  },
+  {
+   "player": "Bryce Lance",
+   "team": "NO",
+   "opp": "PIT",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.16,
+   "line": null,
+   "game_id": "2026_07_PIT_NO"
+  },
+  {
+   "player": "Reggie Virgil",
+   "team": "ARI",
+   "opp": "DEN",
+   "pos": "WR",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 25.98,
+   "line": null,
+   "game_id": "2026_07_DEN_ARI"
+  },
+  {
+   "player": "Jalon Daniels",
+   "team": "TB",
+   "opp": "CAR",
+   "pos": "QB",
+   "stat": "pass_tds",
+   "label": "Passing TDs",
+   "proj": 0.98,
+   "line": null,
+   "game_id": "2026_07_TB_CAR"
+  },
+  {
+   "player": "Jalon Daniels",
+   "team": "TB",
+   "opp": "CAR",
+   "pos": "QB",
+   "stat": "rush_yds",
+   "label": "Rushing yards",
+   "proj": 24.22,
+   "line": null,
+   "game_id": "2026_07_TB_CAR"
+  },
+  {
+   "player": "Eli Raridon",
+   "team": "NE",
+   "opp": "CHI",
+   "pos": "TE",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.15,
+   "line": null,
+   "game_id": "2026_07_NE_CHI"
+  },
+  {
+   "player": "Carnell Tate",
+   "team": "TEN",
+   "opp": "CLE",
+   "pos": "WR",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 4.78,
+   "line": null,
+   "game_id": "2026_07_CLE_TEN"
+  },
+  {
+   "player": "Carnell Tate",
+   "team": "TEN",
+   "opp": "CLE",
+   "pos": "WR",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 58.79,
+   "line": null,
+   "game_id": "2026_07_CLE_TEN"
+  },
+  {
+   "player": "Carnell Tate",
+   "team": "TEN",
+   "opp": "CLE",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.32,
+   "line": null,
+   "game_id": "2026_07_CLE_TEN"
+  },
+  {
+   "player": "Germie Bernard",
+   "team": "PIT",
+   "opp": "NO",
+   "pos": "WR",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 4.92,
+   "line": null,
+   "game_id": "2026_07_PIT_NO"
+  },
+  {
+   "player": "Germie Bernard",
+   "team": "PIT",
+   "opp": "NO",
+   "pos": "WR",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 50.97,
+   "line": null,
+   "game_id": "2026_07_PIT_NO"
+  },
+  {
+   "player": "Germie Bernard",
+   "team": "PIT",
+   "opp": "NO",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.33,
+   "line": null,
+   "game_id": "2026_07_PIT_NO"
+  },
+  {
+   "player": "Jonah Coleman",
+   "team": "DEN",
+   "opp": "ARI",
+   "pos": "RB",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.3,
+   "line": null,
+   "game_id": "2026_07_DEN_ARI"
+  },
+  {
+   "player": "Omar Cooper Jr.",
+   "team": "NYJ",
+   "opp": "MIA",
+   "pos": "WR",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 3.35,
+   "line": null,
+   "game_id": "2026_07_MIA_NYJ"
+  },
+  {
+   "player": "Omar Cooper Jr.",
+   "team": "NYJ",
+   "opp": "MIA",
+   "pos": "WR",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 46.36,
+   "line": null,
+   "game_id": "2026_07_MIA_NYJ"
+  },
+  {
+   "player": "Omar Cooper Jr.",
+   "team": "NYJ",
+   "opp": "MIA",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.22,
+   "line": null,
+   "game_id": "2026_07_MIA_NYJ"
+  },
+  {
+   "player": "Jadarian Price",
+   "team": "SEA",
+   "opp": "KC",
+   "pos": "RB",
+   "stat": "rush_yds",
+   "label": "Rushing yards",
+   "proj": 33.87,
+   "line": null,
+   "game_id": "2026_07_KC_SEA"
+  },
+  {
+   "player": "Caleb Douglas",
+   "team": "MIA",
+   "opp": "NYJ",
+   "pos": "WR",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 3.16,
+   "line": null,
+   "game_id": "2026_07_MIA_NYJ"
+  },
+  {
+   "player": "Caleb Douglas",
+   "team": "MIA",
+   "opp": "NYJ",
+   "pos": "WR",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 40.5,
+   "line": null,
+   "game_id": "2026_07_MIA_NYJ"
+  },
+  {
+   "player": "Kevin Coleman Jr.",
+   "team": "MIA",
+   "opp": "NYJ",
+   "pos": "WR",
+   "stat": "anytime_td",
+   "label": "Anytime TD",
+   "proj": 0.19,
+   "line": null,
+   "game_id": "2026_07_MIA_NYJ"
+  },
+  {
+   "player": "KC Concepcion",
+   "team": "CLE",
+   "opp": "TEN",
+   "pos": "WR",
+   "stat": "receptions",
+   "label": "Receptions",
+   "proj": 3.5,
+   "line": null,
+   "game_id": "2026_07_CLE_TEN"
+  },
+  {
+   "player": "KC Concepcion",
+   "team": "CLE",
+   "opp": "TEN",
+   "pos": "WR",
+   "stat": "rec_yds",
+   "label": "Receiving yards",
+   "proj": 38.8,
+   "line": null,
+   "game_id": "2026_07_CLE_TEN"
+  }
+ ],
+ "teams": [
+  {
+   "team": "SF",
+   "off_epa": 0.125,
+   "def_epa": -0.032,
+   "net": 0.157,
+   "pts_for": 27.8,
+   "pts_against": 21.2,
+   "qb": "Brock Purdy",
+   "qb_epa": 0.107
+  },
+  {
+   "team": "KC",
+   "off_epa": 0.06,
+   "def_epa": -0.047,
+   "net": 0.107,
+   "pts_for": 23.5,
+   "pts_against": 19.5,
+   "qb": "Patrick Mahomes",
+   "qb_epa": 0.06
+  },
+  {
+   "team": "SEA",
+   "off_epa": -0.041,
+   "def_epa": -0.134,
+   "net": 0.094,
+   "pts_for": 25.6,
+   "pts_against": 20.4,
+   "qb": "Drew Lock",
+   "qb_epa": -0.008
+  },
+  {
+   "team": "NE",
+   "off_epa": 0.057,
+   "def_epa": -0.03,
+   "net": 0.086,
+   "pts_for": 24.9,
+   "pts_against": 19.3,
+   "qb": "Drake Maye",
+   "qb_epa": 0.049
+  },
+  {
+   "team": "HOU",
+   "off_epa": 0.01,
+   "def_epa": -0.072,
+   "net": 0.082,
+   "pts_for": 23.9,
+   "pts_against": 21.3,
+   "qb": "C.J. Stroud",
+   "qb_epa": 0.031
+  },
+  {
+   "team": "LA",
+   "off_epa": 0.033,
+   "def_epa": -0.039,
+   "net": 0.071,
+   "pts_for": 23.9,
+   "pts_against": 23.0,
+   "qb": "Matthew Stafford",
+   "qb_epa": 0.078
+  },
+  {
+   "team": "BAL",
+   "off_epa": 0.051,
+   "def_epa": -0.014,
+   "net": 0.066,
+   "pts_for": 23.7,
+   "pts_against": 22.5,
+   "qb": "Tyler Huntley",
+   "qb_epa": -0.036
+  },
+  {
+   "team": "DEN",
+   "off_epa": -0.024,
+   "def_epa": -0.07,
+   "net": 0.047,
+   "pts_for": 22.0,
+   "pts_against": 19.4,
+   "qb": "Bo Nix",
+   "qb_epa": -0.012
+  },
+  {
+   "team": "MIN",
+   "off_epa": -0.121,
+   "def_epa": -0.168,
+   "net": 0.046,
+   "pts_for": 19.7,
+   "pts_against": 16.0,
+   "qb": "Kyler Murray",
+   "qb_epa": -0.035
+  },
+  {
+   "team": "CHI",
+   "off_epa": 0.01,
+   "def_epa": -0.025,
+   "net": 0.035,
+   "pts_for": 23.7,
+   "pts_against": 22.0,
+   "qb": "Caleb Williams",
+   "qb_epa": 0.045
+  },
+  {
+   "team": "CAR",
+   "off_epa": 0.05,
+   "def_epa": 0.014,
+   "net": 0.035,
+   "pts_for": 24.9,
+   "pts_against": 23.4,
+   "qb": "Bryce Young",
+   "qb_epa": 0.019
+  },
+  {
+   "team": "GB",
+   "off_epa": 0.012,
+   "def_epa": -0.018,
+   "net": 0.03,
+   "pts_for": 21.7,
+   "pts_against": 21.3,
+   "qb": "Jordan Love",
+   "qb_epa": 0.085
+  },
+  {
+   "team": "DET",
+   "off_epa": 0.105,
+   "def_epa": 0.076,
+   "net": 0.029,
+   "pts_for": 28.1,
+   "pts_against": 26.2,
+   "qb": "Jared Goff",
+   "qb_epa": 0.128
+  },
+  {
+   "team": "CIN",
+   "off_epa": 0.055,
+   "def_epa": 0.029,
+   "net": 0.026,
+   "pts_for": 25.5,
+   "pts_against": 23.8,
+   "qb": "Joe Burrow",
+   "qb_epa": 0.061
+  },
+  {
+   "team": "PIT",
+   "off_epa": -0.021,
+   "def_epa": -0.012,
+   "net": -0.009,
+   "pts_for": 23.5,
+   "pts_against": 22.4,
+   "qb": "Aaron Rodgers",
+   "qb_epa": -0.068
+  },
+  {
+   "team": "ATL",
+   "off_epa": -0.046,
+   "def_epa": -0.016,
+   "net": -0.03,
+   "pts_for": 23.1,
+   "pts_against": 24.7,
+   "qb": "Michael Penix Jr.",
+   "qb_epa": 0.003
+  },
+  {
+   "team": "NYJ",
+   "off_epa": -0.067,
+   "def_epa": -0.012,
+   "net": -0.054,
+   "pts_for": 19.0,
+   "pts_against": 23.0,
+   "qb": "Geno Smith",
+   "qb_epa": -0.043
+  },
+  {
+   "team": "LV",
+   "off_epa": -0.029,
+   "def_epa": 0.025,
+   "net": -0.054,
+   "pts_for": 23.9,
+   "pts_against": 26.7,
+   "qb": "Kirk Cousins",
+   "qb_epa": 0.043
+  },
+  {
+   "team": "CLE",
+   "off_epa": -0.099,
+   "def_epa": -0.043,
+   "net": -0.056,
+   "pts_for": 18.3,
+   "pts_against": 20.3,
+   "qb": "Deshaun Watson",
+   "qb_epa": -0.072
+  },
+  {
+   "team": "TB",
+   "off_epa": -0.088,
+   "def_epa": -0.032,
+   "net": -0.056,
+   "pts_for": 20.3,
+   "pts_against": 23.1,
+   "qb": "Jalon Daniels",
+   "qb_epa": -0.094
+  },
+  {
+   "team": "ARI",
+   "off_epa": -0.022,
+   "def_epa": 0.044,
+   "net": -0.066,
+   "pts_for": 21.8,
+   "pts_against": 27.6,
+   "qb": "Jacoby Brissett",
+   "qb_epa": -0.031
+  },
+  {
+   "team": "IND",
+   "off_epa": -0.036,
+   "def_epa": 0.036,
+   "net": -0.071,
+   "pts_for": 23.9,
+   "pts_against": 26.7,
+   "qb": "Daniel Jones",
+   "qb_epa": -0.051
+  },
+  {
+   "team": "DAL",
+   "off_epa": 0.044,
+   "def_epa": 0.122,
+   "net": -0.078,
+   "pts_for": 24.0,
+   "pts_against": 26.8,
+   "qb": "Dak Prescott",
+   "qb_epa": 0.06
+  },
+  {
+   "team": "NYG",
+   "off_epa": -0.065,
+   "def_epa": 0.017,
+   "net": -0.081,
+   "pts_for": 21.3,
+   "pts_against": 24.2,
+   "qb": "Jameis Winston",
+   "qb_epa": -0.059
+  },
+  {
+   "team": "NO",
+   "off_epa": -0.039,
+   "def_epa": 0.051,
+   "net": -0.09,
+   "pts_for": 24.2,
+   "pts_against": 27.1,
+   "qb": "Tyler Shough",
+   "qb_epa": -0.037
+  },
+  {
+   "team": "PHI",
+   "off_epa": -0.105,
+   "def_epa": 0.001,
+   "net": -0.106,
+   "pts_for": 19.3,
+   "pts_against": 21.2,
+   "qb": "Jalen Hurts",
+   "qb_epa": -0.021
+  },
+  {
+   "team": "MIA",
+   "off_epa": -0.061,
+   "def_epa": 0.091,
+   "net": -0.152,
+   "pts_for": 18.8,
+   "pts_against": 25.3,
+   "qb": "Malik Willis",
+   "qb_epa": -0.072
+  },
+  {
+   "team": "TEN",
+   "off_epa": -0.122,
+   "def_epa": 0.052,
+   "net": -0.174,
+   "pts_for": 17.1,
+   "pts_against": 23.6,
+   "qb": "Cam Ward",
+   "qb_epa": -0.128
+  }
+ ],
+ "notes": [],
+ "model": {
+  "margin_coef": {
+   "home_field": 2.021,
+   "d_net_epa": 3.387,
+   "d_net_pts": 0.641,
+   "d_off_pass": -0.939,
+   "d_def_pass": 1.793,
+   "d_qb": 13.28,
+   "h_qb_change": -1.2,
+   "a_qb_change": 1.075,
+   "rest_diff": 0.227,
+   "div_game": -0.271
+  },
+  "total_coef": {
+   "s_off_epa": 7.45,
+   "s_def_epa": 3.047,
+   "s_pts": 0.278,
+   "s_plays": 0.047,
+   "s_qb": 12.788,
+   "indoor": -0.034,
+   "wind_x": -0.323,
+   "cold": -0.13
+  },
+  "margin_sd": 13.2
+ }
+}
