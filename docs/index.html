@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>NFL Line Lab</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -145,7 +145,7 @@ button.add.on{background:var(--ink);color:var(--bg);border-color:var(--ink)}
 .slipsum.c1{border-left-color:var(--c1);background:var(--c1-bg)}.slipsum.c2{border-left-color:var(--c2);background:var(--c2-bg)}.slipsum.c4{border-left-color:var(--c4);background:var(--c4-bg)}.slipsum.c5{border-left-color:var(--c5);background:var(--c5-bg)}
 .slipsum .big{font:700 26px/1.1 "JetBrains Mono",monospace}
 .stake{display:flex;align-items:center;gap:2px;font-weight:600}.stake input{width:76px;text-align:right}
-.slipbar{position:fixed;left:50%;transform:translateX(-50%);bottom:12px;z-index:30;width:min(520px,calc(100% - 24px));display:flex;align-items:center;gap:12px;background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:10px 12px;box-shadow:0 8px 24px rgba(0,0,0,.18);font-size:13px}
+.slipbar{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(12px + env(safe-area-inset-bottom));z-index:30;width:min(520px,calc(100% - 24px));display:flex;align-items:center;gap:12px;background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:10px 12px;box-shadow:0 8px 24px rgba(0,0,0,.18);font-size:13px}
 .slipbar>span:first-child{flex:1}
 .padd{grid-column:1/-1;display:flex;gap:8px;flex-wrap:wrap}
 .padd-i{display:inline-flex;align-items:center;gap:8px;border-radius:999px;padding:3px 3px 3px 12px;font-size:13px;font-weight:600;border:1px solid var(--line)}
@@ -622,7 +622,7 @@ function renderSlip(){
   // bottom pop-up
   const bar=$('#slipBar');
   const onParlay=$('#parlay')&&$('#parlay').classList.contains('on');
-  if(!s.length||onParlay){bar.style.display='none'}else{
+  if(!s.length){bar.style.display='none'}else{
     const m=parlayMath(s,stake),ch=chanceOf(m.p),open=!!D.barOpen;
     bar.style.display='block';
     bar.innerHTML=`<div class="sb-head" data-togglebar="1">
@@ -674,7 +674,7 @@ $('#pbType').addEventListener('click',e=>{const b=e.target.closest('button');if(
 $('#pbGame').addEventListener('change',renderBuilder);$('#pbSearch').addEventListener('input',renderBuilder);
 document.addEventListener('click',e=>{const t=e.target.closest('button');if(!t)return;
   if(t.dataset.leg){toggleLeg(t.dataset.leg);if($('#parlay').classList.contains('on'))renderBuilder()}
-  if(t.dataset.goparlay){document.querySelector('.tab[data-tab=parlay]').click();window.scrollTo({top:0})}
+  if(t.dataset.goparlay){if(!$('#parlay').classList.contains('on'))document.querySelector('.tab[data-tab=parlay]').click();D.barOpen=false;renderSlip();window.scrollTo({top:0,behavior:'smooth'})}
   if(t.dataset.clearslip){saveSlip([]);renderBuilder()}
   if(t.dataset.logparlay){const s=slip(),stake=parseFloat(store.get('nll.stake',10))||10,m=parlayMath(s,stake);const l=logList();l.unshift({id:Date.now()+'',desc:`${s.length}-leg parlay: `+s.map(x=>x.title).join(' + '),odds:Math.round(m.dec>=2?(m.dec-1)*100:-100/(m.dec-1)),stake:1,result:'open'});saveLog(l);t.textContent='Saved ✓'}
 });
