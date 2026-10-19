@@ -1,0 +1,9 @@
+[
+  {"name":"games","description":"This week's NFL games with live scores","type":1},
+  {"name":"score","description":"Live score for one team's game","type":1,
+   "options":[{"name":"team","description":"Team name, city or abbreviation (e.g. bears, KC)","type":3,"required":true}]},
+  {"name":"lines","description":"Betting lines for one team's game","type":1,
+   "options":[{"name":"team","description":"Team name, city or abbreviation (e.g. bears, KC)","type":3,"required":true}]},
+  {"name":"setup","description":"Post this week's games in this channel and keep the scores updated","type":1,"default_member_permissions":"32","dm_permission":false},
+  {"name":"stop","description":"Stop the live scoreboard","type":1,"default_member_permissions":"32","dm_permission":false}
+]

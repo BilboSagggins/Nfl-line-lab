@@ -1,0 +1,13 @@
+name = "nfl-line-lab-bot"
+main = "worker.js"
+compatibility_date = "2026-01-01"
+
+[vars]
+DATA_URL = "https://bilbosagggins.github.io/Nfl-line-lab/docs/data/latest.json"
+
+[triggers]
+crons = ["* * * * *"]
+
+[[kv_namespaces]]
+binding = "STATE"
+id = "__KV_ID__"

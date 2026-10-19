@@ -1,0 +1,89 @@
+name: Deploy Discord bot
+
+on:
+  push:
+    branches: [main]
+    paths: ["discord/**", ".github/workflows/discord-bot.yml"]
+  workflow_dispatch:
+
+concurrency:
+  group: discord-bot
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+      DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
+      DISCORD_PUBLIC_KEY: ${{ secrets.DISCORD_PUBLIC_KEY }}
+      DISCORD_APP_ID: ${{ secrets.DISCORD_APP_ID }}
+    defaults:
+      run:
+        working-directory: discord
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Check secrets
+        run: |
+          missing=""
+          for s in CLOUDFLARE_API_TOKEN CLOUDFLARE_ACCOUNT_ID DISCORD_TOKEN DISCORD_PUBLIC_KEY DISCORD_APP_ID; do
+            [ -z "${!s}" ] && missing="$missing $s"
+          done
+          if [ -n "$missing" ]; then
+            echo "::notice::Bot not deployed yet. Add these repository secrets, then run this workflow:$missing"
+            echo "READY=false" >> $GITHUB_ENV
+          else
+            echo "READY=true" >> $GITHUB_ENV
+          fi
+
+      - name: Create or find storage
+        if: env.READY == 'true'
+        run: |
+          npx --yes wrangler@3 kv namespace list > kv.json
+          id=$(node -e "const l=require('./kv.json');const n=l.find(x=>x.title.endsWith('nfl-bot-state'));console.log(n?n.id:'')")
+          if [ -z "$id" ]; then
+            npx --yes wrangler@3 kv namespace create nfl-bot-state | tee kv-create.txt
+            npx --yes wrangler@3 kv namespace list > kv.json
+            id=$(node -e "const l=require('./kv.json');const n=l.find(x=>x.title.endsWith('nfl-bot-state'));console.log(n?n.id:'')")
+          fi
+          [ -z "$id" ] && { echo "::error::Could not create Cloudflare storage"; exit 1; }
+          sed -i "s/__KV_ID__/$id/" wrangler.toml
+
+      - name: Deploy worker
+        if: env.READY == 'true'
+        run: |
+          npx --yes wrangler@3 deploy | tee deploy.txt
+          url=$(grep -oE 'https://[a-zA-Z0-9.-]+\.workers\.dev' deploy.txt | head -1)
+          echo "WORKER_URL=$url" >> $GITHUB_ENV
+
+      - name: Store bot secrets in Cloudflare
+        if: env.READY == 'true'
+        run: |
+          echo "$DISCORD_TOKEN" | npx --yes wrangler@3 secret put DISCORD_TOKEN
+          echo "$DISCORD_PUBLIC_KEY" | npx --yes wrangler@3 secret put DISCORD_PUBLIC_KEY
+
+      - name: Register slash commands
+        if: env.READY == 'true'
+        run: |
+          code=$(curl -s -o resp.json -w "%{http_code}" -X PUT \
+            -H "Authorization: Bot $DISCORD_TOKEN" -H "Content-Type: application/json" \
+            --data @commands.json "https://discord.com/api/v10/applications/$DISCORD_APP_ID/commands")
+          if [ "$code" != "200" ]; then echo "::error::Discord rejected the commands ($code)"; cat resp.json; exit 1; fi
+
+      - name: Next step
+        if: env.READY == 'true'
+        run: |
+          {
+            echo "## Bot deployed"
+            echo ""
+            echo "Paste this into Discord Developer Portal -> your app -> General Information -> **Interactions Endpoint URL**, then Save:"
+            echo ""
+            echo "\`${WORKER_URL}\`"
+            echo ""
+            echo "Then in your Discord server, run **/setup** in the channel you want the scoreboard in."
+          } >> $GITHUB_STEP_SUMMARY

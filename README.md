@@ -37,6 +37,10 @@ Tested on ~2,850 games from 2016 onward, each season predicted by a model traine
 2. **Pages:** Settings → Pages → Source: *Deploy from a branch* → Branch `main`, folder `/docs`.
 3. **First run:** Actions → *Weekly update* → *Run workflow* → mode `thursday`.
 
+## Discord bot
+
+Live scores and betting lines in a Discord channel. Setup guide: [discord/README.md](discord/README.md).
+
 ## Run locally
 
 ```bash
