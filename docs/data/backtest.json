@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-19T20:40:20.521269+00:00",
+ "generated": "2026-10-20T14:31:38.755166+00:00",
  "seasons": [
   {
    "season": 2016,
@@ -190,9 +190,9 @@
    "market_total_mae": 10.42,
    "spread_med_high": {
     "w": 28,
-    "l": 34,
-    "pct": 0.452,
-    "units": -8.5
+    "l": 35,
+    "pct": 0.444,
+    "units": -9.5
    },
    "total_med_high": {
     "w": 40,
@@ -203,16 +203,16 @@
   },
   {
    "season": 2026,
-   "games": 92,
-   "margin_mae": 9.66,
-   "market_mae": 9.39,
-   "total_mae": 11.4,
-   "market_total_mae": 10.59,
+   "games": 93,
+   "margin_mae": 9.62,
+   "market_mae": 9.31,
+   "total_mae": 11.38,
+   "market_total_mae": 10.6,
    "spread_med_high": {
     "w": 15,
-    "l": 14,
-    "pct": 0.517,
-    "units": -0.4
+    "l": 15,
+    "pct": 0.5,
+    "units": -1.4
    },
    "total_med_high": {
     "w": 3,
@@ -226,23 +226,23 @@
   "Low": {
    "spread": {
     "w": 374,
-    "l": 425,
-    "pct": 0.468,
-    "units": -85.0
+    "l": 424,
+    "pct": 0.469,
+    "units": -84.0
    },
    "total": {
-    "w": 361,
+    "w": 362,
     "l": 368,
-    "pct": 0.495,
-    "units": -39.8
+    "pct": 0.496,
+    "units": -38.9
    }
   },
   "Medium": {
    "spread": {
     "w": 240,
-    "l": 239,
-    "pct": 0.501,
-    "units": -20.8
+    "l": 241,
+    "pct": 0.499,
+    "units": -22.8
    },
    "total": {
     "w": 180,
@@ -267,7 +267,7 @@
   }
  },
  "overall": {
-  "games": 2853,
+  "games": 2854,
   "margin_mae": 10.14,
   "market_mae": 9.76
  }
