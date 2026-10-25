@@ -1,197 +1,69 @@
 {
- "generated": "2026-10-22T13:38:25.586416+00:00",
- "mode": "thursday",
+ "generated": "2026-10-25T15:13:37.063294+00:00",
+ "mode": "sunday",
  "season": 2026,
- "week": 7,
- "credits_remaining": "392",
+ "week": 8,
+ "credits_remaining": "389",
  "games": [
   {
-   "game_id": "2026_07_NE_CHI",
-   "week": 7,
-   "gameday": "2026-10-22",
+   "game_id": "2026_08_CAR_GB",
+   "week": 8,
+   "gameday": "2026-10-29",
    "gametime": "20:15",
-   "home": "CHI",
-   "away": "NE",
-   "kickoff": "2026-10-23T00:15:00Z",
-   "stadium": "Soldier Field",
-   "home_qb": "Caleb Williams",
-   "away_qb": "Drake Maye",
+   "home": "GB",
+   "away": "CAR",
+   "kickoff": "2026-10-30T00:15:00Z",
+   "stadium": "Lambeau Field",
+   "home_qb": "Jordan Love",
+   "away_qb": "Bryce Young",
    "qb_change": {
     "home": false,
     "away": false
    },
    "market": {
     "home_line": -3.0,
-    "total": 50.5,
-    "ml_home": -159.0,
-    "ml_away": 134.0,
-    "source": "9 sportsbooks (median)"
+    "total": 47.0,
+    "ml_home": -166.0,
+    "ml_away": 140.0,
+    "source": "7 sportsbooks (median)"
    },
    "model": {
-    "home_pts": 23.0,
-    "away_pts": 23.6,
-    "margin": -0.6,
-    "total": 46.6,
-    "p_home": 0.481
+    "home_pts": 24.5,
+    "away_pts": 22.3,
+    "margin": 2.2,
+    "total": 46.9,
+    "p_home": 0.566
    },
    "leans": {
     "spread": {
      "side": "away",
      "line": 3.0,
-     "edge": 3.63,
-     "p": 0.608,
-     "conf": "Medium"
+     "edge": 0.79,
+     "p": 0.524,
+     "conf": "Pass"
     },
     "total": {
      "side": "under",
-     "line": 50.5,
-     "edge": 3.92,
-     "p": 0.62,
-     "conf": "Medium"
+     "line": 47.0,
+     "edge": 0.11,
+     "p": 0.503,
+     "conf": "Pass"
     },
     "ml": {
      "side": "away",
-     "price": 134.0,
-     "p": 0.519,
-     "market_p": 0.41,
-     "diff": 0.109,
-     "ev": 0.215,
-     "conf": "High"
+     "price": 140.0,
+     "p": 0.434,
+     "market_p": 0.4,
+     "diff": 0.033,
+     "ev": 0.041,
+     "conf": "Low"
     }
    },
    "books": {
     "by_book": {
      "DraftKings": {
       "ml": {
-       "home": -155,
-       "away": 130
-      },
-      "spread": {
-       "home": -3.0,
-       "home_price": -102,
-       "away_price": -118
-      },
-      "total": {
-       "line": 50.5,
-       "over": -118,
-       "under": -102
-      }
-     },
-     "FanDuel": {
-      "ml": {
-       "home": -158,
-       "away": 134
-      },
-      "spread": {
-       "home": -3.0,
-       "home_price": -105,
-       "away_price": -115
-      },
-      "total": {
-       "line": 50.5,
-       "over": -115,
-       "under": -105
-      }
-     },
-     "BetUS": {
-      "ml": {
-       "home": -160,
-       "away": 138
-      },
-      "spread": {
-       "home": -3.0,
-       "home_price": -110,
-       "away_price": -110
-      },
-      "total": {
-       "line": 51.0,
-       "over": -110,
-       "under": -110
-      }
-     },
-     "LowVig.ag": {
-      "ml": {
-       "home": -161,
-       "away": 141
-      },
-      "spread": {
-       "home": -3.0,
-       "home_price": -105,
-       "away_price": -105
-      },
-      "total": {
-       "line": 50.5,
-       "over": -113,
-       "under": -102
-      }
-     },
-     "BetOnline.ag": {
-      "ml": {
-       "home": -161,
-       "away": 141
-      },
-      "spread": {
-       "home": -3.0,
-       "home_price": -110,
-       "away_price": -110
-      },
-      "total": {
-       "line": 50.5,
-       "over": -115,
-       "under": -105
-      }
-     },
-     "BetRivers": {
-      "ml": {
-       "home": -159,
-       "away": 128
-      },
-      "spread": {
-       "home": -3.0,
-       "home_price": -110,
-       "away_price": -110
-      },
-      "total": {
-       "line": 50.5,
-       "over": -113,
-       "under": -108
-      }
-     },
-     "MyBookie.ag": {
-      "ml": {
-       "home": -157,
-       "away": 133
-      },
-      "spread": {
-       "home": -3.0,
-       "home_price": -110,
-       "away_price": -110
-      },
-      "total": {
-       "line": 50.5,
-       "over": -110,
-       "under": -110
-      }
-     },
-     "BetMGM": {
-      "ml": {
-       "home": -150,
-       "away": 125
-      },
-      "spread": {
-       "home": -3.0,
-       "home_price": -105,
-       "away_price": -112
-      },
-      "total": {
-       "line": 50.5,
-       "over": -112,
-       "under": -105
-      }
-     },
-     "Bovada": {
-      "ml": {
-       "home": -165,
+       "home": -166,
        "away": 140
       },
       "spread": {
@@ -200,7 +72,87 @@
        "away_price": -110
       },
       "total": {
-       "line": 51.0,
+       "line": 47.5,
+       "over": -105,
+       "under": -115
+      }
+     },
+     "BetUS": {
+      "spread": {
+       "home": -3.0,
+       "home_price": -110,
+       "away_price": -110
+      },
+      "total": {
+       "line": 47.0,
+       "over": -115,
+       "under": -105
+      }
+     },
+     "FanDuel": {
+      "ml": {
+       "home": -164,
+       "away": 138
+      },
+      "spread": {
+       "home": -3.0,
+       "home_price": -112,
+       "away_price": -108
+      },
+      "total": {
+       "line": 46.5,
+       "over": -108,
+       "under": -112
+      }
+     },
+     "BetRivers": {
+      "ml": {
+       "home": -175,
+       "away": 140
+      },
+      "spread": {
+       "home": -3.0,
+       "home_price": -109,
+       "away_price": -112
+      },
+      "total": {
+       "line": 46.5,
+       "over": -109,
+       "under": -112
+      }
+     },
+     "LowVig.ag": {
+      "spread": {
+       "home": -3.0,
+       "home_price": -105,
+       "away_price": -105
+      },
+      "total": {
+       "line": 47.0,
+       "over": -113,
+       "under": -102
+      }
+     },
+     "BetOnline.ag": {
+      "spread": {
+       "home": -3.0,
+       "home_price": -110,
+       "away_price": -110
+      },
+      "total": {
+       "line": 47.0,
+       "over": -115,
+       "under": -105
+      }
+     },
+     "MyBookie.ag": {
+      "spread": {
+       "home": -3.0,
+       "home_price": -110,
+       "away_price": -110
+      },
+      "total": {
+       "line": 47.0,
        "over": -110,
        "under": -110
       }
@@ -210,9 +162,9 @@
      "home_line": -3.0,
      "fair_home": 0.5,
      "best_home": {
-      "book": "DraftKings",
+      "book": "LowVig.ag",
       "line": -3.0,
-      "price": -102
+      "price": -105
      },
      "best_away": {
       "book": "LowVig.ag",
@@ -221,30 +173,30 @@
      }
     },
     "total": {
-     "line": 50.5,
+     "line": 47.0,
      "fair_over": 0.5108342361863488,
      "best_over": {
-      "book": "MyBookie.ag",
-      "line": 50.5,
-      "price": -110
+      "book": "FanDuel",
+      "line": 46.5,
+      "price": -108
      },
      "best_under": {
-      "book": "BetUS",
-      "line": 51.0,
-      "price": -110
+      "book": "DraftKings",
+      "line": 47.5,
+      "price": -115
      }
     },
     "ml": {
-     "fair_home": 0.5889887210858344,
-     "home": -159,
-     "away": 134,
+     "fair_home": 0.5996387718242023,
+     "home": -166,
+     "away": 140,
      "best_home": {
-      "book": "BetMGM",
-      "price": -150
+      "book": "FanDuel",
+      "price": -164
      },
      "best_away": {
-      "book": "LowVig.ag",
-      "price": 141
+      "book": "DraftKings",
+      "price": 140
      }
     }
    },
@@ -259,246 +211,166 @@
     "temp": null,
     "div_game": false,
     "net_epa": {
-     "home": 0.035,
-     "away": 0.086
+     "home": 0.03,
+     "away": 0.035
     },
     "qb_epa": {
-     "home": 0.045,
-     "away": 0.049
+     "home": 0.085,
+     "away": 0.019
     },
     "form": {
      "home": [
       {
-       "opp": "MIN",
-       "home": true,
-       "pf": 3,
-       "pa": 9,
-       "res": "L",
+       "opp": "NYJ",
+       "home": false,
+       "pf": 20,
+       "pa": 17,
+       "res": "W",
        "ats": "L",
        "ou": "U"
       },
       {
-       "opp": "PHI",
+       "opp": "ATL",
        "home": true,
-       "pf": 27,
+       "pf": 14,
+       "pa": 35,
+       "res": "L",
+       "ats": "L",
+       "ou": "O"
+      },
+      {
+       "opp": "TB",
+       "home": false,
+       "pf": 17,
+       "pa": 14,
+       "res": "W",
+       "ats": "P",
+       "ou": "U"
+      },
+      {
+       "opp": "CHI",
+       "home": true,
+       "pf": 31,
        "pa": 7,
        "res": "W",
        "ats": "W",
        "ou": "U"
       },
       {
-       "opp": "NYJ",
+       "opp": "DAL",
        "home": true,
        "pf": 23,
-       "pa": 12,
+       "pa": 13,
        "res": "W",
        "ats": "W",
        "ou": "U"
-      },
-      {
-       "opp": "GB",
-       "home": false,
-       "pf": 7,
-       "pa": 31,
-       "res": "L",
-       "ats": "L",
-       "ou": "U"
-      },
-      {
-       "opp": "ATL",
-       "home": false,
-       "pf": 31,
-       "pa": 23,
-       "res": "W",
-       "ats": "W",
-       "ou": "O"
       }
      ],
      "away": [
       {
-       "opp": "PIT",
+       "opp": "CHI",
        "home": true,
-       "pf": 20,
+       "pf": 37,
+       "pa": 59,
+       "res": "L",
+       "ats": "L",
+       "ou": "O"
+      },
+      {
+       "opp": "ATL",
+       "home": false,
+       "pf": 34,
        "pa": 3,
        "res": "W",
        "ats": "W",
        "ou": "U"
       },
       {
-       "opp": "JAX",
+       "opp": "CLE",
        "home": false,
-       "pf": 6,
-       "pa": 35,
+       "pf": 18,
+       "pa": 21,
        "res": "L",
        "ats": "L",
        "ou": "U"
       },
       {
-       "opp": "BUF",
-       "home": false,
-       "pf": 29,
+       "opp": "DET",
+       "home": true,
+       "pf": 32,
        "pa": 26,
        "res": "W",
        "ats": "W",
        "ou": "O"
       },
       {
-       "opp": "LV",
-       "home": true,
-       "pf": 45,
-       "pa": 17,
+       "opp": "PHI",
+       "home": false,
+       "pf": 25,
+       "pa": 14,
        "res": "W",
        "ats": "W",
-       "ou": "O"
-      },
-      {
-       "opp": "NYJ",
-       "home": true,
-       "pf": 26,
-       "pa": 19,
-       "res": "W",
-       "ats": "L",
-       "ou": "O"
+       "ou": "U"
       }
      ]
     },
     "injuries": {
-     "home": [
-      {
-       "name": "Kyle Monangai",
-       "pos": "RB",
-       "status": "Out",
-       "injury": "Thumb"
-      },
-      {
-       "name": "T.J. Edwards",
-       "pos": "LB",
-       "status": "Doubtful",
-       "injury": "Hamstring"
-      },
-      {
-       "name": "Jack Sanborn",
-       "pos": "LB",
-       "status": "Out",
-       "injury": "Concussion"
-      },
-      {
-       "name": "Tyrique Stevenson",
-       "pos": "CB",
-       "status": "Questionable",
-       "injury": "Hip"
-      }
-     ],
-     "away": [
-      {
-       "name": "Morgan Moses",
-       "pos": "T",
-       "status": "Questionable",
-       "injury": "Foot"
-      },
-      {
-       "name": "Alijah Vera-Tucker",
-       "pos": "G",
-       "status": "Out",
-       "injury": "Hamstring"
-      },
-      {
-       "name": "Ben Brown",
-       "pos": "C",
-       "status": "Out",
-       "injury": "Knee"
-      },
-      {
-       "name": "Christian Elliss",
-       "pos": "LB",
-       "status": "Questionable",
-       "injury": "Chest"
-      },
-      {
-       "name": "Carlton Davis III",
-       "pos": "CB",
-       "status": "Out",
-       "injury": "Neck"
-      },
-      {
-       "name": "Karon Prunty",
-       "pos": "CB",
-       "status": "Out",
-       "injury": "Hamstring"
-      },
-      {
-       "name": "Channing Canada",
-       "pos": "CB",
-       "status": "Out",
-       "injury": "Hamstring"
-      },
-      {
-       "name": "Kevin Byard",
-       "pos": "S",
-       "status": "Questionable",
-       "injury": "Chest"
-      },
-      {
-       "name": "Craig Woodson",
-       "pos": "S",
-       "status": "Questionable",
-       "injury": "Shoulder"
-      }
-     ]
+     "home": [],
+     "away": []
     }
    }
   },
   {
-   "game_id": "2026_07_PIT_NO",
-   "week": 7,
-   "gameday": "2026-10-25",
-   "gametime": "09:30",
-   "home": "NO",
-   "away": "PIT",
-   "kickoff": "2026-10-25T13:30:00Z",
-   "stadium": "Stade de France",
-   "home_qb": "Tyler Shough",
-   "away_qb": "Aaron Rodgers",
+   "game_id": "2026_08_ARI_DAL",
+   "week": 8,
+   "gameday": "2026-11-01",
+   "gametime": "13:00",
+   "home": "DAL",
+   "away": "ARI",
+   "kickoff": "2026-11-01T18:00:00Z",
+   "stadium": "AT&T Stadium",
+   "home_qb": "Dak Prescott",
+   "away_qb": "Jacoby Brissett",
    "qb_change": {
     "home": false,
     "away": false
    },
    "market": {
-    "home_line": 3.5,
-    "total": 44.5,
-    "ml_home": 154.0,
-    "ml_away": -180.0,
-    "source": "9 sportsbooks (median)"
+    "home_line": -6.5,
+    "total": 52.5,
+    "ml_home": -305.0,
+    "ml_away": 240.0,
+    "source": "6 sportsbooks (median)"
    },
    "model": {
-    "home_pts": 22.7,
-    "away_pts": 25.0,
-    "margin": -2.2,
-    "total": 47.7,
-    "p_home": 0.433
+    "home_pts": 26.9,
+    "away_pts": 21.9,
+    "margin": 5.0,
+    "total": 48.8,
+    "p_home": 0.648
    },
    "leans": {
     "spread": {
-     "side": "home",
-     "line": 3.5,
-     "edge": 1.27,
-     "p": 0.538,
+     "side": "away",
+     "line": 6.5,
+     "edge": 1.49,
+     "p": 0.545,
      "conf": "Pass"
     },
     "total": {
-     "side": "over",
-     "line": 44.5,
-     "edge": 3.18,
-     "p": 0.598,
-     "conf": "Low"
+     "side": "under",
+     "line": 52.5,
+     "edge": 3.67,
+     "p": 0.613,
+     "conf": "Medium"
     },
     "ml": {
-     "side": "home",
-     "price": 154.0,
-     "p": 0.433,
-     "market_p": 0.38,
-     "diff": 0.053,
-     "ev": 0.099,
+     "side": "away",
+     "price": 240.0,
+     "p": 0.352,
+     "market_p": 0.281,
+     "diff": 0.071,
+     "ev": 0.197,
      "conf": "Medium"
     }
    },
@@ -506,234 +378,469 @@
     "by_book": {
      "DraftKings": {
       "ml": {
-       "home": 145,
-       "away": -175
+       "home": -285,
+       "away": 230
       },
       "spread": {
-       "home": 3.5,
-       "home_price": -118,
-       "away_price": -102
+       "home": -6.5,
+       "home_price": -110,
+       "away_price": -110
       },
       "total": {
-       "line": 44.5,
+       "line": 51.5,
+       "over": -110,
+       "under": -110
+      }
+     },
+     "BetUS": {
+      "spread": {
+       "home": -6.0,
+       "home_price": -110,
+       "away_price": -110
+      },
+      "total": {
+       "line": 52.5,
        "over": -110,
        "under": -110
       }
      },
      "FanDuel": {
       "ml": {
-       "home": 144,
-       "away": -172
+       "home": -310,
+       "away": 250
       },
       "spread": {
-       "home": 3.0,
-       "home_price": -104,
-       "away_price": -118
+       "home": -6.5,
+       "home_price": -110,
+       "away_price": -110
       },
       "total": {
-       "line": 44.5,
-       "over": -112,
-       "under": -108
-      }
-     },
-     "BetMGM": {
-      "ml": {
-       "home": 145,
-       "away": -175
-      },
-      "spread": {
-       "home": 3.5,
-       "home_price": -118,
-       "away_price": -102
-      },
-      "total": {
-       "line": 44.5,
-       "over": -108,
-       "under": -110
-      }
-     },
-     "BetUS": {
-      "ml": {
-       "home": 159,
-       "away": -185
-      },
-      "spread": {
-       "home": 3.5,
-       "home_price": -120,
-       "away_price": 100
-      },
-      "total": {
-       "line": 44.5,
-       "over": -110,
-       "under": -110
-      }
-     },
-     "MyBookie.ag": {
-      "ml": {
-       "home": 154,
-       "away": -191
-      },
-      "spread": {
-       "home": 3.5,
-       "home_price": -120,
-       "away_price": 100
-      },
-      "total": {
-       "line": 44.5,
-       "over": -110,
-       "under": -110
-      }
-     },
-     "BetOnline.ag": {
-      "ml": {
-       "home": 161,
-       "away": -185
-      },
-      "spread": {
-       "home": 3.5,
-       "home_price": -118,
-       "away_price": -102
-      },
-      "total": {
-       "line": 44.5,
-       "over": -110,
-       "under": -110
-      }
-     },
-     "LowVig.ag": {
-      "ml": {
-       "home": 161,
-       "away": -185
-      },
-      "spread": {
-       "home": 3.5,
-       "home_price": -118,
-       "away_price": 107
-      },
-      "total": {
-       "line": 44.5,
-       "over": -107,
-       "under": -107
+       "line": 51.5,
+       "over": -115,
+       "under": -105
       }
      },
      "BetRivers": {
       "ml": {
-       "home": 145,
-       "away": -177
+       "home": -305,
+       "away": 240
       },
       "spread": {
-       "home": 3.0,
-       "home_price": -105,
-       "away_price": -117
+       "home": -6.5,
+       "home_price": -108,
+       "away_price": -114
       },
       "total": {
-       "line": 44.0,
-       "over": -114,
+       "line": 52.0,
+       "over": -112,
+       "under": -109
+      }
+     },
+     "LowVig.ag": {
+      "spread": {
+       "home": -6.0,
+       "home_price": -105,
+       "away_price": -105
+      },
+      "total": {
+       "line": 52.5,
+       "over": -107,
        "under": -107
       }
      },
-     "Bovada": {
-      "ml": {
-       "home": 155,
-       "away": -180
-      },
+     "BetOnline.ag": {
       "spread": {
-       "home": 3.0,
-       "home_price": 100,
-       "away_price": -120
+       "home": -6.0,
+       "home_price": -110,
+       "away_price": -110
       },
       "total": {
-       "line": 45.0,
-       "over": -105,
-       "under": -115
+       "line": 52.5,
+       "over": -110,
+       "under": -110
       }
      }
     },
     "spread": {
-     "home_line": 3.5,
-     "fair_home": 0.5195516280755264,
+     "home_line": -6.5,
+     "fair_home": 0.5,
      "best_home": {
-      "book": "DraftKings",
-      "line": 3.5,
-      "price": -118
+      "book": "LowVig.ag",
+      "line": -6.0,
+      "price": -105
      },
      "best_away": {
-      "book": "BetRivers",
-      "line": -3.0,
-      "price": -117
+      "book": "DraftKings",
+      "line": 6.5,
+      "price": -110
      }
     },
     "total": {
-     "line": 44.5,
+     "line": 52.5,
      "fair_over": 0.5,
      "best_over": {
-      "book": "BetRivers",
-      "line": 44.0,
-      "price": -114
+      "book": "DraftKings",
+      "line": 51.5,
+      "price": -110
      },
      "best_under": {
-      "book": "Bovada",
-      "line": 45.0,
-      "price": -115
+      "book": "LowVig.ag",
+      "line": 52.5,
+      "price": -107
      }
     },
     "ml": {
-     "fair_home": 0.37889039242219213,
-     "home": 154,
-     "away": -180,
+     "fair_home": 0.7191400832177531,
+     "home": -305,
+     "away": 240,
      "best_home": {
-      "book": "BetOnline.ag",
-      "price": 161
+      "book": "DraftKings",
+      "price": -285
      },
      "best_away": {
       "book": "FanDuel",
-      "price": -172
+      "price": 250
      }
     }
    },
    "value": [],
    "context": {
     "rest": {
-     "home": 7,
+     "home": 6,
      "away": 7
     },
-    "roof": "dome",
+    "roof": null,
     "wind": null,
     "temp": null,
     "div_game": false,
     "net_epa": {
-     "home": -0.09,
-     "away": -0.009
+     "home": -0.078,
+     "away": -0.066
     },
     "qb_epa": {
-     "home": -0.037,
-     "away": -0.068
+     "home": 0.06,
+     "away": -0.031
     },
     "form": {
      "home": [
       {
-       "opp": "BAL",
-       "home": false,
-       "pf": 24,
-       "pa": 17,
+       "opp": "WAS",
+       "home": true,
+       "pf": 37,
+       "pa": 20,
        "res": "W",
        "ats": "W",
+       "ou": "O"
+      },
+      {
+       "opp": "BAL",
+       "home": true,
+       "pf": 31,
+       "pa": 34,
+       "res": "L",
+       "ats": "P",
+       "ou": "O"
+      },
+      {
+       "opp": "HOU",
+       "home": false,
+       "pf": 34,
+       "pa": 30,
+       "res": "W",
+       "ats": "W",
+       "ou": "O"
+      },
+      {
+       "opp": "TB",
+       "home": true,
+       "pf": 16,
+       "pa": 24,
+       "res": "L",
+       "ats": "L",
        "ou": "U"
       },
       {
-       "opp": "LV",
+       "opp": "GB",
+       "home": false,
+       "pf": 13,
+       "pa": 23,
+       "res": "L",
+       "ats": "L",
+       "ou": "U"
+      }
+     ],
+     "away": [
+      {
+       "opp": "SEA",
        "home": true,
-       "pf": 27,
-       "pa": 35,
+       "pf": 7,
+       "pa": 31,
+       "res": "L",
+       "ats": "L",
+       "ou": "U"
+      },
+      {
+       "opp": "SF",
+       "home": false,
+       "pf": 30,
+       "pa": 36,
+       "res": "L",
+       "ats": "W",
+       "ou": "O"
+      },
+      {
+       "opp": "NYG",
+       "home": false,
+       "pf": 24,
+       "pa": 36,
        "res": "L",
        "ats": "L",
        "ou": "O"
       },
       {
-       "opp": "ATL",
+       "opp": "DET",
        "home": true,
-       "pf": 24,
+       "pf": 21,
        "pa": 45,
+       "res": "L",
+       "ats": "L",
+       "ou": "O"
+      },
+      {
+       "opp": "LA",
+       "home": false,
+       "pf": 18,
+       "pa": 16,
+       "res": "W",
+       "ats": "W",
+       "ou": "U"
+      }
+     ]
+    },
+    "injuries": {
+     "home": [],
+     "away": []
+    }
+   }
+  },
+  {
+   "game_id": "2026_08_ATL_TB",
+   "week": 8,
+   "gameday": "2026-11-01",
+   "gametime": "13:00",
+   "home": "TB",
+   "away": "ATL",
+   "kickoff": "2026-11-01T18:00:00Z",
+   "stadium": "Raymond James Stadium",
+   "home_qb": "Jalon Daniels",
+   "away_qb": "Michael Penix Jr.",
+   "qb_change": {
+    "home": false,
+    "away": false
+   },
+   "market": {
+    "home_line": 0.0,
+    "total": 45.5,
+    "ml_home": -118.0,
+    "ml_away": -102.0,
+    "source": "6 sportsbooks (median)"
+   },
+   "model": {
+    "home_pts": 21.2,
+    "away_pts": 21.5,
+    "margin": -0.3,
+    "total": 42.7,
+    "p_home": 0.491
+   },
+   "leans": {
+    "spread": {
+     "side": "away",
+     "line": -0.0,
+     "edge": 0.3,
+     "p": 0.509,
+     "conf": "Pass"
+    },
+    "total": {
+     "side": "under",
+     "line": 45.5,
+     "edge": 2.85,
+     "p": 0.588,
+     "conf": "Low"
+    },
+    "ml": {
+     "side": "away",
+     "price": -102.0,
+     "p": 0.509,
+     "market_p": 0.483,
+     "diff": 0.026,
+     "ev": 0.008,
+     "conf": "Pass"
+    }
+   },
+   "books": {
+    "by_book": {
+     "DraftKings": {
+      "ml": {
+       "home": -118,
+       "away": -102
+      },
+      "spread": {
+       "home": -1.5,
+       "home_price": -105,
+       "away_price": -115
+      },
+      "total": {
+       "line": 44.5,
+       "over": -110,
+       "under": -110
+      }
+     },
+     "BetUS": {
+      "spread": {
+       "home": 0.0,
+       "home_price": -110,
+       "away_price": -110
+      },
+      "total": {
+       "line": 45.5,
+       "over": -115,
+       "under": -105
+      }
+     },
+     "FanDuel": {
+      "ml": {
+       "home": -118,
+       "away": 100
+      },
+      "spread": {
+       "home": -1.5,
+       "home_price": -105,
+       "away_price": -115
+      },
+      "total": {
+       "line": 45.5,
+       "over": -105,
+       "under": -115
+      }
+     },
+     "BetRivers": {
+      "ml": {
+       "home": -113,
+       "away": -108
+      },
+      "spread": {
+       "home": -1.0,
+       "home_price": -106,
+       "away_price": -115
+      },
+      "total": {
+       "line": 44.5,
+       "over": -112,
+       "under": -109
+      }
+     },
+     "LowVig.ag": {
+      "spread": {
+       "home": 0.0,
+       "home_price": -105,
+       "away_price": -105
+      },
+      "total": {
+       "line": 45.5,
+       "over": -113,
+       "under": -102
+      }
+     },
+     "BetOnline.ag": {
+      "spread": {
+       "home": 0.0,
+       "home_price": -110,
+       "away_price": -110
+      },
+      "total": {
+       "line": 45.5,
+       "over": -115,
+       "under": -105
+      }
+     }
+    },
+    "spread": {
+     "home_line": 0.0,
+     "fair_home": 0.5,
+     "best_home": {
+      "book": "LowVig.ag",
+      "line": 0.0,
+      "price": -105
+     },
+     "best_away": {
+      "book": "DraftKings",
+      "line": 1.5,
+      "price": -115
+     }
+    },
+    "total": {
+     "line": 45.5,
+     "fair_over": 0.5108342361863488,
+     "best_over": {
+      "book": "DraftKings",
+      "line": 44.5,
+      "price": -110
+     },
+     "best_under": {
+      "book": "LowVig.ag",
+      "line": 45.5,
+      "price": -102
+     }
+    },
+    "ml": {
+     "fair_home": 0.5173641257162701,
+     "home": -118,
+     "away": -102,
+     "best_home": {
+      "book": "BetRivers",
+      "price": -113
+     },
+     "best_away": {
+      "book": "FanDuel",
+      "price": 100
+     }
+    }
+   },
+   "value": [
+    {
+     "market": "total",
+     "side": "over",
+     "line": 44.5,
+     "price": -110,
+     "book": "DraftKings",
+     "ev": 0.033,
+     "fair_p": 0.541
+    }
+   ],
+   "context": {
+    "rest": {
+     "home": 7,
+     "away": 7
+    },
+    "roof": "outdoors",
+    "wind": null,
+    "temp": null,
+    "div_game": true,
+    "net_epa": {
+     "home": -0.056,
+     "away": -0.03
+    },
+    "qb_epa": {
+     "home": -0.094,
+     "away": 0.003
+    },
+    "form": {
+     "home": [
+      {
+       "opp": "CLE",
+       "home": true,
+       "pf": 19,
+       "pa": 23,
        "res": "L",
        "ats": "L",
        "ou": "O"
@@ -741,66 +848,84 @@
       {
        "opp": "MIN",
        "home": true,
-       "pf": 13,
+       "pf": 16,
        "pa": 23,
        "res": "L",
        "ats": "L",
        "ou": "U"
       },
       {
-       "opp": "NYG",
+       "opp": "GB",
+       "home": true,
+       "pf": 14,
+       "pa": 17,
+       "res": "L",
+       "ats": "P",
+       "ou": "U"
+      },
+      {
+       "opp": "DAL",
        "home": false,
-       "pf": 34,
-       "pa": 27,
+       "pf": 24,
+       "pa": 16,
        "res": "W",
        "ats": "W",
+       "ou": "U"
+      },
+      {
+       "opp": "PIT",
+       "home": true,
+       "pf": 19,
+       "pa": 26,
+       "res": "L",
+       "ats": "L",
        "ou": "O"
       }
      ],
      "away": [
       {
-       "opp": "NE",
-       "home": false,
+       "opp": "CAR",
+       "home": true,
        "pf": 3,
-       "pa": 20,
+       "pa": 34,
        "res": "L",
        "ats": "L",
        "ou": "U"
       },
       {
-       "opp": "CIN",
-       "home": true,
-       "pf": 30,
-       "pa": 27,
+       "opp": "GB",
+       "home": false,
+       "pf": 35,
+       "pa": 14,
        "res": "W",
        "ats": "W",
        "ou": "O"
       },
       {
-       "opp": "CLE",
+       "opp": "NO",
        "home": false,
-       "pf": 24,
-       "pa": 27,
+       "pf": 45,
+       "pa": 24,
+       "res": "W",
+       "ats": "W",
+       "ou": "O"
+      },
+      {
+       "opp": "BAL",
+       "home": true,
+       "pf": 23,
+       "pa": 30,
        "res": "L",
        "ats": "L",
        "ou": "O"
       },
       {
-       "opp": "IND",
+       "opp": "CHI",
        "home": true,
-       "pf": 34,
-       "pa": 22,
-       "res": "W",
-       "ats": "W",
-       "ou": "O"
-      },
-      {
-       "opp": "TB",
-       "home": false,
-       "pf": 26,
-       "pa": 19,
-       "res": "W",
-       "ats": "W",
+       "pf": 23,
+       "pa": 31,
+       "res": "L",
+       "ats": "L",
        "ou": "O"
       }
      ]
@@ -812,256 +937,255 @@
    }
   },
   {
-   "game_id": "2026_07_CIN_BAL",
-   "week": 7,
-   "gameday": "2026-10-25",
+   "game_id": "2026_08_BAL_BUF",
+   "week": 8,
+   "gameday": "2026-11-01",
    "gametime": "13:00",
-   "home": "BAL",
-   "away": "CIN",
-   "kickoff": "2026-10-25T17:00:00Z",
-   "stadium": "M&T Bank Stadium",
-   "home_qb": "Tyler Huntley",
-   "away_qb": "Joe Burrow",
+   "home": "BUF",
+   "away": "BAL",
+   "kickoff": "2026-11-01T18:00:00Z",
+   "stadium": "Highmark Stadium",
+   "home_qb": "Josh Allen",
+   "away_qb": "Tyler Huntley",
    "qb_change": {
     "home": false,
     "away": false
    },
    "market": {
-    "home_line": 1.0,
-    "total": 48.5,
-    "ml_home": -104.0,
-    "ml_away": -118.0,
-    "source": "9 sportsbooks (median)"
+    "home_line": -3.0,
+    "total": 52.5,
+    "ml_home": -180.0,
+    "ml_away": 150.0,
+    "source": "6 sportsbooks (median)"
    },
    "model": {
-    "home_pts": 23.0,
-    "away_pts": 24.3,
-    "margin": -1.3,
-    "total": 47.3,
-    "p_home": 0.461
+    "home_pts": 28.6,
+    "away_pts": 21.7,
+    "margin": 6.9,
+    "total": 50.3,
+    "p_home": 0.7
    },
    "leans": {
     "spread": {
-     "side": "away",
-     "line": -1.0,
-     "edge": 0.31,
-     "p": 0.509,
-     "conf": "Pass"
+     "side": "home",
+     "line": -3.0,
+     "edge": 3.93,
+     "p": 0.617,
+     "conf": "Medium"
     },
     "total": {
      "side": "under",
-     "line": 48.5,
-     "edge": 1.18,
-     "p": 0.537,
-     "conf": "Pass"
+     "line": 52.5,
+     "edge": 2.22,
+     "p": 0.569,
+     "conf": "Low"
     },
     "ml": {
-     "side": "away",
-     "price": -118.0,
-     "p": 0.539,
-     "market_p": 0.515,
-     "diff": 0.024,
-     "ev": -0.003,
-     "conf": "Pass"
+     "side": "home",
+     "price": -180.0,
+     "p": 0.7,
+     "market_p": 0.616,
+     "diff": 0.084,
+     "ev": 0.089,
+     "conf": "High"
     }
    },
    "books": {
     "by_book": {
      "DraftKings": {
       "ml": {
-       "home": 102,
-       "away": -122
+       "home": -180,
+       "away": 150
       },
       "spread": {
-       "home": 1.5,
+       "home": -3.0,
        "home_price": -120,
        "away_price": 100
       },
       "total": {
-       "line": 48.5,
-       "over": -110,
-       "under": -110
-      }
-     },
-     "BetUS": {
-      "spread": {
-       "home": 0.0,
-       "home_price": -105,
-       "away_price": -115
-      },
-      "total": {
-       "line": 48.5,
+       "line": 52.5,
        "over": -110,
        "under": -110
       }
      },
      "FanDuel": {
       "ml": {
-       "home": -104,
-       "away": -112
+       "home": -174,
+       "away": 144
       },
       "spread": {
-       "home": 1.5,
-       "home_price": -120,
-       "away_price": -102
+       "home": -3.0,
+       "home_price": -115,
+       "away_price": -105
       },
       "total": {
-       "line": 48.5,
+       "line": 53.5,
        "over": -110,
        "under": -110
       }
      },
-     "BetOnline.ag": {
+     "BetRivers": {
+      "ml": {
+       "home": -182,
+       "away": 150
+      },
       "spread": {
-       "home": 1.0,
-       "home_price": -110,
-       "away_price": -110
+       "home": -3.0,
+       "home_price": -117,
+       "away_price": -105
       },
       "total": {
-       "line": 48.5,
+       "line": 53.5,
        "over": -110,
        "under": -110
       }
      },
      "LowVig.ag": {
       "spread": {
-       "home": 1.0,
-       "home_price": -105,
-       "away_price": -105
+       "home": -3.0,
+       "home_price": -121,
+       "away_price": 110
       },
       "total": {
-       "line": 48.5,
-       "over": -107,
-       "under": -107
+       "line": 52.5,
+       "over": -113,
+       "under": -102
       }
      },
-     "BetRivers": {
-      "ml": {
-       "home": -104,
-       "away": -118
-      },
+     "BetOnline.ag": {
       "spread": {
-       "home": 1.0,
-       "home_price": -110,
-       "away_price": -110
+       "home": -3.0,
+       "home_price": -125,
+       "away_price": 105
       },
       "total": {
-       "line": 48.5,
-       "over": -107,
-       "under": -114
+       "line": 52.5,
+       "over": -115,
+       "under": -105
       }
      },
-     "BetMGM": {
-      "ml": {
-       "home": -102,
-       "away": -118
-      },
+     "BetUS": {
       "spread": {
-       "home": 1.0,
-       "home_price": -110,
-       "away_price": -108
+       "home": -3.0,
+       "home_price": -125,
+       "away_price": 105
       },
       "total": {
-       "line": 48.5,
-       "over": -108,
-       "under": -110
-      }
-     },
-     "MyBookie.ag": {
-      "ml": {
-       "home": -107,
-       "away": -118
-      },
-      "spread": {
-       "home": 1.0,
-       "home_price": -110,
-       "away_price": -110
-      },
-      "total": {
-       "line": 48.5,
-       "over": -110,
-       "under": -110
-      }
-     },
-     "Bovada": {
-      "ml": {
-       "home": -105,
-       "away": -115
-      },
-      "spread": {
-       "home": 1.0,
-       "home_price": -115,
-       "away_price": -105
-      },
-      "total": {
-       "line": 48.5,
-       "over": -110,
-       "under": -110
+       "line": 52.5,
+       "over": -115,
+       "under": -105
       }
      }
     },
     "spread": {
-     "home_line": 1.0,
-     "fair_home": 0.5,
+     "home_line": -3.0,
+     "fair_home": 0.5271033314511575,
      "best_home": {
-      "book": "DraftKings",
-      "line": 1.5,
-      "price": -120
+      "book": "FanDuel",
+      "line": -3.0,
+      "price": -115
      },
      "best_away": {
-      "book": "BetUS",
-      "line": -0.0,
-      "price": -115
+      "book": "LowVig.ag",
+      "line": 3.0,
+      "price": 110
      }
     },
     "total": {
-     "line": 48.5,
-     "fair_over": 0.5,
+     "line": 52.5,
+     "fair_over": 0.5108342361863488,
      "best_over": {
-      "book": "LowVig.ag",
-      "line": 48.5,
-      "price": -107
+      "book": "DraftKings",
+      "line": 52.5,
+      "price": -110
      },
      "best_under": {
-      "book": "LowVig.ag",
-      "line": 48.5,
-      "price": -107
+      "book": "FanDuel",
+      "line": 53.5,
+      "price": -110
      }
     },
     "ml": {
-     "fair_home": 0.4867534869172738,
-     "home": -104,
-     "away": -118,
+     "fair_home": 0.6164383561643836,
+     "home": -180,
+     "away": 150,
      "best_home": {
-      "book": "DraftKings",
-      "price": 102
+      "book": "FanDuel",
+      "price": -174
      },
      "best_away": {
-      "book": "FanDuel",
-      "price": -112
+      "book": "DraftKings",
+      "price": 150
      }
     }
    },
    "value": [],
    "context": {
     "rest": {
-     "home": 7,
-     "away": 14
+     "home": 14,
+     "away": 7
     },
     "roof": "outdoors",
     "wind": null,
     "temp": null,
-    "div_game": true,
+    "div_game": false,
     "net_epa": {
-     "home": 0.066,
-     "away": 0.026
+     "home": 0.088,
+     "away": 0.066
     },
     "qb_epa": {
-     "home": -0.036,
-     "away": 0.061
+     "home": 0.092,
+     "away": -0.036
     },
     "form": {
      "home": [
+      {
+       "opp": "DET",
+       "home": true,
+       "pf": 41,
+       "pa": 31,
+       "res": "W",
+       "ats": "W",
+       "ou": "O"
+      },
+      {
+       "opp": "LAC",
+       "home": true,
+       "pf": 24,
+       "pa": 16,
+       "res": "W",
+       "ats": "W",
+       "ou": "U"
+      },
+      {
+       "opp": "NE",
+       "home": true,
+       "pf": 26,
+       "pa": 29,
+       "res": "L",
+       "ats": "L",
+       "ou": "O"
+      },
+      {
+       "opp": "LA",
+       "home": false,
+       "pf": 37,
+       "pa": 34,
+       "res": "W",
+       "ats": "W",
+       "ou": "O"
+      },
+      {
+       "opp": "LV",
+       "home": false,
+       "pf": 33,
+       "pa": 30,
+       "res": "W",
+       "ats": "L",
+       "ou": "O"
+      }
+     ],
+     "away": [
       {
        "opp": "NO",
        "home": true,
@@ -1107,53 +1231,6 @@
        "ats": "L",
        "ou": "U"
       }
-     ],
-     "away": [
-      {
-       "opp": "TB",
-       "home": true,
-       "pf": 33,
-       "pa": 27,
-       "res": "W",
-       "ats": "W",
-       "ou": "O"
-      },
-      {
-       "opp": "HOU",
-       "home": false,
-       "pf": 20,
-       "pa": 6,
-       "res": "W",
-       "ats": "W",
-       "ou": "U"
-      },
-      {
-       "opp": "PIT",
-       "home": false,
-       "pf": 27,
-       "pa": 30,
-       "res": "L",
-       "ats": "L",
-       "ou": "O"
-      },
-      {
-       "opp": "JAX",
-       "home": true,
-       "pf": 17,
-       "pa": 22,
-       "res": "L",
-       "ats": "L",
-       "ou": "U"
-      },
-      {
-       "opp": "MIA",
-       "home": false,
-       "pf": 31,
-       "pa": 24,
-       "res": "W",
-       "ats": "P",
-       "ou": "O"
-      }
      ]
     },
     "injuries": {
@@ -1163,248 +1240,36 @@
    }
   },
   {
-   "game_id": "2026_07_CLE_TEN",
-   "week": 7,
-   "gameday": "2026-10-25",
+   "game_id": "2026_08_CLE_PIT",
+   "week": 8,
+   "gameday": "2026-11-01",
    "gametime": "13:00",
-   "home": "TEN",
+   "home": "PIT",
    "away": "CLE",
-   "kickoff": "2026-10-25T17:00:00Z",
-   "stadium": "Nissan Stadium",
-   "home_qb": "Cam Ward",
+   "kickoff": null,
+   "stadium": "Acrisure Stadium",
+   "home_qb": "Aaron Rodgers",
    "away_qb": "Deshaun Watson",
    "qb_change": {
     "home": false,
     "away": false
    },
    "market": {
-    "home_line": 1.5,
-    "total": 37.5,
-    "ml_home": 110.0,
-    "ml_away": -130.0,
-    "source": "9 sportsbooks (median)"
+    "home_line": null,
+    "total": null,
+    "ml_home": null,
+    "ml_away": null,
+    "source": "nflverse consensus"
    },
    "model": {
-    "home_pts": 17.8,
-    "away_pts": 19.4,
-    "margin": -1.6,
-    "total": 37.2,
-    "p_home": 0.452
+    "home_pts": 22.1,
+    "away_pts": 18.1,
+    "margin": 4.1,
+    "total": 40.2,
+    "p_home": 0.621
    },
-   "leans": {
-    "spread": {
-     "side": "away",
-     "line": -1.5,
-     "edge": 0.08,
-     "p": 0.502,
-     "conf": "Pass"
-    },
-    "total": {
-     "side": "under",
-     "line": 37.5,
-     "edge": 0.3,
-     "p": 0.509,
-     "conf": "Pass"
-    },
-    "ml": {
-     "side": "away",
-     "price": -130.0,
-     "p": 0.548,
-     "market_p": 0.543,
-     "diff": 0.005,
-     "ev": -0.031,
-     "conf": "Pass"
-    }
-   },
-   "books": {
-    "by_book": {
-     "DraftKings": {
-      "ml": {
-       "home": 105,
-       "away": -125
-      },
-      "spread": {
-       "home": 1.5,
-       "home_price": -110,
-       "away_price": -110
-      },
-      "total": {
-       "line": 37.5,
-       "over": -102,
-       "under": -118
-      }
-     },
-     "FanDuel": {
-      "ml": {
-       "home": 106,
-       "away": -124
-      },
-      "spread": {
-       "home": 1.5,
-       "home_price": -108,
-       "away_price": -112
-      },
-      "total": {
-       "line": 37.5,
-       "over": -105,
-       "under": -115
-      }
-     },
-     "BetUS": {
-      "ml": {
-       "home": 110,
-       "away": -130
-      },
-      "spread": {
-       "home": 1.0,
-       "home_price": 100,
-       "away_price": -120
-      },
-      "total": {
-       "line": 37.5,
-       "over": -105,
-       "under": -115
-      }
-     },
-     "LowVig.ag": {
-      "ml": {
-       "home": 110,
-       "away": -130
-      },
-      "spread": {
-       "home": 1.5,
-       "home_price": -103,
-       "away_price": -107
-      },
-      "total": {
-       "line": 37.5,
-       "over": -102,
-       "under": -113
-      }
-     },
-     "BetOnline.ag": {
-      "ml": {
-       "home": 110,
-       "away": -130
-      },
-      "spread": {
-       "home": 1.5,
-       "home_price": -108,
-       "away_price": -112
-      },
-      "total": {
-       "line": 37.5,
-       "over": -105,
-       "under": -115
-      }
-     },
-     "BetRivers": {
-      "ml": {
-       "home": 110,
-       "away": -136
-      },
-      "spread": {
-       "home": 2.5,
-       "home_price": -113,
-       "away_price": -109
-      },
-      "total": {
-       "line": 37.5,
-       "over": -110,
-       "under": -112
-      }
-     },
-     "MyBookie.ag": {
-      "ml": {
-       "home": 104,
-       "away": -132
-      },
-      "spread": {
-       "home": 2.0,
-       "home_price": -110,
-       "away_price": -110
-      },
-      "total": {
-       "line": 37.0,
-       "over": -110,
-       "under": -110
-      }
-     },
-     "BetMGM": {
-      "ml": {
-       "home": 105,
-       "away": -125
-      },
-      "spread": {
-       "home": 1.5,
-       "home_price": -108,
-       "away_price": -110
-      },
-      "total": {
-       "line": 37.5,
-       "over": -105,
-       "under": -112
-      }
-     },
-     "Bovada": {
-      "ml": {
-       "home": 110,
-       "away": -130
-      },
-      "spread": {
-       "home": 1.5,
-       "home_price": -110,
-       "away_price": -110
-      },
-      "total": {
-       "line": 37.5,
-       "over": -105,
-       "under": -115
-      }
-     }
-    },
-    "spread": {
-     "home_line": 1.5,
-     "fair_home": 0.4967376690580797,
-     "best_home": {
-      "book": "BetRivers",
-      "line": 2.5,
-      "price": -113
-     },
-     "best_away": {
-      "book": "BetUS",
-      "line": -1.0,
-      "price": -120
-     }
-    },
-    "total": {
-     "line": 37.5,
-     "fair_over": 0.4891657638136511,
-     "best_over": {
-      "book": "MyBookie.ag",
-      "line": 37.0,
-      "price": -110
-     },
-     "best_under": {
-      "book": "BetRivers",
-      "line": 37.5,
-      "price": -112
-     }
-    },
-    "ml": {
-     "fair_home": 0.4572564612326044,
-     "home": 110,
-     "away": -130,
-     "best_home": {
-      "book": "BetUS",
-      "price": 110
-     },
-     "best_away": {
-      "book": "FanDuel",
-      "price": -124
-     }
-    }
-   },
+   "leans": {},
+   "books": {},
    "value": [],
    "context": {
     "rest": {
@@ -1414,58 +1279,58 @@
     "roof": "outdoors",
     "wind": null,
     "temp": null,
-    "div_game": false,
+    "div_game": true,
     "net_epa": {
-     "home": -0.174,
+     "home": -0.009,
      "away": -0.056
     },
     "qb_epa": {
-     "home": -0.128,
+     "home": -0.068,
      "away": -0.072
     },
     "form": {
      "home": [
       {
-       "opp": "PHI",
-       "home": true,
-       "pf": 20,
-       "pa": 24,
+       "opp": "NE",
+       "home": false,
+       "pf": 3,
+       "pa": 20,
        "res": "L",
+       "ats": "L",
+       "ou": "U"
+      },
+      {
+       "opp": "CIN",
+       "home": true,
+       "pf": 30,
+       "pa": 27,
+       "res": "W",
        "ats": "W",
        "ou": "O"
       },
       {
-       "opp": "NYG",
+       "opp": "CLE",
        "home": false,
-       "pf": 7,
-       "pa": 12,
+       "pf": 24,
+       "pa": 27,
        "res": "L",
        "ats": "L",
-       "ou": "U"
-      },
-      {
-       "opp": "BAL",
-       "home": false,
-       "pf": 18,
-       "pa": 24,
-       "res": "L",
-       "ats": "W",
-       "ou": "U"
-      },
-      {
-       "opp": "HOU",
-       "home": true,
-       "pf": 3,
-       "pa": 26,
-       "res": "L",
-       "ats": "L",
-       "ou": "U"
+       "ou": "O"
       },
       {
        "opp": "IND",
+       "home": true,
+       "pf": 34,
+       "pa": 22,
+       "res": "W",
+       "ats": "W",
+       "ou": "O"
+      },
+      {
+       "opp": "TB",
        "home": false,
        "pf": 26,
-       "pa": 20,
+       "pa": 19,
        "res": "W",
        "ats": "W",
        "ou": "O"
@@ -1526,312 +1391,262 @@
    }
   },
   {
-   "game_id": "2026_07_IND_MIN",
-   "week": 7,
-   "gameday": "2026-10-25",
+   "game_id": "2026_08_IND_JAX",
+   "week": 8,
+   "gameday": "2026-11-01",
    "gametime": "13:00",
-   "home": "MIN",
+   "home": "JAX",
    "away": "IND",
-   "kickoff": "2026-10-25T17:00:00Z",
-   "stadium": "U.S. Bank Stadium",
-   "home_qb": "Kyler Murray",
+   "kickoff": "2026-11-01T18:00:00Z",
+   "stadium": "EverBank Stadium",
+   "home_qb": "Trevor Lawrence",
    "away_qb": "Daniel Jones",
    "qb_change": {
     "home": false,
     "away": false
    },
    "market": {
-    "home_line": -6.5,
-    "total": 41.5,
-    "ml_home": -285.0,
-    "ml_away": 230.0,
-    "source": "9 sportsbooks (median)"
+    "home_line": -7.5,
+    "total": 48.5,
+    "ml_home": -390.0,
+    "ml_away": 310.0,
+    "source": "6 sportsbooks (median)"
    },
    "model": {
-    "home_pts": 25.7,
-    "away_pts": 17.8,
-    "margin": 7.9,
-    "total": 43.6,
-    "p_home": 0.725
+    "home_pts": 29.6,
+    "away_pts": 18.4,
+    "margin": 11.2,
+    "total": 48.0,
+    "p_home": 0.802
    },
    "leans": {
     "spread": {
      "side": "home",
-     "line": -6.5,
-     "edge": 1.38,
-     "p": 0.541,
-     "conf": "Pass"
+     "line": -7.5,
+     "edge": 3.71,
+     "p": 0.611,
+     "conf": "Medium"
     },
     "total": {
-     "side": "over",
-     "line": 41.5,
-     "edge": 2.07,
-     "p": 0.564,
-     "conf": "Low"
+     "side": "under",
+     "line": 48.5,
+     "edge": 0.5,
+     "p": 0.516,
+     "conf": "Pass"
     },
     "ml": {
      "side": "home",
-     "price": -285.0,
-     "p": 0.725,
-     "market_p": 0.71,
-     "diff": 0.015,
-     "ev": -0.021,
-     "conf": "Pass"
+     "price": -390.0,
+     "p": 0.802,
+     "market_p": 0.765,
+     "diff": 0.037,
+     "ev": 0.008,
+     "conf": "Low"
     }
    },
    "books": {
     "by_book": {
      "DraftKings": {
       "ml": {
-       "home": -278,
-       "away": 225
+       "home": -360,
+       "away": 285
       },
       "spread": {
-       "home": -6.5,
-       "home_price": -108,
-       "away_price": -112
+       "home": -7.5,
+       "home_price": -110,
+       "away_price": -110
       },
       "total": {
-       "line": 41.5,
+       "line": 47.5,
        "over": -110,
        "under": -110
       }
      },
      "BetUS": {
-      "ml": {
-       "home": -280,
-       "away": 235
-      },
       "spread": {
-       "home": -6.5,
-       "home_price": -110,
-       "away_price": -110
+       "home": -7.0,
+       "home_price": -120,
+       "away_price": 100
       },
       "total": {
-       "line": 41.5,
+       "line": 48.5,
        "over": -110,
        "under": -110
       }
      },
      "FanDuel": {
       "ml": {
-       "home": -295,
-       "away": 240
+       "home": -390,
+       "away": 310
       },
       "spread": {
-       "home": -6.5,
-       "home_price": -105,
-       "away_price": -115
+       "home": -7.5,
+       "home_price": -104,
+       "away_price": -118
       },
       "total": {
-       "line": 41.5,
+       "line": 47.5,
        "over": -110,
        "under": -110
-      }
-     },
-     "BetOnline.ag": {
-      "ml": {
-       "home": -280,
-       "away": 230
-      },
-      "spread": {
-       "home": -6.5,
-       "home_price": -110,
-       "away_price": -110
-      },
-      "total": {
-       "line": 41.5,
-       "over": -110,
-       "under": -110
-      }
-     },
-     "LowVig.ag": {
-      "ml": {
-       "home": -280,
-       "away": 230
-      },
-      "spread": {
-       "home": -6.5,
-       "home_price": -105,
-       "away_price": -105
-      },
-      "total": {
-       "line": 41.5,
-       "over": -107,
-       "under": -107
       }
      },
      "BetRivers": {
       "ml": {
-       "home": -295,
-       "away": 225
+       "home": -420,
+       "away": 320
       },
       "spread": {
-       "home": -6.5,
-       "home_price": -109,
-       "away_price": -112
+       "home": -7.5,
+       "home_price": -106,
+       "away_price": -115
       },
       "total": {
-       "line": 41.5,
+       "line": 47.0,
+       "over": -114,
+       "under": -107
+      }
+     },
+     "LowVig.ag": {
+      "spread": {
+       "home": -7.0,
+       "home_price": -116,
+       "away_price": 105
+      },
+      "total": {
+       "line": 48.5,
+       "over": -107,
+       "under": -107
+      }
+     },
+     "BetOnline.ag": {
+      "spread": {
+       "home": -7.0,
+       "home_price": -120,
+       "away_price": 100
+      },
+      "total": {
+       "line": 48.5,
        "over": -110,
        "under": -110
-      }
-     },
-     "BetMGM": {
-      "ml": {
-       "home": -285,
-       "away": 230
-      },
-      "spread": {
-       "home": -6.5,
-       "home_price": -108,
-       "away_price": -110
-      },
-      "total": {
-       "line": 41.5,
-       "over": -108,
-       "under": -110
-      }
-     },
-     "MyBookie.ag": {
-      "ml": {
-       "home": -295,
-       "away": 220
-      },
-      "spread": {
-       "home": -6.5,
-       "home_price": -110,
-       "away_price": -110
-      },
-      "total": {
-       "line": 41.5,
-       "over": -110,
-       "under": -110
-      }
-     },
-     "Bovada": {
-      "ml": {
-       "home": -285,
-       "away": 235
-      },
-      "spread": {
-       "home": -6.5,
-       "home_price": -110,
-       "away_price": -110
-      },
-      "total": {
-       "line": 41.5,
-       "over": -105,
-       "under": -115
       }
      }
     },
     "spread": {
-     "home_line": -6.5,
-     "fair_home": 0.5,
+     "home_line": -7.5,
+     "fair_home": 0.4903184165232359,
      "best_home": {
-      "book": "FanDuel",
-      "line": -6.5,
-      "price": -105
+      "book": "LowVig.ag",
+      "line": -7.0,
+      "price": -116
      },
      "best_away": {
-      "book": "LowVig.ag",
-      "line": 6.5,
-      "price": -105
+      "book": "DraftKings",
+      "line": 7.5,
+      "price": -110
      }
     },
     "total": {
-     "line": 41.5,
+     "line": 48.5,
      "fair_over": 0.5,
      "best_over": {
-      "book": "Bovada",
-      "line": 41.5,
-      "price": -105
+      "book": "BetRivers",
+      "line": 47.0,
+      "price": -114
      },
      "best_under": {
       "book": "LowVig.ag",
-      "line": 41.5,
+      "line": 48.5,
       "price": -107
      }
     },
     "ml": {
-     "fair_home": 0.7085889570552146,
-     "home": -285,
-     "away": 230,
+     "fair_home": 0.765438008616563,
+     "home": -390,
+     "away": 310,
      "best_home": {
       "book": "DraftKings",
-      "price": -278
+      "price": -360
      },
      "best_away": {
-      "book": "FanDuel",
-      "price": 240
+      "book": "BetRivers",
+      "price": 320
      }
     }
    },
-   "value": [],
+   "value": [
+    {
+     "market": "total",
+     "side": "over",
+     "line": 47.0,
+     "price": -114,
+     "book": "BetRivers",
+     "ev": 0.023,
+     "fair_p": 0.545
+    }
+   ],
    "context": {
     "rest": {
      "home": 14,
      "away": 7
     },
-    "roof": "dome",
+    "roof": "outdoors",
     "wind": null,
     "temp": null,
-    "div_game": false,
+    "div_game": true,
     "net_epa": {
-     "home": 0.046,
+     "home": 0.136,
      "away": -0.071
     },
     "qb_epa": {
-     "home": -0.035,
+     "home": 0.078,
      "away": -0.051
     },
     "form": {
      "home": [
       {
-       "opp": "GB",
-       "home": true,
-       "pf": 39,
-       "pa": 22,
-       "res": "W",
-       "ats": "W",
-       "ou": "O"
+       "opp": "DEN",
+       "home": false,
+       "pf": 13,
+       "pa": 20,
+       "res": "L",
+       "ats": "L",
+       "ou": "U"
       },
       {
-       "opp": "CHI",
-       "home": false,
-       "pf": 9,
-       "pa": 3,
+       "opp": "NE",
+       "home": true,
+       "pf": 35,
+       "pa": 6,
        "res": "W",
        "ats": "W",
        "ou": "U"
       },
       {
-       "opp": "TB",
+       "opp": "CIN",
        "home": false,
-       "pf": 23,
-       "pa": 16,
+       "pf": 22,
+       "pa": 17,
        "res": "W",
        "ats": "W",
        "ou": "U"
       },
       {
-       "opp": "MIA",
+       "opp": "PHI",
        "home": true,
-       "pf": 15,
-       "pa": 10,
+       "pf": 19,
+       "pa": 17,
        "res": "W",
        "ats": "L",
        "ou": "U"
       },
       {
-       "opp": "NO",
-       "home": false,
-       "pf": 23,
-       "pa": 13,
-       "res": "W",
-       "ats": "W",
-       "ou": "U"
+       "opp": "HOU",
+       "home": true,
+       "pf": 31,
+       "pa": 34,
+       "res": "L",
+       "ats": "L",
+       "ou": "O"
       }
      ],
      "away": [
@@ -1889,245 +1704,185 @@
    }
   },
   {
-   "game_id": "2026_07_MIA_NYJ",
-   "week": 7,
-   "gameday": "2026-10-25",
+   "game_id": "2026_08_LV_NYJ",
+   "week": 8,
+   "gameday": "2026-11-01",
    "gametime": "13:00",
    "home": "NYJ",
-   "away": "MIA",
-   "kickoff": "2026-10-25T17:00:00Z",
+   "away": "LV",
+   "kickoff": "2026-11-01T18:00:00Z",
    "stadium": "MetLife Stadium",
    "home_qb": "Geno Smith",
-   "away_qb": "Malik Willis",
+   "away_qb": "Kirk Cousins",
    "qb_change": {
     "home": false,
     "away": false
    },
    "market": {
-    "home_line": -4.5,
-    "total": 39.5,
-    "ml_home": -225.0,
-    "ml_away": 186.0,
-    "source": "9 sportsbooks (median)"
+    "home_line": 0.0,
+    "total": 43.0,
+    "ml_home": -116.0,
+    "ml_away": -104.0,
+    "source": "6 sportsbooks (median)"
    },
    "model": {
-    "home_pts": 21.6,
-    "away_pts": 19.4,
-    "margin": 2.3,
-    "total": 41.0,
-    "p_home": 0.568
+    "home_pts": 22.4,
+    "away_pts": 22.1,
+    "margin": 0.3,
+    "total": 44.5,
+    "p_home": 0.508
    },
    "leans": {
     "spread": {
-     "side": "away",
-     "line": 4.5,
-     "edge": 2.25,
-     "p": 0.568,
-     "conf": "Low"
+     "side": "home",
+     "line": 0.0,
+     "edge": 0.25,
+     "p": 0.508,
+     "conf": "Pass"
     },
     "total": {
      "side": "over",
-     "line": 39.5,
-     "edge": 1.52,
-     "p": 0.547,
+     "line": 43.0,
+     "edge": 1.53,
+     "p": 0.548,
      "conf": "Pass"
     },
     "ml": {
      "side": "away",
-     "price": 186.0,
-     "p": 0.432,
-     "market_p": 0.336,
-     "diff": 0.097,
-     "ev": 0.236,
-     "conf": "High"
+     "price": -104.0,
+     "p": 0.492,
+     "market_p": 0.487,
+     "diff": 0.005,
+     "ev": -0.034,
+     "conf": "Pass"
     }
    },
    "books": {
     "by_book": {
      "DraftKings": {
       "ml": {
-       "home": -225,
-       "away": 185
+       "home": -112,
+       "away": -108
       },
       "spread": {
-       "home": -4.5,
-       "home_price": -115,
-       "away_price": -105
+       "home": 1.5,
+       "home_price": -125,
+       "away_price": 105
       },
       "total": {
-       "line": 39.5,
-       "over": -108,
-       "under": -112
-      }
-     },
-     "FanDuel": {
-      "ml": {
-       "home": -235,
-       "away": 194
-      },
-      "spread": {
-       "home": -4.5,
-       "home_price": -118,
-       "away_price": -104
-      },
-      "total": {
-       "line": 39.5,
-       "over": -106,
-       "under": -114
-      }
-     },
-     "BetUS": {
-      "ml": {
-       "home": -220,
-       "away": 185
-      },
-      "spread": {
-       "home": -4.5,
-       "home_price": -105,
-       "away_price": -115
-      },
-      "total": {
-       "line": 39.5,
-       "over": -105,
-       "under": -115
-      }
-     },
-     "BetOnline.ag": {
-      "ml": {
-       "home": -220,
-       "away": 186
-      },
-      "spread": {
-       "home": -4.5,
-       "home_price": -106,
-       "away_price": -114
-      },
-      "total": {
-       "line": 39.5,
-       "over": -105,
-       "under": -115
-      }
-     },
-     "LowVig.ag": {
-      "ml": {
-       "home": -220,
-       "away": 186
-      },
-      "spread": {
-       "home": -4.5,
-       "home_price": -101,
-       "away_price": -109
-      },
-      "total": {
-       "line": 39.5,
-       "over": -102,
-       "under": -113
-      }
-     },
-     "BetRivers": {
-      "ml": {
-       "home": -240,
-       "away": 190
-      },
-      "spread": {
-       "home": -5.0,
-       "home_price": -113,
-       "away_price": -110
-      },
-      "total": {
-       "line": 39.5,
-       "over": -107,
-       "under": -117
-      }
-     },
-     "BetMGM": {
-      "ml": {
-       "home": -225,
-       "away": 188
-      },
-      "spread": {
-       "home": -4.5,
-       "home_price": -110,
-       "away_price": -108
-      },
-      "total": {
-       "line": 39.5,
-       "over": -108,
-       "under": -110
-      }
-     },
-     "MyBookie.ag": {
-      "ml": {
-       "home": -234,
-       "away": 178
-      },
-      "spread": {
-       "home": -4.5,
-       "home_price": -110,
-       "away_price": -110
-      },
-      "total": {
-       "line": 39.0,
+       "line": 42.5,
        "over": -110,
        "under": -110
       }
      },
-     "Bovada": {
+     "FanDuel": {
       "ml": {
-       "home": -220,
-       "away": 180
+       "home": -116,
+       "away": -102
       },
       "spread": {
-       "home": -4.5,
+       "home": -1.5,
        "home_price": -105,
        "away_price": -115
       },
       "total": {
-       "line": 39.0,
+       "line": 43.5,
+       "over": -110,
+       "under": -110
+      }
+     },
+     "BetRivers": {
+      "ml": {
+       "home": -118,
+       "away": -104
+      },
+      "spread": {
+       "home": -1.0,
+       "home_price": -110,
+       "away_price": -110
+      },
+      "total": {
+       "line": 43.5,
+       "over": -113,
+       "under": -108
+      }
+     },
+     "LowVig.ag": {
+      "spread": {
+       "home": 0.0,
+       "home_price": -105,
+       "away_price": -105
+      },
+      "total": {
+       "line": 43.0,
+       "over": -107,
+       "under": -107
+      }
+     },
+     "BetOnline.ag": {
+      "spread": {
+       "home": 0.0,
+       "home_price": -110,
+       "away_price": -110
+      },
+      "total": {
+       "line": 43.0,
+       "over": -110,
+       "under": -110
+      }
+     },
+     "BetUS": {
+      "spread": {
+       "home": 0.0,
+       "home_price": -110,
+       "away_price": -110
+      },
+      "total": {
+       "line": 43.0,
        "over": -110,
        "under": -110
       }
      }
     },
     "spread": {
-     "home_line": -4.5,
-     "fair_home": 0.49566799514815457,
+     "home_line": 0.0,
+     "fair_home": 0.5,
      "best_home": {
-      "book": "LowVig.ag",
-      "line": -4.5,
-      "price": -101
-     },
-     "best_away": {
-      "book": "BetRivers",
-      "line": 5.0,
-      "price": -110
-     }
-    },
-    "total": {
-     "line": 39.5,
-     "fair_over": 0.48945992664108945,
-     "best_over": {
-      "book": "MyBookie.ag",
-      "line": 39.0,
-      "price": -110
-     },
-     "best_under": {
-      "book": "BetMGM",
-      "line": 39.5,
-      "price": -110
-     }
-    },
-    "ml": {
-     "fair_home": 0.662873999157185,
-     "home": -225,
-     "away": 186,
-     "best_home": {
-      "book": "BetUS",
-      "price": -220
+      "book": "DraftKings",
+      "line": 1.5,
+      "price": -125
      },
      "best_away": {
       "book": "FanDuel",
-      "price": 194
+      "line": 1.5,
+      "price": -115
+     }
+    },
+    "total": {
+     "line": 43.0,
+     "fair_over": 0.5,
+     "best_over": {
+      "book": "DraftKings",
+      "line": 42.5,
+      "price": -110
+     },
+     "best_under": {
+      "book": "BetRivers",
+      "line": 43.5,
+      "price": -108
+     }
+    },
+    "ml": {
+     "fair_home": 0.5149751839808318,
+     "home": -116,
+     "away": -104,
+     "best_home": {
+      "book": "DraftKings",
+      "price": -112
+     },
+     "best_away": {
+      "book": "FanDuel",
+      "price": -102
      }
     }
    },
@@ -2135,19 +1890,19 @@
    "context": {
     "rest": {
      "home": 7,
-     "away": 14
+     "away": 7
     },
     "roof": "outdoors",
     "wind": null,
     "temp": null,
-    "div_game": true,
+    "div_game": false,
     "net_epa": {
      "home": -0.054,
-     "away": -0.152
+     "away": -0.054
     },
     "qb_epa": {
      "home": -0.043,
-     "away": -0.072
+     "away": 0.043
     },
     "form": {
      "home": [
@@ -2199,421 +1954,48 @@
      ],
      "away": [
       {
-       "opp": "LV",
+       "opp": "LAC",
        "home": false,
-       "pf": 13,
-       "pa": 27,
-       "res": "L",
-       "ats": "L",
+       "pf": 26,
+       "pa": 14,
+       "res": "W",
+       "ats": "W",
        "ou": "U"
       },
       {
-       "opp": "SF",
+       "opp": "NO",
        "home": false,
-       "pf": 13,
-       "pa": 35,
-       "res": "L",
-       "ats": "L",
+       "pf": 35,
+       "pa": 27,
+       "res": "W",
+       "ats": "W",
        "ou": "O"
       },
       {
        "opp": "KC",
        "home": true,
-       "pf": 10,
-       "pa": 24,
-       "res": "L",
-       "ats": "L",
-       "ou": "U"
-      },
-      {
-       "opp": "MIN",
-       "home": false,
-       "pf": 10,
-       "pa": 15,
+       "pf": 27,
+       "pa": 30,
        "res": "L",
        "ats": "W",
-       "ou": "U"
-      },
-      {
-       "opp": "CIN",
-       "home": true,
-       "pf": 24,
-       "pa": 31,
-       "res": "L",
-       "ats": "P",
        "ou": "O"
-      }
-     ]
-    },
-    "injuries": {
-     "home": [],
-     "away": []
-    }
-   }
-  },
-  {
-   "game_id": "2026_07_NYG_HOU",
-   "week": 7,
-   "gameday": "2026-10-25",
-   "gametime": "13:00",
-   "home": "HOU",
-   "away": "NYG",
-   "kickoff": "2026-10-25T17:00:00Z",
-   "stadium": "Reliant Stadium",
-   "home_qb": "C.J. Stroud",
-   "away_qb": "J.J. McCarthy",
-   "qb_change": {
-    "home": false,
-    "away": true
-   },
-   "market": {
-    "home_line": -10.5,
-    "total": 43.0,
-    "ml_home": -500.0,
-    "ml_away": 370.0,
-    "source": "9 sportsbooks (median)"
-   },
-   "model": {
-    "home_pts": 26.1,
-    "away_pts": 17.9,
-    "margin": 8.2,
-    "total": 44.0,
-    "p_home": 0.733
-   },
-   "leans": {
-    "spread": {
-     "side": "away",
-     "line": 10.5,
-     "edge": 2.29,
-     "p": 0.569,
-     "conf": "Low"
-    },
-    "total": {
-     "side": "over",
-     "line": 43.0,
-     "edge": 1.04,
-     "p": 0.532,
-     "conf": "Pass"
-    },
-    "ml": {
-     "side": "away",
-     "price": 370.0,
-     "p": 0.267,
-     "market_p": 0.203,
-     "diff": 0.064,
-     "ev": 0.255,
-     "conf": "Medium"
-    }
-   },
-   "books": {
-    "by_book": {
-     "DraftKings": {
-      "ml": {
-       "home": -535,
-       "away": 400
-      },
-      "spread": {
-       "home": -10.5,
-       "home_price": -108,
-       "away_price": -112
-      },
-      "total": {
-       "line": 42.5,
-       "over": -118,
-       "under": -102
-      }
-     },
-     "BetUS": {
-      "ml": {
-       "home": -475,
-       "away": 375
-      },
-      "spread": {
-       "home": -10.5,
-       "home_price": -105,
-       "away_price": -115
-      },
-      "total": {
-       "line": 43.0,
-       "over": -110,
-       "under": -110
-      }
-     },
-     "FanDuel": {
-      "ml": {
-       "home": -550,
-       "away": 410
-      },
-      "spread": {
-       "home": -10.5,
-       "home_price": -105,
-       "away_price": -115
-      },
-      "total": {
-       "line": 43.5,
-       "over": -102,
-       "under": -120
-      }
-     },
-     "LowVig.ag": {
-      "ml": {
-       "home": -475,
-       "away": 367
-      },
-      "spread": {
-       "home": -10.5,
-       "home_price": -102,
-       "away_price": -108
-      },
-      "total": {
-       "line": 43.0,
-       "over": -107,
-       "under": -107
-      }
-     },
-     "BetOnline.ag": {
-      "ml": {
-       "home": -475,
-       "away": 367
-      },
-      "spread": {
-       "home": -10.5,
-       "home_price": -107,
-       "away_price": -113
-      },
-      "total": {
-       "line": 43.0,
-       "over": -110,
-       "under": -110
-      }
-     },
-     "BetRivers": {
-      "ml": {
-       "home": -500,
-       "away": 370
-      },
-      "spread": {
-       "home": -10.5,
-       "home_price": -113,
-       "away_price": -108
-      },
-      "total": {
-       "line": 43.5,
-       "over": -108,
-       "under": -113
-      }
-     },
-     "BetMGM": {
-      "ml": {
-       "home": -500,
-       "away": 400
-      },
-      "spread": {
-       "home": -10.5,
-       "home_price": -108,
-       "away_price": -110
-      },
-      "total": {
-       "line": 43.0,
-       "over": -110,
-       "under": -110
-      }
-     },
-     "MyBookie.ag": {
-      "ml": {
-       "home": -549,
-       "away": 370
-      },
-      "spread": {
-       "home": -10.0,
-       "home_price": -110,
-       "away_price": -110
-      },
-      "total": {
-       "line": 43.0,
-       "over": -110,
-       "under": -110
-      }
-     },
-     "Bovada": {
-      "ml": {
-       "home": -500,
-       "away": 360
-      },
-      "spread": {
-       "home": -10.5,
-       "home_price": -110,
-       "away_price": -110
-      },
-      "total": {
-       "line": 43.0,
-       "over": -110,
-       "under": -110
-      }
-     }
-    },
-    "spread": {
-     "home_line": -10.5,
-     "fair_home": 0.4945871042564278,
-     "best_home": {
-      "book": "MyBookie.ag",
-      "line": -10.0,
-      "price": -110
-     },
-     "best_away": {
-      "book": "LowVig.ag",
-      "line": 10.5,
-      "price": -108
-     }
-    },
-    "total": {
-     "line": 43.0,
-     "fair_over": 0.5,
-     "best_over": {
-      "book": "DraftKings",
-      "line": 42.5,
-      "price": -118
-     },
-     "best_under": {
-      "book": "BetRivers",
-      "line": 43.5,
-      "price": -113
-     }
-    },
-    "ml": {
-     "fair_home": 0.7969094922737308,
-     "home": -500,
-     "away": 370,
-     "best_home": {
-      "book": "BetUS",
-      "price": -475
-     },
-     "best_away": {
-      "book": "FanDuel",
-      "price": 410
-     }
-    }
-   },
-   "value": [
-    {
-     "market": "ml",
-     "side": "away",
-     "line": null,
-     "price": 410,
-     "book": "FanDuel",
-     "ev": 0.036,
-     "fair_p": 0.203
-    }
-   ],
-   "context": {
-    "rest": {
-     "home": 7,
-     "away": 7
-    },
-    "roof": null,
-    "wind": null,
-    "temp": null,
-    "div_game": false,
-    "net_epa": {
-     "home": 0.082,
-     "away": -0.081
-    },
-    "qb_epa": {
-     "home": 0.031,
-     "away": -0.064
-    },
-    "form": {
-     "home": [
-      {
-       "opp": "CIN",
-       "home": true,
-       "pf": 6,
-       "pa": 20,
-       "res": "L",
-       "ats": "L",
-       "ou": "U"
       },
       {
-       "opp": "IND",
+       "opp": "NE",
        "home": false,
        "pf": 17,
-       "pa": 19,
+       "pa": 45,
        "res": "L",
        "ats": "L",
-       "ou": "U"
+       "ou": "O"
       },
       {
-       "opp": "DAL",
+       "opp": "BUF",
        "home": true,
        "pf": 30,
-       "pa": 34,
+       "pa": 33,
        "res": "L",
-       "ats": "L",
-       "ou": "O"
-      },
-      {
-       "opp": "TEN",
-       "home": false,
-       "pf": 26,
-       "pa": 3,
-       "res": "W",
        "ats": "W",
-       "ou": "U"
-      },
-      {
-       "opp": "JAX",
-       "home": false,
-       "pf": 34,
-       "pa": 31,
-       "res": "W",
-       "ats": "W",
-       "ou": "O"
-      }
-     ],
-     "away": [
-      {
-       "opp": "LA",
-       "home": false,
-       "pf": 6,
-       "pa": 28,
-       "res": "L",
-       "ats": "L",
-       "ou": "U"
-      },
-      {
-       "opp": "TEN",
-       "home": true,
-       "pf": 12,
-       "pa": 7,
-       "res": "W",
-       "ats": "W",
-       "ou": "U"
-      },
-      {
-       "opp": "ARI",
-       "home": true,
-       "pf": 36,
-       "pa": 24,
-       "res": "W",
-       "ats": "W",
-       "ou": "O"
-      },
-      {
-       "opp": "WAS",
-       "home": false,
-       "pf": 27,
-       "pa": 27,
-       "res": "T",
-       "ats": "W",
-       "ou": "O"
-      },
-      {
-       "opp": "NO",
-       "home": true,
-       "pf": 27,
-       "pa": 34,
-       "res": "L",
-       "ats": "L",
        "ou": "O"
       }
      ]
@@ -2625,454 +2007,75 @@
    }
   },
   {
-   "game_id": "2026_07_SF_ATL",
-   "week": 7,
-   "gameday": "2026-10-25",
+   "game_id": "2026_08_MIN_DET",
+   "week": 8,
+   "gameday": "2026-11-01",
    "gametime": "13:00",
-   "home": "ATL",
-   "away": "SF",
-   "kickoff": "2026-10-25T17:00:00Z",
-   "stadium": "Mercedes-Benz Stadium",
-   "home_qb": "Michael Penix Jr.",
-   "away_qb": "Brock Purdy",
-   "qb_change": {
-    "home": false,
-    "away": false
-   },
-   "market": {
-    "home_line": 3.0,
-    "total": 50.0,
-    "ml_home": 130.0,
-    "ml_away": -150.0,
-    "source": "9 sportsbooks (median)"
-   },
-   "model": {
-    "home_pts": 21.8,
-    "away_pts": 25.7,
-    "margin": -4.0,
-    "total": 47.5,
-    "p_home": 0.382
-   },
-   "leans": {
-    "spread": {
-     "side": "away",
-     "line": -3.0,
-     "edge": 0.97,
-     "p": 0.529,
-     "conf": "Pass"
-    },
-    "total": {
-     "side": "under",
-     "line": 50.0,
-     "edge": 2.47,
-     "p": 0.577,
-     "conf": "Low"
-    },
-    "ml": {
-     "side": "away",
-     "price": -150.0,
-     "p": 0.618,
-     "market_p": 0.58,
-     "diff": 0.038,
-     "ev": 0.03,
-     "conf": "Low"
-    }
-   },
-   "books": {
-    "by_book": {
-     "DraftKings": {
-      "ml": {
-       "home": 130,
-       "away": -155
-      },
-      "spread": {
-       "home": 2.5,
-       "home_price": -102,
-       "away_price": -118
-      },
-      "total": {
-       "line": 49.5,
-       "over": -115,
-       "under": -105
-      }
-     },
-     "BetUS": {
-      "ml": {
-       "home": 129,
-       "away": -150
-      },
-      "spread": {
-       "home": 3.0,
-       "home_price": -120,
-       "away_price": 100
-      },
-      "total": {
-       "line": 50.0,
-       "over": -110,
-       "under": -110
-      }
-     },
-     "FanDuel": {
-      "ml": {
-       "home": 128,
-       "away": -152
-      },
-      "spread": {
-       "home": 2.5,
-       "home_price": -102,
-       "away_price": -120
-      },
-      "total": {
-       "line": 49.5,
-       "over": -115,
-       "under": -105
-      }
-     },
-     "LowVig.ag": {
-      "ml": {
-       "home": 130,
-       "away": -150
-      },
-      "spread": {
-       "home": 3.0,
-       "home_price": -116,
-       "away_price": 105
-      },
-      "total": {
-       "line": 50.0,
-       "over": -107,
-       "under": -107
-      }
-     },
-     "BetOnline.ag": {
-      "ml": {
-       "home": 130,
-       "away": -150
-      },
-      "spread": {
-       "home": 3.0,
-       "home_price": -120,
-       "away_price": 100
-      },
-      "total": {
-       "line": 50.0,
-       "over": -110,
-       "under": -110
-      }
-     },
-     "BetRivers": {
-      "ml": {
-       "home": 138,
-       "away": -167
-      },
-      "spread": {
-       "home": 3.0,
-       "home_price": -114,
-       "away_price": -107
-      },
-      "total": {
-       "line": 49.5,
-       "over": -113,
-       "under": -108
-      }
-     },
-     "BetMGM": {
-      "ml": {
-       "home": 125,
-       "away": -150
-      },
-      "spread": {
-       "home": 3.0,
-       "home_price": -118,
-       "away_price": -102
-      },
-      "total": {
-       "line": 50.0,
-       "over": -108,
-       "under": -110
-      }
-     },
-     "MyBookie.ag": {
-      "ml": {
-       "home": 124,
-       "away": -159
-      },
-      "spread": {
-       "home": 3.0,
-       "home_price": -120,
-       "away_price": 100
-      },
-      "total": {
-       "line": 50.0,
-       "over": -110,
-       "under": -110
-      }
-     },
-     "Bovada": {
-      "ml": {
-       "home": 130,
-       "away": -150
-      },
-      "spread": {
-       "home": 2.5,
-       "home_price": 100,
-       "away_price": -120
-      },
-      "total": {
-       "line": 50.0,
-       "over": -110,
-       "under": -110
-      }
-     }
-    },
-    "spread": {
-     "home_line": 3.0,
-     "fair_home": 0.5217391304347826,
-     "best_home": {
-      "book": "BetRivers",
-      "line": 3.0,
-      "price": -114
-     },
-     "best_away": {
-      "book": "DraftKings",
-      "line": -2.5,
-      "price": -118
-     }
-    },
-    "total": {
-     "line": 50.0,
-     "fair_over": 0.5,
-     "best_over": {
-      "book": "BetRivers",
-      "line": 49.5,
-      "price": -113
-     },
-     "best_under": {
-      "book": "LowVig.ag",
-      "line": 50.0,
-      "price": -107
-     }
-    },
-    "ml": {
-     "fair_home": 0.42016806722689076,
-     "home": 130,
-     "away": -150,
-     "best_home": {
-      "book": "BetRivers",
-      "price": 138
-     },
-     "best_away": {
-      "book": "BetUS",
-      "price": -150
-     }
-    }
-   },
-   "value": [],
-   "context": {
-    "rest": {
-     "home": 7,
-     "away": 6
-    },
-    "roof": null,
-    "wind": null,
-    "temp": null,
-    "div_game": false,
-    "net_epa": {
-     "home": -0.03,
-     "away": 0.152
-    },
-    "qb_epa": {
-     "home": 0.003,
-     "away": 0.094
-    },
-    "form": {
-     "home": [
-      {
-       "opp": "CAR",
-       "home": true,
-       "pf": 3,
-       "pa": 34,
-       "res": "L",
-       "ats": "L",
-       "ou": "U"
-      },
-      {
-       "opp": "GB",
-       "home": false,
-       "pf": 35,
-       "pa": 14,
-       "res": "W",
-       "ats": "W",
-       "ou": "O"
-      },
-      {
-       "opp": "NO",
-       "home": false,
-       "pf": 45,
-       "pa": 24,
-       "res": "W",
-       "ats": "W",
-       "ou": "O"
-      },
-      {
-       "opp": "BAL",
-       "home": true,
-       "pf": 23,
-       "pa": 30,
-       "res": "L",
-       "ats": "L",
-       "ou": "O"
-      },
-      {
-       "opp": "CHI",
-       "home": true,
-       "pf": 23,
-       "pa": 31,
-       "res": "L",
-       "ats": "L",
-       "ou": "O"
-      }
-     ],
-     "away": [
-      {
-       "opp": "MIA",
-       "home": true,
-       "pf": 35,
-       "pa": 13,
-       "res": "W",
-       "ats": "W",
-       "ou": "O"
-      },
-      {
-       "opp": "ARI",
-       "home": true,
-       "pf": 36,
-       "pa": 30,
-       "res": "W",
-       "ats": "L",
-       "ou": "O"
-      },
-      {
-       "opp": "DEN",
-       "home": true,
-       "pf": 24,
-       "pa": 14,
-       "res": "W",
-       "ats": "W",
-       "ou": "U"
-      },
-      {
-       "opp": "SEA",
-       "home": false,
-       "pf": 32,
-       "pa": 29,
-       "res": "W",
-       "ats": "W",
-       "ou": "O"
-      },
-      {
-       "opp": "WAS",
-       "home": true,
-       "pf": 23,
-       "pa": 17,
-       "res": "W",
-       "ats": "L",
-       "ou": "U"
-      }
-     ]
-    },
-    "injuries": {
-     "home": [],
-     "away": []
-    }
-   }
-  },
-  {
-   "game_id": "2026_07_TB_CAR",
-   "week": 7,
-   "gameday": "2026-10-25",
-   "gametime": "13:00",
-   "home": "CAR",
-   "away": "TB",
-   "kickoff": "2026-10-25T17:00:00Z",
-   "stadium": "Bank of America Stadium",
-   "home_qb": "Bryce Young",
-   "away_qb": "Jalon Daniels",
+   "home": "DET",
+   "away": "MIN",
+   "kickoff": "2026-11-01T18:00:00Z",
+   "stadium": "Ford Field",
+   "home_qb": "Jared Goff",
+   "away_qb": "Kyler Murray",
    "qb_change": {
     "home": false,
     "away": false
    },
    "market": {
     "home_line": -3.0,
-    "total": 44.5,
-    "ml_home": -170.0,
-    "ml_away": 145.0,
-    "source": "9 sportsbooks (median)"
+    "total": 47.0,
+    "ml_home": -158.0,
+    "ml_away": 134.0,
+    "source": "6 sportsbooks (median)"
    },
    "model": {
-    "home_pts": 25.1,
-    "away_pts": 18.9,
-    "margin": 6.2,
-    "total": 44.0,
-    "p_home": 0.681
+    "home_pts": 25.6,
+    "away_pts": 22.5,
+    "margin": 3.1,
+    "total": 48.0,
+    "p_home": 0.593
    },
    "leans": {
     "spread": {
      "side": "home",
      "line": -3.0,
-     "edge": 3.2,
-     "p": 0.596,
-     "conf": "Medium"
+     "edge": 0.1,
+     "p": 0.503,
+     "conf": "Pass"
     },
     "total": {
-     "side": "under",
-     "line": 44.5,
-     "edge": 0.47,
-     "p": 0.515,
+     "side": "over",
+     "line": 47.0,
+     "edge": 1.04,
+     "p": 0.532,
      "conf": "Pass"
     },
     "ml": {
      "side": "home",
-     "price": -170.0,
-     "p": 0.681,
-     "market_p": 0.607,
-     "diff": 0.074,
-     "ev": 0.081,
-     "conf": "Medium"
+     "price": -158.0,
+     "p": 0.593,
+     "market_p": 0.589,
+     "diff": 0.004,
+     "ev": -0.032,
+     "conf": "Pass"
     }
    },
    "books": {
     "by_book": {
      "DraftKings": {
       "ml": {
-       "home": -166,
-       "away": 140
+       "home": -155,
+       "away": 130
       },
       "spread": {
-       "home": -3.0,
+       "home": -2.5,
        "home_price": -120,
        "away_price": 100
       },
       "total": {
-       "line": 44.5,
-       "over": -110,
-       "under": -110
-      }
-     },
-     "BetUS": {
-      "ml": {
-       "home": -170,
-       "away": 146
-      },
-      "spread": {
-       "home": -3.0,
-       "home_price": -115,
-       "away_price": -105
-      },
-      "total": {
-       "line": 44.5,
-       "over": -113,
-       "under": -107
+       "line": 46.5,
+       "over": -115,
+       "under": -105
       }
      },
      "FanDuel": {
@@ -3082,884 +2085,114 @@
       },
       "spread": {
        "home": -3.0,
-       "home_price": -110,
-       "away_price": -110
+       "home_price": -112,
+       "away_price": -108
       },
       "total": {
-       "line": 44.5,
-       "over": -110,
-       "under": -110
-      }
-     },
-     "BetOnline.ag": {
-      "ml": {
-       "home": -170,
-       "away": 149
-      },
-      "spread": {
-       "home": -3.0,
-       "home_price": -115,
-       "away_price": -105
-      },
-      "total": {
-       "line": 44.5,
-       "over": -113,
-       "under": -107
-      }
-     },
-     "LowVig.ag": {
-      "ml": {
-       "home": -170,
-       "away": 149
-      },
-      "spread": {
-       "home": -3.0,
-       "home_price": -110,
-       "away_price": 100
-      },
-      "total": {
-       "line": 44.5,
-       "over": -110,
-       "under": -104
+       "line": 47.5,
+       "over": -105,
+       "under": -115
       }
      },
      "BetRivers": {
-      "ml": {
-       "home": -180,
-       "away": 148
-      },
-      "spread": {
-       "home": -3.0,
-       "home_price": -110,
-       "away_price": -110
-      },
-      "total": {
-       "line": 44.5,
-       "over": -113,
-       "under": -108
-      }
-     },
-     "BetMGM": {
       "ml": {
        "home": -175,
-       "away": 145
-      },
-      "spread": {
-       "home": -3.0,
-       "home_price": -115,
-       "away_price": -105
-      },
-      "total": {
-       "line": 44.5,
-       "over": -110,
-       "under": -108
-      }
-     },
-     "MyBookie.ag": {
-      "ml": {
-       "home": -176,
-       "away": 137
-      },
-      "spread": {
-       "home": -3.0,
-       "home_price": -110,
-       "away_price": -110
-      },
-      "total": {
-       "line": 45.0,
-       "over": -110,
-       "under": -110
-      }
-     },
-     "Bovada": {
-      "ml": {
-       "home": -170,
-       "away": 145
-      },
-      "spread": {
-       "home": -3.0,
-       "home_price": -115,
-       "away_price": -105
-      },
-      "total": {
-       "line": 44.5,
-       "over": -110,
-       "under": -110
-      }
-     }
-    },
-    "spread": {
-     "home_line": -3.0,
-     "fair_home": 0.5108342361863488,
-     "best_home": {
-      "book": "FanDuel",
-      "line": -3.0,
-      "price": -110
-     },
-     "best_away": {
-      "book": "DraftKings",
-      "line": 3.0,
-      "price": 100
-     }
-    },
-    "total": {
-     "line": 44.5,
-     "fair_over": 0.503785163548288,
-     "best_over": {
-      "book": "DraftKings",
-      "line": 44.5,
-      "price": -110
-     },
-     "best_under": {
-      "book": "MyBookie.ag",
-      "line": 45.0,
-      "price": -110
-     }
-    },
-    "ml": {
-     "fair_home": 0.6076721883173497,
-     "home": -170,
-     "away": 145,
-     "best_home": {
-      "book": "FanDuel",
-      "price": -158
-     },
-     "best_away": {
-      "book": "BetOnline.ag",
-      "price": 149
-     }
-    }
-   },
-   "value": [],
-   "context": {
-    "rest": {
-     "home": 7,
-     "away": 7
-    },
-    "roof": "outdoors",
-    "wind": null,
-    "temp": null,
-    "div_game": true,
-    "net_epa": {
-     "home": 0.035,
-     "away": -0.056
-    },
-    "qb_epa": {
-     "home": 0.019,
-     "away": -0.094
-    },
-    "form": {
-     "home": [
-      {
-       "opp": "CHI",
-       "home": true,
-       "pf": 37,
-       "pa": 59,
-       "res": "L",
-       "ats": "L",
-       "ou": "O"
-      },
-      {
-       "opp": "ATL",
-       "home": false,
-       "pf": 34,
-       "pa": 3,
-       "res": "W",
-       "ats": "W",
-       "ou": "U"
-      },
-      {
-       "opp": "CLE",
-       "home": false,
-       "pf": 18,
-       "pa": 21,
-       "res": "L",
-       "ats": "L",
-       "ou": "U"
-      },
-      {
-       "opp": "DET",
-       "home": true,
-       "pf": 32,
-       "pa": 26,
-       "res": "W",
-       "ats": "W",
-       "ou": "O"
-      },
-      {
-       "opp": "PHI",
-       "home": false,
-       "pf": 25,
-       "pa": 14,
-       "res": "W",
-       "ats": "W",
-       "ou": "U"
-      }
-     ],
-     "away": [
-      {
-       "opp": "CLE",
-       "home": true,
-       "pf": 19,
-       "pa": 23,
-       "res": "L",
-       "ats": "L",
-       "ou": "O"
-      },
-      {
-       "opp": "MIN",
-       "home": true,
-       "pf": 16,
-       "pa": 23,
-       "res": "L",
-       "ats": "L",
-       "ou": "U"
-      },
-      {
-       "opp": "GB",
-       "home": true,
-       "pf": 14,
-       "pa": 17,
-       "res": "L",
-       "ats": "P",
-       "ou": "U"
-      },
-      {
-       "opp": "DAL",
-       "home": false,
-       "pf": 24,
-       "pa": 16,
-       "res": "W",
-       "ats": "W",
-       "ou": "U"
-      },
-      {
-       "opp": "PIT",
-       "home": true,
-       "pf": 19,
-       "pa": 26,
-       "res": "L",
-       "ats": "L",
-       "ou": "O"
-      }
-     ]
-    },
-    "injuries": {
-     "home": [],
-     "away": []
-    }
-   }
-  },
-  {
-   "game_id": "2026_07_DEN_ARI",
-   "week": 7,
-   "gameday": "2026-10-25",
-   "gametime": "16:05",
-   "home": "ARI",
-   "away": "DEN",
-   "kickoff": "2026-10-25T20:05:00Z",
-   "stadium": "State Farm Stadium",
-   "home_qb": "Jacoby Brissett",
-   "away_qb": "Bo Nix",
-   "qb_change": {
-    "home": false,
-    "away": false
-   },
-   "market": {
-    "home_line": 4.0,
-    "total": 43.5,
-    "ml_home": 180.0,
-    "ml_away": -210.0,
-    "source": "9 sportsbooks (median)"
-   },
-   "model": {
-    "home_pts": 19.9,
-    "away_pts": 24.1,
-    "margin": -4.1,
-    "total": 44.0,
-    "p_home": 0.378
-   },
-   "leans": {
-    "spread": {
-     "side": "away",
-     "line": -4.0,
-     "edge": 0.12,
-     "p": 0.504,
-     "conf": "Pass"
-    },
-    "total": {
-     "side": "over",
-     "line": 43.5,
-     "edge": 0.49,
-     "p": 0.515,
-     "conf": "Pass"
-    },
-    "ml": {
-     "side": "home",
-     "price": 180.0,
-     "p": 0.378,
-     "market_p": 0.345,
-     "diff": 0.032,
-     "ev": 0.057,
-     "conf": "Low"
-    }
-   },
-   "books": {
-    "by_book": {
-     "DraftKings": {
-      "ml": {
-       "home": 190,
-       "away": -230
-      },
-      "spread": {
-       "home": 4.5,
-       "home_price": -110,
-       "away_price": -110
-      },
-      "total": {
-       "line": 43.5,
-       "over": -115,
-       "under": -105
-      }
-     },
-     "BetUS": {
-      "ml": {
-       "home": 180,
-       "away": -210
-      },
-      "spread": {
-       "home": 4.0,
-       "home_price": -105,
-       "away_price": -115
-      },
-      "total": {
-       "line": 43.5,
-       "over": -115,
-       "under": -105
-      }
-     },
-     "FanDuel": {
-      "ml": {
-       "home": 188,
-       "away": -225
-      },
-      "spread": {
-       "home": 4.5,
-       "home_price": -110,
-       "away_price": -110
-      },
-      "total": {
-       "line": 43.5,
-       "over": -110,
-       "under": -110
-      }
-     },
-     "BetOnline.ag": {
-      "ml": {
-       "home": 180,
-       "away": -210
-      },
-      "spread": {
-       "home": 4.0,
-       "home_price": -107,
-       "away_price": -113
-      },
-      "total": {
-       "line": 43.5,
-       "over": -115,
-       "under": -105
-      }
-     },
-     "LowVig.ag": {
-      "ml": {
-       "home": 180,
-       "away": -210
-      },
-      "spread": {
-       "home": 4.0,
-       "home_price": -103,
-       "away_price": -107
-      },
-      "total": {
-       "line": 43.5,
-       "over": -113,
-       "under": -102
-      }
-     },
-     "BetRivers": {
-      "ml": {
-       "home": 180,
-       "away": -235
-      },
-      "spread": {
-       "home": 4.5,
-       "home_price": -113,
-       "away_price": -110
-      },
-      "total": {
-       "line": 43.5,
-       "over": -105,
-       "under": -118
-      }
-     },
-     "BetMGM": {
-      "ml": {
-       "home": 180,
-       "away": -220
-      },
-      "spread": {
-       "home": 4.0,
-       "home_price": -108,
-       "away_price": -112
-      },
-      "total": {
-       "line": 43.5,
-       "over": -110,
-       "under": -108
-      }
-     },
-     "Bovada": {
-      "ml": {
-       "home": 175,
-       "away": -210
-      },
-      "spread": {
-       "home": 4.0,
-       "home_price": -110,
-       "away_price": -110
-      },
-      "total": {
-       "line": 43.5,
-       "over": -110,
-       "under": -110
-      }
-     },
-     "MyBookie.ag": {
-      "ml": {
-       "home": 162,
-       "away": -210
-      },
-      "spread": {
-       "home": 4.0,
-       "home_price": -110,
-       "away_price": -110
-      },
-      "total": {
-       "line": 43.5,
-       "over": -110,
-       "under": -110
-      }
-     }
-    },
-    "spread": {
-     "home_line": 4.0,
-     "fair_home": 0.4955118108512663,
-     "best_home": {
-      "book": "DraftKings",
-      "line": 4.5,
-      "price": -110
-     },
-     "best_away": {
-      "book": "LowVig.ag",
-      "line": -4.0,
-      "price": -107
-     }
-    },
-    "total": {
-     "line": 43.5,
-     "fair_over": 0.5021949078138718,
-     "best_over": {
-      "book": "BetRivers",
-      "line": 43.5,
-      "price": -105
-     },
-     "best_under": {
-      "book": "LowVig.ag",
-      "line": 43.5,
-      "price": -102
-     }
-    },
-    "ml": {
-     "fair_home": 0.3452115812917595,
-     "home": 180,
-     "away": -210,
-     "best_home": {
-      "book": "DraftKings",
-      "price": 190
-     },
-     "best_away": {
-      "book": "BetUS",
-      "price": -210
-     }
-    }
-   },
-   "value": [],
-   "context": {
-    "rest": {
-     "home": 7,
-     "away": 10
-    },
-    "roof": null,
-    "wind": null,
-    "temp": null,
-    "div_game": false,
-    "net_epa": {
-     "home": -0.066,
-     "away": 0.047
-    },
-    "qb_epa": {
-     "home": -0.031,
-     "away": -0.012
-    },
-    "form": {
-     "home": [
-      {
-       "opp": "SEA",
-       "home": true,
-       "pf": 7,
-       "pa": 31,
-       "res": "L",
-       "ats": "L",
-       "ou": "U"
-      },
-      {
-       "opp": "SF",
-       "home": false,
-       "pf": 30,
-       "pa": 36,
-       "res": "L",
-       "ats": "W",
-       "ou": "O"
-      },
-      {
-       "opp": "NYG",
-       "home": false,
-       "pf": 24,
-       "pa": 36,
-       "res": "L",
-       "ats": "L",
-       "ou": "O"
-      },
-      {
-       "opp": "DET",
-       "home": true,
-       "pf": 21,
-       "pa": 45,
-       "res": "L",
-       "ats": "L",
-       "ou": "O"
-      },
-      {
-       "opp": "LA",
-       "home": false,
-       "pf": 18,
-       "pa": 16,
-       "res": "W",
-       "ats": "W",
-       "ou": "U"
-      }
-     ],
-     "away": [
-      {
-       "opp": "JAX",
-       "home": true,
-       "pf": 20,
-       "pa": 13,
-       "res": "W",
-       "ats": "W",
-       "ou": "U"
-      },
-      {
-       "opp": "LA",
-       "home": true,
-       "pf": 30,
-       "pa": 26,
-       "res": "W",
-       "ats": "W",
-       "ou": "O"
-      },
-      {
-       "opp": "SF",
-       "home": false,
-       "pf": 14,
-       "pa": 24,
-       "res": "L",
-       "ats": "L",
-       "ou": "U"
-      },
-      {
-       "opp": "LAC",
-       "home": false,
-       "pf": 23,
-       "pa": 17,
-       "res": "W",
-       "ats": "W",
-       "ou": "U"
-      },
-      {
-       "opp": "SEA",
-       "home": true,
-       "pf": 17,
-       "pa": 14,
-       "res": "W",
-       "ats": "W",
-       "ou": "U"
-      }
-     ]
-    },
-    "injuries": {
-     "home": [],
-     "away": []
-    }
-   }
-  },
-  {
-   "game_id": "2026_07_GB_DET",
-   "week": 7,
-   "gameday": "2026-10-25",
-   "gametime": "16:25",
-   "home": "DET",
-   "away": "GB",
-   "kickoff": "2026-10-25T20:25:00Z",
-   "stadium": "Ford Field",
-   "home_qb": "Jared Goff",
-   "away_qb": "Jordan Love",
-   "qb_change": {
-    "home": false,
-    "away": false
-   },
-   "market": {
-    "home_line": -3.0,
-    "total": 53.5,
-    "ml_home": -180.0,
-    "ml_away": 145.0,
-    "source": "9 sportsbooks (median)"
-   },
-   "model": {
-    "home_pts": 29.1,
-    "away_pts": 24.0,
-    "margin": 5.1,
-    "total": 53.1,
-    "p_home": 0.649
-   },
-   "leans": {
-    "spread": {
-     "side": "home",
-     "line": -3.0,
-     "edge": 2.05,
-     "p": 0.562,
-     "conf": "Low"
-    },
-    "total": {
-     "side": "under",
-     "line": 53.5,
-     "edge": 0.41,
-     "p": 0.513,
-     "conf": "Pass"
-    },
-    "ml": {
-     "side": "home",
-     "price": -180.0,
-     "p": 0.649,
-     "market_p": 0.612,
-     "diff": 0.037,
-     "ev": 0.01,
-     "conf": "Low"
-    }
-   },
-   "books": {
-    "by_book": {
-     "DraftKings": {
-      "ml": {
-       "home": -166,
        "away": 140
       },
       "spread": {
        "home": -3.0,
-       "home_price": -110,
-       "away_price": -110
+       "home_price": -114,
+       "away_price": -107
       },
       "total": {
-       "line": 53.5,
-       "over": -110,
-       "under": -110
-      }
-     },
-     "FanDuel": {
-      "ml": {
-       "home": -172,
-       "away": 142
-      },
-      "spread": {
-       "home": -3.0,
-       "home_price": -118,
-       "away_price": -104
-      },
-      "total": {
-       "line": 52.5,
-       "over": -120,
-       "under": -102
-      }
-     },
-     "BetUS": {
-      "ml": {
-       "home": -180,
-       "away": 155
-      },
-      "spread": {
-       "home": -3.0,
-       "home_price": -120,
-       "away_price": 100
-      },
-      "total": {
-       "line": 53.5,
-       "over": -110,
-       "under": -110
-      }
-     },
-     "BetOnline.ag": {
-      "ml": {
-       "home": -180,
-       "away": 157
-      },
-      "spread": {
-       "home": -3.0,
-       "home_price": -120,
-       "away_price": 100
-      },
-      "total": {
-       "line": 53.5,
-       "over": -110,
-       "under": -110
-      }
-     },
-     "LowVig.ag": {
-      "ml": {
-       "home": -180,
-       "away": 157
-      },
-      "spread": {
-       "home": -3.5,
-       "home_price": 102,
-       "away_price": -113
-      },
-      "total": {
-       "line": 53.5,
-       "over": -107,
-       "under": -107
-      }
-     },
-     "BetRivers": {
-      "ml": {
-       "home": -162,
-       "away": 135
-      },
-      "spread": {
-       "home": -3.0,
-       "home_price": -115,
-       "away_price": -106
-      },
-      "total": {
-       "line": 53.0,
+       "line": 47.0,
        "over": -114,
        "under": -107
       }
      },
-     "BetMGM": {
-      "ml": {
-       "home": -175,
-       "away": 145
-      },
+     "LowVig.ag": {
       "spread": {
        "home": -3.0,
-       "home_price": -118,
-       "away_price": -102
-      },
-      "total": {
-       "line": 53.5,
-       "over": -110,
-       "under": -108
-      }
-     },
-     "MyBookie.ag": {
-      "ml": {
-       "home": -180,
-       "away": 140
-      },
-      "spread": {
-       "home": -3.0,
-       "home_price": -120,
-       "away_price": 100
-      },
-      "total": {
-       "line": 54.0,
-       "over": -110,
-       "under": -110
-      }
-     },
-     "Bovada": {
-      "ml": {
-       "home": -185,
-       "away": 160
-      },
-      "spread": {
-       "home": -3.5,
        "home_price": -105,
-       "away_price": -115
+       "away_price": -105
       },
       "total": {
-       "line": 53.5,
-       "over": -110,
-       "under": -110
+       "line": 47.0,
+       "over": -102,
+       "under": -113
+      }
+     },
+     "BetOnline.ag": {
+      "spread": {
+       "home": -3.0,
+       "home_price": -110,
+       "away_price": -110
+      },
+      "total": {
+       "line": 47.0,
+       "over": -105,
+       "under": -115
+      }
+     },
+     "BetUS": {
+      "spread": {
+       "home": -3.0,
+       "home_price": -110,
+       "away_price": -110
+      },
+      "total": {
+       "line": 47.0,
+       "over": -105,
+       "under": -115
       }
      }
     },
     "spread": {
      "home_line": -3.0,
-     "fair_home": 0.5173641257162701,
+     "fair_home": 0.5,
      "best_home": {
       "book": "DraftKings",
-      "line": -3.0,
-      "price": -110
+      "line": -2.5,
+      "price": -120
      },
      "best_away": {
       "book": "LowVig.ag",
-      "line": 3.5,
-      "price": -113
+      "line": 3.0,
+      "price": -105
      }
     },
     "total": {
-     "line": 53.5,
-     "fair_over": 0.5,
+     "line": 47.0,
+     "fair_over": 0.4891657638136511,
      "best_over": {
-      "book": "FanDuel",
-      "line": 52.5,
-      "price": -120
+      "book": "DraftKings",
+      "line": 46.5,
+      "price": -115
      },
      "best_under": {
-      "book": "MyBookie.ag",
-      "line": 54.0,
-      "price": -110
+      "book": "FanDuel",
+      "line": 47.5,
+      "price": -115
      }
     },
     "ml": {
-     "fair_home": 0.6092362344582594,
-     "home": -180,
-     "away": 145,
+     "fair_home": 0.5889887210858344,
+     "home": -158,
+     "away": 134,
      "best_home": {
-      "book": "BetRivers",
-      "price": -162
+      "book": "DraftKings",
+      "price": -155
      },
      "best_away": {
-      "book": "Bovada",
-      "price": 160
+      "book": "BetRivers",
+      "price": 140
      }
     }
    },
    "value": [],
    "context": {
     "rest": {
-     "home": 14,
+     "home": 7,
      "away": 7
     },
     "roof": "dome",
@@ -3968,11 +2201,11 @@
     "div_game": true,
     "net_epa": {
      "home": 0.029,
-     "away": 0.03
+     "away": 0.046
     },
     "qb_epa": {
      "home": 0.128,
-     "away": 0.085
+     "away": -0.035
     },
     "form": {
      "home": [
@@ -4024,44 +2257,44 @@
      ],
      "away": [
       {
-       "opp": "NYJ",
-       "home": false,
-       "pf": 20,
-       "pa": 17,
-       "res": "W",
-       "ats": "L",
-       "ou": "U"
-      },
-      {
-       "opp": "ATL",
+       "opp": "GB",
        "home": true,
-       "pf": 14,
-       "pa": 35,
-       "res": "L",
-       "ats": "L",
+       "pf": 39,
+       "pa": 22,
+       "res": "W",
+       "ats": "W",
        "ou": "O"
       },
       {
-       "opp": "TB",
-       "home": false,
-       "pf": 17,
-       "pa": 14,
-       "res": "W",
-       "ats": "P",
-       "ou": "U"
-      },
-      {
        "opp": "CHI",
-       "home": true,
-       "pf": 31,
-       "pa": 7,
+       "home": false,
+       "pf": 9,
+       "pa": 3,
        "res": "W",
        "ats": "W",
        "ou": "U"
       },
       {
-       "opp": "DAL",
+       "opp": "TB",
+       "home": false,
+       "pf": 23,
+       "pa": 16,
+       "res": "W",
+       "ats": "W",
+       "ou": "U"
+      },
+      {
+       "opp": "MIA",
        "home": true,
+       "pf": 15,
+       "pa": 10,
+       "res": "W",
+       "ats": "L",
+       "ou": "U"
+      },
+      {
+       "opp": "NO",
+       "home": false,
        "pf": 23,
        "pa": 13,
        "res": "W",
@@ -4077,245 +2310,185 @@
    }
   },
   {
-   "game_id": "2026_07_LA_LV",
-   "week": 7,
-   "gameday": "2026-10-25",
-   "gametime": "16:25",
-   "home": "LV",
-   "away": "LA",
-   "kickoff": "2026-10-25T20:25:00Z",
-   "stadium": "Allegiant Stadium",
-   "home_qb": "Kirk Cousins",
-   "away_qb": "Matthew Stafford",
+   "game_id": "2026_08_TEN_CIN",
+   "week": 8,
+   "gameday": "2026-11-01",
+   "gametime": "13:00",
+   "home": "CIN",
+   "away": "TEN",
+   "kickoff": "2026-11-01T18:00:00Z",
+   "stadium": "Paycor Stadium",
+   "home_qb": "Joe Burrow",
+   "away_qb": "Cam Ward",
    "qb_change": {
     "home": false,
     "away": false
    },
    "market": {
-    "home_line": 4.0,
-    "total": 48.5,
-    "ml_home": 177.0,
-    "ml_away": -210.0,
-    "source": "9 sportsbooks (median)"
+    "home_line": -9.5,
+    "total": 46.0,
+    "ml_home": -620.0,
+    "ml_away": 460.0,
+    "source": "6 sportsbooks (median)"
    },
    "model": {
-    "home_pts": 25.0,
-    "away_pts": 26.0,
-    "margin": -1.1,
-    "total": 51.0,
-    "p_home": 0.467
+    "home_pts": 26.8,
+    "away_pts": 16.6,
+    "margin": 10.2,
+    "total": 43.4,
+    "p_home": 0.779
    },
    "leans": {
     "spread": {
      "side": "home",
-     "line": 4.0,
-     "edge": 2.91,
-     "p": 0.587,
-     "conf": "Low"
+     "line": -9.5,
+     "edge": 0.66,
+     "p": 0.52,
+     "conf": "Pass"
     },
     "total": {
-     "side": "over",
-     "line": 48.5,
-     "edge": 2.5,
-     "p": 0.577,
+     "side": "under",
+     "line": 46.0,
+     "edge": 2.65,
+     "p": 0.582,
      "conf": "Low"
     },
     "ml": {
-     "side": "home",
-     "price": 177.0,
-     "p": 0.467,
-     "market_p": 0.348,
-     "diff": 0.119,
-     "ev": 0.294,
-     "conf": "High"
+     "side": "away",
+     "price": 460.0,
+     "p": 0.221,
+     "market_p": 0.172,
+     "diff": 0.049,
+     "ev": 0.236,
+     "conf": "Low"
     }
    },
    "books": {
     "by_book": {
      "DraftKings": {
       "ml": {
-       "home": 180,
-       "away": -218
+       "home": -575,
+       "away": 425
       },
       "spread": {
-       "home": 3.5,
-       "home_price": -105,
-       "away_price": -115
-      },
-      "total": {
-       "line": 48.5,
-       "over": -108,
-       "under": -112
-      }
-     },
-     "BetUS": {
-      "ml": {
-       "home": 175,
-       "away": -205
-      },
-      "spread": {
-       "home": 4.0,
+       "home": -10.0,
        "home_price": -110,
        "away_price": -110
       },
       "total": {
-       "line": 48.5,
+       "line": 46.5,
+       "over": -110,
+       "under": -110
+      }
+     },
+     "BetUS": {
+      "spread": {
+       "home": -9.5,
+       "home_price": -110,
+       "away_price": -110
+      },
+      "total": {
+       "line": 46.0,
        "over": -110,
        "under": -110
       }
      },
      "FanDuel": {
       "ml": {
-       "home": 180,
-       "away": -215
+       "home": -620,
+       "away": 460
       },
       "spread": {
-       "home": 4.5,
-       "home_price": -112,
-       "away_price": -108
+       "home": -10.5,
+       "home_price": -104,
+       "away_price": -118
       },
       "total": {
-       "line": 48.5,
-       "over": -110,
-       "under": -110
-      }
-     },
-     "LowVig.ag": {
-      "ml": {
-       "home": 177,
-       "away": -205
-      },
-      "spread": {
-       "home": 4.0,
-       "home_price": -107,
-       "away_price": -103
-      },
-      "total": {
-       "line": 48.5,
-       "over": -107,
-       "under": -107
-      }
-     },
-     "BetOnline.ag": {
-      "ml": {
-       "home": 177,
-       "away": -205
-      },
-      "spread": {
-       "home": 4.0,
-       "home_price": -112,
-       "away_price": -108
-      },
-      "total": {
-       "line": 48.5,
+       "line": 45.5,
        "over": -110,
        "under": -110
       }
      },
      "BetRivers": {
       "ml": {
-       "home": 185,
-       "away": -230
+       "home": -670,
+       "away": 475
       },
       "spread": {
-       "home": 4.5,
-       "home_price": -114,
-       "away_price": -107
+       "home": -10.5,
+       "home_price": -107,
+       "away_price": -114
       },
       "total": {
-       "line": 48.5,
-       "over": -110,
-       "under": -110
+       "line": 46.0,
+       "over": -109,
+       "under": -112
       }
      },
-     "BetMGM": {
-      "ml": {
-       "home": 175,
-       "away": -210
-      },
+     "LowVig.ag": {
       "spread": {
-       "home": 4.0,
-       "home_price": -108,
-       "away_price": -112
+       "home": -9.5,
+       "home_price": -105,
+       "away_price": -105
       },
       "total": {
-       "line": 48.5,
-       "over": -108,
-       "under": -110
+       "line": 46.0,
+       "over": -107,
+       "under": -107
       }
      },
-     "Bovada": {
-      "ml": {
-       "home": 175,
-       "away": -210
-      },
+     "BetOnline.ag": {
       "spread": {
-       "home": 4.0,
+       "home": -9.5,
        "home_price": -110,
        "away_price": -110
       },
       "total": {
-       "line": 48.0,
-       "over": -115,
-       "under": -105
-      }
-     },
-     "MyBookie.ag": {
-      "ml": {
-       "home": 169,
-       "away": -220
-      },
-      "spread": {
-       "home": 4.0,
-       "home_price": -110,
-       "away_price": -110
-      },
-      "total": {
-       "line": 48.5,
+       "line": 46.0,
        "over": -110,
        "under": -110
       }
      }
     },
     "spread": {
-     "home_line": 4.0,
+     "home_line": -9.5,
      "fair_home": 0.5,
      "best_home": {
-      "book": "FanDuel",
-      "line": 4.5,
-      "price": -112
+      "book": "LowVig.ag",
+      "line": -9.5,
+      "price": -105
      },
      "best_away": {
-      "book": "DraftKings",
-      "line": -3.5,
-      "price": -115
+      "book": "BetRivers",
+      "line": 10.5,
+      "price": -114
      }
     },
     "total": {
-     "line": 48.5,
+     "line": 46.0,
      "fair_over": 0.5,
      "best_over": {
-      "book": "Bovada",
-      "line": 48.0,
-      "price": -115
+      "book": "FanDuel",
+      "line": 45.5,
+      "price": -110
      },
      "best_under": {
-      "book": "LowVig.ag",
-      "line": 48.5,
-      "price": -107
+      "book": "DraftKings",
+      "line": 46.5,
+      "price": -110
      }
     },
     "ml": {
-     "fair_home": 0.34929577464788736,
-     "home": 177,
-     "away": -210,
+     "fair_home": 0.8282442748091603,
+     "home": -620,
+     "away": 460,
      "best_home": {
-      "book": "BetRivers",
-      "price": 185
+      "book": "DraftKings",
+      "price": -575
      },
      "best_away": {
-      "book": "BetUS",
-      "price": -205
+      "book": "BetRivers",
+      "price": 475
      }
     }
    },
@@ -4325,67 +2498,323 @@
      "home": 7,
      "away": 7
     },
-    "roof": "dome",
+    "roof": "outdoors",
     "wind": null,
     "temp": null,
     "div_game": false,
     "net_epa": {
-     "home": -0.054,
-     "away": 0.071
+     "home": 0.026,
+     "away": -0.174
     },
     "qb_epa": {
-     "home": 0.043,
-     "away": 0.078
+     "home": 0.061,
+     "away": -0.128
     },
     "form": {
      "home": [
       {
-       "opp": "LAC",
-       "home": false,
-       "pf": 26,
-       "pa": 14,
-       "res": "W",
-       "ats": "W",
-       "ou": "U"
-      },
-      {
-       "opp": "NO",
-       "home": false,
-       "pf": 35,
+       "opp": "TB",
+       "home": true,
+       "pf": 33,
        "pa": 27,
        "res": "W",
        "ats": "W",
        "ou": "O"
       },
       {
-       "opp": "KC",
-       "home": true,
-       "pf": 27,
-       "pa": 30,
-       "res": "L",
+       "opp": "HOU",
+       "home": false,
+       "pf": 20,
+       "pa": 6,
+       "res": "W",
        "ats": "W",
-       "ou": "O"
+       "ou": "U"
       },
       {
-       "opp": "NE",
+       "opp": "PIT",
        "home": false,
-       "pf": 17,
-       "pa": 45,
+       "pf": 27,
+       "pa": 30,
        "res": "L",
        "ats": "L",
        "ou": "O"
       },
       {
-       "opp": "BUF",
+       "opp": "JAX",
        "home": true,
-       "pf": 30,
-       "pa": 33,
+       "pf": 17,
+       "pa": 22,
        "res": "L",
-       "ats": "W",
+       "ats": "L",
+       "ou": "U"
+      },
+      {
+       "opp": "MIA",
+       "home": false,
+       "pf": 31,
+       "pa": 24,
+       "res": "W",
+       "ats": "P",
        "ou": "O"
       }
      ],
      "away": [
+      {
+       "opp": "PHI",
+       "home": true,
+       "pf": 20,
+       "pa": 24,
+       "res": "L",
+       "ats": "W",
+       "ou": "O"
+      },
+      {
+       "opp": "NYG",
+       "home": false,
+       "pf": 7,
+       "pa": 12,
+       "res": "L",
+       "ats": "L",
+       "ou": "U"
+      },
+      {
+       "opp": "BAL",
+       "home": false,
+       "pf": 18,
+       "pa": 24,
+       "res": "L",
+       "ats": "W",
+       "ou": "U"
+      },
+      {
+       "opp": "HOU",
+       "home": true,
+       "pf": 3,
+       "pa": 26,
+       "res": "L",
+       "ats": "L",
+       "ou": "U"
+      },
+      {
+       "opp": "IND",
+       "home": false,
+       "pf": 26,
+       "pa": 20,
+       "res": "W",
+       "ats": "W",
+       "ou": "O"
+      }
+     ]
+    },
+    "injuries": {
+     "home": [],
+     "away": []
+    }
+   }
+  },
+  {
+   "game_id": "2026_08_LAC_LA",
+   "week": 8,
+   "gameday": "2026-11-01",
+   "gametime": "16:05",
+   "home": "LA",
+   "away": "LAC",
+   "kickoff": "2026-11-01T21:05:00Z",
+   "stadium": "SoFi Stadium",
+   "home_qb": "Matthew Stafford",
+   "away_qb": "Justin Herbert",
+   "qb_change": {
+    "home": false,
+    "away": false
+   },
+   "market": {
+    "home_line": -7.0,
+    "total": 45.0,
+    "ml_home": -335.0,
+    "ml_away": 270.0,
+    "source": "6 sportsbooks (median)"
+   },
+   "model": {
+    "home_pts": 26.1,
+    "away_pts": 19.3,
+    "margin": 6.9,
+    "total": 45.4,
+    "p_home": 0.698
+   },
+   "leans": {
+    "spread": {
+     "side": "away",
+     "line": 7.0,
+     "edge": 0.15,
+     "p": 0.505,
+     "conf": "Pass"
+    },
+    "total": {
+     "side": "over",
+     "line": 45.0,
+     "edge": 0.44,
+     "p": 0.514,
+     "conf": "Pass"
+    },
+    "ml": {
+     "side": "away",
+     "price": 270.0,
+     "p": 0.302,
+     "market_p": 0.26,
+     "diff": 0.042,
+     "ev": 0.117,
+     "conf": "Low"
+    }
+   },
+   "books": {
+    "by_book": {
+     "DraftKings": {
+      "ml": {
+       "home": -310,
+       "away": 250
+      },
+      "spread": {
+       "home": -7.0,
+       "home_price": -105,
+       "away_price": -115
+      },
+      "total": {
+       "line": 45.5,
+       "over": -110,
+       "under": -110
+      }
+     },
+     "BetUS": {
+      "spread": {
+       "home": -7.0,
+       "home_price": -110,
+       "away_price": -110
+      },
+      "total": {
+       "line": 45.0,
+       "over": -110,
+       "under": -110
+      }
+     },
+     "FanDuel": {
+      "ml": {
+       "home": -335,
+       "away": 270
+      },
+      "spread": {
+       "home": -7.0,
+       "home_price": -110,
+       "away_price": -110
+      },
+      "total": {
+       "line": 45.5,
+       "over": -105,
+       "under": -115
+      }
+     },
+     "BetRivers": {
+      "ml": {
+       "home": -345,
+       "away": 270
+      },
+      "spread": {
+       "home": -7.0,
+       "home_price": -110,
+       "away_price": -110
+      },
+      "total": {
+       "line": 45.5,
+       "over": -110,
+       "under": -110
+      }
+     },
+     "LowVig.ag": {
+      "spread": {
+       "home": -7.0,
+       "home_price": -105,
+       "away_price": -105
+      },
+      "total": {
+       "line": 45.0,
+       "over": -107,
+       "under": -107
+      }
+     },
+     "BetOnline.ag": {
+      "spread": {
+       "home": -7.0,
+       "home_price": -110,
+       "away_price": -110
+      },
+      "total": {
+       "line": 45.0,
+       "over": -110,
+       "under": -110
+      }
+     }
+    },
+    "spread": {
+     "home_line": -7.0,
+     "fair_home": 0.5,
+     "best_home": {
+      "book": "DraftKings",
+      "line": -7.0,
+      "price": -105
+     },
+     "best_away": {
+      "book": "LowVig.ag",
+      "line": 7.0,
+      "price": -105
+     }
+    },
+    "total": {
+     "line": 45.0,
+     "fair_over": 0.5,
+     "best_over": {
+      "book": "LowVig.ag",
+      "line": 45.0,
+      "price": -107
+     },
+     "best_under": {
+      "book": "DraftKings",
+      "line": 45.5,
+      "price": -110
+     }
+    },
+    "ml": {
+     "fair_home": 0.7402209614810391,
+     "home": -335,
+     "away": 270,
+     "best_home": {
+      "book": "DraftKings",
+      "price": -310
+     },
+     "best_away": {
+      "book": "FanDuel",
+      "price": 270
+     }
+    }
+   },
+   "value": [],
+   "context": {
+    "rest": {
+     "home": 7,
+     "away": 14
+    },
+    "roof": "dome",
+    "wind": null,
+    "temp": null,
+    "div_game": false,
+    "net_epa": {
+     "home": 0.071,
+     "away": -0.066
+    },
+    "qb_epa": {
+     "home": 0.078,
+     "away": -0.1
+    },
+    "form": {
+     "home": [
       {
        "opp": "NYG",
        "home": true,
@@ -4431,6 +2860,53 @@
        "ats": "L",
        "ou": "U"
       }
+     ],
+     "away": [
+      {
+       "opp": "LV",
+       "home": true,
+       "pf": 14,
+       "pa": 26,
+       "res": "L",
+       "ats": "L",
+       "ou": "U"
+      },
+      {
+       "opp": "BUF",
+       "home": false,
+       "pf": 16,
+       "pa": 24,
+       "res": "L",
+       "ats": "L",
+       "ou": "U"
+      },
+      {
+       "opp": "SEA",
+       "home": false,
+       "pf": 23,
+       "pa": 30,
+       "res": "L",
+       "ats": "P",
+       "ou": "O"
+      },
+      {
+       "opp": "DEN",
+       "home": true,
+       "pf": 17,
+       "pa": 23,
+       "res": "L",
+       "ats": "L",
+       "ou": "U"
+      },
+      {
+       "opp": "KC",
+       "home": false,
+       "pf": 6,
+       "pa": 22,
+       "res": "L",
+       "ats": "L",
+       "ou": "U"
+      }
      ]
     },
     "injuries": {
@@ -4440,70 +2916,70 @@
    }
   },
   {
-   "game_id": "2026_07_KC_SEA",
-   "week": 7,
-   "gameday": "2026-10-25",
-   "gametime": "20:20",
-   "home": "SEA",
+   "game_id": "2026_08_KC_DEN",
+   "week": 8,
+   "gameday": "2026-11-01",
+   "gametime": "16:25",
+   "home": "DEN",
    "away": "KC",
-   "kickoff": "2026-10-26T00:20:00Z",
-   "stadium": "Lumen Field",
-   "home_qb": "Drew Lock",
+   "kickoff": "2026-11-01T21:25:00Z",
+   "stadium": "Empower Field at Mile High",
+   "home_qb": "Bo Nix",
    "away_qb": "Patrick Mahomes",
    "qb_change": {
-    "home": true,
+    "home": false,
     "away": false
    },
    "market": {
-    "home_line": -3.0,
+    "home_line": 1.5,
     "total": 42.5,
-    "ml_home": -145.0,
-    "ml_away": 125.0,
-    "source": "9 sportsbooks (median)"
+    "ml_home": 105.0,
+    "ml_away": -125.0,
+    "source": "6 sportsbooks (median)"
    },
    "model": {
-    "home_pts": 22.9,
-    "away_pts": 21.7,
-    "margin": 1.2,
-    "total": 44.6,
-    "p_home": 0.536
+    "home_pts": 21.6,
+    "away_pts": 21.9,
+    "margin": -0.3,
+    "total": 43.5,
+    "p_home": 0.49
    },
    "leans": {
     "spread": {
-     "side": "away",
-     "line": 3.0,
-     "edge": 1.82,
-     "p": 0.555,
-     "conf": "Low"
+     "side": "home",
+     "line": 1.5,
+     "edge": 1.17,
+     "p": 0.535,
+     "conf": "Pass"
     },
     "total": {
      "side": "over",
      "line": 42.5,
-     "edge": 2.13,
-     "p": 0.566,
-     "conf": "Low"
+     "edge": 1.01,
+     "p": 0.532,
+     "conf": "Pass"
     },
     "ml": {
-     "side": "away",
-     "price": 125.0,
-     "p": 0.464,
-     "market_p": 0.429,
-     "diff": 0.035,
-     "ev": 0.045,
-     "conf": "Low"
+     "side": "home",
+     "price": 105.0,
+     "p": 0.49,
+     "market_p": 0.468,
+     "diff": 0.023,
+     "ev": 0.005,
+     "conf": "Pass"
     }
    },
    "books": {
     "by_book": {
      "DraftKings": {
       "ml": {
-       "home": -155,
-       "away": 130
+       "home": 105,
+       "away": -125
       },
       "spread": {
-       "home": -3.0,
-       "home_price": -102,
-       "away_price": -118
+       "home": 1.5,
+       "home_price": -110,
+       "away_price": -110
       },
       "total": {
        "line": 42.5,
@@ -4512,44 +2988,8 @@
       }
      },
      "BetUS": {
-      "ml": {
-       "home": -145,
-       "away": 125
-      },
       "spread": {
-       "home": -3.0,
-       "home_price": 100,
-       "away_price": -120
-      },
-      "total": {
-       "line": 42.5,
-       "over": -110,
-       "under": -110
-      }
-     },
-     "FanDuel": {
-      "ml": {
-       "home": -144,
-       "away": 122
-      },
-      "spread": {
-       "home": -2.5,
-       "home_price": -118,
-       "away_price": -104
-      },
-      "total": {
-       "line": 42.5,
-       "over": -112,
-       "under": -108
-      }
-     },
-     "BetOnline.ag": {
-      "ml": {
-       "home": -146,
-       "away": 126
-      },
-      "spread": {
-       "home": -3.0,
+       "home": 1.5,
        "home_price": -105,
        "away_price": -115
       },
@@ -4559,15 +2999,43 @@
        "under": -110
       }
      },
-     "LowVig.ag": {
+     "FanDuel": {
       "ml": {
-       "home": -146,
-       "away": 126
+       "home": 108,
+       "away": -126
       },
       "spread": {
-       "home": -3.0,
-       "home_price": 103,
+       "home": 1.5,
+       "home_price": -106,
        "away_price": -114
+      },
+      "total": {
+       "line": 42.5,
+       "over": -115,
+       "under": -105
+      }
+     },
+     "BetRivers": {
+      "ml": {
+       "home": 102,
+       "away": -125
+      },
+      "spread": {
+       "home": 1.5,
+       "home_price": -110,
+       "away_price": -110
+      },
+      "total": {
+       "line": 42.5,
+       "over": -113,
+       "under": -108
+      }
+     },
+     "LowVig.ag": {
+      "spread": {
+       "home": 1.5,
+       "home_price": -102,
+       "away_price": -108
       },
       "total": {
        "line": 42.5,
@@ -4575,63 +3043,11 @@
        "under": -107
       }
      },
-     "BetRivers": {
-      "ml": {
-       "home": -139,
-       "away": 114
-      },
+     "BetOnline.ag": {
       "spread": {
-       "home": -2.5,
-       "home_price": -113,
-       "away_price": -108
-      },
-      "total": {
-       "line": 42.5,
-       "over": -109,
-       "under": -112
-      }
-     },
-     "BetMGM": {
-      "ml": {
-       "home": -145,
-       "away": 120
-      },
-      "spread": {
-       "home": -2.5,
-       "home_price": -118,
-       "away_price": -102
-      },
-      "total": {
-       "line": 42.5,
-       "over": -110,
-       "under": -108
-      }
-     },
-     "Bovada": {
-      "ml": {
-       "home": -145,
-       "away": 125
-      },
-      "spread": {
-       "home": -2.5,
-       "home_price": -120,
-       "away_price": 100
-      },
-      "total": {
-       "line": 42.5,
-       "over": -110,
-       "under": -110
-      }
-     },
-     "MyBookie.ag": {
-      "ml": {
-       "home": -153,
-       "away": 120
-      },
-      "spread": {
-       "home": -3.0,
-       "home_price": 100,
-       "away_price": -120
+       "home": 1.5,
+       "home_price": -107,
+       "away_price": -113
       },
       "total": {
        "line": 42.5,
@@ -4641,17 +3057,17 @@
      }
     },
     "spread": {
-     "home_line": -3.0,
-     "fair_home": 0.48044542229805576,
+     "home_line": 1.5,
+     "fair_home": 0.49326620326575693,
      "best_home": {
-      "book": "BetRivers",
-      "line": -2.5,
-      "price": -113
+      "book": "LowVig.ag",
+      "line": 1.5,
+      "price": -102
      },
      "best_away": {
       "book": "LowVig.ag",
-      "line": 3.0,
-      "price": -114
+      "line": -1.5,
+      "price": -108
      }
     },
     "total": {
@@ -4663,88 +3079,88 @@
       "price": -107
      },
      "best_under": {
-      "book": "LowVig.ag",
+      "book": "FanDuel",
       "line": 42.5,
-      "price": -107
+      "price": -105
      }
     },
     "ml": {
-     "fair_home": 0.5711159737417943,
-     "home": -145,
-     "away": 125,
+     "fair_home": 0.4675324675324675,
+     "home": 105,
+     "away": -125,
      "best_home": {
-      "book": "BetRivers",
-      "price": -139
+      "book": "FanDuel",
+      "price": 108
      },
      "best_away": {
       "book": "DraftKings",
-      "price": 130
+      "price": -125
      }
     }
    },
    "value": [],
    "context": {
     "rest": {
-     "home": 10,
+     "home": 7,
      "away": 7
     },
     "roof": "outdoors",
     "wind": null,
     "temp": null,
-    "div_game": false,
+    "div_game": true,
     "net_epa": {
-     "home": 0.094,
+     "home": 0.047,
      "away": 0.107
     },
     "qb_epa": {
-     "home": -0.008,
+     "home": -0.012,
      "away": 0.06
     },
     "form": {
      "home": [
       {
-       "opp": "ARI",
-       "home": false,
-       "pf": 31,
-       "pa": 7,
+       "opp": "JAX",
+       "home": true,
+       "pf": 20,
+       "pa": 13,
        "res": "W",
        "ats": "W",
        "ou": "U"
       },
       {
-       "opp": "WAS",
-       "home": false,
-       "pf": 31,
-       "pa": 33,
-       "res": "L",
-       "ats": "L",
-       "ou": "O"
-      },
-      {
-       "opp": "LAC",
+       "opp": "LA",
        "home": true,
        "pf": 30,
-       "pa": 23,
+       "pa": 26,
        "res": "W",
-       "ats": "P",
+       "ats": "W",
        "ou": "O"
       },
       {
        "opp": "SF",
-       "home": true,
-       "pf": 29,
-       "pa": 32,
-       "res": "L",
-       "ats": "L",
-       "ou": "O"
-      },
-      {
-       "opp": "DEN",
        "home": false,
        "pf": 14,
-       "pa": 17,
+       "pa": 24,
        "res": "L",
        "ats": "L",
+       "ou": "U"
+      },
+      {
+       "opp": "LAC",
+       "home": false,
+       "pf": 23,
+       "pa": 17,
+       "res": "W",
+       "ats": "W",
+       "ou": "U"
+      },
+      {
+       "opp": "SEA",
+       "home": true,
+       "pf": 17,
+       "pa": 14,
+       "res": "W",
+       "ats": "W",
        "ou": "U"
       }
      ],
@@ -4803,198 +3219,102 @@
    }
   },
   {
-   "game_id": "2026_07_DAL_PHI",
-   "week": 7,
-   "gameday": "2026-10-26",
-   "gametime": "20:15",
-   "home": "PHI",
-   "away": "DAL",
-   "kickoff": "2026-10-27T00:15:00Z",
-   "stadium": "Lincoln Financial Field",
-   "home_qb": "Jalen Hurts",
-   "away_qb": "Dak Prescott",
+   "game_id": "2026_08_NE_MIA",
+   "week": 8,
+   "gameday": "2026-11-01",
+   "gametime": "16:25",
+   "home": "MIA",
+   "away": "NE",
+   "kickoff": "2026-11-01T21:25:00Z",
+   "stadium": "Hard Rock Stadium",
+   "home_qb": "Malik Willis",
+   "away_qb": "Drake Maye",
    "qb_change": {
-    "home": true,
+    "home": false,
     "away": false
    },
    "market": {
-    "home_line": 4.5,
+    "home_line": 8.5,
     "total": 44.0,
-    "ml_home": 177.0,
-    "ml_away": -210.0,
-    "source": "9 sportsbooks (median)"
+    "ml_home": 360.0,
+    "ml_away": -470.0,
+    "source": "3 sportsbooks (median)"
    },
    "model": {
-    "home_pts": 22.6,
-    "away_pts": 22.9,
-    "margin": -0.3,
-    "total": 45.5,
-    "p_home": 0.491
+    "home_pts": 18.4,
+    "away_pts": 26.1,
+    "margin": -7.8,
+    "total": 44.5,
+    "p_home": 0.278
    },
    "leans": {
     "spread": {
      "side": "home",
-     "line": 4.5,
-     "edge": 4.19,
-     "p": 0.624,
-     "conf": "Medium"
+     "line": 8.5,
+     "edge": 0.75,
+     "p": 0.523,
+     "conf": "Pass"
     },
     "total": {
      "side": "over",
      "line": 44.0,
-     "edge": 1.47,
-     "p": 0.546,
+     "edge": 0.52,
+     "p": 0.516,
      "conf": "Pass"
     },
     "ml": {
      "side": "home",
-     "price": 177.0,
-     "p": 0.491,
-     "market_p": 0.348,
-     "diff": 0.143,
-     "ev": 0.359,
-     "conf": "High"
+     "price": 360.0,
+     "p": 0.278,
+     "market_p": 0.209,
+     "diff": 0.07,
+     "ev": 0.281,
+     "conf": "Medium"
     }
    },
    "books": {
     "by_book": {
      "DraftKings": {
       "ml": {
-       "home": 185,
-       "away": -225
+       "home": 360,
+       "away": -470
       },
       "spread": {
-       "home": 4.5,
-       "home_price": -108,
-       "away_price": -112
+       "home": 8.5,
+       "home_price": -110,
+       "away_price": -110
       },
       "total": {
        "line": 44.5,
-       "over": -110,
-       "under": -110
-      }
-     },
-     "BetUS": {
-      "ml": {
-       "home": 180,
-       "away": -210
-      },
-      "spread": {
-       "home": 4.5,
-       "home_price": -115,
-       "away_price": -105
-      },
-      "total": {
-       "line": 44.0,
        "over": -110,
        "under": -110
       }
      },
      "FanDuel": {
       "ml": {
-       "home": 172,
-       "away": -205
+       "home": 360,
+       "away": -460
       },
       "spread": {
-       "home": 4.5,
-       "home_price": -110,
-       "away_price": -110
-      },
-      "total": {
-       "line": 44.5,
-       "over": -110,
-       "under": -110
-      }
-     },
-     "BetOnline.ag": {
-      "ml": {
-       "home": 177,
-       "away": -205
-      },
-      "spread": {
-       "home": 4.5,
-       "home_price": -116,
+       "home": 8.5,
+       "home_price": -118,
        "away_price": -104
       },
       "total": {
-       "line": 44.0,
-       "over": -110,
-       "under": -110
-      }
-     },
-     "LowVig.ag": {
-      "ml": {
-       "home": 177,
-       "away": -205
-      },
-      "spread": {
-       "home": 4.5,
-       "home_price": -112,
-       "away_price": 101
-      },
-      "total": {
-       "line": 44.0,
-       "over": -107,
-       "under": -107
+       "line": 43.5,
+       "over": -120,
+       "under": -102
       }
      },
      "BetRivers": {
       "ml": {
-       "home": 180,
-       "away": -225
+       "home": 350,
+       "away": -480
       },
       "spread": {
-       "home": 4.5,
-       "home_price": -109,
-       "away_price": -112
-      },
-      "total": {
-       "line": 44.5,
-       "over": -108,
-       "under": -113
-      }
-     },
-     "BetMGM": {
-      "ml": {
-       "home": 175,
-       "away": -210
-      },
-      "spread": {
-       "home": 4.0,
+       "home": 8.0,
        "home_price": -108,
-       "away_price": -112
-      },
-      "total": {
-       "line": 44.5,
-       "over": -110,
-       "under": -120
-      }
-     },
-     "MyBookie.ag": {
-      "ml": {
-       "home": 170,
-       "away": -222
-      },
-      "spread": {
-       "home": 4.5,
-       "home_price": -110,
-       "away_price": -110
-      },
-      "total": {
-       "line": 44.0,
-       "over": -110,
-       "under": -110
-      }
-     },
-     "Bovada": {
-      "ml": {
-       "home": 175,
-       "away": -210
-      },
-      "spread": {
-       "home": 4.0,
-       "home_price": -115,
-       "away_price": -105
+       "away_price": -113
       },
       "total": {
        "line": 44.0,
@@ -5004,26 +3324,26 @@
      }
     },
     "spread": {
-     "home_line": 4.5,
-     "fair_home": 0.5,
+     "home_line": 8.5,
+     "fair_home": 0.5074875919904158,
      "best_home": {
       "book": "DraftKings",
-      "line": 4.5,
-      "price": -108
+      "line": 8.5,
+      "price": -110
      },
      "best_away": {
-      "book": "Bovada",
-      "line": -4.0,
-      "price": -105
+      "book": "BetRivers",
+      "line": -8.0,
+      "price": -113
      }
     },
     "total": {
      "line": 44.0,
      "fair_over": 0.5,
      "best_over": {
-      "book": "LowVig.ag",
-      "line": 44.0,
-      "price": -107
+      "book": "FanDuel",
+      "line": 43.5,
+      "price": -120
      },
      "best_under": {
       "book": "DraftKings",
@@ -5032,39 +3352,389 @@
      }
     },
     "ml": {
-     "fair_home": 0.34929577464788736,
-     "home": 177,
-     "away": -210,
+     "fair_home": 0.2092675635276532,
+     "home": 360,
+     "away": -470,
      "best_home": {
       "book": "DraftKings",
-      "price": 185
+      "price": 360
      },
      "best_away": {
       "book": "FanDuel",
-      "price": -205
+      "price": -460
      }
     }
    },
    "value": [],
    "context": {
     "rest": {
-     "home": 8,
-     "away": 8
+     "home": 7,
+     "away": 10
     },
     "roof": "outdoors",
     "wind": null,
     "temp": null,
     "div_game": true,
     "net_epa": {
-     "home": -0.106,
-     "away": -0.078
+     "home": -0.152,
+     "away": 0.077
     },
     "qb_epa": {
-     "home": -0.021,
-     "away": 0.06
+     "home": -0.072,
+     "away": 0.064
     },
     "form": {
      "home": [
+      {
+       "opp": "LV",
+       "home": false,
+       "pf": 13,
+       "pa": 27,
+       "res": "L",
+       "ats": "L",
+       "ou": "U"
+      },
+      {
+       "opp": "SF",
+       "home": false,
+       "pf": 13,
+       "pa": 35,
+       "res": "L",
+       "ats": "L",
+       "ou": "O"
+      },
+      {
+       "opp": "KC",
+       "home": true,
+       "pf": 10,
+       "pa": 24,
+       "res": "L",
+       "ats": "L",
+       "ou": "U"
+      },
+      {
+       "opp": "MIN",
+       "home": false,
+       "pf": 10,
+       "pa": 15,
+       "res": "L",
+       "ats": "W",
+       "ou": "U"
+      },
+      {
+       "opp": "CIN",
+       "home": true,
+       "pf": 24,
+       "pa": 31,
+       "res": "L",
+       "ats": "P",
+       "ou": "O"
+      }
+     ],
+     "away": [
+      {
+       "opp": "JAX",
+       "home": false,
+       "pf": 6,
+       "pa": 35,
+       "res": "L",
+       "ats": "L",
+       "ou": "U"
+      },
+      {
+       "opp": "BUF",
+       "home": false,
+       "pf": 29,
+       "pa": 26,
+       "res": "W",
+       "ats": "W",
+       "ou": "O"
+      },
+      {
+       "opp": "LV",
+       "home": true,
+       "pf": 45,
+       "pa": 17,
+       "res": "W",
+       "ats": "W",
+       "ou": "O"
+      },
+      {
+       "opp": "NYJ",
+       "home": true,
+       "pf": 26,
+       "pa": 19,
+       "res": "W",
+       "ats": "L",
+       "ou": "O"
+      },
+      {
+       "opp": "CHI",
+       "home": false,
+       "pf": 24,
+       "pa": 30,
+       "res": "L",
+       "ats": "L",
+       "ou": "O"
+      }
+     ]
+    },
+    "injuries": {
+     "home": [],
+     "away": []
+    }
+   }
+  },
+  {
+   "game_id": "2026_08_PHI_WAS",
+   "week": 8,
+   "gameday": "2026-11-01",
+   "gametime": "20:20",
+   "home": "WAS",
+   "away": "PHI",
+   "kickoff": "2026-11-02T01:20:00Z",
+   "stadium": "Northwest Stadium",
+   "home_qb": "Jayden Daniels",
+   "away_qb": "Jalen Hurts",
+   "qb_change": {
+    "home": false,
+    "away": true
+   },
+   "market": {
+    "home_line": -4.0,
+    "total": 41.0,
+    "ml_home": -200.0,
+    "ml_away": 168.0,
+    "source": "6 sportsbooks (median)"
+   },
+   "model": {
+    "home_pts": 23.5,
+    "away_pts": 19.6,
+    "margin": 3.9,
+    "total": 43.1,
+    "p_home": 0.615
+   },
+   "leans": {
+    "spread": {
+     "side": "away",
+     "line": 4.0,
+     "edge": 0.12,
+     "p": 0.504,
+     "conf": "Pass"
+    },
+    "total": {
+     "side": "over",
+     "line": 41.0,
+     "edge": 2.12,
+     "p": 0.566,
+     "conf": "Low"
+    },
+    "ml": {
+     "side": "away",
+     "price": 168.0,
+     "p": 0.385,
+     "market_p": 0.359,
+     "diff": 0.026,
+     "ev": 0.031,
+     "conf": "Pass"
+    }
+   },
+   "books": {
+    "by_book": {
+     "DraftKings": {
+      "ml": {
+       "home": -180,
+       "away": 150
+      },
+      "spread": {
+       "home": -3.5,
+       "home_price": -110,
+       "away_price": -110
+      },
+      "total": {
+       "line": 41.5,
+       "over": -110,
+       "under": -110
+      }
+     },
+     "BetUS": {
+      "spread": {
+       "home": -4.0,
+       "home_price": -110,
+       "away_price": -110
+      },
+      "total": {
+       "line": 41.0,
+       "over": -110,
+       "under": -110
+      }
+     },
+     "FanDuel": {
+      "ml": {
+       "home": -200,
+       "away": 168
+      },
+      "spread": {
+       "home": -3.5,
+       "home_price": -120,
+       "away_price": -102
+      },
+      "total": {
+       "line": 40.5,
+       "over": -105,
+       "under": -115
+      }
+     },
+     "BetRivers": {
+      "ml": {
+       "home": -210,
+       "away": 170
+      },
+      "spread": {
+       "home": -4.0,
+       "home_price": -110,
+       "away_price": -110
+      },
+      "total": {
+       "line": 40.5,
+       "over": -107,
+       "under": -114
+      }
+     },
+     "LowVig.ag": {
+      "spread": {
+       "home": -4.0,
+       "home_price": -105,
+       "away_price": -105
+      },
+      "total": {
+       "line": 41.0,
+       "over": -107,
+       "under": -107
+      }
+     },
+     "BetOnline.ag": {
+      "spread": {
+       "home": -4.0,
+       "home_price": -110,
+       "away_price": -110
+      },
+      "total": {
+       "line": 41.0,
+       "over": -110,
+       "under": -110
+      }
+     }
+    },
+    "spread": {
+     "home_line": -4.0,
+     "fair_home": 0.5,
+     "best_home": {
+      "book": "DraftKings",
+      "line": -3.5,
+      "price": -110
+     },
+     "best_away": {
+      "book": "LowVig.ag",
+      "line": 4.0,
+      "price": -105
+     }
+    },
+    "total": {
+     "line": 41.0,
+     "fair_over": 0.5,
+     "best_over": {
+      "book": "FanDuel",
+      "line": 40.5,
+      "price": -105
+     },
+     "best_under": {
+      "book": "DraftKings",
+      "line": 41.5,
+      "price": -110
+     }
+    },
+    "ml": {
+     "fair_home": 0.6411483253588516,
+     "home": -200,
+     "away": 168,
+     "best_home": {
+      "book": "DraftKings",
+      "price": -180
+     },
+     "best_away": {
+      "book": "BetRivers",
+      "price": 170
+     }
+    }
+   },
+   "value": [],
+   "context": {
+    "rest": {
+     "home": 13,
+     "away": 6
+    },
+    "roof": "outdoors",
+    "wind": null,
+    "temp": null,
+    "div_game": true,
+    "net_epa": {
+     "home": -0.058,
+     "away": -0.106
+    },
+    "qb_epa": {
+     "home": -0.009,
+     "away": -0.021
+    },
+    "form": {
+     "home": [
+      {
+       "opp": "DAL",
+       "home": false,
+       "pf": 20,
+       "pa": 37,
+       "res": "L",
+       "ats": "L",
+       "ou": "O"
+      },
+      {
+       "opp": "SEA",
+       "home": true,
+       "pf": 33,
+       "pa": 31,
+       "res": "W",
+       "ats": "W",
+       "ou": "O"
+      },
+      {
+       "opp": "IND",
+       "home": true,
+       "pf": 13,
+       "pa": 30,
+       "res": "L",
+       "ats": "L",
+       "ou": "U"
+      },
+      {
+       "opp": "NYG",
+       "home": true,
+       "pf": 27,
+       "pa": 27,
+       "res": "T",
+       "ats": "L",
+       "ou": "O"
+      },
+      {
+       "opp": "SF",
+       "home": false,
+       "pf": 17,
+       "pa": 23,
+       "res": "L",
+       "ats": "W",
+       "ou": "U"
+      }
+     ],
+     "away": [
       {
        "opp": "TEN",
        "home": false,
@@ -5110,52 +3780,272 @@
        "ats": "L",
        "ou": "U"
       }
-     ],
-     "away": [
+     ]
+    },
+    "injuries": {
+     "home": [],
+     "away": []
+    }
+   }
+  },
+  {
+   "game_id": "2026_08_CHI_SEA",
+   "week": 8,
+   "gameday": "2026-11-02",
+   "gametime": "20:15",
+   "home": "SEA",
+   "away": "CHI",
+   "kickoff": "2026-11-03T01:20:00Z",
+   "stadium": "Lumen Field",
+   "home_qb": "Sam Darnold",
+   "away_qb": "Caleb Williams",
+   "qb_change": {
+    "home": false,
+    "away": false
+   },
+   "market": {
+    "home_line": -3.0,
+    "total": 46.5,
+    "ml_home": -162.0,
+    "ml_away": 134.0,
+    "source": "3 sportsbooks (median)"
+   },
+   "model": {
+    "home_pts": 23.9,
+    "away_pts": 22.1,
+    "margin": 1.8,
+    "total": 45.9,
+    "p_home": 0.554
+   },
+   "leans": {
+    "spread": {
+     "side": "away",
+     "line": 3.0,
+     "edge": 1.19,
+     "p": 0.536,
+     "conf": "Pass"
+    },
+    "total": {
+     "side": "under",
+     "line": 46.5,
+     "edge": 0.59,
+     "p": 0.518,
+     "conf": "Pass"
+    },
+    "ml": {
+     "side": "away",
+     "price": 134.0,
+     "p": 0.446,
+     "market_p": 0.409,
+     "diff": 0.037,
+     "ev": 0.043,
+     "conf": "Low"
+    }
+   },
+   "books": {
+    "by_book": {
+     "DraftKings": {
+      "ml": {
+       "home": -162,
+       "away": 136
+      },
+      "spread": {
+       "home": -3.0,
+       "home_price": -110,
+       "away_price": -110
+      },
+      "total": {
+       "line": 46.5,
+       "over": -115,
+       "under": -105
+      }
+     },
+     "FanDuel": {
+      "ml": {
+       "home": -158,
+       "away": 134
+      },
+      "spread": {
+       "home": -3.0,
+       "home_price": -106,
+       "away_price": -114
+      },
+      "total": {
+       "line": 46.5,
+       "over": -114,
+       "under": -106
+      }
+     },
+     "BetRivers": {
+      "ml": {
+       "home": -162,
+       "away": 133
+      },
+      "spread": {
+       "home": -3.0,
+       "home_price": -104,
+       "away_price": -118
+      },
+      "total": {
+       "line": 46.5,
+       "over": -112,
+       "under": -109
+      }
+     }
+    },
+    "spread": {
+     "home_line": -3.0,
+     "fair_home": 0.49133599029630914,
+     "best_home": {
+      "book": "BetRivers",
+      "line": -3.0,
+      "price": -104
+     },
+     "best_away": {
+      "book": "DraftKings",
+      "line": 3.0,
+      "price": -110
+     }
+    },
+    "total": {
+     "line": 46.5,
+     "fair_over": 0.5086640097036909,
+     "best_over": {
+      "book": "BetRivers",
+      "line": 46.5,
+      "price": -112
+     },
+     "best_under": {
+      "book": "DraftKings",
+      "line": 46.5,
+      "price": -105
+     }
+    },
+    "ml": {
+     "fair_home": 0.5902792981578207,
+     "home": -162,
+     "away": 134,
+     "best_home": {
+      "book": "FanDuel",
+      "price": -158
+     },
+     "best_away": {
+      "book": "DraftKings",
+      "price": 136
+     }
+    }
+   },
+   "value": [],
+   "context": {
+    "rest": {
+     "home": 8,
+     "away": 11
+    },
+    "roof": "outdoors",
+    "wind": null,
+    "temp": null,
+    "div_game": false,
+    "net_epa": {
+     "home": 0.094,
+     "away": 0.042
+    },
+    "qb_epa": {
+     "home": -0.022,
+     "away": 0.061
+    },
+    "form": {
+     "home": [
       {
-       "opp": "WAS",
-       "home": true,
-       "pf": 37,
-       "pa": 20,
+       "opp": "ARI",
+       "home": false,
+       "pf": 31,
+       "pa": 7,
        "res": "W",
        "ats": "W",
+       "ou": "U"
+      },
+      {
+       "opp": "WAS",
+       "home": false,
+       "pf": 31,
+       "pa": 33,
+       "res": "L",
+       "ats": "L",
        "ou": "O"
       },
       {
-       "opp": "BAL",
+       "opp": "LAC",
        "home": true,
-       "pf": 31,
-       "pa": 34,
-       "res": "L",
+       "pf": 30,
+       "pa": 23,
+       "res": "W",
        "ats": "P",
        "ou": "O"
       },
       {
-       "opp": "HOU",
-       "home": false,
-       "pf": 34,
-       "pa": 30,
-       "res": "W",
-       "ats": "W",
+       "opp": "SF",
+       "home": true,
+       "pf": 29,
+       "pa": 32,
+       "res": "L",
+       "ats": "L",
        "ou": "O"
       },
       {
-       "opp": "TB",
-       "home": true,
-       "pf": 16,
-       "pa": 24,
+       "opp": "DEN",
+       "home": false,
+       "pf": 14,
+       "pa": 17,
        "res": "L",
        "ats": "L",
+       "ou": "U"
+      }
+     ],
+     "away": [
+      {
+       "opp": "PHI",
+       "home": true,
+       "pf": 27,
+       "pa": 7,
+       "res": "W",
+       "ats": "W",
+       "ou": "U"
+      },
+      {
+       "opp": "NYJ",
+       "home": true,
+       "pf": 23,
+       "pa": 12,
+       "res": "W",
+       "ats": "W",
        "ou": "U"
       },
       {
        "opp": "GB",
        "home": false,
-       "pf": 13,
-       "pa": 23,
+       "pf": 7,
+       "pa": 31,
        "res": "L",
        "ats": "L",
        "ou": "U"
+      },
+      {
+       "opp": "ATL",
+       "home": false,
+       "pf": 31,
+       "pa": 23,
+       "res": "W",
+       "ats": "W",
+       "ou": "O"
+      },
+      {
+       "opp": "NE",
+       "home": true,
+       "pf": 30,
+       "pa": 24,
+       "res": "W",
+       "ats": "W",
+       "ou": "O"
       }
      ]
     },
@@ -33206,14 +32096,14 @@
  ],
  "teams": [
   {
-   "team": "SF",
-   "off_epa": 0.125,
-   "def_epa": -0.027,
-   "net": 0.152,
-   "pts_for": 26.5,
-   "pts_against": 20.8,
-   "qb": "Brock Purdy",
-   "qb_epa": 0.094
+   "team": "JAX",
+   "off_epa": 0.119,
+   "def_epa": -0.017,
+   "net": 0.136,
+   "pts_for": 26.8,
+   "pts_against": 20.5,
+   "qb": "Trevor Lawrence",
+   "qb_epa": 0.078
   },
   {
    "team": "KC",
@@ -33232,33 +32122,33 @@
    "net": 0.094,
    "pts_for": 25.6,
    "pts_against": 20.4,
-   "qb": "Drew Lock",
-   "qb_epa": -0.008
+   "qb": "Sam Darnold",
+   "qb_epa": -0.022
+  },
+  {
+   "team": "BUF",
+   "off_epa": 0.162,
+   "def_epa": 0.074,
+   "net": 0.088,
+   "pts_for": 29.5,
+   "pts_against": 26.0,
+   "qb": "Josh Allen",
+   "qb_epa": 0.092
   },
   {
    "team": "NE",
-   "off_epa": 0.057,
-   "def_epa": -0.03,
-   "net": 0.086,
+   "off_epa": 0.073,
+   "def_epa": -0.004,
+   "net": 0.077,
    "pts_for": 24.9,
-   "pts_against": 19.3,
+   "pts_against": 20.6,
    "qb": "Drake Maye",
-   "qb_epa": 0.049
-  },
-  {
-   "team": "HOU",
-   "off_epa": 0.01,
-   "def_epa": -0.072,
-   "net": 0.082,
-   "pts_for": 23.9,
-   "pts_against": 21.3,
-   "qb": "C.J. Stroud",
-   "qb_epa": 0.031
+   "qb_epa": 0.064
   },
   {
    "team": "LA",
    "off_epa": 0.033,
-   "def_epa": -0.039,
+   "def_epa": -0.038,
    "net": 0.071,
    "pts_for": 23.9,
    "pts_against": 23.0,
@@ -33277,7 +32167,7 @@
   },
   {
    "team": "DEN",
-   "off_epa": -0.024,
+   "off_epa": -0.023,
    "def_epa": -0.07,
    "net": 0.047,
    "pts_for": 22.0,
@@ -33297,13 +32187,13 @@
   },
   {
    "team": "CHI",
-   "off_epa": 0.01,
-   "def_epa": -0.025,
-   "net": 0.035,
-   "pts_for": 23.7,
+   "off_epa": 0.035,
+   "def_epa": -0.007,
+   "net": 0.042,
+   "pts_for": 24.8,
    "pts_against": 22.0,
    "qb": "Caleb Williams",
-   "qb_epa": 0.045
+   "qb_epa": 0.061
   },
   {
    "team": "CAR",
@@ -33318,7 +32208,7 @@
   {
    "team": "GB",
    "off_epa": 0.012,
-   "def_epa": -0.018,
+   "def_epa": -0.017,
    "net": 0.03,
    "pts_for": 21.7,
    "pts_against": 21.3,
@@ -33350,7 +32240,7 @@
    "off_epa": -0.021,
    "def_epa": -0.012,
    "net": -0.009,
-   "pts_for": 23.4,
+   "pts_for": 23.5,
    "pts_against": 22.4,
    "qb": "Aaron Rodgers",
    "qb_epa": -0.068
@@ -33361,13 +32251,13 @@
    "def_epa": -0.016,
    "net": -0.03,
    "pts_for": 23.1,
-   "pts_against": 24.6,
+   "pts_against": 24.7,
    "qb": "Michael Penix Jr.",
    "qb_epa": 0.003
   },
   {
    "team": "NYJ",
-   "off_epa": -0.067,
+   "off_epa": -0.066,
    "def_epa": -0.012,
    "net": -0.054,
    "pts_for": 19.0,
@@ -33386,6 +32276,16 @@
    "qb_epa": 0.043
   },
   {
+   "team": "TB",
+   "off_epa": -0.088,
+   "def_epa": -0.032,
+   "net": -0.056,
+   "pts_for": 20.3,
+   "pts_against": 23.1,
+   "qb": "Jalon Daniels",
+   "qb_epa": -0.094
+  },
+  {
    "team": "CLE",
    "off_epa": -0.099,
    "def_epa": -0.042,
@@ -33396,14 +32296,14 @@
    "qb_epa": -0.072
   },
   {
-   "team": "TB",
-   "off_epa": -0.088,
-   "def_epa": -0.032,
-   "net": -0.056,
-   "pts_for": 20.3,
-   "pts_against": 23.1,
-   "qb": "Jalon Daniels",
-   "qb_epa": -0.094
+   "team": "WAS",
+   "off_epa": -0.007,
+   "def_epa": 0.05,
+   "net": -0.058,
+   "pts_for": 22.4,
+   "pts_against": 25.8,
+   "qb": "Jayden Daniels",
+   "qb_epa": -0.009
   },
   {
    "team": "ARI",
@@ -33416,12 +32316,22 @@
    "qb_epa": -0.031
   },
   {
+   "team": "LAC",
+   "off_epa": -0.134,
+   "def_epa": -0.068,
+   "net": -0.066,
+   "pts_for": 18.0,
+   "pts_against": 22.6,
+   "qb": "Justin Herbert",
+   "qb_epa": -0.1
+  },
+  {
    "team": "IND",
-   "off_epa": -0.036,
+   "off_epa": -0.035,
    "def_epa": 0.036,
    "net": -0.071,
-   "pts_for": 23.9,
-   "pts_against": 26.6,
+   "pts_for": 24.0,
+   "pts_against": 26.7,
    "qb": "Daniel Jones",
    "qb_epa": -0.051
   },
@@ -33436,28 +32346,8 @@
    "qb_epa": 0.06
   },
   {
-   "team": "NYG",
-   "off_epa": -0.064,
-   "def_epa": 0.017,
-   "net": -0.081,
-   "pts_for": 21.3,
-   "pts_against": 24.2,
-   "qb": "J.J. McCarthy",
-   "qb_epa": -0.064
-  },
-  {
-   "team": "NO",
-   "off_epa": -0.039,
-   "def_epa": 0.051,
-   "net": -0.09,
-   "pts_for": 24.2,
-   "pts_against": 27.1,
-   "qb": "Tyler Shough",
-   "qb_epa": -0.037
-  },
-  {
    "team": "PHI",
-   "off_epa": -0.105,
+   "off_epa": -0.104,
    "def_epa": 0.001,
    "net": -0.106,
    "pts_for": 19.3,
@@ -33467,10 +32357,10 @@
   },
   {
    "team": "MIA",
-   "off_epa": -0.061,
+   "off_epa": -0.06,
    "def_epa": 0.091,
    "net": -0.152,
-   "pts_for": 18.7,
+   "pts_for": 18.8,
    "pts_against": 25.3,
    "qb": "Malik Willis",
    "qb_epa": -0.072
@@ -33489,26 +32379,26 @@
  "notes": [],
  "model": {
   "margin_coef": {
-   "home_field": 2.014,
-   "d_net_epa": 3.38,
-   "d_net_pts": 0.64,
-   "d_off_pass": -0.952,
-   "d_def_pass": 1.789,
-   "d_qb": 13.263,
-   "h_qb_change": -1.224,
-   "a_qb_change": 1.115,
+   "home_field": 2.02,
+   "d_net_epa": 3.403,
+   "d_net_pts": 0.639,
+   "d_off_pass": -0.964,
+   "d_def_pass": 1.768,
+   "d_qb": 13.298,
+   "h_qb_change": -1.22,
+   "a_qb_change": 1.103,
    "rest_diff": 0.227,
-   "div_game": -0.267
+   "div_game": -0.275
   },
   "total_coef": {
-   "s_off_epa": 7.445,
-   "s_def_epa": 3.078,
-   "s_pts": 0.277,
-   "s_plays": 0.05,
-   "s_qb": 12.775,
-   "indoor": -0.024,
+   "s_off_epa": 7.471,
+   "s_def_epa": 3.096,
+   "s_pts": 0.275,
+   "s_plays": 0.053,
+   "s_qb": 12.813,
+   "indoor": -0.032,
    "wind_x": -0.323,
-   "cold": -0.129
+   "cold": -0.13
   },
   "margin_sd": 13.2
  }
