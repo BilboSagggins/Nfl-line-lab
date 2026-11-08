@@ -3250,7 +3250,7 @@
    "season": 2026,
    "week": 8,
    "made_at": "2026-10-29T13:51:40.678291+00:00",
-   "result": "pending"
+   "result": "void"
   },
   {
    "id": "2026_08_BAL_BUF:prop:dj moore:rec_yds",
@@ -4107,7 +4107,7 @@
    "season": 2026,
    "week": 8,
    "made_at": "2026-10-29T13:51:40.678291+00:00",
-   "result": "pending"
+   "result": "void"
   },
   {
    "id": "2026_08_MIN_DET:prop:kyler murray:pass_yds",
@@ -4376,7 +4376,10 @@
    "season": 2026,
    "week": 9,
    "made_at": "2026-11-05T14:11:14.043846+00:00",
-   "result": "pending"
+   "result": "W",
+   "close_line": 40.5,
+   "clv": 1.0,
+   "units": 0.909
   },
   {
    "id": "2026_09_JAX_BAL:value:ml:home",
@@ -4393,7 +4396,10 @@
    "season": 2026,
    "week": 9,
    "made_at": "2026-11-05T14:11:14.043846+00:00",
-   "result": "pending"
+   "result": "L",
+   "close_line": 350.0,
+   "clv": 0.032,
+   "units": -1.0
   },
   {
    "id": "2026_09_CIN_ATL:model:total",
@@ -5099,7 +5105,9 @@
    "season": 2026,
    "week": 9,
    "made_at": "2026-11-05T14:11:14.043846+00:00",
-   "result": "pending"
+   "result": "W",
+   "actual": 0.0,
+   "units": 0.855
   },
   {
    "id": "2026_09_CIN_ATL:prop:drake london:receptions",
@@ -5479,7 +5487,9 @@
    "season": 2026,
    "week": 9,
    "made_at": "2026-11-05T14:11:14.043846+00:00",
-   "result": "pending"
+   "result": "L",
+   "actual": 85.0,
+   "units": -1.0
   },
   {
    "id": "2026_09_LA_WAS:prop:matthew stafford:pass_yds",
@@ -5650,7 +5660,9 @@
    "season": 2026,
    "week": 9,
    "made_at": "2026-11-05T14:11:14.043846+00:00",
-   "result": "pending"
+   "result": "W",
+   "actual": 2.0,
+   "units": 0.833
   },
   {
    "id": "2026_09_NYJ_KC:prop:kenneth walker:receptions",
@@ -5764,7 +5776,9 @@
    "season": 2026,
    "week": 9,
    "made_at": "2026-11-05T14:11:14.043846+00:00",
-   "result": "pending"
+   "result": "W",
+   "actual": 61.0,
+   "units": 0.885
   },
   {
    "id": "2026_09_JAX_BAL:prop:mark andrews:rec_yds",
@@ -5783,7 +5797,9 @@
    "season": 2026,
    "week": 9,
    "made_at": "2026-11-05T14:11:14.043846+00:00",
-   "result": "pending"
+   "result": "W",
+   "actual": 19.0,
+   "units": 0.909
   },
   {
    "id": "2026_09_CIN_ATL:prop:drake london:rec_yds",
@@ -5897,7 +5913,9 @@
    "season": 2026,
    "week": 9,
    "made_at": "2026-11-05T14:11:14.043846+00:00",
-   "result": "pending"
+   "result": "W",
+   "actual": 57.0,
+   "units": 0.877
   },
   {
    "id": "2026_09_DEN_CAR:prop:jalen coker:rec_yds",
@@ -6239,7 +6257,9 @@
    "season": 2026,
    "week": 9,
    "made_at": "2026-11-05T14:11:14.043846+00:00",
-   "result": "pending"
+   "result": "L",
+   "actual": 0.0,
+   "units": -1.0
   },
   {
    "id": "2026_09_GB_NE:prop:tucker kraft:rec_yds",
@@ -6320,13 +6340,13 @@
  ],
  "summary": {
   "model": {
-   "w": 5,
+   "w": 6,
    "l": 8,
    "p": 0,
-   "units": -3.455,
-   "n": 13,
-   "avg_clv": 1.115,
-   "beat_close": 0.385
+   "units": -2.546,
+   "n": 14,
+   "avg_clv": 1.107,
+   "beat_close": 0.429
   },
   "model:spread": {
    "w": 2,
@@ -6338,57 +6358,57 @@
    "beat_close": 0.333
   },
   "all": {
-   "w": 111,
-   "l": 91,
+   "w": 117,
+   "l": 94,
    "p": 0,
-   "units": 14.125,
-   "n": 202,
-   "avg_clv": 1.036,
-   "beat_close": 0.429
+   "units": 16.393,
+   "n": 211,
+   "avg_clv": 0.971,
+   "beat_close": 0.5
   },
   "model:total": {
-   "w": 3,
+   "w": 4,
    "l": 4,
    "p": 0,
-   "units": -1.273,
-   "n": 7,
-   "avg_clv": 0.929,
-   "beat_close": 0.429
+   "units": -0.364,
+   "n": 8,
+   "avg_clv": 0.938,
+   "beat_close": 0.5
   },
   "prop": {
-   "w": 105,
-   "l": 83,
+   "w": 110,
+   "l": 85,
    "p": 0,
-   "units": 13.48,
-   "n": 188,
+   "units": 15.839,
+   "n": 195,
    "avg_clv": null,
    "beat_close": null
   },
   "prop:prop": {
-   "w": 105,
-   "l": 83,
+   "w": 110,
+   "l": 85,
    "p": 0,
-   "units": 13.48,
-   "n": 188,
+   "units": 15.839,
+   "n": 195,
    "avg_clv": null,
    "beat_close": null
   },
   "value": {
    "w": 1,
-   "l": 0,
+   "l": 1,
    "p": 0,
-   "units": 4.1,
-   "n": 1,
-   "avg_clv": 0.008,
+   "units": 3.1,
+   "n": 2,
+   "avg_clv": 0.02,
    "beat_close": 1.0
   },
   "value:ml": {
    "w": 1,
-   "l": 0,
+   "l": 1,
    "p": 0,
-   "units": 4.1,
-   "n": 1,
-   "avg_clv": 0.008,
+   "units": 3.1,
+   "n": 2,
+   "avg_clv": 0.02,
    "beat_close": 1.0
   }
  }
