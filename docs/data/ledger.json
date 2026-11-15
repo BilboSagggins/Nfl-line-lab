@@ -4809,7 +4809,7 @@
    "season": 2026,
    "week": 9,
    "made_at": "2026-11-05T14:11:14.043846+00:00",
-   "result": "pending"
+   "result": "void"
   },
   {
    "id": "2026_09_DAL_IND:prop:javonte williams:rec_yds",
@@ -4954,7 +4954,7 @@
    "season": 2026,
    "week": 9,
    "made_at": "2026-11-05T14:11:14.043846+00:00",
-   "result": "pending"
+   "result": "void"
   },
   {
    "id": "2026_09_HOU_LAC:prop:woody marks:rec_yds",
@@ -5498,7 +5498,7 @@
    "season": 2026,
    "week": 9,
    "made_at": "2026-11-05T14:11:14.043846+00:00",
-   "result": "pending"
+   "result": "void"
   },
   {
    "id": "2026_09_LA_WAS:prop:rachaad white:rush_yds",
@@ -6252,7 +6252,7 @@
    "season": 2026,
    "week": 9,
    "made_at": "2026-11-05T14:11:14.043846+00:00",
-   "result": "pending"
+   "result": "void"
   },
   {
    "id": "2026_09_CLE_NO:prop:quinshon judkins:rush_yds",
@@ -6313,7 +6313,7 @@
    "season": 2026,
    "week": 9,
    "made_at": "2026-11-05T14:11:14.043846+00:00",
-   "result": "pending"
+   "result": "void"
   },
   {
    "id": "2026_09_HOU_LAC:prop:woody marks:rush_yds",
@@ -6353,7 +6353,7 @@
    "season": 2026,
    "week": 9,
    "made_at": "2026-11-05T14:11:14.043846+00:00",
-   "result": "pending"
+   "result": "void"
   },
   {
    "id": "2026_09_CLE_NO:prop:kc concepcion:receptions",
@@ -7037,7 +7037,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "W",
+   "actual": 28.0,
+   "units": 0.885
   },
   {
    "id": "2026_10_NE_DET:prop:drake maye:rush_yds",
@@ -7607,7 +7609,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "L",
+   "actual": 34.0,
+   "units": -1.0
   },
   {
    "id": "2026_10_HOU_CLE:prop:woody marks:rec_yds",
@@ -7721,7 +7725,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "L",
+   "actual": 44.0,
+   "units": -1.0
   },
   {
    "id": "2026_10_SEA_LV:prop:zach charbonnet:rush_yds",
@@ -7778,7 +7784,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "W",
+   "actual": 8.0,
+   "units": 0.885
   },
   {
    "id": "2026_10_LA_ARI:prop:trey mcbride:receptions",
@@ -7892,7 +7900,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "W",
+   "actual": 249.0,
+   "units": 1.0
   },
   {
    "id": "2026_10_WAS_NYG:prop:austin ekeler:rec_yds",
@@ -7911,7 +7921,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "L",
+   "actual": 26.0,
+   "units": -1.0
   },
   {
    "id": "2026_10_LAC_BAL:prop:zay flowers:receptions",
@@ -8044,7 +8056,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "W",
+   "actual": 1.0,
+   "units": 0.625
   },
   {
    "id": "2026_10_PIT_CIN:prop:aaron rodgers:pass_tds",
@@ -8139,7 +8153,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "W",
+   "actual": 26.0,
+   "units": 0.885
   },
   {
    "id": "2026_10_CAR_NO:prop:tyler shough:pass_yds",
@@ -8538,7 +8554,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "W",
+   "actual": 1.0,
+   "units": 0.526
   },
   {
    "id": "2026_10_WAS_NYG:prop:rachaad white:rush_yds",
@@ -8557,7 +8575,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "L",
+   "actual": 47.0,
+   "units": -1.0
   },
   {
    "id": "2026_10_NE_DET:prop:jameson williams:rec_yds",
@@ -8671,7 +8691,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "L",
+   "actual": 293.0,
+   "units": -1.0
   },
   {
    "id": "2026_10_BUF_NYJ:prop:james cook:rec_yds",
@@ -9112,11 +9134,11 @@
    "beat_close": 0.429
   },
   "all": {
-   "w": 166,
-   "l": 134,
+   "w": 172,
+   "l": 139,
    "p": 0,
-   "units": 20.054,
-   "n": 300,
+   "units": 19.86,
+   "n": 311,
    "avg_clv": 0.712,
    "beat_close": 0.5
   },
@@ -9130,20 +9152,20 @@
    "beat_close": 0.364
   },
   "prop": {
-   "w": 158,
-   "l": 118,
+   "w": 164,
+   "l": 123,
    "p": 0,
-   "units": 25.591,
-   "n": 276,
+   "units": 25.397,
+   "n": 287,
    "avg_clv": null,
    "beat_close": null
   },
   "prop:prop": {
-   "w": 158,
-   "l": 118,
+   "w": 164,
+   "l": 123,
    "p": 0,
-   "units": 25.591,
-   "n": 276,
+   "units": 25.397,
+   "n": 287,
    "avg_clv": null,
    "beat_close": null
   },

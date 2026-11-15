@@ -1,9 +1,9 @@
 {
- "generated": "2026-11-12T14:10:10.062361+00:00",
- "mode": "thursday",
+ "generated": "2026-11-15T15:27:12.464448+00:00",
+ "mode": "sunday",
  "season": 2026,
  "week": 10,
- "credits_remaining": "314",
+ "credits_remaining": "311",
  "games": [
   {
    "game_id": "2026_10_WAS_NYG",
@@ -12,7 +12,7 @@
    "gametime": "20:15",
    "home": "NYG",
    "away": "WAS",
-   "kickoff": "2026-11-13T01:15:00Z",
+   "kickoff": null,
    "stadium": "MetLife Stadium",
    "home_qb": "J.J. McCarthy",
    "away_qb": "Jayden Daniels",
@@ -21,11 +21,11 @@
     "away": false
    },
    "market": {
-    "home_line": -2.0,
-    "total": 41.0,
-    "ml_home": -132.0,
-    "ml_away": 112.0,
-    "source": "9 sportsbooks (median)"
+    "home_line": -1.5,
+    "total": 40.5,
+    "ml_home": -122.0,
+    "ml_away": 102.0,
+    "source": "nflverse consensus"
    },
    "model": {
     "home_pts": 22.7,
@@ -36,218 +36,30 @@
    },
    "leans": {
     "spread": {
-     "side": "away",
-     "line": 2.0,
-     "edge": 0.0,
-     "p": 0.5,
+     "side": "home",
+     "line": -1.5,
+     "edge": 0.5,
+     "p": 0.515,
      "conf": "Pass"
     },
     "total": {
      "side": "over",
-     "line": 41.0,
-     "edge": 2.48,
-     "p": 0.577,
+     "line": 40.5,
+     "edge": 2.98,
+     "p": 0.592,
      "conf": "Low"
     },
     "ml": {
      "side": "home",
-     "price": -132.0,
+     "price": -122.0,
      "p": 0.56,
-     "market_p": 0.547,
-     "diff": 0.013,
-     "ev": -0.015,
-     "conf": "Pass"
+     "market_p": 0.526,
+     "diff": 0.034,
+     "ev": 0.019,
+     "conf": "Low"
     }
    },
-   "books": {
-    "by_book": {
-     "DraftKings": {
-      "ml": {
-       "home": -135,
-       "away": 114
-      },
-      "spread": {
-       "home": -2.5,
-       "home_price": -108,
-       "away_price": -112
-      },
-      "total": {
-       "line": 40.5,
-       "over": -118,
-       "under": -102
-      }
-     },
-     "FanDuel": {
-      "ml": {
-       "home": -132,
-       "away": 112
-      },
-      "spread": {
-       "home": -1.5,
-       "home_price": -120,
-       "away_price": 100
-      },
-      "total": {
-       "line": 41.5,
-       "over": 100,
-       "under": -120
-      }
-     },
-     "BetUS": {
-      "ml": {
-       "home": -135,
-       "away": 115
-      },
-      "spread": {
-       "home": -1.0,
-       "home_price": -120,
-       "away_price": 100
-      },
-      "total": {
-       "line": 41.0,
-       "over": -110,
-       "under": -110
-      }
-     },
-     "BetOnline.ag": {
-      "ml": {
-       "home": -132,
-       "away": 112
-      },
-      "spread": {
-       "home": -2.0,
-       "home_price": -110,
-       "away_price": -110
-      },
-      "total": {
-       "line": 41.0,
-       "over": -105,
-       "under": -115
-      }
-     },
-     "LowVig.ag": {
-      "ml": {
-       "home": -132,
-       "away": 112
-      },
-      "spread": {
-       "home": -1.5,
-       "home_price": -113,
-       "away_price": 102
-      },
-      "total": {
-       "line": 41.0,
-       "over": -102,
-       "under": -113
-      }
-     },
-     "BetRivers": {
-      "ml": {
-       "home": -137,
-       "away": 114
-      },
-      "spread": {
-       "home": -2.5,
-       "home_price": -109,
-       "away_price": -112
-      },
-      "total": {
-       "line": 41.0,
-       "over": -114,
-       "under": -107
-      }
-     },
-     "MyBookie.ag": {
-      "ml": {
-       "home": -132,
-       "away": 113
-      },
-      "spread": {
-       "home": -2.0,
-       "home_price": -110,
-       "away_price": -110
-      },
-      "total": {
-       "line": 41.0,
-       "over": -110,
-       "under": -110
-      }
-     },
-     "BetMGM": {
-      "ml": {
-       "home": -130,
-       "away": 110
-      },
-      "spread": {
-       "home": -2.0,
-       "home_price": -110,
-       "away_price": -108
-      },
-      "total": {
-       "line": 41.0,
-       "over": -105,
-       "under": -112
-      }
-     },
-     "Bovada": {
-      "ml": {
-       "home": -132,
-       "away": 112
-      },
-      "spread": {
-       "home": -2.0,
-       "home_price": -108,
-       "away_price": -112
-      },
-      "total": {
-       "line": 41.0,
-       "over": -108,
-       "under": -112
-      }
-     }
-    },
-    "spread": {
-     "home_line": -2.0,
-     "fair_home": 0.5,
-     "best_home": {
-      "book": "BetUS",
-      "line": -1.0,
-      "price": -120
-     },
-     "best_away": {
-      "book": "DraftKings",
-      "line": 2.5,
-      "price": -112
-     }
-    },
-    "total": {
-     "line": 41.0,
-     "fair_over": 0.4956702459300312,
-     "best_over": {
-      "book": "DraftKings",
-      "line": 40.5,
-      "price": -118
-     },
-     "best_under": {
-      "book": "FanDuel",
-      "line": 41.5,
-      "price": -120
-     }
-    },
-    "ml": {
-     "fair_home": 0.5467333541731791,
-     "home": -132,
-     "away": 112,
-     "best_home": {
-      "book": "BetMGM",
-      "price": -130
-     },
-     "best_away": {
-      "book": "BetUS",
-      "price": 115
-     }
-    }
-   },
+   "books": {},
    "value": [],
    "context": {
     "rest": {
@@ -395,7 +207,7 @@
    "gametime": "09:30",
    "home": "DET",
    "away": "NE",
-   "kickoff": "2026-11-15T14:30:00Z",
+   "kickoff": "2026-11-15T14:33:33Z",
    "stadium": "FC Bayern Munich Stadium",
    "home_qb": "Jared Goff",
    "away_qb": "Drake Maye",
@@ -404,11 +216,11 @@
     "away": false
    },
    "market": {
-    "home_line": -3.0,
-    "total": 51.0,
-    "ml_home": -155.0,
-    "ml_away": 130.0,
-    "source": "9 sportsbooks (median)"
+    "home_line": -17.5,
+    "total": 47.5,
+    "ml_home": -7428.0,
+    "ml_away": 1329.0,
+    "source": "6 sportsbooks (median)"
    },
    "model": {
     "home_pts": 26.7,
@@ -420,218 +232,172 @@
    "leans": {
     "spread": {
      "side": "away",
-     "line": 3.0,
-     "edge": 1.48,
-     "p": 0.545,
-     "conf": "Pass"
+     "line": 17.5,
+     "edge": 15.98,
+     "p": 0.887,
+     "conf": "High"
     },
     "total": {
      "side": "over",
-     "line": 51.0,
-     "edge": 0.96,
-     "p": 0.53,
-     "conf": "Pass"
+     "line": 47.5,
+     "edge": 4.46,
+     "p": 0.636,
+     "conf": "Medium"
     },
     "ml": {
      "side": "away",
-     "price": 130.0,
+     "price": 1329.0,
      "p": 0.454,
-     "market_p": 0.417,
-     "diff": 0.037,
-     "ev": 0.045,
-     "conf": "Low"
+     "market_p": 0.066,
+     "diff": 0.388,
+     "ev": 5.488,
+     "conf": "High"
     }
    },
    "books": {
     "by_book": {
      "DraftKings": {
       "ml": {
-       "home": -155,
-       "away": 130
+       "home": -5900,
+       "away": 1360
       },
       "spread": {
-       "home": -2.5,
-       "home_price": -120,
-       "away_price": 100
+       "home": -17.5,
+       "home_price": -124,
+       "away_price": -107
       },
       "total": {
-       "line": 51.5,
-       "over": 100,
-       "under": -120
+       "line": 46.5,
+       "over": -122,
+       "under": -108
       }
      },
      "FanDuel": {
       "ml": {
-       "home": -152,
-       "away": 128
+       "home": -10000,
+       "away": 1700
       },
       "spread": {
-       "home": -2.5,
-       "home_price": -120,
-       "away_price": 100
+       "home": -18.5,
+       "home_price": -128,
+       "away_price": -102
       },
       "total": {
-       "line": 50.5,
-       "over": -115,
-       "under": -105
+       "line": 47.5,
+       "over": -118,
+       "under": -112
       }
      },
      "BetMGM": {
       "ml": {
-       "home": -155,
-       "away": 130
+       "home": -3000,
+       "away": 1300
       },
       "spread": {
-       "home": -3.0,
-       "home_price": -102,
-       "away_price": -118
+       "home": -17.5,
+       "home_price": -125,
+       "away_price": -105
       },
       "total": {
-       "line": 51.0,
-       "over": -108,
+       "line": 46.5,
+       "over": -120,
        "under": -110
       }
      },
      "MyBookie.ag": {
-      "ml": {
-       "home": -155,
-       "away": 126
-      },
       "spread": {
-       "home": -3.0,
-       "home_price": 100,
-       "away_price": -120
+       "home": -19.5,
+       "home_price": -111,
+       "away_price": -118
       },
       "total": {
-       "line": 51.0,
-       "over": -110,
-       "under": -110
-      }
-     },
-     "BetUS": {
-      "ml": {
-       "home": -155,
-       "away": 134
-      },
-      "spread": {
-       "home": -3.0,
-       "home_price": 100,
-       "away_price": -120
-      },
-      "total": {
-       "line": 51.0,
-       "over": -110,
-       "under": -110
-      }
-     },
-     "BetOnline.ag": {
-      "ml": {
-       "home": -154,
-       "away": 134
-      },
-      "spread": {
-       "home": -3.0,
-       "home_price": 100,
-       "away_price": -120
-      },
-      "total": {
-       "line": 51.0,
-       "over": -110,
-       "under": -110
-      }
-     },
-     "LowVig.ag": {
-      "ml": {
-       "home": -154,
-       "away": 134
-      },
-      "spread": {
-       "home": -3.0,
-       "home_price": 103,
-       "away_price": -114
-      },
-      "total": {
-       "line": 51.0,
-       "over": -107,
-       "under": -107
+       "line": 47.5,
+       "over": -111,
+       "under": -118
       }
      },
      "BetRivers": {
       "ml": {
-       "home": -162,
-       "away": 130
+       "home": -10000,
+       "away": 1200
       },
       "spread": {
-       "home": -2.5,
-       "home_price": -121,
-       "away_price": -103
+       "home": -17.5,
+       "home_price": -122,
+       "away_price": -108
       },
       "total": {
-       "line": 50.5,
-       "over": -120,
-       "under": -104
+       "line": 47.5,
+       "over": -108,
+       "under": -122
       }
      },
      "Bovada": {
-      "ml": {
-       "home": -155,
-       "away": 132
-      },
       "spread": {
-       "home": -3.0,
-       "home_price": -103,
-       "away_price": -117
+       "home": -19.5,
+       "home_price": -115,
+       "away_price": -115
       },
       "total": {
-       "line": 51.0,
-       "over": -108,
-       "under": -112
+       "line": 48.5,
+       "over": -110,
+       "under": -120
       }
      }
     },
     "spread": {
-     "home_line": -3.0,
-     "fair_home": 0.4793531459316366,
+     "home_line": -17.5,
+     "fair_home": 0.5171246675799823,
      "best_home": {
-      "book": "DraftKings",
-      "line": -2.5,
-      "price": -120
+      "book": "BetRivers",
+      "line": -17.5,
+      "price": -122
      },
      "best_away": {
-      "book": "LowVig.ag",
-      "line": 3.0,
-      "price": -114
+      "book": "Bovada",
+      "line": 19.5,
+      "price": -115
      }
     },
     "total": {
-     "line": 51.0,
-     "fair_over": 0.5,
+     "line": 47.5,
+     "fair_over": 0.4928711096627016,
      "best_over": {
-      "book": "FanDuel",
-      "line": 50.5,
-      "price": -115
+      "book": "BetMGM",
+      "line": 46.5,
+      "price": -120
      },
      "best_under": {
-      "book": "DraftKings",
-      "line": 51.5,
+      "book": "Bovada",
+      "line": 48.5,
       "price": -120
      }
     },
     "ml": {
-     "fair_home": 0.5850959973966807,
-     "home": -155,
-     "away": 130,
+     "fair_home": 0.9330727799256602,
+     "home": -7428,
+     "away": 1329,
      "best_home": {
-      "book": "FanDuel",
-      "price": -152
+      "book": "BetMGM",
+      "price": -3000
      },
      "best_away": {
-      "book": "BetUS",
-      "price": 134
+      "book": "FanDuel",
+      "price": 1700
      }
     }
    },
-   "value": [],
+   "value": [
+    {
+     "market": "ml",
+     "side": "away",
+     "line": null,
+     "price": 1700,
+     "book": "FanDuel",
+     "ev": 0.205,
+     "fair_p": 0.067
+    }
+   ],
    "context": {
     "rest": {
      "home": 7,
@@ -746,13 +512,74 @@
      ]
     },
     "injuries": {
-     "home": [],
+     "home": [
+      {
+       "name": "Sione Vaki",
+       "pos": "RB",
+       "status": "Questionable",
+       "injury": "Ankle"
+      },
+      {
+       "name": "Amon-Ra St. Brown",
+       "pos": "WR",
+       "status": "Questionable",
+       "injury": "Rib"
+      },
+      {
+       "name": "Cade Mays",
+       "pos": "C",
+       "status": "Out",
+       "injury": "Ankle"
+      },
+      {
+       "name": "D.J. Reed",
+       "pos": "CB",
+       "status": "Out",
+       "injury": "Hip"
+      },
+      {
+       "name": "Kerby Joseph",
+       "pos": "S",
+       "status": "Out",
+       "injury": "Knee"
+      }
+     ],
      "away": [
       {
        "name": "TreVeyon Henderson",
        "pos": "RB",
        "status": "Out",
        "injury": "Illness"
+      },
+      {
+       "name": "Rhamondre Stevenson",
+       "pos": "RB",
+       "status": "Questionable",
+       "injury": "Knee"
+      },
+      {
+       "name": "A.J. Brown",
+       "pos": "WR",
+       "status": "Questionable",
+       "injury": "Ankle"
+      },
+      {
+       "name": "Cameron Latu",
+       "pos": "TE",
+       "status": "Questionable",
+       "injury": "Back"
+      },
+      {
+       "name": "Walter Rouse",
+       "pos": "T",
+       "status": "Questionable",
+       "injury": "Concussion"
+      },
+      {
+       "name": "Greg Van Roten",
+       "pos": "G",
+       "status": "Questionable",
+       "injury": "Hamstring"
       },
       {
        "name": "Ben Brown",
@@ -764,6 +591,30 @@
        "name": "Carlton Davis III",
        "pos": "CB",
        "status": "Out",
+       "injury": "Knee"
+      },
+      {
+       "name": "Charles Woods",
+       "pos": "CB",
+       "status": "Questionable",
+       "injury": "Hamstring"
+      },
+      {
+       "name": "Kevin Byard",
+       "pos": "S",
+       "status": "Questionable",
+       "injury": "Chest"
+      },
+      {
+       "name": "Brenden Schooler",
+       "pos": "S",
+       "status": "Questionable",
+       "injury": "Hamstring"
+      },
+      {
+       "name": "Reggie Gilliam",
+       "pos": "FB",
+       "status": "Questionable",
        "injury": "Knee"
       }
      ]
@@ -786,10 +637,10 @@
     "away": false
    },
    "market": {
-    "home_line": 8.0,
+    "home_line": 7.5,
     "total": 51.0,
-    "ml_home": 344.0,
-    "ml_away": -440.0,
+    "ml_home": 355.0,
+    "ml_away": -455.0,
     "source": "9 sportsbooks (median)"
    },
    "model": {
@@ -802,9 +653,9 @@
    "leans": {
     "spread": {
      "side": "away",
-     "line": -8.0,
-     "edge": 0.57,
-     "p": 0.517,
+     "line": -7.5,
+     "edge": 1.06,
+     "p": 0.532,
      "conf": "Pass"
     },
     "total": {
@@ -816,11 +667,11 @@
     },
     "ml": {
      "side": "home",
-     "price": 344.0,
+     "price": 355.0,
      "p": 0.258,
-     "market_p": 0.217,
-     "diff": 0.042,
-     "ev": 0.146,
+     "market_p": 0.211,
+     "diff": 0.047,
+     "ev": 0.175,
      "conf": "Low"
     }
    },
@@ -828,40 +679,40 @@
     "by_book": {
      "DraftKings": {
       "ml": {
-       "home": 340,
-       "away": -440
+       "home": 350,
+       "away": -455
       },
       "spread": {
        "home": 8.5,
-       "home_price": -112,
-       "away_price": -108
+       "home_price": -118,
+       "away_price": -102
       },
       "total": {
        "line": 50.5,
-       "over": -118,
-       "under": -102
+       "over": -115,
+       "under": -105
       }
      },
      "FanDuel": {
       "ml": {
-       "home": 370,
-       "away": -480
+       "home": 350,
+       "away": -460
       },
       "spread": {
        "home": 7.5,
-       "home_price": -105,
-       "away_price": -115
+       "home_price": -110,
+       "away_price": -110
       },
       "total": {
        "line": 50.5,
-       "over": -120,
-       "under": 100
+       "over": -115,
+       "under": -105
       }
      },
      "BetUS": {
       "ml": {
-       "home": 345,
-       "away": -440
+       "home": 355,
+       "away": -450
       },
       "spread": {
        "home": 9.0,
@@ -876,13 +727,13 @@
      },
      "BetOnline.ag": {
       "ml": {
-       "home": 344,
-       "away": -440
+       "home": 383,
+       "away": -500
       },
       "spread": {
-       "home": 9.0,
-       "home_price": -125,
-       "away_price": 105
+       "home": 7.5,
+       "home_price": -104,
+       "away_price": -116
       },
       "total": {
        "line": 51.0,
@@ -892,13 +743,13 @@
      },
      "LowVig.ag": {
       "ml": {
-       "home": 344,
-       "away": -440
+       "home": 374,
+       "away": -485
       },
       "spread": {
        "home": 7.5,
-       "home_price": -103,
-       "away_price": -107
+       "home_price": -104,
+       "away_price": -106
       },
       "total": {
        "line": 51.0,
@@ -912,20 +763,20 @@
        "away": -455
       },
       "spread": {
-       "home": 8.0,
-       "home_price": -109,
-       "away_price": -112
+       "home": 7.5,
+       "home_price": -110,
+       "away_price": -110
       },
       "total": {
-       "line": 50.5,
-       "over": -112,
-       "under": -109
+       "line": 51.0,
+       "over": -107,
+       "under": -114
       }
      },
      "MyBookie.ag": {
       "ml": {
-       "home": 336,
-       "away": -447
+       "home": 350,
+       "away": -450
       },
       "spread": {
        "home": 8.0,
@@ -940,40 +791,40 @@
      },
      "BetMGM": {
       "ml": {
-       "home": 350,
+       "home": 360,
        "away": -450
       },
       "spread": {
-       "home": 8.0,
-       "home_price": -110,
+       "home": 7.5,
+       "home_price": -108,
        "away_price": -110
       },
       "total": {
        "line": 51.0,
-       "over": -110,
-       "under": -108
+       "over": -105,
+       "under": -112
       }
      },
      "Bovada": {
       "ml": {
-       "home": 340,
-       "away": -440
+       "home": 365,
+       "away": -480
       },
       "spread": {
-       "home": 8.0,
-       "home_price": -110,
-       "away_price": -110
+       "home": 7.5,
+       "home_price": -108,
+       "away_price": -112
       },
       "total": {
        "line": 51.0,
-       "over": -110,
-       "under": -110
+       "over": -108,
+       "under": -112
       }
      }
     },
     "spread": {
-     "home_line": 8.0,
-     "fair_home": 0.5,
+     "home_line": 7.5,
+     "fair_home": 0.4977410519469946,
      "best_home": {
       "book": "BetUS",
       "line": 9.0,
@@ -982,16 +833,16 @@
      "best_away": {
       "book": "LowVig.ag",
       "line": -7.5,
-      "price": -107
+      "price": -106
      }
     },
     "total": {
      "line": 51.0,
      "fair_over": 0.5,
      "best_over": {
-      "book": "BetRivers",
+      "book": "DraftKings",
       "line": 50.5,
-      "price": -112
+      "price": -115
      },
      "best_under": {
       "book": "LowVig.ag",
@@ -1000,20 +851,30 @@
      }
     },
     "ml": {
-     "fair_home": 0.2165543792107796,
-     "home": 344,
-     "away": -440,
+     "fair_home": 0.21174205967276225,
+     "home": 355,
+     "away": -455,
      "best_home": {
-      "book": "FanDuel",
-      "price": 370
+      "book": "BetOnline.ag",
+      "price": 383
      },
      "best_away": {
-      "book": "DraftKings",
-      "price": -440
+      "book": "BetUS",
+      "price": -450
      }
     }
    },
-   "value": [],
+   "value": [
+    {
+     "market": "ml",
+     "side": "home",
+     "line": null,
+     "price": 383,
+     "book": "BetOnline.ag",
+     "ev": 0.023,
+     "fair_p": 0.212
+    }
+   ],
    "context": {
     "rest": {
      "home": 7,
@@ -1128,8 +989,94 @@
      ]
     },
     "injuries": {
-     "home": [],
-     "away": []
+     "home": [
+      {
+       "name": "Garrett Wilson",
+       "pos": "WR",
+       "status": "Questionable",
+       "injury": "Concussion"
+      },
+      {
+       "name": "Adonai Mitchell",
+       "pos": "WR",
+       "status": "Questionable",
+       "injury": "Knee"
+      },
+      {
+       "name": "Omar Cooper Jr.",
+       "pos": "WR",
+       "status": "Questionable",
+       "injury": "Ankle"
+      },
+      {
+       "name": "Joseph Ossai",
+       "pos": "DE",
+       "status": "Questionable",
+       "injury": "Ankle"
+      },
+      {
+       "name": "Harrison Phillips",
+       "pos": "DT",
+       "status": "Questionable",
+       "injury": "Ankle"
+      },
+      {
+       "name": "Trevin Wallace",
+       "pos": "LB",
+       "status": "Out",
+       "injury": "Groin"
+      },
+      {
+       "name": "Nahshon Wright",
+       "pos": "CB",
+       "status": "Questionable",
+       "injury": "Back"
+      },
+      {
+       "name": "Jarvis Brownlee Jr.",
+       "pos": "CB",
+       "status": "Questionable",
+       "injury": "Illness"
+      },
+      {
+       "name": "VJ Payne",
+       "pos": "S",
+       "status": "Questionable",
+       "injury": "Knee"
+      }
+     ],
+     "away": [
+      {
+       "name": "Tyrell Shavers",
+       "pos": "WR",
+       "status": "Questionable",
+       "injury": "Knee"
+      },
+      {
+       "name": "Spencer Brown",
+       "pos": "T",
+       "status": "Doubtful",
+       "injury": "Ankle"
+      },
+      {
+       "name": "Christian Benford",
+       "pos": "CB",
+       "status": "Questionable",
+       "injury": "Wrist"
+      },
+      {
+       "name": "Jordan Hancock",
+       "pos": "CB",
+       "status": "Questionable",
+       "injury": "Hamstring"
+      },
+      {
+       "name": "Sam Franklin Jr.",
+       "pos": "S",
+       "status": "Questionable",
+       "injury": "Shoulder"
+      }
+     ]
     }
    }
   },
@@ -1149,10 +1096,10 @@
     "away": false
    },
    "market": {
-    "home_line": -2.5,
+    "home_line": -1.0,
     "total": 49.0,
-    "ml_home": -138.0,
-    "ml_away": 115.0,
+    "ml_home": -115.0,
+    "ml_away": -105.0,
     "source": "9 sportsbooks (median)"
    },
    "model": {
@@ -1164,70 +1111,38 @@
    },
    "leans": {
     "spread": {
-     "side": "away",
-     "line": 2.5,
-     "edge": 1.02,
-     "p": 0.531,
+     "side": "home",
+     "line": -1.0,
+     "edge": 0.48,
+     "p": 0.515,
      "conf": "Pass"
     },
     "total": {
      "side": "over",
      "line": 49.0,
      "edge": 0.11,
-     "p": 0.503,
+     "p": 0.504,
      "conf": "Pass"
     },
     "ml": {
-     "side": "away",
-     "price": 115.0,
-     "p": 0.455,
-     "market_p": 0.445,
-     "diff": 0.01,
-     "ev": -0.021,
-     "conf": "Pass"
+     "side": "home",
+     "price": -115.0,
+     "p": 0.545,
+     "market_p": 0.511,
+     "diff": 0.034,
+     "ev": 0.018,
+     "conf": "Low"
     }
    },
    "books": {
     "by_book": {
      "DraftKings": {
       "ml": {
-       "home": -135,
-       "away": 114
+       "home": -115,
+       "away": -105
       },
       "spread": {
-       "home": -2.5,
-       "home_price": -108,
-       "away_price": -112
-      },
-      "total": {
-       "line": 48.5,
-       "over": -115,
-       "under": -105
-      }
-     },
-     "BetUS": {
-      "ml": {
-       "home": -140,
-       "away": 120
-      },
-      "spread": {
-       "home": -1.0,
-       "home_price": -125,
-       "away_price": 105
-      },
-      "total": {
-       "line": 48.5,
-       "over": -110,
-       "under": -110
-      }
-     },
-     "FanDuel": {
-      "ml": {
-       "home": -132,
-       "away": 112
-      },
-      "spread": {
-       "home": -2.5,
+       "home": -1.5,
        "home_price": -105,
        "away_price": -115
       },
@@ -1237,15 +1152,15 @@
        "under": -105
       }
      },
-     "BetOnline.ag": {
+     "BetUS": {
       "ml": {
-       "home": -140,
-       "away": 120
+       "home": -115,
+       "away": -105
       },
       "spread": {
        "home": -1.0,
-       "home_price": -125,
-       "away_price": 105
+       "home_price": -110,
+       "away_price": -110
       },
       "total": {
        "line": 49.0,
@@ -1253,45 +1168,77 @@
        "under": -110
       }
      },
-     "LowVig.ag": {
+     "FanDuel": {
       "ml": {
-       "home": -140,
-       "away": 120
+       "home": -108,
+       "away": -108
+      },
+      "spread": {
+       "home": -1.5,
+       "home_price": 100,
+       "away_price": -120
+      },
+      "total": {
+       "line": 48.5,
+       "over": -115,
+       "under": -105
+      }
+     },
+     "BetOnline.ag": {
+      "ml": {
+       "home": -115,
+       "away": -105
       },
       "spread": {
        "home": -1.0,
-       "home_price": -121,
-       "away_price": 110
+       "home_price": -110,
+       "away_price": -110
       },
       "total": {
        "line": 49.0,
-       "over": -107,
-       "under": -107
+       "over": -105,
+       "under": -115
+      }
+     },
+     "LowVig.ag": {
+      "ml": {
+       "home": -115,
+       "away": -105
+      },
+      "spread": {
+       "home": -1.0,
+       "home_price": -103,
+       "away_price": -107
+      },
+      "total": {
+       "line": 49.0,
+       "over": -102,
+       "under": -113
       }
      },
      "BetRivers": {
       "ml": {
-       "home": -136,
-       "away": 110
+       "home": -118,
+       "away": -105
       },
       "spread": {
-       "home": -2.0,
-       "home_price": -113,
-       "away_price": -110
+       "home": -1.0,
+       "home_price": -112,
+       "away_price": -112
       },
       "total": {
        "line": 48.5,
        "over": -117,
-       "under": -106
+       "under": -107
       }
      },
      "MyBookie.ag": {
       "ml": {
-       "home": -138,
-       "away": 113
+       "home": -121,
+       "away": 103
       },
       "spread": {
-       "home": -2.5,
+       "home": -1.0,
        "home_price": -110,
        "away_price": -110
       },
@@ -1303,29 +1250,29 @@
      },
      "BetMGM": {
       "ml": {
-       "home": -135,
-       "away": 115
+       "home": -112,
+       "away": -105
       },
       "spread": {
-       "home": -2.5,
-       "home_price": -108,
-       "away_price": -110
+       "home": -1.0,
+       "home_price": -105,
+       "away_price": -112
       },
       "total": {
        "line": 49.0,
        "over": -110,
-       "under": -108
+       "under": -110
       }
      },
      "Bovada": {
       "ml": {
-       "home": -140,
-       "away": 120
+       "home": -115,
+       "away": -105
       },
       "spread": {
-       "home": -2.5,
-       "home_price": -110,
-       "away_price": -110
+       "home": -1.0,
+       "home_price": -108,
+       "away_price": -112
       },
       "total": {
        "line": 49.0,
@@ -1335,44 +1282,44 @@
      }
     },
     "spread": {
-     "home_line": -2.5,
-     "fair_home": 0.4978050921861282,
+     "home_line": -1.0,
+     "fair_home": 0.5,
      "best_home": {
       "book": "LowVig.ag",
       "line": -1.0,
-      "price": -121
+      "price": -103
      },
      "best_away": {
-      "book": "MyBookie.ag",
-      "line": 2.5,
-      "price": -110
+      "book": "DraftKings",
+      "line": 1.5,
+      "price": -115
      }
     },
     "total": {
      "line": 49.0,
-     "fair_over": 0.5,
+     "fair_over": 0.4978351229650156,
      "best_over": {
-      "book": "BetUS",
+      "book": "DraftKings",
       "line": 48.5,
-      "price": -110
+      "price": -115
      },
      "best_under": {
-      "book": "LowVig.ag",
+      "book": "BetUS",
       "line": 49.0,
-      "price": -107
+      "price": -110
      }
     },
     "ml": {
-     "fair_home": 0.552594002855783,
-     "home": -138,
-     "away": 115,
+     "fair_home": 0.5108342361863488,
+     "home": -115,
+     "away": -105,
      "best_home": {
       "book": "FanDuel",
-      "price": -132
+      "price": -108
      },
      "best_away": {
-      "book": "BetUS",
-      "price": 120
+      "book": "MyBookie.ag",
+      "price": 103
      }
     }
    },
@@ -1491,8 +1438,88 @@
      ]
     },
     "injuries": {
-     "home": [],
-     "away": []
+     "home": [
+      {
+       "name": "CJ Donaldson",
+       "pos": "RB",
+       "status": "Out",
+       "injury": "Shoulder"
+      },
+      {
+       "name": "Travis Etienne",
+       "pos": "RB",
+       "status": "Questionable",
+       "injury": "Hamstring"
+      },
+      {
+       "name": "Taliese Fuaga",
+       "pos": "T",
+       "status": "Out",
+       "injury": "Knee"
+      },
+      {
+       "name": "Erik McCoy",
+       "pos": "C",
+       "status": "Out",
+       "injury": "Biceps"
+      },
+      {
+       "name": "Christen Miller",
+       "pos": "DT",
+       "status": "Out",
+       "injury": "Knee"
+      },
+      {
+       "name": "Martin Emerson",
+       "pos": "CB",
+       "status": "Questionable",
+       "injury": "Shin"
+      }
+     ],
+     "away": [
+      {
+       "name": "Jonathon Brooks",
+       "pos": "RB",
+       "status": "Doubtful",
+       "injury": "Groin"
+      },
+      {
+       "name": "Xavier Legette",
+       "pos": "WR",
+       "status": "Questionable",
+       "injury": "Knee"
+      },
+      {
+       "name": "Brady Christensen",
+       "pos": "G",
+       "status": "Questionable",
+       "injury": "Hamstring"
+      },
+      {
+       "name": "Bobby Okereke",
+       "pos": "LB",
+       "status": "Out",
+       "injury": "Foot"
+      },
+      {
+       "name": "Jaelan Phillips",
+       "pos": "LB",
+       "status": "Questionable",
+       "injury": "Hamstring"
+      },
+      {
+       "name": "Mike Jackson",
+       "pos": "CB",
+       "status": "Doubtful",
+       "injury": "Groin"
+      },
+      {
+       "name": "Will Lee III",
+       "pos": "CB",
+       "status": "Questionable",
+       "injury": "Hamstring"
+      }
+     ]
     }
    }
   },
@@ -1512,41 +1539,41 @@
     "away": false
    },
    "market": {
-    "home_line": 5.0,
-    "total": 41.5,
-    "ml_home": 192.0,
-    "ml_away": -235.0,
+    "home_line": 4.0,
+    "total": 40.5,
+    "ml_home": 185.0,
+    "ml_away": -220.0,
     "source": "9 sportsbooks (median)"
    },
    "model": {
     "home_pts": 19.0,
-    "away_pts": 24.7,
+    "away_pts": 24.8,
     "margin": -5.7,
     "total": 43.8,
-    "p_home": 0.333
+    "p_home": 0.332
    },
    "leans": {
     "spread": {
      "side": "away",
-     "line": -5.0,
-     "edge": 0.69,
-     "p": 0.521,
-     "conf": "Pass"
+     "line": -4.0,
+     "edge": 1.75,
+     "p": 0.553,
+     "conf": "Low"
     },
     "total": {
      "side": "over",
-     "line": 41.5,
-     "edge": 2.25,
-     "p": 0.57,
+     "line": 40.5,
+     "edge": 3.25,
+     "p": 0.6,
      "conf": "Low"
     },
     "ml": {
-     "side": "home",
-     "price": 192.0,
-     "p": 0.333,
-     "market_p": 0.328,
-     "diff": 0.005,
-     "ev": -0.027,
+     "side": "away",
+     "price": -220.0,
+     "p": 0.668,
+     "market_p": 0.662,
+     "diff": 0.006,
+     "ev": -0.028,
      "conf": "Pass"
     }
    },
@@ -1554,82 +1581,82 @@
     "by_book": {
      "DraftKings": {
       "ml": {
-       "home": 190,
-       "away": -230
+       "home": 180,
+       "away": -218
       },
       "spread": {
        "home": 4.5,
-       "home_price": -105,
-       "away_price": -115
+       "home_price": -112,
+       "away_price": -108
       },
       "total": {
        "line": 41.5,
-       "over": -108,
-       "under": -112
+       "over": -102,
+       "under": -118
       }
      },
      "FanDuel": {
       "ml": {
-       "home": 198,
-       "away": -240
+       "home": 184,
+       "away": -220
       },
       "spread": {
        "home": 4.5,
-       "home_price": -105,
-       "away_price": -115
-      },
-      "total": {
-       "line": 41.5,
-       "over": -105,
-       "under": -115
-      }
-     },
-     "BetUS": {
-      "ml": {
-       "home": 195,
-       "away": -230
-      },
-      "spread": {
-       "home": 5.0,
        "home_price": -110,
        "away_price": -110
       },
       "total": {
        "line": 41.5,
+       "over": 100,
+       "under": -120
+      }
+     },
+     "BetUS": {
+      "ml": {
+       "home": 185,
+       "away": -220
+      },
+      "spread": {
+       "home": 4.0,
+       "home_price": -110,
+       "away_price": -110
+      },
+      "total": {
+       "line": 40.5,
        "over": -110,
        "under": -110
       }
      },
      "BetOnline.ag": {
       "ml": {
-       "home": 192,
-       "away": -230
+       "home": 186,
+       "away": -220
       },
       "spread": {
-       "home": 5.0,
-       "home_price": -108,
-       "away_price": -112
+       "home": 4.0,
+       "home_price": -110,
+       "away_price": -110
       },
       "total": {
-       "line": 41.0,
-       "over": -116,
-       "under": -104
+       "line": 40.5,
+       "over": -115,
+       "under": -105
       }
      },
      "LowVig.ag": {
       "ml": {
-       "home": 192,
-       "away": -230
+       "home": 186,
+       "away": -220
       },
       "spread": {
-       "home": 5.0,
-       "home_price": -104,
-       "away_price": -106
+       "home": 4.0,
+       "home_price": -105,
+       "away_price": -105
       },
       "total": {
-       "line": 41.0,
-       "over": -114,
-       "under": -101
+       "line": 40.5,
+       "over": -113,
+       "under": -102
       }
      },
      "BetRivers": {
@@ -1639,54 +1666,54 @@
       },
       "spread": {
        "home": 5.0,
-       "home_price": -112,
-       "away_price": -109
+       "home_price": -113,
+       "away_price": -108
       },
       "total": {
-       "line": 41.5,
-       "over": -107,
-       "under": -114
+       "line": 40.5,
+       "over": -113,
+       "under": -108
       }
      },
      "MyBookie.ag": {
       "ml": {
-       "home": 188,
-       "away": -236
+       "home": 193,
+       "away": -229
       },
       "spread": {
-       "home": 5.0,
+       "home": 4.5,
        "home_price": -110,
        "away_price": -110
       },
       "total": {
-       "line": 41.5,
+       "line": 40.5,
        "over": -110,
        "under": -110
       }
      },
      "BetMGM": {
       "ml": {
-       "home": 195,
-       "away": -235
+       "home": 180,
+       "away": -220
       },
       "spread": {
-       "home": 5.0,
-       "home_price": -108,
-       "away_price": -110
+       "home": 4.0,
+       "home_price": -105,
+       "away_price": -112
       },
       "total": {
-       "line": 41.5,
-       "over": -105,
+       "line": 41.0,
+       "over": -108,
        "under": -112
       }
      },
      "Bovada": {
       "ml": {
-       "home": 195,
-       "away": -235
+       "home": 185,
+       "away": -225
       },
       "spread": {
-       "home": 5.0,
+       "home": 4.0,
        "home_price": -112,
        "away_price": -108
       },
@@ -1698,44 +1725,44 @@
      }
     },
     "spread": {
-     "home_line": 5.0,
+     "home_line": 4.0,
      "fair_home": 0.5,
      "best_home": {
-      "book": "LowVig.ag",
+      "book": "BetRivers",
       "line": 5.0,
-      "price": -104
+      "price": -113
      },
      "best_away": {
-      "book": "DraftKings",
-      "line": -4.5,
-      "price": -115
+      "book": "LowVig.ag",
+      "line": -4.0,
+      "price": -105
      }
     },
     "total": {
-     "line": 41.5,
-     "fair_over": 0.49407135834010163,
+     "line": 40.5,
+     "fair_over": 0.505375419282704,
      "best_over": {
-      "book": "Bovada",
-      "line": 41.0,
-      "price": -112
+      "book": "BetUS",
+      "line": 40.5,
+      "price": -110
      },
      "best_under": {
-      "book": "BetUS",
+      "book": "DraftKings",
       "line": 41.5,
-      "price": -110
+      "price": -118
      }
     },
     "ml": {
-     "fair_home": 0.32947284345047917,
-     "home": 192,
-     "away": -235,
+     "fair_home": 0.337126000842815,
+     "home": 185,
+     "away": -220,
      "best_home": {
-      "book": "FanDuel",
-      "price": 198
+      "book": "MyBookie.ag",
+      "price": 193
      },
      "best_away": {
       "book": "DraftKings",
-      "price": -230
+      "price": -218
      }
     }
    },
@@ -1854,8 +1881,94 @@
      ]
     },
     "injuries": {
-     "home": [],
-     "away": []
+     "home": [
+      {
+       "name": "Denzel Boston",
+       "pos": "WR",
+       "status": "Questionable",
+       "injury": "Toe"
+      },
+      {
+       "name": "Ronnie Hickman Jr.",
+       "pos": "S",
+       "status": "Out",
+       "injury": "Concussion"
+      },
+      {
+       "name": "Michael Burton",
+       "pos": "FB",
+       "status": "Out",
+       "injury": "Calf"
+      }
+     ],
+     "away": [
+      {
+       "name": "David Montgomery",
+       "pos": "RB",
+       "status": "Questionable",
+       "injury": "Groin"
+      },
+      {
+       "name": "Marvin Harrison Jr.",
+       "pos": "WR",
+       "status": "Out",
+       "injury": "Hamstring"
+      },
+      {
+       "name": "Brevin Jordan",
+       "pos": "TE",
+       "status": "Out",
+       "injury": "Finger"
+      },
+      {
+       "name": "Trent Brown",
+       "pos": "T",
+       "status": "Questionable",
+       "injury": "Wrist"
+      },
+      {
+       "name": "Keylan Rutledge",
+       "pos": "G",
+       "status": "Out",
+       "injury": "Neck"
+      },
+      {
+       "name": "Wyatt Teller",
+       "pos": "G",
+       "status": "Questionable",
+       "injury": "Illness"
+      },
+      {
+       "name": "Danielle Hunter",
+       "pos": "DE",
+       "status": "Out",
+       "injury": "Hamstring"
+      },
+      {
+       "name": "Will Anderson Jr.",
+       "pos": "DE",
+       "status": "Questionable",
+       "injury": "Ankle"
+      },
+      {
+       "name": "Azeez Al-Shaair",
+       "pos": "LB",
+       "status": "Out",
+       "injury": "Groin"
+      },
+      {
+       "name": "Jacob Hummel",
+       "pos": "LB",
+       "status": "Questionable",
+       "injury": "Groin"
+      },
+      {
+       "name": "Jaylin Smith",
+       "pos": "CB",
+       "status": "Questionable",
+       "injury": "Hamstring"
+      }
+     ]
     }
    }
   },
@@ -1876,9 +1989,9 @@
    },
    "market": {
     "home_line": 10.5,
-    "total": 46.5,
-    "ml_home": 425.0,
-    "ml_away": -575.0,
+    "total": 45.5,
+    "ml_home": 461.0,
+    "ml_away": -625.0,
     "source": "9 sportsbooks (median)"
    },
    "model": {
@@ -1898,43 +2011,27 @@
     },
     "total": {
      "side": "under",
-     "line": 46.5,
-     "edge": 1.06,
-     "p": 0.533,
+     "line": 45.5,
+     "edge": 0.06,
+     "p": 0.502,
      "conf": "Pass"
     },
     "ml": {
      "side": "home",
-     "price": 425.0,
+     "price": 461.0,
      "p": 0.222,
-     "market_p": 0.183,
-     "diff": 0.039,
-     "ev": 0.167,
-     "conf": "Low"
+     "market_p": 0.171,
+     "diff": 0.051,
+     "ev": 0.247,
+     "conf": "Medium"
     }
    },
    "books": {
     "by_book": {
      "DraftKings": {
       "ml": {
-       "home": 400,
-       "away": -535
-      },
-      "spread": {
-       "home": 10.5,
-       "home_price": -108,
-       "away_price": -112
-      },
-      "total": {
-       "line": 46.5,
-       "over": -110,
-       "under": -110
-      }
-     },
-     "BetUS": {
-      "ml": {
-       "home": 425,
-       "away": -550
+       "home": 490,
+       "away": -675
       },
       "spread": {
        "home": 10.5,
@@ -1942,7 +2039,23 @@
        "away_price": -115
       },
       "total": {
-       "line": 46.5,
+       "line": 45.5,
+       "over": -112,
+       "under": -108
+      }
+     },
+     "BetUS": {
+      "ml": {
+       "home": 450,
+       "away": -600
+      },
+      "spread": {
+       "home": 10.5,
+       "home_price": -110,
+       "away_price": -110
+      },
+      "total": {
+       "line": 45.5,
        "over": -110,
        "under": -110
       }
@@ -1965,24 +2078,24 @@
      },
      "BetOnline.ag": {
       "ml": {
-       "home": 425,
-       "away": -565
+       "home": 461,
+       "away": -625
       },
       "spread": {
        "home": 10.5,
-       "home_price": -107,
-       "away_price": -113
+       "home_price": -105,
+       "away_price": -115
       },
       "total": {
-       "line": 46.5,
+       "line": 45.5,
        "over": -110,
        "under": -110
       }
      },
      "LowVig.ag": {
       "ml": {
-       "home": 425,
-       "away": -565
+       "home": 461,
+       "away": -625
       },
       "spread": {
        "home": 10.5,
@@ -1990,7 +2103,7 @@
        "away_price": -108
       },
       "total": {
-       "line": 46.5,
+       "line": 45.5,
        "over": -107,
        "under": -107
       }
@@ -2003,42 +2116,42 @@
       "spread": {
        "home": 10.5,
        "home_price": -112,
-       "away_price": -112
-      },
-      "total": {
-       "line": 46.5,
-       "over": -113,
-       "under": -109
-      }
-     },
-     "MyBookie.ag": {
-      "ml": {
-       "home": 433,
-       "away": -617
-      },
-      "spread": {
-       "home": 10.5,
-       "home_price": -110,
        "away_price": -110
       },
       "total": {
        "line": 46.5,
+       "over": -109,
+       "under": -113
+      }
+     },
+     "MyBookie.ag": {
+      "ml": {
+       "home": 472,
+       "away": -637
+      },
+      "spread": {
+       "home": 11.0,
+       "home_price": -110,
+       "away_price": -110
+      },
+      "total": {
+       "line": 45.5,
        "over": -110,
        "under": -110
       }
      },
      "BetMGM": {
       "ml": {
-       "home": 450,
-       "away": -600
+       "home": 500,
+       "away": -650
       },
       "spread": {
-       "home": 10.5,
-       "home_price": -108,
-       "away_price": -110
+       "home": 11.0,
+       "home_price": -110,
+       "away_price": -108
       },
       "total": {
-       "line": 46.0,
+       "line": 45.5,
        "over": -110,
        "under": -108
       }
@@ -2054,19 +2167,19 @@
        "away_price": -115
       },
       "total": {
-       "line": 46.5,
-       "over": -105,
-       "under": -115
+       "line": 45.5,
+       "over": -112,
+       "under": -108
       }
      }
     },
     "spread": {
      "home_line": 10.5,
-     "fair_home": 0.4956702459300312,
+     "fair_home": 0.4930284439486894,
      "best_home": {
-      "book": "LowVig.ag",
-      "line": 10.5,
-      "price": -102
+      "book": "MyBookie.ag",
+      "line": 11.0,
+      "price": -110
      },
      "best_away": {
       "book": "LowVig.ag",
@@ -2075,30 +2188,30 @@
      }
     },
     "total": {
-     "line": 46.5,
+     "line": 45.5,
      "fair_over": 0.5,
      "best_over": {
-      "book": "BetMGM",
-      "line": 46.0,
-      "price": -110
+      "book": "LowVig.ag",
+      "line": 45.5,
+      "price": -107
      },
      "best_under": {
-      "book": "LowVig.ag",
+      "book": "BetRivers",
       "line": 46.5,
-      "price": -107
+      "price": -113
      }
     },
     "ml": {
-     "fair_home": 0.18274111675126903,
-     "home": 425,
-     "away": -575,
+     "fair_home": 0.17134416543574596,
+     "home": 461,
+     "away": -625,
      "best_home": {
       "book": "FanDuel",
       "price": 500
      },
      "best_away": {
-      "book": "DraftKings",
-      "price": -535
+      "book": "Bovada",
+      "price": -575
      }
     }
    },
@@ -2109,8 +2222,8 @@
      "line": null,
      "price": 500,
      "book": "FanDuel",
-     "ev": 0.096,
-     "fair_p": 0.183
+     "ev": 0.028,
+     "fair_p": 0.171
     }
    ],
    "context": {
@@ -2227,8 +2340,70 @@
      ]
     },
     "injuries": {
-     "home": [],
-     "away": []
+     "home": [
+      {
+       "name": "Tyjae Spears",
+       "pos": "RB",
+       "status": "Questionable",
+       "injury": "Knee"
+      },
+      {
+       "name": "Carnell Tate",
+       "pos": "WR",
+       "status": "Out",
+       "injury": "Shoulder"
+      },
+      {
+       "name": "Peter Skoronski",
+       "pos": "G",
+       "status": "Out",
+       "injury": "Hamstring"
+      },
+      {
+       "name": "Cody Barton",
+       "pos": "LB",
+       "status": "Out",
+       "injury": "Concussion"
+      },
+      {
+       "name": "Anthony Hill Jr.",
+       "pos": "LB",
+       "status": "Out",
+       "injury": "Neck"
+      },
+      {
+       "name": "Tommy Townsend",
+       "pos": "P",
+       "status": "Out",
+       "injury": "Knee"
+      }
+     ],
+     "away": [
+      {
+       "name": "Robert Hainsey",
+       "pos": "C",
+       "status": "Questionable",
+       "injury": "Concussion"
+      },
+      {
+       "name": "BJ Green II",
+       "pos": "DE",
+       "status": "Out",
+       "injury": "Forearm"
+      },
+      {
+       "name": "Jordan Davis",
+       "pos": "DT",
+       "status": "Out",
+       "injury": "Not injury related - resting player"
+      },
+      {
+       "name": "Jessie Bates",
+       "pos": "S",
+       "status": "Out",
+       "injury": "Not injury related - resting player"
+      }
+     ]
     }
    }
   },
@@ -2249,8 +2424,8 @@
    },
    "market": {
     "home_line": 3.0,
-    "total": 47.0,
-    "ml_home": 155.0,
+    "total": 47.5,
+    "ml_home": 150.0,
     "ml_away": -180.0,
     "source": "9 sportsbooks (median)"
    },
@@ -2265,24 +2440,24 @@
     "spread": {
      "side": "away",
      "line": -3.0,
-     "edge": 0.94,
+     "edge": 0.93,
      "p": 0.528,
      "conf": "Pass"
     },
     "total": {
      "side": "under",
-     "line": 47.0,
-     "edge": 2.78,
-     "p": 0.586,
+     "line": 47.5,
+     "edge": 3.28,
+     "p": 0.601,
      "conf": "Low"
     },
     "ml": {
-     "side": "home",
-     "price": 155.0,
-     "p": 0.383,
-     "market_p": 0.379,
-     "diff": 0.004,
-     "ev": -0.024,
+     "side": "away",
+     "price": -180.0,
+     "p": 0.617,
+     "market_p": 0.616,
+     "diff": 0.0,
+     "ev": -0.04,
      "conf": "Pass"
     }
    },
@@ -2290,34 +2465,34 @@
     "by_book": {
      "DraftKings": {
       "ml": {
-       "home": 154,
-       "away": -185
+       "home": 145,
+       "away": -175
       },
       "spread": {
        "home": 3.0,
-       "home_price": 100,
-       "away_price": -120
-      },
-      "total": {
-       "line": 46.5,
-       "over": -110,
-       "under": -110
-      }
-     },
-     "FanDuel": {
-      "ml": {
-       "home": 152,
-       "away": -180
-      },
-      "spread": {
-       "home": 3.5,
-       "home_price": -115,
-       "away_price": -105
+       "home_price": -102,
+       "away_price": -118
       },
       "total": {
        "line": 47.5,
        "over": -105,
        "under": -115
+      }
+     },
+     "FanDuel": {
+      "ml": {
+       "home": 144,
+       "away": -172
+      },
+      "spread": {
+       "home": 3.5,
+       "home_price": -120,
+       "away_price": 100
+      },
+      "total": {
+       "line": 47.5,
+       "over": -110,
+       "under": -110
       }
      },
      "BetUS": {
@@ -2327,24 +2502,24 @@
       },
       "spread": {
        "home": 3.0,
-       "home_price": 100,
-       "away_price": -120
+       "home_price": -105,
+       "away_price": -115
       },
       "total": {
-       "line": 47.0,
-       "over": -115,
-       "under": -105
+       "line": 47.5,
+       "over": -110,
+       "under": -110
       }
      },
      "BetOnline.ag": {
       "ml": {
-       "home": 157,
-       "away": -180
+       "home": 161,
+       "away": -185
       },
       "spread": {
        "home": 3.0,
-       "home_price": 101,
-       "away_price": -121
+       "home_price": -105,
+       "away_price": -115
       },
       "total": {
        "line": 47.0,
@@ -2354,13 +2529,13 @@
      },
      "LowVig.ag": {
       "ml": {
-       "home": 157,
-       "away": -180
+       "home": 161,
+       "away": -185
       },
       "spread": {
        "home": 3.0,
-       "home_price": 107,
-       "away_price": -118
+       "home_price": 104,
+       "away_price": -115
       },
       "total": {
        "line": 47.0,
@@ -2370,24 +2545,24 @@
      },
      "BetRivers": {
       "ml": {
-       "home": 155,
-       "away": -186
+       "home": 145,
+       "away": -177
       },
       "spread": {
-       "home": 3.5,
-       "home_price": -117,
-       "away_price": -105
+       "home": 3.0,
+       "home_price": -103,
+       "away_price": -120
       },
       "total": {
-       "line": 46.5,
-       "over": -112,
-       "under": -109
+       "line": 47.0,
+       "over": -114,
+       "under": -106
       }
      },
      "MyBookie.ag": {
       "ml": {
        "home": 150,
-       "away": -186
+       "away": -177
       },
       "spread": {
        "home": 3.0,
@@ -2395,83 +2570,83 @@
        "away_price": -120
       },
       "total": {
-       "line": 47.0,
+       "line": 47.5,
        "over": -110,
        "under": -110
       }
      },
      "BetMGM": {
       "ml": {
-       "home": 155,
-       "away": -190
+       "home": 150,
+       "away": -185
       },
       "spread": {
-       "home": 3.5,
-       "home_price": -118,
-       "away_price": -102
+       "home": 3.0,
+       "home_price": -102,
+       "away_price": -118
       },
       "total": {
-       "line": 47.0,
-       "over": -110,
-       "under": -108
+       "line": 47.5,
+       "over": -108,
+       "under": -110
       }
      },
      "Bovada": {
       "ml": {
-       "home": 155,
-       "away": -180
+       "home": 160,
+       "away": -185
       },
       "spread": {
-       "home": 3.5,
-       "home_price": -120,
-       "away_price": 100
+       "home": 3.0,
+       "home_price": 100,
+       "away_price": -120
       },
       "total": {
-       "line": 47.0,
-       "over": -108,
-       "under": -112
+       "line": 47.5,
+       "over": -110,
+       "under": -110
       }
      }
     },
     "spread": {
      "home_line": 3.0,
-     "fair_home": 0.4782608695652174,
+     "fair_home": 0.482279230208645,
      "best_home": {
       "book": "FanDuel",
       "line": 3.5,
-      "price": -115
+      "price": -120
      },
      "best_away": {
-      "book": "LowVig.ag",
+      "book": "BetUS",
       "line": -3.0,
-      "price": -118
+      "price": -115
      }
     },
     "total": {
-     "line": 47.0,
-     "fair_over": 0.5065145720001103,
+     "line": 47.5,
+     "fair_over": 0.5,
      "best_over": {
-      "book": "DraftKings",
-      "line": 46.5,
-      "price": -110
+      "book": "LowVig.ag",
+      "line": 47.0,
+      "price": -113
      },
      "best_under": {
       "book": "FanDuel",
       "line": 47.5,
-      "price": -115
+      "price": -110
      }
     },
     "ml": {
-     "fair_home": 0.3775334481388264,
-     "home": 155,
+     "fair_home": 0.3812709030100334,
+     "home": 150,
      "away": -180,
      "best_home": {
       "book": "BetOnline.ag",
-      "price": 157
+      "price": 161
      },
      "best_away": {
       "book": "FanDuel",
-      "price": -180
+      "price": -172
      }
     }
    },
@@ -2590,8 +2765,76 @@
      ]
     },
     "injuries": {
-     "home": [],
-     "away": []
+     "home": [
+      {
+       "name": "Zachariah Branch",
+       "pos": "WR",
+       "status": "Out",
+       "injury": "Hamstring"
+      },
+      {
+       "name": "James Pearce Jr.",
+       "pos": "DE",
+       "status": "Questionable",
+       "injury": "Back"
+      },
+      {
+       "name": "Gervon Dexter Sr.",
+       "pos": "DT",
+       "status": "Questionable",
+       "injury": "Illness"
+      },
+      {
+       "name": "Divine Deablo",
+       "pos": "LB",
+       "status": "Doubtful",
+       "injury": "Forearm"
+      },
+      {
+       "name": "Josh Woods",
+       "pos": "LB",
+       "status": "Questionable",
+       "injury": "Ankle"
+      }
+     ],
+     "away": [
+      {
+       "name": "Kenneth Walker III",
+       "pos": "RB",
+       "status": "Questionable",
+       "injury": "Groin"
+      },
+      {
+       "name": "Jaydn Ott",
+       "pos": "RB",
+       "status": "Questionable",
+       "injury": "Hamstring"
+      },
+      {
+       "name": "Jaylon Moore",
+       "pos": "T",
+       "status": "Out",
+       "injury": "Ankle"
+      },
+      {
+       "name": "Omarr Norman-Lott",
+       "pos": "DT",
+       "status": "Out",
+       "injury": "Knee"
+      },
+      {
+       "name": "Peter Woods",
+       "pos": "DT",
+       "status": "Out",
+       "injury": "Neck"
+      },
+      {
+       "name": "Mansoor Delane",
+       "pos": "CB",
+       "status": "Questionable",
+       "injury": "Shoulder"
+      }
+     ]
     }
    }
   },
@@ -2611,41 +2854,41 @@
     "away": false
    },
    "market": {
-    "home_line": -4.0,
-    "total": 38.0,
-    "ml_home": -205.0,
-    "ml_away": 170.0,
+    "home_line": -4.5,
+    "total": 37.5,
+    "ml_home": -215.0,
+    "ml_away": 183.0,
     "source": "9 sportsbooks (median)"
    },
    "model": {
     "home_pts": 21.7,
     "away_pts": 20.6,
-    "margin": 1.1,
+    "margin": 1.2,
     "total": 42.3,
-    "p_home": 0.534
+    "p_home": 0.535
    },
    "leans": {
     "spread": {
      "side": "away",
-     "line": 4.0,
-     "edge": 2.86,
-     "p": 0.586,
-     "conf": "Low"
+     "line": 4.5,
+     "edge": 3.35,
+     "p": 0.6,
+     "conf": "Medium"
     },
     "total": {
      "side": "over",
-     "line": 38.0,
-     "edge": 4.27,
-     "p": 0.631,
+     "line": 37.5,
+     "edge": 4.77,
+     "p": 0.645,
      "conf": "Medium"
     },
     "ml": {
      "side": "away",
-     "price": 170.0,
-     "p": 0.466,
-     "market_p": 0.355,
-     "diff": 0.11,
-     "ev": 0.257,
+     "price": 183.0,
+     "p": 0.465,
+     "market_p": 0.341,
+     "diff": 0.124,
+     "ev": 0.317,
      "conf": "High"
     }
    },
@@ -2653,188 +2896,188 @@
     "by_book": {
      "DraftKings": {
       "ml": {
-       "home": -205,
-       "away": 170
+       "home": -225,
+       "away": 185
       },
       "spread": {
-       "home": -3.5,
-       "home_price": -118,
-       "away_price": -102
-      },
-      "total": {
-       "line": 38.5,
-       "over": -108,
-       "under": -112
-      }
-     },
-     "FanDuel": {
-      "ml": {
-       "home": -215,
-       "away": 180
-      },
-      "spread": {
-       "home": -3.5,
-       "home_price": -115,
-       "away_price": -105
-      },
-      "total": {
-       "line": 38.5,
-       "over": -105,
-       "under": -115
-      }
-     },
-     "BetUS": {
-      "ml": {
-       "home": -200,
-       "away": 170
-      },
-      "spread": {
-       "home": -3.5,
+       "home": -4.5,
        "home_price": -110,
        "away_price": -110
       },
       "total": {
-       "line": 38.0,
+       "line": 37.5,
+       "over": -110,
+       "under": -110
+      }
+     },
+     "FanDuel": {
+      "ml": {
+       "home": -210,
+       "away": 176
+      },
+      "spread": {
+       "home": -4.5,
+       "home_price": -105,
+       "away_price": -115
+      },
+      "total": {
+       "line": 37.5,
+       "over": -110,
+       "under": -110
+      }
+     },
+     "BetUS": {
+      "ml": {
+       "home": -215,
+       "away": 183
+      },
+      "spread": {
+       "home": -4.5,
+       "home_price": -110,
+       "away_price": -110
+      },
+      "total": {
+       "line": 37.5,
        "over": -110,
        "under": -110
       }
      },
      "BetOnline.ag": {
       "ml": {
-       "home": -195,
-       "away": 170
+       "home": -215,
+       "away": 183
       },
       "spread": {
-       "home": -3.5,
-       "home_price": -112,
-       "away_price": -108
+       "home": -4.5,
+       "home_price": -110,
+       "away_price": -110
       },
       "total": {
-       "line": 38.0,
+       "line": 37.5,
        "over": -110,
        "under": -110
       }
      },
      "LowVig.ag": {
       "ml": {
-       "home": -195,
-       "away": 170
+       "home": -215,
+       "away": 183
       },
       "spread": {
-       "home": -4.0,
+       "home": -4.5,
        "home_price": -105,
        "away_price": -105
       },
       "total": {
-       "line": 38.0,
+       "line": 37.5,
        "over": -107,
        "under": -107
       }
      },
      "BetRivers": {
       "ml": {
-       "home": -210,
-       "away": 165
+       "home": -220,
+       "away": 175
       },
       "spread": {
-       "home": -4.0,
+       "home": -4.5,
        "home_price": -110,
        "away_price": -112
       },
       "total": {
-       "line": 38.5,
-       "over": -109,
-       "under": -113
+       "line": 37.5,
+       "over": -114,
+       "under": -108
       }
      },
      "MyBookie.ag": {
       "ml": {
-       "home": -212,
-       "away": 170
+       "home": -231,
+       "away": 193
       },
       "spread": {
-       "home": -4.0,
+       "home": -4.5,
        "home_price": -110,
        "away_price": -110
       },
       "total": {
-       "line": 38.0,
+       "line": 37.5,
        "over": -110,
        "under": -110
       }
      },
      "BetMGM": {
       "ml": {
-       "home": -210,
-       "away": 170
+       "home": -220,
+       "away": 180
       },
       "spread": {
-       "home": -4.0,
+       "home": -4.5,
        "home_price": -108,
        "away_price": -110
       },
       "total": {
-       "line": 38.0,
-       "over": -110,
-       "under": -108
+       "line": 37.5,
+       "over": -108,
+       "under": -110
       }
      },
      "Bovada": {
       "ml": {
-       "home": -200,
-       "away": 170
+       "home": -215,
+       "away": 176
       },
       "spread": {
-       "home": -4.0,
-       "home_price": -110,
-       "away_price": -110
+       "home": -4.5,
+       "home_price": -112,
+       "away_price": -108
       },
       "total": {
-       "line": 38.0,
-       "over": -110,
-       "under": -110
+       "line": 37.5,
+       "over": -112,
+       "under": -108
       }
      }
     },
     "spread": {
-     "home_line": -4.0,
+     "home_line": -4.5,
      "fair_home": 0.5,
      "best_home": {
-      "book": "BetUS",
-      "line": -3.5,
-      "price": -110
+      "book": "FanDuel",
+      "line": -4.5,
+      "price": -105
      },
      "best_away": {
       "book": "LowVig.ag",
-      "line": 4.0,
+      "line": 4.5,
       "price": -105
      }
     },
     "total": {
-     "line": 38.0,
+     "line": 37.5,
      "fair_over": 0.5,
      "best_over": {
       "book": "LowVig.ag",
-      "line": 38.0,
+      "line": 37.5,
       "price": -107
      },
      "best_under": {
-      "book": "DraftKings",
-      "line": 38.5,
-      "price": -112
+      "book": "LowVig.ag",
+      "line": 37.5,
+      "price": -107
      }
     },
     "ml": {
-     "fair_home": 0.6428571428571429,
-     "home": -205,
-     "away": 170,
+     "fair_home": 0.658887866154096,
+     "home": -215,
+     "away": 183,
      "best_home": {
-      "book": "BetOnline.ag",
-      "price": -195
+      "book": "FanDuel",
+      "price": -210
      },
      "best_away": {
-      "book": "FanDuel",
-      "price": 180
+      "book": "MyBookie.ag",
+      "price": 193
      }
     }
    },
@@ -2953,8 +3196,76 @@
      ]
     },
     "injuries": {
-     "home": [],
-     "away": []
+     "home": [
+      {
+       "name": "Mo Alie-Cox",
+       "pos": "TE",
+       "status": "Out",
+       "injury": "Groin"
+      },
+      {
+       "name": "Will Mallory",
+       "pos": "TE",
+       "status": "Questionable",
+       "injury": "Hamstring"
+      },
+      {
+       "name": "Jalen Travis",
+       "pos": "T",
+       "status": "Out",
+       "injury": "Knee"
+      },
+      {
+       "name": "Jerry Tillery",
+       "pos": "DT",
+       "status": "Out",
+       "injury": "Calf"
+      },
+      {
+       "name": "Akeem Davis-Gaither",
+       "pos": "LB",
+       "status": "Out",
+       "injury": "Knee"
+      },
+      {
+       "name": "Jaylon Carlies",
+       "pos": "LB",
+       "status": "Out",
+       "injury": "Neck"
+      },
+      {
+       "name": "Luke Rhodes",
+       "pos": "LS",
+       "status": "Out",
+       "injury": "Hamstring"
+      }
+     ],
+     "away": [
+      {
+       "name": "Chris Bell",
+       "pos": "WR",
+       "status": "Doubtful",
+       "injury": "Knee"
+      },
+      {
+       "name": "Jared Wayne",
+       "pos": "WR",
+       "status": "Out",
+       "injury": "Quadricep"
+      },
+      {
+       "name": "Aaron Brewer",
+       "pos": "C",
+       "status": "Out",
+       "injury": "Concussion"
+      },
+      {
+       "name": "Darrell Baker Jr.",
+       "pos": "CB",
+       "status": "Questionable",
+       "injury": "Knee"
+      }
+     ]
     }
    }
   },
@@ -2974,10 +3285,10 @@
     "away": true
    },
    "market": {
-    "home_line": -3.0,
+    "home_line": -2.5,
     "total": 42.0,
-    "ml_home": -164.0,
-    "ml_away": 140.0,
+    "ml_home": -145.0,
+    "ml_away": 124.0,
     "source": "9 sportsbooks (median)"
    },
    "model": {
@@ -2990,9 +3301,9 @@
    "leans": {
     "spread": {
      "side": "home",
-     "line": -3.0,
-     "edge": 3.06,
-     "p": 0.592,
+     "line": -2.5,
+     "edge": 3.57,
+     "p": 0.606,
      "conf": "Medium"
     },
     "total": {
@@ -3004,57 +3315,57 @@
     },
     "ml": {
      "side": "home",
-     "price": -164.0,
+     "price": -145.0,
      "p": 0.677,
-     "market_p": 0.599,
-     "diff": 0.078,
-     "ev": 0.09,
-     "conf": "Medium"
+     "market_p": 0.57,
+     "diff": 0.107,
+     "ev": 0.144,
+     "conf": "High"
     }
    },
    "books": {
     "by_book": {
      "DraftKings": {
       "ml": {
-       "home": -162,
-       "away": 136
+       "home": -142,
+       "away": 120
       },
       "spread": {
-       "home": -3.0,
-       "home_price": -112,
-       "away_price": -108
+       "home": -2.5,
+       "home_price": -118,
+       "away_price": -102
       },
       "total": {
        "line": 42.5,
-       "over": -105,
-       "under": -115
+       "over": -108,
+       "under": -112
       }
      },
      "BetUS": {
       "ml": {
-       "home": -165,
-       "away": 142
+       "home": -145,
+       "away": 125
       },
       "spread": {
        "home": -3.0,
-       "home_price": -115,
-       "away_price": -105
+       "home_price": 100,
+       "away_price": -120
       },
       "total": {
        "line": 42.0,
-       "over": -115,
-       "under": -105
+       "over": -110,
+       "under": -110
       }
      },
      "FanDuel": {
       "ml": {
-       "home": -164,
-       "away": 138
+       "home": -146,
+       "away": 124
       },
       "spread": {
-       "home": -3.0,
-       "home_price": -110,
-       "away_price": -110
+       "home": -2.5,
+       "home_price": -120,
+       "away_price": 100
       },
       "total": {
        "line": 42.5,
@@ -3064,61 +3375,61 @@
      },
      "BetOnline.ag": {
       "ml": {
-       "home": -162,
-       "away": 142
+       "home": -144,
+       "away": 124
       },
       "spread": {
-       "home": -3.0,
-       "home_price": -112,
-       "away_price": -108
+       "home": -2.5,
+       "home_price": -116,
+       "away_price": -104
       },
       "total": {
        "line": 42.0,
-       "over": -114,
-       "under": -106
+       "over": -110,
+       "under": -110
       }
      },
      "LowVig.ag": {
       "ml": {
-       "home": -162,
-       "away": 142
+       "home": -144,
+       "away": 124
       },
       "spread": {
-       "home": -3.0,
-       "home_price": -109,
-       "away_price": -101
+       "home": -2.5,
+       "home_price": -115,
+       "away_price": 104
       },
       "total": {
        "line": 42.0,
-       "over": -112,
-       "under": -103
+       "over": -107,
+       "under": -107
       }
      },
      "BetRivers": {
       "ml": {
-       "home": -157,
-       "away": 128
+       "home": -150,
+       "away": 125
       },
       "spread": {
        "home": -3.0,
-       "home_price": -113,
-       "away_price": -108
+       "home_price": -105,
+       "away_price": -117
       },
       "total": {
        "line": 42.0,
-       "over": -113,
-       "under": -108
+       "over": -110,
+       "under": -110
       }
      },
      "MyBookie.ag": {
       "ml": {
-       "home": -169,
-       "away": 137
+       "home": -145,
+       "away": 123
       },
       "spread": {
-       "home": -3.0,
-       "home_price": -110,
-       "away_price": -110
+       "home": -2.5,
+       "home_price": -120,
+       "away_price": 100
       },
       "total": {
        "line": 42.0,
@@ -3128,76 +3439,76 @@
      },
      "BetMGM": {
       "ml": {
-       "home": -165,
-       "away": 140
+       "home": -145,
+       "away": 125
       },
       "spread": {
-       "home": -3.0,
-       "home_price": -112,
-       "away_price": -105
+       "home": -2.5,
+       "home_price": -118,
+       "away_price": -102
       },
       "total": {
        "line": 42.0,
-       "over": -110,
-       "under": -108
+       "over": -108,
+       "under": -110
       }
      },
      "Bovada": {
       "ml": {
-       "home": -170,
-       "away": 145
+       "home": -150,
+       "away": 130
       },
       "spread": {
-       "home": -3.0,
-       "home_price": -115,
-       "away_price": -105
+       "home": -2.5,
+       "home_price": -120,
+       "away_price": 100
       },
       "total": {
        "line": 42.0,
-       "over": -112,
-       "under": -108
+       "over": -105,
+       "under": -115
       }
      }
     },
     "spread": {
-     "home_line": -3.0,
-     "fair_home": 0.505375419282704,
+     "home_line": -2.5,
+     "fair_home": 0.5217391304347826,
      "best_home": {
       "book": "LowVig.ag",
-      "line": -3.0,
-      "price": -109
+      "line": -2.5,
+      "price": -115
      },
      "best_away": {
-      "book": "LowVig.ag",
+      "book": "BetRivers",
       "line": 3.0,
-      "price": -101
+      "price": -117
      }
     },
     "total": {
      "line": 42.0,
-     "fair_over": 0.505375419282704,
+     "fair_over": 0.5,
      "best_over": {
-      "book": "MyBookie.ag",
+      "book": "Bovada",
       "line": 42.0,
-      "price": -110
+      "price": -105
      },
      "best_under": {
       "book": "DraftKings",
       "line": 42.5,
-      "price": -115
+      "price": -112
      }
     },
     "ml": {
-     "fair_home": 0.5990922844175491,
-     "home": -164,
-     "away": 140,
+     "fair_home": 0.5707105961189446,
+     "home": -145,
+     "away": 124,
      "best_home": {
-      "book": "BetRivers",
-      "price": -157
+      "book": "DraftKings",
+      "price": -142
      },
      "best_away": {
       "book": "Bovada",
-      "price": 145
+      "price": 130
      }
     }
    },
@@ -3316,8 +3627,130 @@
      ]
     },
     "injuries": {
-     "home": [],
-     "away": []
+     "home": [
+      {
+       "name": "Josh Jacobs",
+       "pos": "RB",
+       "status": "Out",
+       "injury": "Finger"
+      },
+      {
+       "name": "Chris Brooks",
+       "pos": "RB",
+       "status": "Questionable",
+       "injury": "Ankle"
+      },
+      {
+       "name": "Skyy Moore",
+       "pos": "WR",
+       "status": "Questionable",
+       "injury": "Ankle"
+      },
+      {
+       "name": "Josh Whyle",
+       "pos": "TE",
+       "status": "Out",
+       "injury": "Concussion"
+      },
+      {
+       "name": "Kevin Zeitler",
+       "pos": "G",
+       "status": "Questionable",
+       "injury": "Ankle"
+      },
+      {
+       "name": "Travis Glover",
+       "pos": "G",
+       "status": "Questionable",
+       "injury": "Knee"
+      },
+      {
+       "name": "Sean Rhyan",
+       "pos": "C",
+       "status": "Out",
+       "injury": "Ankle"
+      },
+      {
+       "name": "Zaire Franklin",
+       "pos": "LB",
+       "status": "Doubtful",
+       "injury": "Shin"
+      },
+      {
+       "name": "Micah Parsons",
+       "pos": "LB",
+       "status": "Out",
+       "injury": "Knee"
+      },
+      {
+       "name": "Lukas Van Ness",
+       "pos": "LB",
+       "status": "Questionable",
+       "injury": "Back"
+      },
+      {
+       "name": "Xavier McKinney",
+       "pos": "S",
+       "status": "Questionable",
+       "injury": "Foot"
+      },
+      {
+       "name": "Javon Bullard",
+       "pos": "S",
+       "status": "Questionable",
+       "injury": "Ankle"
+      }
+     ],
+     "away": [
+      {
+       "name": "Kyler Murray",
+       "pos": "QB",
+       "status": "Out",
+       "injury": "Hamstring"
+      },
+      {
+       "name": "Jauan Jennings",
+       "pos": "WR",
+       "status": "Out",
+       "injury": "Calf"
+      },
+      {
+       "name": "Jordan Addison",
+       "pos": "WR",
+       "status": "Questionable",
+       "injury": "Thumb"
+      },
+      {
+       "name": "T.J. Hockenson",
+       "pos": "TE",
+       "status": "Out",
+       "injury": "Wrist"
+      },
+      {
+       "name": "Tyrion Ingram-Dawkins",
+       "pos": "DT",
+       "status": "Out",
+       "injury": "Ankle"
+      },
+      {
+       "name": "Blake Cashman",
+       "pos": "LB",
+       "status": "Out",
+       "injury": "Concussion"
+      },
+      {
+       "name": "Kyle Van Noy",
+       "pos": "LB",
+       "status": "Questionable",
+       "injury": "Calf"
+      },
+      {
+       "name": "Josh Metellus",
+       "pos": "S",
+       "status": "Questionable",
+       "injury": "Shoulder"
+      }
+     ]
     }
    }
   },
@@ -3337,10 +3770,10 @@
     "away": false
    },
    "market": {
-    "home_line": 9.5,
-    "total": 39.5,
-    "ml_home": 355.0,
-    "ml_away": -480.0,
+    "home_line": 10.0,
+    "total": 38.0,
+    "ml_home": 385.0,
+    "ml_away": -500.0,
     "source": "9 sportsbooks (median)"
    },
    "model": {
@@ -3353,25 +3786,25 @@
    "leans": {
     "spread": {
      "side": "home",
-     "line": 9.5,
-     "edge": 3.99,
-     "p": 0.619,
+     "line": 10.0,
+     "edge": 4.49,
+     "p": 0.633,
      "conf": "Medium"
     },
     "total": {
      "side": "over",
-     "line": 39.5,
-     "edge": 5.77,
-     "p": 0.674,
+     "line": 38.0,
+     "edge": 7.27,
+     "p": 0.715,
      "conf": "High"
     },
     "ml": {
      "side": "home",
-     "price": 355.0,
+     "price": 385.0,
      "p": 0.338,
-     "market_p": 0.21,
-     "diff": 0.128,
-     "ev": 0.538,
+     "market_p": 0.198,
+     "diff": 0.14,
+     "ev": 0.64,
      "conf": "High"
     }
    },
@@ -3379,119 +3812,39 @@
     "by_book": {
      "DraftKings": {
       "ml": {
-       "home": 390,
-       "away": -520
+       "home": 370,
+       "away": -485
       },
       "spread": {
        "home": 9.5,
-       "home_price": -108,
-       "away_price": -112
+       "home_price": -105,
+       "away_price": -115
       },
       "total": {
-       "line": 39.5,
+       "line": 38.5,
        "over": -108,
        "under": -112
       }
      },
      "BetUS": {
       "ml": {
-       "home": 355,
-       "away": -450
+       "home": 370,
+       "away": -470
       },
       "spread": {
        "home": 10.0,
-       "home_price": -120,
-       "away_price": 100
+       "home_price": -115,
+       "away_price": -105
       },
       "total": {
-       "line": 39.0,
-       "over": -115,
-       "under": -105
+       "line": 38.0,
+       "over": -110,
+       "under": -110
       }
      },
      "FanDuel": {
       "ml": {
-       "home": 420,
-       "away": -560
-      },
-      "spread": {
-       "home": 9.5,
-       "home_price": -110,
-       "away_price": -110
-      },
-      "total": {
-       "line": 39.5,
-       "over": -110,
-       "under": -110
-      }
-     },
-     "LowVig.ag": {
-      "ml": {
-       "home": 350,
-       "away": -450
-      },
-      "spread": {
-       "home": 9.5,
-       "home_price": -105,
-       "away_price": -105
-      },
-      "total": {
-       "line": 39.0,
-       "over": -113,
-       "under": -102
-      }
-     },
-     "BetOnline.ag": {
-      "ml": {
-       "home": 350,
-       "away": -450
-      },
-      "spread": {
-       "home": 10.0,
-       "home_price": -120,
-       "away_price": 100
-      },
-      "total": {
-       "line": 39.0,
-       "over": -115,
-       "under": -105
-      }
-     },
-     "BetRivers": {
-      "ml": {
-       "home": 340,
-       "away": -480
-      },
-      "spread": {
-       "home": 9.5,
-       "home_price": -109,
-       "away_price": -113
-      },
-      "total": {
-       "line": 39.5,
-       "over": -114,
-       "under": -108
-      }
-     },
-     "MyBookie.ag": {
-      "ml": {
-       "home": 370,
-       "away": -526
-      },
-      "spread": {
-       "home": 9.5,
-       "home_price": -110,
-       "away_price": -110
-      },
-      "total": {
-       "line": 39.5,
-       "over": -110,
-       "under": -110
-      }
-     },
-     "BetMGM": {
-      "ml": {
-       "home": 380,
+       "home": 385,
        "away": -500
       },
       "spread": {
@@ -3500,67 +3853,147 @@
        "away_price": -110
       },
       "total": {
-       "line": 39.5,
+       "line": 38.5,
        "over": -110,
        "under": -110
       }
      },
-     "Bovada": {
+     "LowVig.ag": {
       "ml": {
-       "home": 350,
-       "away": -450
+       "home": 386,
+       "away": -505
       },
       "spread": {
-       "home": 9.5,
+       "home": 10.0,
+       "home_price": -109,
+       "away_price": -101
+      },
+      "total": {
+       "line": 38.0,
+       "over": -107,
+       "under": -107
+      }
+     },
+     "BetOnline.ag": {
+      "ml": {
+       "home": 386,
+       "away": -505
+      },
+      "spread": {
+       "home": 10.0,
+       "home_price": -115,
+       "away_price": -105
+      },
+      "total": {
+       "line": 38.0,
+       "over": -110,
+       "under": -110
+      }
+     },
+     "BetRivers": {
+      "ml": {
+       "home": 360,
+       "away": -530
+      },
+      "spread": {
+       "home": 10.0,
+       "home_price": -113,
+       "away_price": -109
+      },
+      "total": {
+       "line": 38.5,
+       "over": -114,
+       "under": -108
+      }
+     },
+     "MyBookie.ag": {
+      "ml": {
+       "home": 430,
+       "away": -575
+      },
+      "spread": {
+       "home": 10.0,
        "home_price": -110,
        "away_price": -110
       },
       "total": {
-       "line": 39.5,
+       "line": 38.5,
        "over": -110,
        "under": -110
+      }
+     },
+     "BetMGM": {
+      "ml": {
+       "home": 400,
+       "away": -500
+      },
+      "spread": {
+       "home": 9.5,
+       "home_price": -105,
+       "away_price": -112
+      },
+      "total": {
+       "line": 38.0,
+       "over": -110,
+       "under": -108
+      }
+     },
+     "Bovada": {
+      "ml": {
+       "home": 360,
+       "away": -470
+      },
+      "spread": {
+       "home": 10.0,
+       "home_price": -112,
+       "away_price": -108
+      },
+      "total": {
+       "line": 38.0,
+       "over": -112,
+       "under": -108
       }
      }
     },
     "spread": {
-     "home_line": 9.5,
-     "fair_home": 0.5,
+     "home_line": 10.0,
+     "fair_home": 0.506814093641986,
      "best_home": {
-      "book": "BetUS",
+      "book": "LowVig.ag",
       "line": 10.0,
-      "price": -120
+      "price": -109
      },
      "best_away": {
-      "book": "LowVig.ag",
+      "book": "FanDuel",
       "line": -9.5,
-      "price": -105
+      "price": -110
      }
     },
     "total": {
-     "line": 39.5,
+     "line": 38.0,
      "fair_over": 0.5,
      "best_over": {
       "book": "LowVig.ag",
-      "line": 39.0,
-      "price": -113
+      "line": 38.0,
+      "price": -107
      },
      "best_under": {
       "book": "BetRivers",
-      "line": 39.5,
+      "line": 38.5,
       "price": -108
      }
     },
     "ml": {
-     "fair_home": 0.21174205967276225,
-     "home": 355,
-     "away": -480,
+     "fair_home": 0.1983471074380165,
+     "home": 385,
+     "away": -500,
      "best_home": {
-      "book": "FanDuel",
-      "price": 420
+      "book": "MyBookie.ag",
+      "price": 430
      },
      "best_away": {
       "book": "BetUS",
-      "price": -450
+      "price": -470
      }
     }
    },
@@ -3569,10 +4002,10 @@
      "market": "ml",
      "side": "home",
      "line": null,
-     "price": 420,
-     "book": "FanDuel",
-     "ev": 0.101,
-     "fair_p": 0.212
+     "price": 430,
+     "book": "MyBookie.ag",
+     "ev": 0.051,
+     "fair_p": 0.198
     }
    ],
    "context": {
@@ -3689,8 +4122,106 @@
      ]
     },
     "injuries": {
-     "home": [],
-     "away": []
+     "home": [
+      {
+       "name": "Hunter Long",
+       "pos": "TE",
+       "status": "Questionable",
+       "injury": "Knee"
+      },
+      {
+       "name": "Jayden Williams",
+       "pos": "T",
+       "status": "Questionable",
+       "injury": "Knee"
+      },
+      {
+       "name": "Jon Gaines II",
+       "pos": "G",
+       "status": "Out",
+       "injury": "Ankle"
+      },
+      {
+       "name": "Hjalte Froholdt",
+       "pos": "C",
+       "status": "Out",
+       "injury": "Concussion"
+      },
+      {
+       "name": "Zachary Carter",
+       "pos": "DT",
+       "status": "Out",
+       "injury": "Knee"
+      },
+      {
+       "name": "Roy Lopez",
+       "pos": "DT",
+       "status": "Questionable",
+       "injury": "Toe"
+      },
+      {
+       "name": "Darius Robinson",
+       "pos": "DT",
+       "status": "Questionable",
+       "injury": "Wrist"
+      },
+      {
+       "name": "Max Melton",
+       "pos": "CB",
+       "status": "Questionable",
+       "injury": "Knee"
+      },
+      {
+       "name": "Andrew Wingard",
+       "pos": "S",
+       "status": "Questionable",
+       "injury": "Groin"
+      }
+     ],
+     "away": [
+      {
+       "name": "Terrance Ferguson",
+       "pos": "TE",
+       "status": "Out",
+       "injury": "Ankle"
+      },
+      {
+       "name": "Davis Allen",
+       "pos": "TE",
+       "status": "Questionable",
+       "injury": "Oblique"
+      },
+      {
+       "name": "Steve Avila",
+       "pos": "G",
+       "status": "Out",
+       "injury": "Hamstring"
+      },
+      {
+       "name": "Myles Garrett",
+       "pos": "LB",
+       "status": "Questionable",
+       "injury": "Knee"
+      },
+      {
+       "name": "Trent McDuffie",
+       "pos": "CB",
+       "status": "Questionable",
+       "injury": "Back"
+      },
+      {
+       "name": "Kam Curl",
+       "pos": "S",
+       "status": "Questionable",
+       "injury": "Toe"
+      },
+      {
+       "name": "Joe Cardona",
+       "pos": "LS",
+       "status": "Questionable",
+       "injury": "Ankle"
+      }
+     ]
     }
    }
   },
@@ -3712,8 +4243,8 @@
    "market": {
     "home_line": 6.5,
     "total": 40.5,
-    "ml_home": 235.0,
-    "ml_away": -290.0,
+    "ml_home": 230.0,
+    "ml_away": -275.0,
     "source": "9 sportsbooks (median)"
    },
    "model": {
@@ -3721,14 +4252,14 @@
     "away_pts": 25.9,
     "margin": -5.0,
     "total": 46.8,
-    "p_home": 0.354
+    "p_home": 0.352
    },
    "leans": {
     "spread": {
      "side": "home",
      "line": 6.5,
-     "edge": 1.55,
-     "p": 0.547,
+     "edge": 1.5,
+     "p": 0.545,
      "conf": "Low"
     },
     "total": {
@@ -3740,11 +4271,11 @@
     },
     "ml": {
      "side": "home",
-     "price": 235.0,
-     "p": 0.354,
-     "market_p": 0.286,
-     "diff": 0.067,
-     "ev": 0.185,
+     "price": 230.0,
+     "p": 0.352,
+     "market_p": 0.292,
+     "diff": 0.06,
+     "ev": 0.163,
      "conf": "Medium"
     }
    },
@@ -3752,24 +4283,8 @@
     "by_book": {
      "DraftKings": {
       "ml": {
-       "home": 240,
-       "away": -298
-      },
-      "spread": {
-       "home": 6.5,
-       "home_price": -108,
-       "away_price": -112
-      },
-      "total": {
-       "line": 40.5,
-       "over": -112,
-       "under": -108
-      }
-     },
-     "BetUS": {
-      "ml": {
-       "home": 250,
-       "away": -300
+       "home": 235,
+       "away": -290
       },
       "spread": {
        "home": 6.5,
@@ -3778,19 +4293,35 @@
       },
       "total": {
        "line": 40.5,
-       "over": -105,
-       "under": -115
+       "over": -108,
+       "under": -112
+      }
+     },
+     "BetUS": {
+      "ml": {
+       "home": 225,
+       "away": -270
+      },
+      "spread": {
+       "home": 6.5,
+       "home_price": -110,
+       "away_price": -110
+      },
+      "total": {
+       "line": 40.5,
+       "over": -110,
+       "under": -110
       }
      },
      "FanDuel": {
       "ml": {
-       "home": 235,
-       "away": -290
+       "home": 245,
+       "away": -300
       },
       "spread": {
        "home": 6.5,
-       "home_price": -115,
-       "away_price": -105
+       "home_price": -110,
+       "away_price": -110
       },
       "total": {
        "line": 40.5,
@@ -3800,40 +4331,24 @@
      },
      "LowVig.ag": {
       "ml": {
-       "home": 234,
-       "away": -285
+       "home": 222,
+       "away": -270
       },
       "spread": {
        "home": 6.5,
-       "home_price": -101,
-       "away_price": -109
+       "home_price": -109,
+       "away_price": -101
       },
       "total": {
        "line": 40.5,
-       "over": -104,
-       "under": -110
+       "over": -113,
+       "under": -102
       }
      },
      "BetOnline.ag": {
       "ml": {
-       "home": 234,
-       "away": -285
-      },
-      "spread": {
-       "home": 6.5,
-       "home_price": -105,
-       "away_price": -115
-      },
-      "total": {
-       "line": 40.5,
-       "over": -107,
-       "under": -113
-      }
-     },
-     "BetRivers": {
-      "ml": {
-       "home": 225,
-       "away": -286
+       "home": 222,
+       "away": -270
       },
       "spread": {
        "home": 6.5,
@@ -3842,19 +4357,35 @@
       },
       "total": {
        "line": 40.5,
-       "over": -112,
-       "under": -109
+       "over": -110,
+       "under": -110
       }
      },
-     "BetMGM": {
+     "BetRivers": {
       "ml": {
        "home": 240,
-       "away": -295
+       "away": -315
       },
       "spread": {
        "home": 6.5,
        "home_price": -108,
-       "away_price": -110
+       "away_price": -113
+      },
+      "total": {
+       "line": 40.5,
+       "over": -109,
+       "under": -112
+      }
+     },
+     "BetMGM": {
+      "ml": {
+       "home": 230,
+       "away": -275
+      },
+      "spread": {
+       "home": 6.5,
+       "home_price": -110,
+       "away_price": -108
       },
       "total": {
        "line": 40.5,
@@ -3864,13 +4395,13 @@
      },
      "MyBookie.ag": {
       "ml": {
-       "home": 236,
-       "away": -300
+       "home": 248,
+       "away": -306
       },
       "spread": {
        "home": 6.5,
-       "home_price": -110,
-       "away_price": -110
+       "home_price": 100,
+       "away_price": -120
       },
       "total": {
        "line": 40.5,
@@ -3880,60 +4411,60 @@
      },
      "Bovada": {
       "ml": {
-       "home": 235,
-       "away": -285
+       "home": 225,
+       "away": -275
       },
       "spread": {
        "home": 6.5,
-       "home_price": -108,
-       "away_price": -112
+       "home_price": -115,
+       "away_price": -105
       },
       "total": {
-       "line": 40.5,
-       "over": -110,
-       "under": -110
+       "line": 41.0,
+       "over": -108,
+       "under": -112
       }
      }
     },
     "spread": {
      "home_line": 6.5,
-     "fair_home": 0.4978050921861282,
+     "fair_home": 0.5,
      "best_home": {
-      "book": "LowVig.ag",
+      "book": "MyBookie.ag",
       "line": 6.5,
-      "price": -101
+      "price": 100
      },
      "best_away": {
-      "book": "FanDuel",
+      "book": "LowVig.ag",
       "line": -6.5,
-      "price": -105
+      "price": -101
      }
     },
     "total": {
      "line": 40.5,
      "fair_over": 0.5,
      "best_over": {
-      "book": "LowVig.ag",
-      "line": 40.5,
-      "price": -104
-     },
-     "best_under": {
       "book": "DraftKings",
       "line": 40.5,
       "price": -108
+     },
+     "best_under": {
+      "book": "Bovada",
+      "line": 41.0,
+      "price": -112
      }
     },
     "ml": {
-     "fair_home": 0.28644876973925815,
-     "home": 235,
-     "away": -290,
+     "fair_home": 0.29239766081871343,
+     "home": 230,
+     "away": -275,
      "best_home": {
-      "book": "BetUS",
-      "price": 250
+      "book": "MyBookie.ag",
+      "price": 248
      },
      "best_away": {
-      "book": "LowVig.ag",
-      "price": -285
+      "book": "BetUS",
+      "price": -270
      }
     }
    },
@@ -4052,8 +4583,46 @@
      ]
     },
     "injuries": {
-     "home": [],
-     "away": []
+     "home": [
+      {
+       "name": "Dont'e Thornton Jr.",
+       "pos": "WR",
+       "status": "Questionable",
+       "injury": "Back"
+      },
+      {
+       "name": "Thomas Booker",
+       "pos": "DT",
+       "status": "Questionable",
+       "injury": "Ankle"
+      }
+     ],
+     "away": [
+      {
+       "name": "Sam Darnold",
+       "pos": "QB",
+       "status": "Out",
+       "injury": "Ribs"
+      },
+      {
+       "name": "Charles Cross",
+       "pos": "T",
+       "status": "Out",
+       "injury": "Ankle"
+      },
+      {
+       "name": "Quenton Nelson",
+       "pos": "G",
+       "status": "Out",
+       "injury": "Knee"
+      },
+      {
+       "name": "Leonard Williams",
+       "pos": "DT",
+       "status": "Out",
+       "injury": "Stinger"
+      }
+     ]
     }
    }
   },
@@ -4074,8 +4643,8 @@
    },
    "market": {
     "home_line": 4.0,
-    "total": 55.5,
-    "ml_home": 176.0,
+    "total": 56.0,
+    "ml_home": 177.0,
     "ml_away": -210.0,
     "source": "9 sportsbooks (median)"
    },
@@ -4084,30 +4653,30 @@
     "away_pts": 26.7,
     "margin": -2.7,
     "total": 50.7,
-    "p_home": 0.418
+    "p_home": 0.419
    },
    "leans": {
     "spread": {
      "side": "home",
      "line": 4.0,
-     "edge": 1.28,
+     "edge": 1.29,
      "p": 0.539,
      "conf": "Pass"
     },
     "total": {
      "side": "under",
-     "line": 55.5,
-     "edge": 4.82,
-     "p": 0.647,
-     "conf": "Medium"
+     "line": 56.0,
+     "edge": 5.31,
+     "p": 0.661,
+     "conf": "High"
     },
     "ml": {
      "side": "home",
-     "price": 176.0,
-     "p": 0.418,
+     "price": 177.0,
+     "p": 0.419,
      "market_p": 0.348,
-     "diff": 0.07,
-     "ev": 0.155,
+     "diff": 0.071,
+     "ev": 0.16,
      "conf": "Medium"
     }
    },
@@ -4115,13 +4684,13 @@
     "by_book": {
      "DraftKings": {
       "ml": {
-       "home": 170,
-       "away": -205
+       "home": 180,
+       "away": -218
       },
       "spread": {
-       "home": 3.5,
-       "home_price": -105,
-       "away_price": -115
+       "home": 4.5,
+       "home_price": -112,
+       "away_price": -108
       },
       "total": {
        "line": 55.5,
@@ -4131,13 +4700,13 @@
      },
      "FanDuel": {
       "ml": {
-       "home": 176,
-       "away": -210
+       "home": 188,
+       "away": -225
       },
       "spread": {
        "home": 4.5,
-       "home_price": -120,
-       "away_price": 100
+       "home_price": -110,
+       "away_price": -110
       },
       "total": {
        "line": 55.5,
@@ -4147,72 +4716,72 @@
      },
      "BetUS": {
       "ml": {
-       "home": 180,
-       "away": -210
+       "home": 175,
+       "away": -205
       },
       "spread": {
-       "home": 4.0,
-       "home_price": -110,
-       "away_price": -110
+       "home": 3.5,
+       "home_price": -105,
+       "away_price": -115
       },
       "total": {
-       "line": 55.5,
+       "line": 56.0,
        "over": -110,
        "under": -110
       }
      },
      "LowVig.ag": {
       "ml": {
-       "home": 180,
-       "away": -210
+       "home": 177,
+       "away": -205
       },
       "spread": {
-       "home": 4.0,
-       "home_price": -107,
-       "away_price": -103
+       "home": 3.5,
+       "home_price": -105,
+       "away_price": -105
       },
       "total": {
-       "line": 55.5,
-       "over": -107,
-       "under": -107
+       "line": 56.0,
+       "over": -102,
+       "under": -113
       }
      },
      "BetOnline.ag": {
       "ml": {
-       "home": 180,
-       "away": -210
+       "home": 177,
+       "away": -205
       },
       "spread": {
        "home": 4.0,
-       "home_price": -112,
-       "away_price": -108
+       "home_price": -115,
+       "away_price": -105
       },
       "total": {
-       "line": 55.5,
-       "over": -110,
-       "under": -110
+       "line": 56.0,
+       "over": -105,
+       "under": -115
       }
      },
      "BetRivers": {
       "ml": {
-       "home": 170,
-       "away": -215
+       "home": 185,
+       "away": -230
       },
       "spread": {
-       "home": 4.0,
-       "home_price": -112,
-       "away_price": -109
+       "home": 4.5,
+       "home_price": -110,
+       "away_price": -110
       },
       "total": {
        "line": 56.0,
-       "over": -108,
-       "under": -113
+       "over": -112,
+       "under": -109
       }
      },
      "MyBookie.ag": {
       "ml": {
-       "home": 172,
-       "away": -214
+       "home": 175,
+       "away": -208
       },
       "spread": {
        "home": 4.0,
@@ -4227,18 +4796,18 @@
      },
      "BetMGM": {
       "ml": {
-       "home": 185,
-       "away": -225
+       "home": 180,
+       "away": -220
       },
       "spread": {
        "home": 4.0,
-       "home_price": -108,
-       "away_price": -110
+       "home_price": -105,
+       "away_price": -112
       },
       "total": {
        "line": 56.0,
-       "over": -110,
-       "under": -108
+       "over": -108,
+       "under": -110
       }
      },
      "Bovada": {
@@ -4247,55 +4816,55 @@
        "away": -210
       },
       "spread": {
-       "home": 4.0,
-       "home_price": -112,
-       "away_price": -108
+       "home": 3.5,
+       "home_price": -105,
+       "away_price": -115
       },
       "total": {
        "line": 55.5,
-       "over": -110,
-       "under": -110
+       "over": -112,
+       "under": -108
       }
      }
     },
     "spread": {
      "home_line": 4.0,
-     "fair_home": 0.5032246968784934,
+     "fair_home": 0.5,
      "best_home": {
       "book": "FanDuel",
       "line": 4.5,
-      "price": -120
+      "price": -110
      },
      "best_away": {
-      "book": "DraftKings",
+      "book": "LowVig.ag",
       "line": -3.5,
-      "price": -115
+      "price": -105
      }
     },
     "total": {
-     "line": 55.5,
-     "fair_over": 0.5,
+     "line": 56.0,
+     "fair_over": 0.49890254609306406,
      "best_over": {
-      "book": "LowVig.ag",
+      "book": "Bovada",
       "line": 55.5,
-      "price": -107
+      "price": -112
      },
      "best_under": {
-      "book": "BetMGM",
+      "book": "BetRivers",
       "line": 56.0,
-      "price": -108
+      "price": -109
      }
     },
     "ml": {
-     "fair_home": 0.3484712230215828,
-     "home": 176,
+     "fair_home": 0.34929577464788736,
+     "home": 177,
      "away": -210,
      "best_home": {
-      "book": "BetMGM",
-      "price": 185
+      "book": "FanDuel",
+      "price": 188
      },
      "best_away": {
-      "book": "DraftKings",
+      "book": "BetUS",
       "price": -205
      }
     }
@@ -4415,8 +4984,124 @@
      ]
     },
     "injuries": {
-     "home": [],
-     "away": []
+     "home": [
+      {
+       "name": "Tyler Goodson",
+       "pos": "RB",
+       "status": "Out",
+       "injury": "Ankle"
+      },
+      {
+       "name": "Jonathan Mingo",
+       "pos": "WR",
+       "status": "Out",
+       "injury": "Ankle"
+      },
+      {
+       "name": "Jake Ferguson",
+       "pos": "TE",
+       "status": "Out",
+       "injury": "Knee"
+      },
+      {
+       "name": "Jonathan Bullard",
+       "pos": "DT",
+       "status": "Questionable",
+       "injury": "Calf"
+      },
+      {
+       "name": "Donovan Ezeiruaku",
+       "pos": "LB",
+       "status": "Out",
+       "injury": "Ankle"
+      },
+      {
+       "name": "DaRon Bland",
+       "pos": "CB",
+       "status": "Questionable",
+       "injury": "Ankle"
+      },
+      {
+       "name": "Joey Porter Jr.",
+       "pos": "CB",
+       "status": "Questionable",
+       "injury": "Ankle"
+      },
+      {
+       "name": "Devin Moore",
+       "pos": "CB",
+       "status": "Questionable",
+       "injury": "Hip"
+      },
+      {
+       "name": "Juanyeh Thomas",
+       "pos": "S",
+       "status": "Doubtful",
+       "injury": "Hamstring"
+      },
+      {
+       "name": "P.J. Locke",
+       "pos": "S",
+       "status": "Out",
+       "injury": "Concussion"
+      },
+      {
+       "name": "Alijah Clark",
+       "pos": "S",
+       "status": "Questionable",
+       "injury": "Illness"
+      }
+     ],
+     "away": [
+      {
+       "name": "Mike Evans",
+       "pos": "WR",
+       "status": "Out",
+       "injury": "Achilles"
+      },
+      {
+       "name": "Trent Williams",
+       "pos": "T",
+       "status": "Questionable",
+       "injury": "Shoulder"
+      },
+      {
+       "name": "C.J. West",
+       "pos": "DT",
+       "status": "Questionable",
+       "injury": "Knee"
+      },
+      {
+       "name": "Dre Greenlaw",
+       "pos": "LB",
+       "status": "Questionable",
+       "injury": "Knee"
+      },
+      {
+       "name": "Deommodore Lenoir",
+       "pos": "CB",
+       "status": "Questionable",
+       "injury": "Foot"
+      },
+      {
+       "name": "Nate Hobbs",
+       "pos": "CB",
+       "status": "Questionable",
+       "injury": "Groin"
+      },
+      {
+       "name": "Renardo Green",
+       "pos": "CB",
+       "status": "Questionable",
+       "injury": "Back"
+      },
+      {
+       "name": "Upton Stout",
+       "pos": "CB",
+       "status": "Questionable",
+       "injury": "Shoulder"
+      }
+     ]
     }
    }
   },
@@ -4439,7 +5124,7 @@
     "home_line": -3.5,
     "total": 49.5,
     "ml_home": -185.0,
-    "ml_away": 155.0,
+    "ml_away": 160.0,
     "source": "9 sportsbooks (median)"
    },
    "model": {
@@ -4466,11 +5151,11 @@
     },
     "ml": {
      "side": "away",
-     "price": 155.0,
+     "price": 160.0,
      "p": 0.407,
-     "market_p": 0.377,
-     "diff": 0.03,
-     "ev": 0.038,
+     "market_p": 0.372,
+     "diff": 0.035,
+     "ev": 0.058,
      "conf": "Low"
     }
    },
@@ -4478,8 +5163,8 @@
     "by_book": {
      "DraftKings": {
       "ml": {
-       "home": -180,
-       "away": 150
+       "home": -192,
+       "away": 160
       },
       "spread": {
        "home": -3.5,
@@ -4488,8 +5173,8 @@
       },
       "total": {
        "line": 49.5,
-       "over": -108,
-       "under": -112
+       "over": -105,
+       "under": -115
       }
      },
      "BetUS": {
@@ -4499,19 +5184,19 @@
       },
       "spread": {
        "home": -3.5,
-       "home_price": -110,
-       "away_price": -110
+       "home_price": -105,
+       "away_price": -115
       },
       "total": {
-       "line": 50.0,
+       "line": 49.0,
        "over": -110,
        "under": -110
       }
      },
      "FanDuel": {
       "ml": {
-       "home": -184,
-       "away": 154
+       "home": -180,
+       "away": 152
       },
       "spread": {
        "home": -3.5,
@@ -4520,8 +5205,8 @@
       },
       "total": {
        "line": 49.5,
-       "over": -110,
-       "under": -110
+       "over": -105,
+       "under": -115
       }
      },
      "LowVig.ag": {
@@ -4531,13 +5216,13 @@
       },
       "spread": {
        "home": -3.5,
-       "home_price": -102,
-       "away_price": -108
+       "home_price": -107,
+       "away_price": -103
       },
       "total": {
        "line": 49.5,
-       "over": -110,
-       "under": -104
+       "over": -107,
+       "under": -107
       }
      },
      "BetOnline.ag": {
@@ -4552,8 +5237,8 @@
       },
       "total": {
        "line": 49.5,
-       "over": -113,
-       "under": -107
+       "over": -110,
+       "under": -110
       }
      },
      "BetRivers": {
@@ -4563,19 +5248,19 @@
       },
       "spread": {
        "home": -3.5,
-       "home_price": -112,
-       "away_price": -109
+       "home_price": -113,
+       "away_price": -108
       },
       "total": {
        "line": 49.5,
-       "over": -112,
-       "under": -109
+       "over": -110,
+       "under": -110
       }
      },
      "MyBookie.ag": {
       "ml": {
-       "home": -189,
-       "away": 153
+       "home": -196,
+       "away": 165
       },
       "spread": {
        "home": -3.5,
@@ -4600,19 +5285,19 @@
       },
       "total": {
        "line": 49.5,
-       "over": -110,
-       "under": -108
+       "over": -108,
+       "under": -110
       }
      },
      "Bovada": {
       "ml": {
-       "home": -188,
-       "away": 163
+       "home": -185,
+       "away": 160
       },
       "spread": {
        "home": -3.5,
-       "home_price": -108,
-       "away_price": -112
+       "home_price": -112,
+       "away_price": -108
       },
       "total": {
        "line": 49.0,
@@ -4625,41 +5310,41 @@
      "home_line": -3.5,
      "fair_home": 0.5,
      "best_home": {
-      "book": "LowVig.ag",
+      "book": "BetUS",
       "line": -3.5,
-      "price": -102
+      "price": -105
      },
      "best_away": {
       "book": "LowVig.ag",
       "line": 3.5,
-      "price": -108
+      "price": -103
      }
     },
     "total": {
      "line": 49.5,
-     "fair_over": 0.5021949078138718,
+     "fair_over": 0.5,
      "best_over": {
-      "book": "Bovada",
+      "book": "BetUS",
       "line": 49.0,
-      "price": -112
+      "price": -110
      },
      "best_under": {
-      "book": "BetUS",
-      "line": 50.0,
-      "price": -110
+      "book": "LowVig.ag",
+      "line": 49.5,
+      "price": -107
      }
     },
     "ml": {
-     "fair_home": 0.6270365765883662,
+     "fair_home": 0.6279373368146214,
      "home": -185,
-     "away": 155,
+     "away": 160,
      "best_home": {
-      "book": "DraftKings",
+      "book": "FanDuel",
       "price": -180
      },
      "best_away": {
-      "book": "Bovada",
-      "price": 163
+      "book": "MyBookie.ag",
+      "price": 165
      }
     }
    },
@@ -4778,8 +5463,40 @@
      ]
     },
     "injuries": {
-     "home": [],
-     "away": []
+     "home": [
+      {
+       "name": "Andrei Iosivas",
+       "pos": "WR",
+       "status": "Doubtful",
+       "injury": "Thumb"
+      },
+      {
+       "name": "Brian Parker II",
+       "pos": "G",
+       "status": "Doubtful",
+       "injury": "Knee"
+      },
+      {
+       "name": "Jalen Davis",
+       "pos": "CB",
+       "status": "Doubtful",
+       "injury": "Hamstring"
+      },
+      {
+       "name": "Kyle Dugger",
+       "pos": "S",
+       "status": "Out",
+       "injury": "Quadricep"
+      }
+     ],
+     "away": [
+      {
+       "name": "Derrick Harmon",
+       "pos": "DT",
+       "status": "Questionable",
+       "injury": "Foot"
+      }
+     ]
     }
    }
   },
@@ -4800,40 +5517,40 @@
    },
    "market": {
     "home_line": -4.5,
-    "total": 38.5,
-    "ml_home": -210.0,
-    "ml_away": 180.0,
+    "total": 39.0,
+    "ml_home": -220.0,
+    "ml_away": 183.0,
     "source": "9 sportsbooks (median)"
    },
    "model": {
-    "home_pts": 22.3,
-    "away_pts": 17.7,
+    "home_pts": 22.2,
+    "away_pts": 17.8,
     "margin": 4.5,
     "total": 40.0,
-    "p_home": 0.634
+    "p_home": 0.633
    },
    "leans": {
     "spread": {
-     "side": "home",
-     "line": -4.5,
+     "side": "away",
+     "line": 4.5,
      "edge": 0.03,
      "p": 0.501,
      "conf": "Pass"
     },
     "total": {
      "side": "over",
-     "line": 38.5,
-     "edge": 1.51,
-     "p": 0.547,
+     "line": 39.0,
+     "edge": 1.01,
+     "p": 0.532,
      "conf": "Pass"
     },
     "ml": {
      "side": "away",
-     "price": 180.0,
-     "p": 0.366,
-     "market_p": 0.345,
-     "diff": 0.02,
-     "ev": 0.024,
+     "price": 183.0,
+     "p": 0.367,
+     "market_p": 0.339,
+     "diff": 0.028,
+     "ev": 0.04,
      "conf": "Pass"
     }
    },
@@ -4873,8 +5590,8 @@
      },
      "FanDuel": {
       "ml": {
-       "home": -230,
-       "away": 190
+       "home": -220,
+       "away": 184
       },
       "spread": {
        "home": -4.5,
@@ -4889,50 +5606,50 @@
      },
      "LowVig.ag": {
       "ml": {
-       "home": -210,
-       "away": 180
+       "home": -215,
+       "away": 183
       },
       "spread": {
-       "home": -4.0,
-       "home_price": -109,
-       "away_price": -101
+       "home": -4.5,
+       "home_price": -103,
+       "away_price": -107
       },
       "total": {
-       "line": 38.5,
+       "line": 39.0,
        "over": -107,
        "under": -107
       }
      },
      "BetOnline.ag": {
       "ml": {
-       "home": -210,
-       "away": 180
+       "home": -215,
+       "away": 183
       },
       "spread": {
-       "home": -4.0,
-       "home_price": -114,
-       "away_price": -106
+       "home": -4.5,
+       "home_price": -108,
+       "away_price": -112
       },
       "total": {
-       "line": 38.5,
+       "line": 39.0,
        "over": -110,
        "under": -110
       }
      },
      "BetRivers": {
       "ml": {
-       "home": -210,
-       "away": 170
+       "home": -230,
+       "away": 180
       },
       "spread": {
-       "home": -4.0,
-       "home_price": -112,
+       "home": -4.5,
+       "home_price": -113,
        "away_price": -109
       },
       "total": {
-       "line": 38.5,
-       "over": -113,
-       "under": -108
+       "line": 39.0,
+       "over": -107,
+       "under": -114
       }
      },
      "BetMGM": {
@@ -4942,27 +5659,27 @@
       },
       "spread": {
        "home": -4.5,
-       "home_price": -105,
-       "away_price": -112
+       "home_price": -108,
+       "away_price": -110
       },
       "total": {
-       "line": 38.5,
-       "over": -110,
-       "under": -108
+       "line": 39.0,
+       "over": -108,
+       "under": -110
       }
      },
      "Bovada": {
       "ml": {
-       "home": -210,
-       "away": 175
+       "home": -220,
+       "away": 180
       },
       "spread": {
-       "home": -4.0,
-       "home_price": -112,
-       "away_price": -108
+       "home": -4.5,
+       "home_price": -108,
+       "away_price": -112
       },
       "total": {
-       "line": 38.5,
+       "line": 39.0,
        "over": -112,
        "under": -108
       }
@@ -4986,43 +5703,43 @@
     },
     "spread": {
      "home_line": -4.5,
-     "fair_home": 0.5,
+     "fair_home": 0.4978050921861282,
      "best_home": {
       "book": "LowVig.ag",
-      "line": -4.0,
-      "price": -109
+      "line": -4.5,
+      "price": -103
      },
      "best_away": {
-      "book": "BetUS",
+      "book": "LowVig.ag",
       "line": 4.5,
-      "price": -110
+      "price": -107
      }
     },
     "total": {
-     "line": 38.5,
+     "line": 39.0,
      "fair_over": 0.5,
      "best_over": {
-      "book": "LowVig.ag",
+      "book": "DraftKings",
       "line": 38.5,
-      "price": -107
+      "price": -110
      },
      "best_under": {
-      "book": "FanDuel",
-      "line": 38.5,
-      "price": -105
+      "book": "LowVig.ag",
+      "line": 39.0,
+      "price": -107
      }
     },
     "ml": {
-     "fair_home": 0.6547884187082406,
-     "home": -210,
-     "away": 180,
+     "fair_home": 0.658887866154096,
+     "home": -220,
+     "away": 183,
      "best_home": {
       "book": "BetUS",
       "price": -210
      },
      "best_away": {
-      "book": "FanDuel",
-      "price": 190
+      "book": "DraftKings",
+      "price": 185
      }
     }
    },
@@ -5141,8 +5858,82 @@
      ]
     },
     "injuries": {
-     "home": [],
-     "away": []
+     "home": [
+      {
+       "name": "Adam Randall",
+       "pos": "RB",
+       "status": "Questionable",
+       "injury": "Neck"
+      },
+      {
+       "name": "Jaylinn Hawkins",
+       "pos": "S",
+       "status": "Out",
+       "injury": "Knee"
+      }
+     ],
+     "away": [
+      {
+       "name": "Brenen Thompson",
+       "pos": "WR",
+       "status": "Doubtful",
+       "injury": "Hamstring"
+      },
+      {
+       "name": "Ladd McConkey",
+       "pos": "WR",
+       "status": "Questionable",
+       "injury": "Back"
+      },
+      {
+       "name": "David Njoku",
+       "pos": "TE",
+       "status": "Questionable",
+       "injury": "Fibula"
+      },
+      {
+       "name": "Trey Pipkins",
+       "pos": "T",
+       "status": "Questionable",
+       "injury": "Not injury related - personal matter"
+      },
+      {
+       "name": "Branson Taylor",
+       "pos": "G",
+       "status": "Out",
+       "injury": "Ankle"
+      },
+      {
+       "name": "Kayode Awosika",
+       "pos": "G",
+       "status": "Questionable",
+       "injury": "Fibula"
+      },
+      {
+       "name": "Justin Eboigbe",
+       "pos": "DE",
+       "status": "Questionable",
+       "injury": "Ankle"
+      },
+      {
+       "name": "Denzel Perryman",
+       "pos": "LB",
+       "status": "Questionable",
+       "injury": "Pectoral"
+      },
+      {
+       "name": "Isas Waxter",
+       "pos": "CB",
+       "status": "Out",
+       "injury": "Ankle"
+      },
+      {
+       "name": "Kendall Williamson",
+       "pos": "S",
+       "status": "Out",
+       "injury": "Calf"
+      }
+     ]
     }
    }
   }
@@ -35419,7 +36210,7 @@
   },
   {
    "team": "LV",
-   "off_epa": -0.05,
+   "off_epa": -0.049,
    "def_epa": 0.064,
    "net": -0.114,
    "pts_for": 24.2,
@@ -35430,7 +36221,7 @@
   {
    "team": "LAC",
    "off_epa": -0.158,
-   "def_epa": -0.031,
+   "def_epa": -0.03,
    "net": -0.127,
    "pts_for": 17.9,
    "pts_against": 25.0,
@@ -35472,23 +36263,23 @@
  "model": {
   "margin_coef": {
    "home_field": 2.338,
-   "d_net_epa": 3.732,
+   "d_net_epa": 3.72,
    "d_net_pts": 0.65,
-   "d_off_pass": -1.206,
-   "d_def_pass": 2.309,
-   "d_qb": 13.622,
-   "h_qb_change": -1.184,
-   "a_qb_change": 0.908,
+   "d_off_pass": -1.207,
+   "d_def_pass": 2.303,
+   "d_qb": 13.614,
+   "h_qb_change": -1.252,
+   "a_qb_change": 0.918,
    "rest_diff": 0.321,
-   "div_game": -0.195
+   "div_game": -0.204
   },
   "total_coef": {
-   "s_off_epa": 7.711,
+   "s_off_epa": 7.71,
    "s_def_epa": 4.085,
    "s_pts": 0.261,
    "s_plays": 0.037,
-   "s_qb": 12.982,
-   "indoor": -0.16,
+   "s_qb": 12.976,
+   "indoor": -0.161,
    "wind_x": -0.323,
    "cold": -0.132
   },
