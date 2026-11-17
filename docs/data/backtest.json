@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T14:53:35.367380+00:00",
+ "generated": "2026-11-17T14:53:51.220094+00:00",
  "seasons": [
   {
    "season": 2016,
@@ -84,7 +84,7 @@
   {
    "season": 2020,
    "games": 269,
-   "margin_mae": 10.07,
+   "margin_mae": 10.09,
    "market_mae": 9.79,
    "total_mae": 10.62,
    "market_total_mae": 10.3,
@@ -104,15 +104,15 @@
   {
    "season": 2021,
    "games": 285,
-   "margin_mae": 11.2,
+   "margin_mae": 11.19,
    "market_mae": 10.67,
    "total_mae": 10.88,
    "market_total_mae": 10.81,
    "spread_med_high": {
     "w": 43,
-    "l": 49,
-    "pct": 0.467,
-    "units": -9.9
+    "l": 48,
+    "pct": 0.473,
+    "units": -8.9
    },
    "total_med_high": {
     "w": 25,
@@ -124,7 +124,7 @@
   {
    "season": 2022,
    "games": 284,
-   "margin_mae": 9.06,
+   "margin_mae": 9.05,
    "market_mae": 8.78,
    "total_mae": 10.65,
    "market_total_mae": 10.4,
@@ -150,9 +150,9 @@
    "market_total_mae": 10.17,
    "spread_med_high": {
     "w": 43,
-    "l": 47,
-    "pct": 0.478,
-    "units": -7.9
+    "l": 46,
+    "pct": 0.483,
+    "units": -6.9
    },
    "total_med_high": {
     "w": 18,
@@ -203,22 +203,22 @@
   },
   {
    "season": 2026,
-   "games": 136,
-   "margin_mae": 9.83,
-   "market_mae": 9.49,
-   "total_mae": 11.2,
-   "market_total_mae": 10.6,
+   "games": 150,
+   "margin_mae": 9.93,
+   "market_mae": 9.57,
+   "total_mae": 10.94,
+   "market_total_mae": 10.39,
    "spread_med_high": {
     "w": 16,
-    "l": 19,
-    "pct": 0.457,
-    "units": -4.5
+    "l": 21,
+    "pct": 0.432,
+    "units": -6.5
    },
    "total_med_high": {
-    "w": 6,
-    "l": 17,
-    "pct": 0.261,
-    "units": -11.5
+    "w": 9,
+    "l": 20,
+    "pct": 0.31,
+    "units": -11.8
    }
   }
  ],
@@ -226,49 +226,49 @@
   "Low": {
    "spread": {
     "w": 381,
-    "l": 432,
-    "pct": 0.469,
-    "units": -85.6
+    "l": 436,
+    "pct": 0.466,
+    "units": -89.6
    },
    "total": {
     "w": 371,
-    "l": 373,
-    "pct": 0.499,
-    "units": -35.7
+    "l": 371,
+    "pct": 0.5,
+    "units": -33.7
    }
   },
   "Medium": {
    "spread": {
-    "w": 238,
-    "l": 247,
-    "pct": 0.491,
-    "units": -30.6
+    "w": 240,
+    "l": 244,
+    "pct": 0.496,
+    "units": -25.8
    },
    "total": {
     "w": 183,
-    "l": 175,
-    "pct": 0.511,
-    "units": -8.6
+    "l": 177,
+    "pct": 0.508,
+    "units": -10.6
    }
   },
   "High": {
    "spread": {
-    "w": 166,
-    "l": 174,
-    "pct": 0.488,
-    "units": -23.1
+    "w": 164,
+    "l": 177,
+    "pct": 0.481,
+    "units": -27.9
    },
    "total": {
-    "w": 78,
-    "l": 71,
-    "pct": 0.523,
-    "units": -0.1
+    "w": 81,
+    "l": 72,
+    "pct": 0.529,
+    "units": 1.6
    }
   }
  },
  "overall": {
-  "games": 2897,
-  "margin_mae": 10.14,
-  "market_mae": 9.76
+  "games": 2911,
+  "margin_mae": 10.15,
+  "market_mae": 9.77
  }
 }

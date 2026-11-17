@@ -6538,7 +6538,10 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "L",
+   "close_line": 470.0,
+   "clv": 0.009,
+   "units": -1.0
   },
   {
    "id": "2026_10_MIA_IND:model:total",
@@ -6555,7 +6558,10 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "W",
+   "close_line": 37.5,
+   "clv": -0.5,
+   "units": 0.909
   },
   {
    "id": "2026_10_MIN_GB:model:spread",
@@ -6572,7 +6578,10 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "L",
+   "close_line": -2.5,
+   "clv": -0.5,
+   "units": -1.0
   },
   {
    "id": "2026_10_LA_ARI:model:spread",
@@ -6589,7 +6598,10 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "L",
+   "close_line": 10.0,
+   "clv": -0.5,
+   "units": -1.0
   },
   {
    "id": "2026_10_LA_ARI:model:total",
@@ -6606,7 +6618,10 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "W",
+   "close_line": 38.5,
+   "clv": -1.0,
+   "units": 0.909
   },
   {
    "id": "2026_10_LA_ARI:value:ml:home",
@@ -6623,7 +6638,10 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "L",
+   "close_line": 410.0,
+   "clv": 0.004,
+   "units": -1.0
   },
   {
    "id": "2026_10_SEA_LV:model:total",
@@ -6640,7 +6658,10 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "L",
+   "close_line": 40.5,
+   "clv": 0.0,
+   "units": -1.0
   },
   {
    "id": "2026_10_SF_DAL:model:total",
@@ -6657,7 +6678,10 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "L",
+   "close_line": 55.5,
+   "clv": 0.0,
+   "units": -1.0
   },
   {
    "id": "2026_10_WAS_NYG:prop:van jefferson:receptions",
@@ -6676,7 +6700,7 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "void"
   },
   {
    "id": "2026_10_NE_DET:prop:jared goff:pass_tds",
@@ -6695,7 +6719,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "L",
+   "actual": 3.0,
+   "units": -1.0
   },
   {
    "id": "2026_10_WAS_NYG:prop:van jefferson:rec_yds",
@@ -6714,7 +6740,7 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "void"
   },
   {
    "id": "2026_10_LA_ARI:prop:simi fehoko:rec_yds",
@@ -6733,7 +6759,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "L",
+   "actual": 21.0,
+   "units": -1.0
   },
   {
    "id": "2026_10_SEA_LV:prop:fernando mendoza:rush_yds",
@@ -6752,7 +6780,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "L",
+   "actual": 22.0,
+   "units": -1.0
   },
   {
    "id": "2026_10_LA_ARI:prop:tyler higbee:receptions",
@@ -6771,7 +6801,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "W",
+   "actual": 3.0,
+   "units": 1.0
   },
   {
    "id": "2026_10_SEA_LV:prop:fernando mendoza:pass_yds",
@@ -6790,7 +6822,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "W",
+   "actual": 143.0,
+   "units": 0.901
   },
   {
    "id": "2026_10_LA_ARI:prop:simi fehoko:receptions",
@@ -6809,7 +6843,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "W",
+   "actual": 1.0,
+   "units": 0.787
   },
   {
    "id": "2026_10_CAR_NO:prop:bryce young:rush_yds",
@@ -6828,7 +6864,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "W",
+   "actual": 1.0,
+   "units": 0.943
   },
   {
    "id": "2026_10_SF_DAL:prop:dak prescott:rush_yds",
@@ -6847,7 +6885,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "W",
+   "actual": 7.0,
+   "units": 0.943
   },
   {
    "id": "2026_10_MIN_GB:prop:jordan love:rush_yds",
@@ -6866,7 +6906,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "W",
+   "actual": 0.0,
+   "units": 0.926
   },
   {
    "id": "2026_10_MIA_IND:prop:deion burks:rec_yds",
@@ -6885,7 +6927,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "W",
+   "actual": 0.0,
+   "units": 0.877
   },
   {
    "id": "2026_10_MIA_IND:prop:tyler warren:receptions",
@@ -6904,7 +6948,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "W",
+   "actual": 2.0,
+   "units": 1.12
   },
   {
    "id": "2026_10_MIA_IND:prop:josh downs:receptions",
@@ -6961,7 +7007,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "W",
+   "actual": 24.0,
+   "units": 0.877
   },
   {
    "id": "2026_10_NE_DET:prop:corey kiner:rush_yds",
@@ -6980,7 +7028,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "W",
+   "actual": 25.0,
+   "units": 0.909
   },
   {
    "id": "2026_10_LAC_BAL:prop:justice hill:rec_yds",
@@ -6999,7 +7049,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "W",
+   "actual": 34.0,
+   "units": 0.877
   },
   {
    "id": "2026_10_PIT_CIN:prop:samaje perine:rec_yds",
@@ -7018,7 +7070,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "L",
+   "actual": 25.0,
+   "units": -1.0
   },
   {
    "id": "2026_10_WAS_NYG:prop:jayden daniels:rush_yds",
@@ -7058,7 +7112,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "W",
+   "actual": 11.0,
+   "units": 0.877
   },
   {
    "id": "2026_10_LA_ARI:prop:konata mumpfield:rec_yds",
@@ -7077,7 +7133,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "L",
+   "actual": 81.0,
+   "units": -1.0
   },
   {
    "id": "2026_10_NE_DET:prop:jameson williams:receptions",
@@ -7096,7 +7154,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "L",
+   "actual": 4.0,
+   "units": -1.0
   },
   {
    "id": "2026_10_JAX_TEN:prop:trevor lawrence:rush_yds",
@@ -7115,7 +7175,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "L",
+   "actual": 27.0,
+   "units": -1.0
   },
   {
    "id": "2026_10_LA_ARI:prop:jacoby brissett:rush_yds",
@@ -7153,7 +7215,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "L",
+   "actual": 1.0,
+   "units": -1.0
   },
   {
    "id": "2026_10_KC_ATL:prop:drake london:receptions",
@@ -7172,7 +7236,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "L",
+   "actual": 6.0,
+   "units": -1.0
   },
   {
    "id": "2026_10_BUF_NYJ:prop:geno smith:rush_yds",
@@ -7191,7 +7257,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "W",
+   "actual": 0.0,
+   "units": 0.893
   },
   {
    "id": "2026_10_LA_ARI:prop:konata mumpfield:receptions",
@@ -7210,7 +7278,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "L",
+   "actual": 3.0,
+   "units": -1.0
   },
   {
    "id": "2026_10_LAC_BAL:prop:jakobi lane:rec_yds",
@@ -7229,7 +7299,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "L",
+   "actual": 61.0,
+   "units": -1.0
   },
   {
    "id": "2026_10_LAC_BAL:prop:derrick henry:rec_yds",
@@ -7248,7 +7320,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "L",
+   "actual": 10.0,
+   "units": -1.0
   },
   {
    "id": "2026_10_LAC_BAL:prop:zay flowers:rush_yds",
@@ -7267,7 +7341,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "W",
+   "actual": 0.0,
+   "units": 0.862
   },
   {
    "id": "2026_10_NE_DET:prop:jahmyr gibbs:rec_yds",
@@ -7286,7 +7362,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "L",
+   "actual": 99.0,
+   "units": -1.0
   },
   {
    "id": "2026_10_NE_DET:prop:jared goff:pass_yds",
@@ -7305,7 +7383,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "L",
+   "actual": 303.0,
+   "units": -1.0
   },
   {
    "id": "2026_10_MIA_IND:prop:deion burks:receptions",
@@ -7324,7 +7404,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "W",
+   "actual": 0.0,
+   "units": 0.649
   },
   {
    "id": "2026_10_SF_DAL:prop:javonte williams:receptions",
@@ -7343,7 +7425,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "W",
+   "actual": 1.0,
+   "units": 1.18
   },
   {
    "id": "2026_10_LA_ARI:prop:tyler higbee:rec_yds",
@@ -7362,7 +7446,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "W",
+   "actual": 17.0,
+   "units": 0.885
   },
   {
    "id": "2026_10_KC_ATL:prop:michael penix:rush_yds",
@@ -7381,7 +7467,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "W",
+   "actual": 29.0,
+   "units": 0.877
   },
   {
    "id": "2026_10_JAX_TEN:prop:tony pollard:rec_yds",
@@ -7400,7 +7488,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "L",
+   "actual": 66.0,
+   "units": -1.0
   },
   {
    "id": "2026_10_SEA_LV:prop:jalen nailor:receptions",
@@ -7419,7 +7509,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "L",
+   "actual": 1.0,
+   "units": -1.0
   },
   {
    "id": "2026_10_BUF_NYJ:prop:mason taylor:rec_yds",
@@ -7438,7 +7530,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "W",
+   "actual": 20.0,
+   "units": 0.877
   },
   {
    "id": "2026_10_MIN_GB:prop:marshawn lloyd:rush_yds",
@@ -7457,7 +7551,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "W",
+   "actual": 13.0,
+   "units": 0.952
   },
   {
    "id": "2026_10_MIA_IND:prop:laquon treadwell:receptions",
@@ -7476,7 +7572,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "L",
+   "actual": 3.0,
+   "units": -1.0
   },
   {
    "id": "2026_10_SEA_LV:prop:drew lock:rush_yds",
@@ -7495,7 +7593,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "L",
+   "actual": 20.0,
+   "units": -1.0
   },
   {
    "id": "2026_10_NE_DET:prop:jahmyr gibbs:receptions",
@@ -7514,7 +7614,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "L",
+   "actual": 7.0,
+   "units": -1.0
   },
   {
    "id": "2026_10_BUF_NYJ:prop:omar cooper:rec_yds",
@@ -7552,7 +7654,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "L",
+   "actual": 19.0,
+   "units": -1.0
   },
   {
    "id": "2026_10_HOU_CLE:prop:deshaun watson:rush_yds",
@@ -7571,7 +7675,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "L",
+   "actual": 49.0,
+   "units": -1.0
   },
   {
    "id": "2026_10_LA_ARI:prop:tutu atwell:rec_yds",
@@ -7590,7 +7696,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "L",
+   "actual": 31.0,
+   "units": -1.0
   },
   {
    "id": "2026_10_WAS_NYG:prop:jj mccarthy:rush_yds",
@@ -7630,7 +7738,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "L",
+   "actual": 15.0,
+   "units": -1.0
   },
   {
    "id": "2026_10_LAC_BAL:prop:justice hill:rush_yds",
@@ -7649,7 +7759,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "L",
+   "actual": 4.0,
+   "units": -1.0
   },
   {
    "id": "2026_10_LAC_BAL:prop:justin herbert:rush_yds",
@@ -7668,7 +7780,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "L",
+   "actual": 51.0,
+   "units": -1.0
   },
   {
    "id": "2026_10_MIN_GB:prop:justin jefferson:rec_yds",
@@ -7687,7 +7801,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "W",
+   "actual": 74.0,
+   "units": 0.893
   },
   {
    "id": "2026_10_SEA_LV:prop:jadarian price:rush_yds",
@@ -7706,7 +7822,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "W",
+   "actual": 36.0,
+   "units": 0.901
   },
   {
    "id": "2026_10_WAS_NYG:prop:cam skattebo:rec_yds",
@@ -7746,7 +7864,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "L",
+   "actual": 94.0,
+   "units": -1.0
   },
   {
    "id": "2026_10_PIT_CIN:prop:joe burrow:rush_yds",
@@ -7765,7 +7885,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "W",
+   "actual": 8.0,
+   "units": 0.917
   },
   {
    "id": "2026_10_WAS_NYG:prop:theo johnson:rec_yds",
@@ -7805,7 +7927,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "W",
+   "actual": 5.0,
+   "units": 0.806
   },
   {
    "id": "2026_10_SF_DAL:prop:deebo samuel:rush_yds",
@@ -7824,7 +7948,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "W",
+   "actual": 78.0,
+   "units": 0.909
   },
   {
    "id": "2026_10_SEA_LV:prop:kirk cousins:rush_yds",
@@ -7862,7 +7988,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "W",
+   "actual": -1.0,
+   "units": 0.885
   },
   {
    "id": "2026_10_LAC_BAL:prop:jakobi lane:receptions",
@@ -7881,7 +8009,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "L",
+   "actual": 3.0,
+   "units": -1.0
   },
   {
    "id": "2026_10_WAS_NYG:prop:jayden daniels:pass_yds",
@@ -7942,7 +8072,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "L",
+   "actual": 6.0,
+   "units": -1.0
   },
   {
    "id": "2026_10_BUF_NYJ:prop:garrett wilson:receptions",
@@ -7961,7 +8093,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "L",
+   "actual": 7.0,
+   "units": -1.0
   },
   {
    "id": "2026_10_KC_ATL:prop:drake london:rec_yds",
@@ -7980,7 +8114,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "L",
+   "actual": 109.0,
+   "units": -1.0
   },
   {
    "id": "2026_10_HOU_CLE:prop:nico collins:rec_yds",
@@ -7999,7 +8135,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "L",
+   "actual": 94.0,
+   "units": -1.0
   },
   {
    "id": "2026_10_SEA_LV:prop:drew lock:pass_yds",
@@ -8018,7 +8156,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "L",
+   "actual": 240.0,
+   "units": -1.0
   },
   {
    "id": "2026_10_LAC_BAL:prop:keaton mitchell:rush_yds",
@@ -8037,7 +8177,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "L",
+   "actual": 4.0,
+   "units": -1.0
   },
   {
    "id": "2026_10_WAS_NYG:prop:theo johnson:receptions",
@@ -8077,7 +8219,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "L",
+   "actual": 2.0,
+   "units": -1.0
   },
   {
    "id": "2026_10_LA_ARI:prop:colby parkinson:receptions",
@@ -8096,7 +8240,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "W",
+   "actual": 2.0,
+   "units": 0.935
   },
   {
    "id": "2026_10_LA_ARI:prop:tutu atwell:receptions",
@@ -8115,7 +8261,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "W",
+   "actual": 1.0,
+   "units": 0.746
   },
   {
    "id": "2026_10_SEA_LV:prop:michael mayer:rec_yds",
@@ -8134,7 +8282,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "L",
+   "actual": 16.0,
+   "units": -1.0
   },
   {
    "id": "2026_10_WAS_NYG:prop:austin ekeler:rush_yds",
@@ -8174,7 +8324,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "W",
+   "actual": 187.0,
+   "units": 0.901
   },
   {
    "id": "2026_10_LA_ARI:prop:kyren williams:rec_yds",
@@ -8193,7 +8345,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "W",
+   "actual": 9.0,
+   "units": 0.909
   },
   {
    "id": "2026_10_BUF_NYJ:prop:braelon allen:rush_yds",
@@ -8212,7 +8366,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "W",
+   "actual": 40.0,
+   "units": 0.877
   },
   {
    "id": "2026_10_HOU_CLE:prop:kc concepcion:receptions",
@@ -8231,7 +8387,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "W",
+   "actual": 3.0,
+   "units": 0.87
   },
   {
    "id": "2026_10_HOU_CLE:prop:quinshon judkins:rec_yds",
@@ -8250,7 +8408,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "L",
+   "actual": 33.0,
+   "units": -1.0
   },
   {
    "id": "2026_10_PIT_CIN:prop:jaylen warren:rec_yds",
@@ -8269,7 +8429,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "L",
+   "actual": 26.0,
+   "units": -1.0
   },
   {
    "id": "2026_10_LAC_BAL:prop:derrick henry:rush_yds",
@@ -8288,7 +8450,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "W",
+   "actual": 10.0,
+   "units": 0.885
   },
   {
    "id": "2026_10_MIA_IND:prop:josh downs:rec_yds",
@@ -8326,7 +8490,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "W",
+   "actual": 2.0,
+   "units": 1.08
   },
   {
    "id": "2026_10_KC_ATL:prop:xavier worthy:receptions",
@@ -8345,7 +8511,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "L",
+   "actual": 0.0,
+   "units": -1.0
   },
   {
    "id": "2026_10_LA_ARI:prop:colby parkinson:rec_yds",
@@ -8364,7 +8532,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "W",
+   "actual": 11.0,
+   "units": 0.877
   },
   {
    "id": "2026_10_MIA_IND:prop:ollie gordon:rush_yds",
@@ -8383,7 +8553,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "L",
+   "actual": 76.0,
+   "units": -1.0
   },
   {
    "id": "2026_10_CAR_NO:prop:jordyn tyson:rec_yds",
@@ -8402,7 +8574,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "L",
+   "actual": 80.0,
+   "units": -1.0
   },
   {
    "id": "2026_10_SEA_LV:prop:tre tucker:rec_yds",
@@ -8421,7 +8595,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "L",
+   "actual": 9.0,
+   "units": -1.0
   },
   {
    "id": "2026_10_MIN_GB:prop:justin jefferson:receptions",
@@ -8440,7 +8616,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "L",
+   "actual": 9.0,
+   "units": -1.0
   },
   {
    "id": "2026_10_SF_DAL:prop:deebo samuel:receptions",
@@ -8459,7 +8637,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "W",
+   "actual": 3.0,
+   "units": 0.877
   },
   {
    "id": "2026_10_SF_DAL:prop:javonte williams:rec_yds",
@@ -8478,7 +8658,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "W",
+   "actual": 4.0,
+   "units": 0.943
   },
   {
    "id": "2026_10_KC_ATL:prop:xavier worthy:rec_yds",
@@ -8497,7 +8679,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "L",
+   "actual": 0.0,
+   "units": -1.0
   },
   {
    "id": "2026_10_KC_ATL:prop:bijan robinson:rush_yds",
@@ -8516,7 +8700,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "W",
+   "actual": 71.0,
+   "units": 0.909
   },
   {
    "id": "2026_10_JAX_TEN:prop:gunnar helm:rec_yds",
@@ -8535,7 +8721,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "W",
+   "actual": 23.0,
+   "units": 0.847
   },
   {
    "id": "2026_10_WAS_NYG:prop:jj mccarthy:pass_tds",
@@ -8596,7 +8784,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "W",
+   "actual": 50.0,
+   "units": 0.885
   },
   {
    "id": "2026_10_LA_ARI:prop:reggie virgil:rec_yds",
@@ -8634,7 +8824,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "W",
+   "actual": 6.0,
+   "units": 0.893
   },
   {
    "id": "2026_10_BUF_NYJ:prop:omar cooper:receptions",
@@ -8672,7 +8864,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "L",
+   "actual": 74.0,
+   "units": -1.0
   },
   {
    "id": "2026_10_WAS_NYG:prop:jj mccarthy:pass_yds",
@@ -8712,7 +8906,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "W",
+   "actual": 0.0,
+   "units": 0.877
   },
   {
    "id": "2026_10_LA_ARI:prop:blake corum:rush_yds",
@@ -8731,7 +8927,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "L",
+   "actual": 100.0,
+   "units": -1.0
   },
   {
    "id": "2026_10_CAR_NO:prop:jordyn tyson:receptions",
@@ -8750,7 +8948,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "L",
+   "actual": 11.0,
+   "units": -1.0
   },
   {
    "id": "2026_10_PIT_CIN:prop:tee higgins:rec_yds",
@@ -8769,7 +8969,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "W",
+   "actual": 66.0,
+   "units": 0.909
   },
   {
    "id": "2026_10_PIT_CIN:prop:jamarr chase:receptions",
@@ -8788,7 +8990,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "L",
+   "actual": 11.0,
+   "units": -1.0
   },
   {
    "id": "2026_10_KC_ATL:prop:emmett johnson:rush_yds",
@@ -8807,7 +9011,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "W",
+   "actual": 101.0,
+   "units": 0.935
   },
   {
    "id": "2026_10_MIN_GB:prop:tucker kraft:receptions",
@@ -8826,7 +9032,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "W",
+   "actual": 1.0,
+   "units": 0.621
   },
   {
    "id": "2026_10_MIN_GB:prop:pierre strong:rush_yds",
@@ -8864,7 +9072,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "L",
+   "actual": 3.0,
+   "units": -1.0
   },
   {
    "id": "2026_10_CAR_NO:prop:tetairoa mcmillan:rec_yds",
@@ -8883,7 +9093,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "W",
+   "actual": 35.0,
+   "units": 0.877
   },
   {
    "id": "2026_10_KC_ATL:prop:khalil herbert:rush_yds",
@@ -8902,7 +9114,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "L",
+   "actual": 0.0,
+   "units": -1.0
   },
   {
    "id": "2026_10_LA_ARI:prop:elijah higgins:rec_yds",
@@ -8940,7 +9154,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "W",
+   "actual": 82.0,
+   "units": 0.901
   },
   {
    "id": "2026_10_HOU_CLE:prop:nico collins:receptions",
@@ -8959,7 +9175,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "L",
+   "actual": 9.0,
+   "units": -1.0
   },
   {
    "id": "2026_10_MIN_GB:prop:jordan mason:rec_yds",
@@ -8978,7 +9196,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "W",
+   "actual": 0.0,
+   "units": 0.909
   },
   {
    "id": "2026_10_LA_ARI:prop:kyren williams:rush_yds",
@@ -8997,7 +9217,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "W",
+   "actual": 23.0,
+   "units": 0.893
   },
   {
    "id": "2026_10_MIN_GB:prop:savion williams:rec_yds",
@@ -9016,7 +9238,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "L",
+   "actual": 27.0,
+   "units": -1.0
   },
   {
    "id": "2026_10_MIA_IND:prop:daniel jones:rush_yds",
@@ -9035,7 +9259,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "W",
+   "actual": 9.0,
+   "units": 0.833
   },
   {
    "id": "2026_10_HOU_CLE:prop:deshaun watson:pass_yds",
@@ -9054,7 +9280,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "W",
+   "actual": 312.0,
+   "units": 0.877
   },
   {
    "id": "2026_10_LAC_BAL:prop:omarion hampton:rec_yds",
@@ -9073,7 +9301,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "W",
+   "actual": 0.0,
+   "units": 0.877
   },
   {
    "id": "2026_10_CAR_NO:prop:jalen coker:receptions",
@@ -9092,7 +9322,9 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "W",
+   "actual": 0.0,
+   "units": 0.699
   },
   {
    "id": "2026_10_MIA_IND:prop:jonathan taylor:receptions",
@@ -9111,81 +9343,83 @@
    "season": 2026,
    "week": 10,
    "made_at": "2026-11-12T14:10:09.858982+00:00",
-   "result": "pending"
+   "result": "W",
+   "actual": 2.0,
+   "units": 0.847
   }
  ],
  "summary": {
   "model": {
-   "w": 7,
-   "l": 11,
+   "w": 9,
+   "l": 15,
    "p": 0,
-   "units": -4.637,
-   "n": 18,
-   "avg_clv": 0.944,
-   "beat_close": 0.389
+   "units": -6.819,
+   "n": 24,
+   "avg_clv": 0.604,
+   "beat_close": 0.292
   },
   "model:spread": {
    "w": 2,
-   "l": 5,
+   "l": 7,
    "p": 0,
-   "units": -3.182,
-   "n": 7,
-   "avg_clv": 1.357,
-   "beat_close": 0.429
+   "units": -5.182,
+   "n": 9,
+   "avg_clv": 0.944,
+   "beat_close": 0.333
   },
   "all": {
-   "w": 172,
-   "l": 139,
+   "w": 228,
+   "l": 196,
    "p": 0,
-   "units": 19.86,
-   "n": 311,
-   "avg_clv": 0.712,
-   "beat_close": 0.5
+   "units": 12.69,
+   "n": 424,
+   "avg_clv": 0.457,
+   "beat_close": 0.438
   },
   "model:total": {
-   "w": 5,
-   "l": 6,
+   "w": 7,
+   "l": 8,
    "p": 0,
-   "units": -1.455,
-   "n": 11,
-   "avg_clv": 0.682,
-   "beat_close": 0.364
+   "units": -1.637,
+   "n": 15,
+   "avg_clv": 0.4,
+   "beat_close": 0.267
   },
   "prop": {
-   "w": 164,
-   "l": 123,
+   "w": 218,
+   "l": 174,
    "p": 0,
-   "units": 25.397,
-   "n": 287,
+   "units": 22.409,
+   "n": 392,
    "avg_clv": null,
    "beat_close": null
   },
   "prop:prop": {
-   "w": 164,
-   "l": 123,
+   "w": 218,
+   "l": 174,
    "p": 0,
-   "units": 25.397,
-   "n": 287,
+   "units": 22.409,
+   "n": 392,
    "avg_clv": null,
    "beat_close": null
   },
   "value": {
    "w": 1,
-   "l": 5,
+   "l": 7,
    "p": 0,
-   "units": -0.9,
-   "n": 6,
-   "avg_clv": 0.016,
-   "beat_close": 0.833
+   "units": -2.9,
+   "n": 8,
+   "avg_clv": 0.013,
+   "beat_close": 0.875
   },
   "value:ml": {
    "w": 1,
-   "l": 5,
+   "l": 7,
    "p": 0,
-   "units": -0.9,
-   "n": 6,
-   "avg_clv": 0.016,
-   "beat_close": 0.833
+   "units": -2.9,
+   "n": 8,
+   "avg_clv": 0.013,
+   "beat_close": 0.875
   }
  }
 }
